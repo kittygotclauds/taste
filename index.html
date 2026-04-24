@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <title>taste</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="header__inner">
+          <a class="brand" href="#" aria-label="taste home">
+            <span class="brand__mark">taste</span>
+            <span class="brand__tag">Goop + Vogue picks, by city</span>
+          </a>
+          <div class="header__actions">
+            <a class="btn btn--ghost" href="#about" id="aboutLink">About</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="panel">
+          <div class="panel__top">
+            <h1 class="h1">Find standout places recommended by Goop and Vogue.</h1>
+            <p class="sub">
+              Browse restaurants, hotels, and shops across major cities worldwide. Sources are restricted to
+              <strong>Goop</strong> and <strong>Vogue</strong> only.
+            </p>
+          </div>
+
+          <div class="controls">
+            <div class="control">
+              <label class="label" for="query">Search</label>
+              <input
+                class="input"
+                id="query"
+                name="query"
+                type="search"
+                placeholder="Try: ramen, concept store, spa, Soho…"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="control">
+              <label class="label" for="city">City</label>
+              <select class="select" id="city" name="city"></select>
+            </div>
+
+            <div class="control">
+              <label class="label" for="category">Category</label>
+              <select class="select" id="category" name="category">
+                <option value="all">All</option>
+                <option value="restaurant">Restaurants</option>
+                <option value="hotel">Hotels</option>
+                <option value="shop">Shops</option>
+              </select>
+            </div>
+
+            <div class="control">
+              <label class="label" for="source">Source</label>
+              <select class="select" id="source" name="source">
+                <option value="all">Goop + Vogue</option>
+                <option value="goop">Goop only</option>
+                <option value="vogue">Vogue only</option>
+              </select>
+            </div>
+
+            <div class="control control--row">
+              <button class="btn" id="resetBtn" type="button">Reset</button>
+              <div class="meta" id="resultsMeta" aria-live="polite"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="results">
+          <div class="results__grid" id="results"></div>
+          <div class="empty" id="emptyState" hidden>
+            <h2 class="h2">No matches.</h2>
+            <p class="sub">Try a different city, broaden the category, or shorten your query.</p>
+          </div>
+        </section>
+
+        <section class="about" id="about" hidden>
+          <div class="panel">
+            <h2 class="h2">About taste</h2>
+            <p class="sub">
+              taste is a lightweight directory of recommendations, restricted to Goop and Vogue. It does not scrape
+              pages; each listing links back to its source so you can read the original editorial context.
+            </p>
+            <ul class="list">
+              <li><strong>Sources</strong>: Goop, Vogue</li>
+              <li><strong>Categories</strong>: Restaurants, Hotels, Shops</li>
+              <li><strong>Data</strong>: Curated seed set you can extend in <code>data.js</code></li>
+            </ul>
+            <button class="btn btn--ghost" id="closeAboutBtn" type="button">Close</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__inner">
+          <span class="footer__left">© <span id="year"></span> taste</span>
+          <span class="footer__right">
+            Add/edit places in <code>data.js</code>. No build step required.
+          </span>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
