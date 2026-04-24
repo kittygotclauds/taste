@@ -1,0 +1,98 @@
+[
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/the-london-mayfair-marylebone-guide/",
+    "city": "London",
+    "country": "United Kingdom",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/be698fe9-c543-4c7d-a20c-172880c69d9a.txt"
+  },
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/whats-new-great-in-london/",
+    "city": "London",
+    "country": "United Kingdom",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/7a9d95ec-760a-4c68-874a-5f5165118b7e.txt"
+  },
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/47fc40f4-94a9-49fa-a396-8adad5918eee.txt"
+  },
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/the-lower-manhattan-guide/",
+    "city": "New York City",
+    "country": "United States",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/38bba8c2-044f-4449-8748-4ac496d4c0ff.txt"
+  },
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/the-uptown-guide/",
+    "city": "New York City",
+    "country": "United States",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/70c061bf-2c07-4780-bb24-86b801016e4a.txt"
+  },
+  {
+    "source": "goop",
+    "guideUrl": "https://goop.com/city-guide/the-hipster-paris-guide-2/",
+    "city": "Paris",
+    "country": "France",
+    "localFile": "/Users/claudiaingrid/.cursor/projects/Users-claudiaingrid-taste/agent-tools/47ebfc6c-d65f-4251-af8d-605acccb189c.txt"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
+    "city": "Miami",
+    "country": "United States"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "city": "Los Angeles",
+    "country": "United States"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
+    "city": "Milan",
+    "country": "Italy"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "city": "Paris",
+    "country": "France"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
+    "city": "New York City",
+    "country": "United States",
+    "defaultCategory": "hotel"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
+    "city": "Tokyo",
+    "country": "Japan",
+    "defaultCategory": "hotel"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "city": "Seoul",
+    "country": "South Korea",
+    "defaultCategory": "shop",
+    "allowInternalLinks": true
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "defaultCategory": "restaurant"
+  }
+]
+
