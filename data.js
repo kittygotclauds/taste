@@ -7,6 +7,8 @@ export const CATEGORIES = /** @type {const} */ ({
   restaurant: "Restaurant",
   hotel: "Hotel",
   shop: "Shop",
+  attraction: "Attraction",
+  wellness: "Wellness",
 });
 
 /**

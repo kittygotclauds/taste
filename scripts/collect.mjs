@@ -14,7 +14,7 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
  * It stores factual place metadata + backlinks; it does not store article text.
  */
 
-/** @typedef {"restaurant"|"hotel"|"shop"} Category */
+/** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Guide
@@ -213,6 +213,118 @@ function htmlToPseudoMarkdown(html, baseUrl) {
     .trim();
 
   return s;
+}
+
+/**
+ * Map a section heading (## or ### intro) to a category using keyword cues.
+ * @param {string} line
+ * @returns {Category | null}
+ */
+function inferCategoryFromHeadingLine(line) {
+  const raw = line
+    .replace(/^#{2,3}\s+/, "")
+    .trim()
+    .toLowerCase();
+  if (!raw) return null;
+
+  const hotelRx =
+    /\b(where to stay|hotels?|hotel guide|hotel picks|accommodation|lodging|places to stay)\b/;
+  const wellnessRx =
+    /\b(wellness|spas?\b|spa\b|fitness|gym\b|pilates|yoga|health\s*(and\s*)?beauty|salon\b|beauty\s+services)\b/;
+  const attractionRx =
+    /\b(what to see|things to do|sightseeing|attractions?|museums?|museum guide|galleries|\bgallery\b|culture\b|cultural|landmarks?|\bparks?\b|castle|palaces?|monuments?|historic)\b/;
+  const shopRx = /\b(where to shop|shopping|shops?\b|stores?|boutiques?|retail|markets?\b)\b/;
+  const restaurantRx =
+    /\b(where to eat|restaurants?|dining|food\b|\bbars?\b|\bcafes?\b|\bcafés?\b|coffee|baker(y|ies)|breakfast|brunch|where to drink)\b/;
+
+  if (hotelRx.test(raw)) return "hotel";
+  if (wellnessRx.test(raw)) return "wellness";
+  if (attractionRx.test(raw)) return "attraction";
+  if (shopRx.test(raw)) return "shop";
+  if (restaurantRx.test(raw)) return "restaurant";
+
+  return null;
+}
+
+/**
+ * Infer category from Goop postcard-type metadata before the · separator (e.g. "Bakery", "Museum").
+ * @param {string} typeRaw
+ * @returns {Category | null}
+ */
+function inferCategoryFromMetaType(typeRaw) {
+  const t = (typeRaw ?? "").trim().toLowerCase();
+  if (!t) return null;
+
+  if (/\b(hotel|ryokan|inn|resort|hostel)\b/i.test(t)) return "hotel";
+  if (/\b(spa|wellness|salon|gym|yoga|pilates|fitness|beauty)\b/i.test(t)) return "wellness";
+  if (
+    /\b(museum|museo|gallery|park|castle|palace|landmark|attraction|monument|church|temple|plaza|university|universidad|historic)\b/i.test(t)
+  ) {
+    return "attraction";
+  }
+  if (/\b(shop|store|boutique|market|department|designer|fashion)\b/i.test(t)) return "shop";
+  if (/\b(restaurant|cafe|coffee|bakery|bar|bistro|dining|food)\b/i.test(t)) return "restaurant";
+
+  return null;
+}
+
+/**
+ * Fallback cues from the visible place name.
+ * @param {string} name
+ * @returns {Category | null}
+ */
+function inferCategoryFromName(name) {
+  const lower = (name ?? "").trim().toLowerCase();
+  if (!lower) return null;
+
+  if (/\b(m\.d\.|d\.o\.|clinic)\b/i.test(name)) return "wellness";
+  if (/\b(spa\b|yoga|pilates|salon\b)\b/i.test(lower)) return "wellness";
+
+  if (/\b(hotel|hôtel|ryokan)\b/i.test(lower)) return "hotel";
+
+  if (
+    /\bmuseo\b|\bmuseum\b|\bgallery\b|\bpark\b|\bcastle\b|\bpalace\b|\bmonument\b|\bcathedral\b|\bplaza\b/i.test(lower)
+  ) {
+    return "attraction";
+  }
+
+  if (/\bcafe\b|\bcafé\b|\bcoffee\b|\bbakery\b|\bbar\b/i.test(lower)) return "restaurant";
+
+  return null;
+}
+
+/**
+ * @param {Category | null} sectionCategory from nearest ## heading
+ * @param {string} metaType Goop postcard line before ·
+ * @param {string} name
+ * @param {Guide} guide
+ */
+function resolvePlaceCategory(sectionCategory, metaType, name, guide) {
+  const metaCat = inferCategoryFromMetaType(metaType);
+  const nameCat = inferCategoryFromName(name);
+
+  const nameKey = name
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .trim();
+  if (nameKey === "carla fernandez") return "shop";
+
+  // Strong cues override obvious section mismatches (e.g. museums listed under Dining, parks under Shops).
+  if (nameCat === "attraction" && (sectionCategory === "shop" || sectionCategory === "restaurant")) {
+    return "attraction";
+  }
+  if (nameCat === "wellness" && (sectionCategory === "shop" || sectionCategory === "attraction")) {
+    return "wellness";
+  }
+  if (nameCat === "restaurant" && sectionCategory === "hotel") return "restaurant";
+
+  if (metaCat === "shop" && sectionCategory === "hotel") return "shop";
+
+  if (sectionCategory) return sectionCategory;
+  if (metaCat) return metaCat;
+  if (nameCat) return nameCat;
+  return guide.defaultCategory ?? "restaurant";
 }
 
 /** Lowercase exact-match blocklists (case-insensitive comparison). */
@@ -533,8 +645,20 @@ function isLikelyVenueName(name) {
 async function loadGuideText(guide) {
   /** @type {string} */
   let body;
-  if (guide.localFile) body = await fs.readFile(guide.localFile, "utf8");
-  else {
+  if (guide.localFile) {
+    try {
+      body = await fs.readFile(guide.localFile, "utf8");
+    } catch {
+      const res = await fetch(guide.guideUrl, {
+        headers: {
+          "user-agent": "taste-collector/1.0 (+https://github.com/kittygotclauds/taste)",
+          accept: "text/html,*/*",
+        },
+      });
+      if (!res.ok) throw new Error(`Failed to fetch ${guide.guideUrl}: ${res.status}`);
+      body = await res.text();
+    }
+  } else {
     const res = await fetch(guide.guideUrl, {
       headers: {
         "user-agent": "taste-collector/1.0 (+https://github.com/kittygotclauds/taste)",
@@ -565,10 +689,22 @@ function extractGoop(text, guide, stats) {
 
   const lines = text.split("\n");
 
-  const hasSections = lines.some((l) => /^##\s+(Hotels|Restaurants|Shops)\b/i.test(l.trim()));
-  if (!hasSections) {
+  const isPostcardFormat = lines.some((l) =>
+    /^###\s+\[[^\]]+\]\(https?:\/\/[^\)]+\)\s*$/.test(l.trim()),
+  );
+
+  /** @type {Category | null} */
+  let sectionFromHeading = null;
+
+  if (isPostcardFormat) {
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
+
+      if (/^##\s+/.test(line)) {
+        sectionFromHeading = inferCategoryFromHeadingLine(line);
+        continue;
+      }
+
       const m = /^###\s+\[([^\]]+)\]\((https?:\/\/[^\)]+)\)\s*$/.exec(line);
       if (!m) continue;
 
@@ -576,14 +712,9 @@ function extractGoop(text, guide, stats) {
       const placeUrl = cleanUrl(m[2]);
       const meta = (lines[i + 1] ?? "").trim();
       const [typeRaw, neighborhoodRaw] = meta.split("·").map((x) => x.trim());
-      const type = (typeRaw ?? "").toLowerCase();
       const neighborhood = neighborhoodRaw || undefined;
 
-      /** @type {Category} */
-      const category =
-        /(hotel|ryokan|inn|resort|hostel)/i.test(type) ? "hotel"
-        : /(shop|store|boutique|market|gallery|department)/i.test(type) ? "shop"
-        : "restaurant";
+      const category = resolvePlaceCategory(sectionFromHeading, typeRaw ?? "", name, guide);
 
       const candidate = {
         id: `${slugify(guide.city)}-${slugify(name)}-${category}`,
@@ -612,9 +743,11 @@ function extractGoop(text, guide, stats) {
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (/^##\s+Hotels\b/i.test(line)) current = "hotel";
-    else if (/^##\s+Restaurants\b/i.test(line)) current = "restaurant";
-    else if (/^##\s+Shops\b/i.test(line)) current = "shop";
+
+    if (/^##\s+/.test(line)) {
+      current = inferCategoryFromHeadingLine(line);
+      continue;
+    }
 
     if (!current) continue;
 
@@ -639,13 +772,15 @@ function extractGoop(text, guide, stats) {
 
     if (!placeUrl) continue;
 
+    const category = resolvePlaceCategory(current, "", name, guide);
+
     const v = validatePlace(name, placeUrl, guide, stats);
     if (!v.ok) continue;
 
     out.push({
-      id: `${slugify(guide.city)}-${slugify(name)}-${current}`,
+      id: `${slugify(guide.city)}-${slugify(name)}-${category}`,
       name,
-      category: current,
+      category,
       city: guide.city,
       country: guide.country,
       neighborhood,
@@ -670,18 +805,23 @@ function extractVogue(text, guide, stats) {
   const out = [];
 
   /** @type {Category | null} */
-  let current = guide.defaultCategory ?? null;
+  let sectionCategory = guide.defaultCategory ?? null;
   const lines = text.split("\n");
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (/^##\s+Where to Stay\b/i.test(line)) current = "hotel";
-    else if (/^##\s+Where to Eat\b/i.test(line)) current = "restaurant";
-    else if (/^##\s+Where to Shop\b/i.test(line)) current = "shop";
-    else if (/^##\s+(Where to|What to)\s+(Do|Drink|Go|See|Play|Visit)\b/i.test(line)) current = null;
-    else if (/^##\s+The\s+Wear\b/i.test(line)) current = null;
 
-    if (!current) continue;
+    if (/^##\s+/.test(line)) {
+      if (/^##\s+The\s+Wear\b/i.test(line)) {
+        sectionCategory = null;
+        continue;
+      }
+      const inferred = inferCategoryFromHeadingLine(line);
+      sectionCategory = inferred ?? guide.defaultCategory ?? null;
+      continue;
+    }
+
+    if (!sectionCategory) continue;
 
     const re = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
     for (const m of line.matchAll(re)) {
@@ -698,13 +838,15 @@ function extractVogue(text, guide, stats) {
 
       const placeUrl = cleanUrl(m[2]);
 
+      const category = resolvePlaceCategory(sectionCategory, "", name, guide);
+
       const v = validatePlace(name, placeUrl, guide, stats);
       if (!v.ok) continue;
 
       out.push({
-        id: `${slugify(guide.city)}-${slugify(name)}-${current}`,
+        id: `${slugify(guide.city)}-${slugify(name)}-${category}`,
         name,
-        category: current,
+        category,
         city: guide.city,
         country: guide.country,
         source: "vogue",

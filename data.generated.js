@@ -89,6 +89,28 @@ export const PLACES = [
     "placeUrl": "http://beaumarche.dk/"
   },
   {
+    "id": "copenhagen-black-diamond-restaurant",
+    "name": "Black Diamond",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.kb.dk/en/"
+  },
+  {
+    "id": "copenhagen-botanical-garden-restaurant",
+    "name": "Botanical Garden",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.visitcopenhagen.com/copenhagen/botanical-garden-gdk422317"
+  },
+  {
     "id": "copenhagen-brus-restaurant",
     "name": "BRUS",
     "category": "restaurant",
@@ -98,6 +120,17 @@ export const PLACES = [
     "sourceTitle": "Where to Stay",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://tapperietbrus.dk/"
+  },
+  {
+    "id": "copenhagen-byredo-restaurant",
+    "name": "Byredo",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://byredo.se/"
   },
   {
     "id": "copenhagen-california-kitchen-restaurant",
@@ -111,6 +144,17 @@ export const PLACES = [
     "placeUrl": "https://californiakitchen.dk/"
   },
   {
+    "id": "copenhagen-christianborg-restaurant",
+    "name": "Christianborg",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.kongeligeslotte.dk/da/slotte-og-haver/christiansborg-slot.html"
+  },
+  {
     "id": "copenhagen-democratic-coffee-restaurant",
     "name": "Democratic Coffee",
     "category": "restaurant",
@@ -120,6 +164,17 @@ export const PLACES = [
     "sourceTitle": "Where to Stay",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.facebook.com/Democratic-Coffee-147810001973306/"
+  },
+  {
+    "id": "copenhagen-designmuseum-denmark-restaurant",
+    "name": "Designmuseum Denmark",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://designmuseum.org/"
   },
   {
     "id": "copenhagen-far-s-dreng-restaurant",
@@ -155,6 +210,17 @@ export const PLACES = [
     "placeUrl": "http://fiskebaren.dk/"
   },
   {
+    "id": "copenhagen-glyptoteket-restaurant",
+    "name": "Glyptoteket",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://www.glyptoteket.com/"
+  },
+  {
     "id": "copenhagen-gr-d-restaurant",
     "name": "Grød",
     "category": "restaurant",
@@ -166,6 +232,17 @@ export const PLACES = [
     "placeUrl": "http://groed.com/en/"
   },
   {
+    "id": "copenhagen-hay-restaurant",
+    "name": "Hay",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://hay.dk/"
+  },
+  {
     "id": "copenhagen-hija-de-sanchez-restaurant",
     "name": "Hija de Sanchez",
     "category": "restaurant",
@@ -175,6 +252,28 @@ export const PLACES = [
     "sourceTitle": "Where to Stay",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.hijadesanchez.dk/"
+  },
+  {
+    "id": "copenhagen-hotel-d-angleterre-restaurant",
+    "name": "Hotel d’Angleterre",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://www.dangleterre.com/"
+  },
+  {
+    "id": "copenhagen-illum-restaurant",
+    "name": "Illum",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://illum.dk/"
   },
   {
     "id": "copenhagen-kiin-kiin-bao-bao-restaurant",
@@ -243,6 +342,28 @@ export const PLACES = [
     "placeUrl": "http://www.nobishotel.dk/restaurant-niels"
   },
   {
+    "id": "copenhagen-nobis-restaurant",
+    "name": "Nobis",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.nobishotel.dk/"
+  },
+  {
+    "id": "copenhagen-opera-house-restaurant",
+    "name": "Opera House",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://kglteater.dk/en/"
+  },
+  {
     "id": "copenhagen-paleo-restaurant",
     "name": "Paleo",
     "category": "restaurant",
@@ -298,6 +419,17 @@ export const PLACES = [
     "placeUrl": "http://www.restaurant-relae.dk/en/"
   },
   {
+    "id": "copenhagen-rosenborg-restaurant",
+    "name": "Rosenborg",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.kongernessamling.dk/en/rosenborg/"
+  },
+  {
     "id": "copenhagen-royal-smushi-restaurant",
     "name": "Royal Smushi",
     "category": "restaurant",
@@ -309,6 +441,28 @@ export const PLACES = [
     "placeUrl": "http://www.royalsmushicafe.dk/"
   },
   {
+    "id": "copenhagen-ruby-restaurant",
+    "name": "Ruby",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://rby.dk/"
+  },
+  {
+    "id": "copenhagen-scandinavian-airlines-restaurant",
+    "name": "Scandinavian Airlines",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://www.flysas.com/en/us/?WT.mc_id=US38&gclid=Cj0KCQiAyNjRBRCpARIsAPDBnn2OtYQ4VGs929FiC5vNbU-Ar2iiXpj22yX1PVY4qlLiX9L48FZFRFsaAvlgEALw_wcB&gclsrc=aw.ds&dclid=CIbc1syEktgCFZmdyAodc8UJKQ"
+  },
+  {
     "id": "copenhagen-sonny-restaurant",
     "name": "Sonny",
     "category": "restaurant",
@@ -318,6 +472,28 @@ export const PLACES = [
     "sourceTitle": "Where to Stay",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.sonnycph.dk/"
+  },
+  {
+    "id": "copenhagen-sp34-restaurant",
+    "name": "SP34",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.brochner-hotels.com/hotel-sp34/"
+  },
+  {
+    "id": "copenhagen-stilleben-restaurant",
+    "name": "Stilleben",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "Where to Stay",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "https://stilleben.dk/"
   },
   {
     "id": "copenhagen-torvehallerne-restaurant",
@@ -342,46 +518,6 @@ export const PLACES = [
     "placeUrl": "http://restauranttrio.dk/bar"
   },
   {
-    "id": "london-45-jermyn-st-restaurant",
-    "name": "45 Jermyn St.",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-381678-restaurants/45-jermyn-st/"
-  },
-  {
-    "id": "london-ahmed-f-massoud-m-d-shop",
-    "name": "Ahmed F. Massoud, M.D.",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/ahmed-f-massoud-m-d/"
-  },
-  {
-    "id": "london-alexandra-soveral-shop",
-    "name": "Alexandra Soveral",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/maida-vale-health-and-beauty/alexandra-soveral/"
-  },
-  {
-    "id": "london-alfred-cutner-m-d-shop",
-    "name": "Alfred Cutner, M.D.",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/alfred-cutner-m-d/"
-  },
-  {
     "id": "london-allpress-espresso-restaurant",
     "name": "Allpress Espresso",
     "category": "restaurant",
@@ -390,46 +526,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391172-specialty/allpress-espresso/"
-  },
-  {
-    "id": "london-aman-spa-at-the-connaught-shop",
-    "name": "Aman Spa at The Connaught",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/aman-spa-at-the-connaught/"
-  },
-  {
-    "id": "london-amberin-fur-shop",
-    "name": "Amberin Fur",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/amberin-fur/"
-  },
-  {
-    "id": "london-anastasia-achilleos-at-the-lanesborough-club-and-spa-shop",
-    "name": "Anastasia Achilleos at The Lanesborough Club & Spa",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-health-and-beauty/anastasia-achilleos-at-the-lanesborough-club-spa/"
-  },
-  {
-    "id": "london-andrea-hurst-shop",
-    "name": "Andrea Hurst",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/andrea-hurst/"
   },
   {
     "id": "london-annabel-s-restaurant",
@@ -492,34 +588,14 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-385069-bars-and-nightlife/berkeley-blue-bar/"
   },
   {
-    "id": "london-blok-shop",
-    "name": "BLOK",
+    "id": "london-bond-street-shop",
+    "name": "Bond Street",
     "category": "shop",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/blok/"
-  },
-  {
-    "id": "london-bodhimaya-shop",
-    "name": "Bodhimaya",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-429792-health-and-beauty/bodhimaya/"
-  },
-  {
-    "id": "london-bodyism-shop",
-    "name": "Bodyism",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-386160-health-and-beauty/bodyism/"
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-387342-shops/bond-street/"
   },
   {
     "id": "london-brat-restaurant",
@@ -530,16 +606,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-restaurants/brat/"
-  },
-  {
-    "id": "london-breathpod-shop",
-    "name": "Breathpod",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/breathpod/"
   },
   {
     "id": "london-brigadiers-restaurant",
@@ -572,6 +638,26 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/browns/"
   },
   {
+    "id": "london-bruton-street-shop",
+    "name": "Bruton Street",
+    "category": "shop",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-387345-shops/bruton-street/"
+  },
+  {
+    "id": "london-burlington-arcade-shop",
+    "name": "Burlington Arcade",
+    "category": "shop",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-387346-shops/burlington-arcade/"
+  },
+  {
     "id": "london-caf-murano-restaurant",
     "name": "Café Murano",
     "category": "restaurant",
@@ -590,6 +676,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387347-shops/caravane-5/"
+  },
+  {
+    "id": "london-chiltern-firehouse-hotel",
+    "name": "Chiltern Firehouse",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/chiltern-firehouse-2/"
   },
   {
     "id": "london-chiltern-firehouse-restaurant",
@@ -642,16 +738,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-390551-specialty/claridges-tea-room/"
   },
   {
-    "id": "london-cloud-twelve-wellness-spa-and-kid-s-club-shop",
-    "name": "Cloud Twelve Wellness, Spa and Kid’s Club",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/cloud-twelve/"
-  },
-  {
     "id": "london-como-the-halkin-hotel",
     "name": "Como The Halkin",
     "category": "hotel",
@@ -692,9 +778,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-shops/daunt-books/"
   },
   {
-    "id": "london-david-zwirner-gallery-shop",
+    "id": "london-david-zwirner-gallery-attraction",
     "name": "David Zwirner Gallery",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -752,66 +838,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-385298-bars-and-nightlife/dukes-bar/"
   },
   {
-    "id": "london-emerald-and-tiger-shop",
-    "name": "Emerald and Tiger",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emerald-and-tiger/"
-  },
-  {
-    "id": "london-emma-cannon-shop",
-    "name": "Emma Cannon",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-cannon/"
-  },
-  {
-    "id": "london-emma-lucy-knowles-shop",
-    "name": "Emma Lucy Knowles",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-lucy-knowles/"
-  },
-  {
-    "id": "london-emma-peel-shop",
-    "name": "Emma Peel",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london-health-and-beauty/emma-peel/"
-  },
-  {
-    "id": "london-estelle-bingham-shop",
-    "name": "Estelle Bingham",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-386386-health-and-beauty/estelle-bingham/"
-  },
-  {
-    "id": "london-eve-kalinik-shop",
-    "name": "Eve Kalinik",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-385789-health-and-beauty/eve-kalinik/"
-  },
-  {
     "id": "london-evelyn-s-table-restaurant",
     "name": "Evelyn’s Table",
     "category": "restaurant",
@@ -832,16 +858,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-391174-specialty/fabrique-bakery/"
   },
   {
-    "id": "london-facegym-shop",
-    "name": "FACEGYM",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/facegym/"
-  },
-  {
     "id": "london-farm-girl-caf-restaurant",
     "name": "Farm Girl Café",
     "category": "restaurant",
@@ -860,16 +876,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382142-restaurants/fischers-restaurant/"
-  },
-  {
-    "id": "london-fortnum-and-mason-shop",
-    "name": "Fortnum & Mason",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-specialty/fortnum-mason/"
   },
   {
     "id": "london-four-seasons-hotel-london-at-tower-bridge-hotel",
@@ -922,9 +928,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-shops/hatchards/"
   },
   {
-    "id": "london-hauser-and-wirth-shop",
+    "id": "london-hauser-and-wirth-attraction",
     "name": "Hauser & Wirth",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -972,16 +978,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-385297-bars-and-nightlife/hovarda/"
   },
   {
-    "id": "london-hung-d-tran-m-d-shop",
-    "name": "Hung D. Tran, M.D.",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/hung-d-tran-m-d/"
-  },
-  {
     "id": "london-ikeda-restaurant",
     "name": "Ikeda",
     "category": "restaurant",
@@ -1022,16 +1018,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-383110-restaurants/jikoni/"
   },
   {
-    "id": "london-jitendra-vara-d-o-shop",
-    "name": "Jitendra Vara, D.O.",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/jitendra-vara-d-o/"
-  },
-  {
     "id": "london-john-bell-and-croyden-shop",
     "name": "John Bell & Croyden",
     "category": "shop",
@@ -1070,16 +1056,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382176-restaurants/kai/"
-  },
-  {
-    "id": "london-katy-meade-king-shop",
-    "name": "Katy Meade King",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-429872-health-and-beauty/katy-meade-king/"
   },
   {
     "id": "london-kiln-restaurant",
@@ -1152,16 +1128,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-382180-restaurants/la-petite-maison/"
   },
   {
-    "id": "london-lanserhof-at-the-arts-club-shop",
-    "name": "Lanserhof at the Arts Club",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/lanserhof-at-the-arts-club/"
-  },
-  {
     "id": "london-le-relais-de-venise-l-entrecote-restaurant",
     "name": "Le Relais de Venise L’Entrecote",
     "category": "restaurant",
@@ -1170,16 +1136,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/lentrecote/"
-  },
-  {
-    "id": "london-lesalon-shop",
-    "name": "LeSalon",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-452662-services/lesalon/"
   },
   {
     "id": "london-lina-stores-restaurant",
@@ -1222,9 +1178,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-382183-restaurants/locanda-locatelli/"
   },
   {
-    "id": "london-lyndsey-ingram-shop",
+    "id": "london-lyndsey-ingram-attraction",
     "name": "Lyndsey Ingram",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1250,16 +1206,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-390595-specialty/marylebone-farmers-market/"
-  },
-  {
-    "id": "london-melody-hekmat-shop",
-    "name": "Melody Hekmat",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/citywide-health-and-beauty/melody-hekmat/"
   },
   {
     "id": "london-m-tier-shop",
@@ -1292,16 +1238,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381577-restaurants/murano/"
   },
   {
-    "id": "london-nicola-clarke-shop",
-    "name": "Nicola Clarke",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/fitzrovia-health-and-beauty/nicola-clarke/"
-  },
-  {
     "id": "london-noble-rot-restaurant",
     "name": "Noble Rot",
     "category": "restaurant",
@@ -1320,16 +1256,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/spitalfields-specialty/nude-espresso/"
-  },
-  {
-    "id": "london-nymph-of-neptune-shop",
-    "name": "Nymph of Neptune",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-386387-health-and-beauty/nymph-of-neptune/"
   },
   {
     "id": "london-opso-restaurant",
@@ -1352,19 +1278,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381681-restaurants/pachamama/"
   },
   {
-    "id": "london-papouelli-shop",
-    "name": "Papouelli",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/westminster-kids/papouelli-shoes/"
-  },
-  {
-    "id": "london-park-chinois-restaurant",
+    "id": "london-park-chinois-attraction",
     "name": "Park Chinois",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1372,14 +1288,24 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381680-restaurants/park-chinois/"
   },
   {
-    "id": "london-phillips-auctions-shop",
+    "id": "london-phillips-auctions-attraction",
     "name": "Phillips Auctions",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/phillips-de-pury-auctions/"
+  },
+  {
+    "id": "london-picturehouse-cinema-central-attraction",
+    "name": "Picturehouse Cinema Central",
+    "category": "attraction",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-activities/picturehouse-cinema-central/"
   },
   {
     "id": "london-portland-restaurant-restaurant",
@@ -1432,9 +1358,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/fitzrovia-restaurants/rovi/"
   },
   {
-    "id": "london-royal-academy-shop",
+    "id": "london-royal-academy-attraction",
     "name": "Royal Academy",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1450,6 +1376,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sabor/"
+  },
+  {
+    "id": "london-savile-row-and-jermyn-street-shop",
+    "name": "Savile Row & Jermyn Street",
+    "category": "shop",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/savile-row-jermyn-street/"
   },
   {
     "id": "london-selfridges-shop",
@@ -1492,26 +1428,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sketch/"
   },
   {
-    "id": "london-skin-matters-shop",
-    "name": "Skin Matters",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/holland-park-health-and-beauty/skin-matters/"
-  },
-  {
-    "id": "london-skinwork-shop",
-    "name": "SKINWORK",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-health-and-beauty/skinwork/"
-  },
-  {
     "id": "london-sotheran-s-shop",
     "name": "Sotheran’s",
     "category": "shop",
@@ -1532,249 +1448,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381579-restaurants/spring-2/"
   },
   {
-    "id": "london-the-arts-club-restaurant",
-    "name": "The Arts Club",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-381565-restaurants/the-arts-club/"
-  },
-  {
-    "id": "london-the-beaumont-hotel",
-    "name": "The Beaumont",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-beaumont/"
-  },
-  {
-    "id": "london-the-berkeley-hotel",
-    "name": "The Berkeley",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-hotels/the-berkeley/"
-  },
-  {
-    "id": "london-the-blind-pig-at-mary-s-est-2024-restaurant",
-    "name": "The Blind Pig at Mary’s est. 2024",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-bars-and-nightlife/blind-pig/"
-  },
-  {
-    "id": "london-the-blue-posts-restaurant",
-    "name": "The Blue Posts",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-bars-and-nightlife/the-blue-posts/"
-  },
-  {
-    "id": "london-the-cadogan-a-belmond-hotel-hotel",
-    "name": "The Cadogan, A Belmond Hotel",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-hotels/belmond-cadogan-hotel/"
-  },
-  {
-    "id": "london-the-churchill-arms-restaurant",
-    "name": "The Churchill Arms",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-381270-restaurants/the-churchill-arms/"
-  },
-  {
-    "id": "london-the-coach-restaurant",
-    "name": "The Coach",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/clerkenwell-restaurants/the-coach/"
-  },
-  {
-    "id": "london-the-connaught-hotel-hotel",
-    "name": "The Connaught Hotel",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-connaught-hotel/"
-  },
-  {
-    "id": "london-the-general-store-restaurant",
-    "name": "The General Store",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-391166-specialty/the-general-store-4/"
-  },
-  {
-    "id": "london-the-golden-hind-restaurant",
-    "name": "The Golden Hind",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-381953-restaurants/the-golden-hind/"
-  },
-  {
-    "id": "london-the-good-life-eatery-restaurant",
-    "name": "The Good Life Eatery",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-specialty/the-good-life-eatery-3/"
-  },
-  {
-    "id": "london-the-house-of-elemis-shop",
-    "name": "The House of Elemis",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-386116-health-and-beauty/the-house-of-elemis/"
-  },
-  {
-    "id": "london-the-lanesborough-hotel",
-    "name": "The Lanesborough",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/belgravia-hotels/the-lanesborough/"
-  },
-  {
-    "id": "london-the-lanesborough-club-and-spa-shop",
-    "name": "The Lanesborough Club & Spa",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/place-386163-health-and-beauty/the-lanesborough-spa/"
-  },
-  {
-    "id": "london-the-ned-hotel",
-    "name": "The Ned",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/city-of-london-hotels/the-ned/"
-  },
-  {
-    "id": "london-the-parlour-at-marylebone-restaurant",
-    "name": "The Parlour at Marylebone",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-bars-and-nightlife/seymours-parlour/"
-  },
-  {
-    "id": "london-the-punch-bowl-restaurant",
-    "name": "The Punch Bowl",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-381322-restaurants/the-punch-bowl/"
-  },
-  {
-    "id": "london-the-river-caf-restaurant",
-    "name": "The River Café",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/hammersmith-restaurants/the-river-cafe/"
-  },
-  {
-    "id": "london-the-spa-at-the-four-seasons-shop",
-    "name": "The Spa at the Four Seasons",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/the-spa-at-the-four-seasons/"
-  },
-  {
-    "id": "london-the-stafford-hotel",
-    "name": "The Stafford",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/st-james-hotels/the-stafford/"
-  },
-  {
-    "id": "london-the-wallace-collection-shop",
-    "name": "The Wallace Collection",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-389179-museums/the-wallace-collection/"
-  },
-  {
-    "id": "london-the-wolseley-restaurant",
-    "name": "The Wolseley",
-    "category": "restaurant",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/place-382291-restaurants/the-wolseley/"
-  },
-  {
-    "id": "london-the-zetter-marylebone-hotel",
-    "name": "The Zetter Marylebone",
-    "category": "hotel",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/zetter-townhouse/"
-  },
-  {
-    "id": "london-timothy-taylor-gallery-shop",
+    "id": "london-timothy-taylor-gallery-attraction",
     "name": "Timothy Taylor Gallery",
-    "category": "shop",
+    "category": "attraction",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1810,26 +1486,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382273-restaurants/umu/"
-  },
-  {
-    "id": "london-vaishaly-shop",
-    "name": "Vaishaly",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "The Mayfair & Marylebone Guide",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/vaishaly/"
-  },
-  {
-    "id": "london-vanessa-kandiyoti-shop",
-    "name": "Vanessa Kandiyoti",
-    "category": "shop",
-    "city": "London",
-    "country": "United Kingdom",
-    "source": "goop",
-    "sourceTitle": "What’s New and Great in London",
-    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/vanessa-kandiyoti/"
   },
   {
     "id": "london-wiltons-restaurant",
@@ -2217,9 +1873,9 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/abarrotes-delirio-mexico-city"
   },
   {
-    "id": "mexico-city-archivo-dise-o-y-arquitectura-shop",
+    "id": "mexico-city-archivo-dise-o-y-arquitectura-attraction",
     "name": "Archivo Diseño y Arquitectura",
-    "category": "shop",
+    "category": "attraction",
     "city": "Mexico City",
     "country": "Mexico",
     "source": "goop",
@@ -2240,6 +1896,41 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/azul-historico-mexico-city-2"
   },
   {
+    "id": "mexico-city-biblioteca-vasconcelos-restaurant",
+    "name": "Biblioteca Vasconcelos",
+    "category": "restaurant",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Colonia Santa María la Ribera",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/biblioteca-vasconcelos-mexico-city"
+  },
+  {
+    "id": "mexico-city-bosque-de-chapultepec-attraction",
+    "name": "Bosque de Chapultepec",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "1ra Secc Del Bosque de Chapultepec",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/bosque-de-chapultepec-mexico-city-2"
+  },
+  {
+    "id": "mexico-city-carla-fern-ndez-shop",
+    "name": "Carla Fernández",
+    "category": "shop",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/s/c2F8ITRtNSEzbTQhMXMweDg1ZDFmZWQyY2VhZmJhZTk6MHg5YmE2NzU1NGE1N2ZiNDJlIThtMiEzZDE5LjQzMiE0ZC05OS4xMzY"
+  },
+  {
     "id": "mexico-city-casa-bosques-shop",
     "name": "Casa Bosques",
     "category": "shop",
@@ -2252,6 +1943,18 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/casa-bosques-mexico-city"
   },
   {
+    "id": "mexico-city-casa-estudio-luis-barrag-n-attraction",
+    "name": "Casa Estudio Luis Barragán",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Ampl Daniel Garza",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/casa-estudio-luis-barragan-mexico-city"
+  },
+  {
     "id": "mexico-city-casa-virginia-restaurant",
     "name": "Casa Virginia",
     "category": "restaurant",
@@ -2261,6 +1964,18 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/casa-virginia-mexico-city-2"
+  },
+  {
+    "id": "mexico-city-chapultepec-castle-attraction",
+    "name": "Chapultepec Castle",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Lomas de Chapultepec",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/chapultepec-castle-mexico-city"
   },
   {
     "id": "mexico-city-chiquitito-caf-restaurant",
@@ -2369,16 +2084,16 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/dulce-patria-mexico-city"
   },
   {
-    "id": "mexico-city-dulcer-a-de-celaya-s-a-de-c-v-shop",
-    "name": "Dulcería de Celaya S.A. de C.V.",
-    "category": "shop",
+    "id": "mexico-city-el-bazar-s-bado-restaurant",
+    "name": "El Bazar Sábado",
+    "category": "restaurant",
     "city": "Mexico City",
     "country": "Mexico",
-    "neighborhood": "Centro",
+    "neighborhood": "San Ángel Inn",
     "source": "goop",
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
-    "placeUrl": "https://www.postcard.inc/places/dulceria-de-celaya-sa-de-cv-mexico-city"
+    "placeUrl": "https://www.postcard.inc/places/el-bazar-sabado-mexico-city"
   },
   {
     "id": "mexico-city-el-cardenal-restaurant",
@@ -2427,6 +2142,30 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/four-seasons-hotel-mexico-city-mexico-city"
+  },
+  {
+    "id": "mexico-city-frida-kahlo-museum-attraction",
+    "name": "Frida Kahlo Museum",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Del Carmen",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/frida-kahlo-museum-2"
+  },
+  {
+    "id": "mexico-city-gallery-omr-attraction",
+    "name": "Gallery OMR",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Roma Norte",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/gallery-omr-mexico-city"
   },
   {
     "id": "mexico-city-gingin-restaurant",
@@ -2487,6 +2226,18 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/jules-basement-2"
   },
   {
+    "id": "mexico-city-kurimanzutto-attraction",
+    "name": "Kurimanzutto",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Ampl Daniel Garza",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/kurimanzutto-mexico-city"
+  },
+  {
     "id": "mexico-city-la-botica-restaurant",
     "name": "La botica",
     "category": "restaurant",
@@ -2519,18 +2270,6 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/la-nicolasa-san-bernabe-ava"
-  },
-  {
-    "id": "mexico-city-las-alcobas-a-luxury-collection-hotel-mexico-city-hotel",
-    "name": "Las Alcobas, a Luxury Collection Hotel, Mexico City",
-    "category": "hotel",
-    "city": "Mexico City",
-    "country": "Mexico",
-    "neighborhood": "Polanco",
-    "source": "goop",
-    "sourceTitle": "The Mexico City Guide",
-    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
-    "placeUrl": "https://www.postcard.inc/places/las-alcobas-a-luxury-collection-hotel-mexico-city-mexico-city"
   },
   {
     "id": "mexico-city-licorer-a-limantour-restaurant",
@@ -2593,6 +2332,18 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/maximo-mexico-city-2"
   },
   {
+    "id": "mexico-city-memory-and-tolerance-museum-attraction",
+    "name": "Memory and Tolerance Museum",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Tabacalera",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/memory-and-tolerance-museum-mexico-city"
+  },
+  {
     "id": "mexico-city-mercado-lagunilla-de-telas-y-varios-shop",
     "name": "Mercado Lagunilla de telas y varios",
     "category": "shop",
@@ -2628,6 +2379,113 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/merotoro-mexico-city-2"
   },
   {
+    "id": "mexico-city-museo-anahuacalli-attraction",
+    "name": "Museo Anahuacalli",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "San Pablo Tepetlapa",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-anahuacalli-mexico-city"
+  },
+  {
+    "id": "mexico-city-museo-de-arte-popular-attraction",
+    "name": "Museo de Arte Popular",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Tabacalera",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-de-arte-popular-mexico-city"
+  },
+  {
+    "id": "mexico-city-museo-dolores-olmedo-attraction",
+    "name": "Museo Dolores Olmedo",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-dolores-olmedo-la-noria"
+  },
+  {
+    "id": "mexico-city-museo-franz-mayer-attraction",
+    "name": "Museo Franz Mayer",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Colonia Roma",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-franz-mayer-mexico-city"
+  },
+  {
+    "id": "mexico-city-museo-jumex-attraction",
+    "name": "Museo Jumex",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Ampl Granada",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-jumex-cdmx"
+  },
+  {
+    "id": "mexico-city-museo-mural-diego-rivera-attraction",
+    "name": "Museo Mural Diego Rivera",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Tabacalera",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-mural-diego-rivera-2"
+  },
+  {
+    "id": "mexico-city-museo-nacional-de-antropolog-a-attraction",
+    "name": "Museo Nacional de Antropología",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "1ra Secc Del Bosque de Chapultepec",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-nacional-de-antropologia-mexico-city"
+  },
+  {
+    "id": "mexico-city-museo-tamayo-arte-contempor-neo-attraction",
+    "name": "Museo Tamayo Arte Contemporáneo",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Rincon Del Bosque",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/museo-tamayo-arte-contemporaneo-mexico-city"
+  },
+  {
+    "id": "mexico-city-national-palace-attraction",
+    "name": "National Palace",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Centro",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/national-palace-mexico-city"
+  },
+  {
     "id": "mexico-city-never-a-roxy-shop",
     "name": "Nevería Roxy",
     "category": "shop",
@@ -2638,6 +2496,17 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/neveria-roxy-mexico-city"
+  },
+  {
+    "id": "mexico-city-nina-menocal-restaurant",
+    "name": "Nina Menocal",
+    "category": "restaurant",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/nina-menocal-2"
   },
   {
     "id": "mexico-city-onora-shop",
@@ -2735,6 +2604,17 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/san-angel-inn-mexico-city"
   },
   {
+    "id": "mexico-city-san-juan-teotihuac-n-restaurant",
+    "name": "San Juan Teotihuacán",
+    "category": "restaurant",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/san-juan-teotihuacan-teotihuacan-municipality"
+  },
+  {
     "id": "mexico-city-sandra-weil-shop",
     "name": "Sandra Weil",
     "category": "shop",
@@ -2745,6 +2625,18 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/sandra-weil-mexico-city"
+  },
+  {
+    "id": "mexico-city-soumaya-museum-attraction",
+    "name": "Soumaya Museum",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Ampl Granada",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/soumaya-museum-mexico-city"
   },
   {
     "id": "mexico-city-st-regis-mexico-city-hotel",
@@ -2783,6 +2675,18 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/taqueria-gabriel-mexico-city-2"
   },
   {
+    "id": "mexico-city-templo-mayor-museum-attraction",
+    "name": "Templo Mayor Museum",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Centro",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/templo-mayor-museum-mexico-city"
+  },
+  {
     "id": "mexico-city-tlapaleria-gastronomica-restaurant",
     "name": "Tlapaleria Gastronomica",
     "category": "restaurant",
@@ -2806,6 +2710,30 @@ export const PLACES = [
     "placeUrl": "https://www.postcard.inc/places/tori-tori-mexico-city"
   },
   {
+    "id": "mexico-city-universidad-nacional-aut-noma-de-m-xico-attraction",
+    "name": "Universidad Nacional Autónoma de México",
+    "category": "attraction",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Conjunto Res Insurgentes San Angel",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/universidad-nacional-autonoma-de-mexico-mexico-city-2"
+  },
+  {
+    "id": "mexico-city-xochimilco-restaurant",
+    "name": "Xochimilco",
+    "category": "restaurant",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Belen",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/xochimilco-belen-2"
+  },
+  {
     "id": "mexico-city-yakampot-shop",
     "name": "Yakampot",
     "category": "shop",
@@ -2816,6 +2744,18 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/yakampot-mexico-city"
+  },
+  {
+    "id": "mexico-city-zinco-jazz-club-restaurant",
+    "name": "Zinco Jazz Club",
+    "category": "restaurant",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "neighborhood": "Centro",
+    "source": "goop",
+    "sourceTitle": "The Mexico City Guide",
+    "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
+    "placeUrl": "https://www.postcard.inc/places/zinco-jazz-club-mexico-city"
   },
   {
     "id": "miami-1-800-lucky-restaurant",
@@ -3137,9 +3077,9 @@ export const PLACES = [
     "placeUrl": "https://www.lisacorti.com/en?"
   },
   {
-    "id": "milan-nilufar-gallery-shop",
+    "id": "milan-nilufar-gallery-attraction",
     "name": "Nilufar Gallery",
-    "category": "shop",
+    "category": "attraction",
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
@@ -3311,16 +3251,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/albertine-2/"
   },
   {
-    "id": "new-york-city-alice-s-tea-cup-shop",
-    "name": "Alice’s Tea Cup",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-kids/alices-tea-cup/"
-  },
-  {
     "id": "new-york-city-american-cut-restaurant",
     "name": "American Cut",
     "category": "restaurant",
@@ -3329,6 +3259,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/american-cut/"
+  },
+  {
+    "id": "new-york-city-american-museum-of-natural-history-attraction",
+    "name": "American Museum of Natural History",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/american-museum-of-natural-history/"
   },
   {
     "id": "new-york-city-atera-restaurant",
@@ -3411,16 +3351,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/bk-antiques/"
   },
   {
-    "id": "new-york-city-black-seed-bagels-shop",
-    "name": "Black Seed Bagels",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/nolita-specialty/black-seed-bagels-2/"
-  },
-  {
     "id": "new-york-city-blue-ribbon-sushi-bar-restaurant",
     "name": "Blue Ribbon Sushi Bar",
     "category": "restaurant",
@@ -3481,14 +3411,14 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/soho-restaurants/carbone/"
   },
   {
-    "id": "new-york-city-chambers-street-wines-shop",
-    "name": "Chambers Street Wines",
-    "category": "shop",
+    "id": "new-york-city-central-park-attraction",
+    "name": "Central Park",
+    "category": "attraction",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-specialty/chambers-street-wines/"
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/central-park-activities/central-park/"
   },
   {
     "id": "new-york-city-colony-shop",
@@ -3501,14 +3431,14 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/colony/"
   },
   {
-    "id": "new-york-city-corepower-shop",
-    "name": "Corepower",
-    "category": "shop",
+    "id": "new-york-city-cooper-hewitt-attraction",
+    "name": "Cooper Hewitt",
+    "category": "attraction",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/corepower-2/"
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/cooper-hewitt-2/"
   },
   {
     "id": "new-york-city-cos-bar-shop",
@@ -3541,26 +3471,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/nolita-shops/cuyana/"
   },
   {
-    "id": "new-york-city-delphine-eyebrow-couture-shop",
-    "name": "Delphine Eyebrow Couture",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/delphine-eyebrow-couture/"
-  },
-  {
-    "id": "new-york-city-dos-toros-taqueria-shop",
-    "name": "Dos Toros Taqueria",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-specialty/dos-toros-taqueria/"
-  },
-  {
     "id": "new-york-city-elio-s-restaurant",
     "name": "Elio’s",
     "category": "restaurant",
@@ -3591,9 +3501,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/fairway-market-4/"
   },
   {
-    "id": "new-york-city-fd-gallery-shop",
+    "id": "new-york-city-fd-gallery-attraction",
     "name": "FD Gallery",
-    "category": "shop",
+    "category": "attraction",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -3611,16 +3521,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/frenchette/"
   },
   {
-    "id": "new-york-city-georgia-louise-shop",
-    "name": "Georgia Louise",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/georgia-louise/"
-  },
-  {
     "id": "new-york-city-gild-hall-hotel",
     "name": "Gild Hall",
     "category": "hotel",
@@ -3629,6 +3529,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-hotels/gild-hall/"
+  },
+  {
+    "id": "new-york-city-grand-banks-restaurant",
+    "name": "Grand Banks",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/grand-banks/"
   },
   {
     "id": "new-york-city-han-dynasty-restaurant",
@@ -3671,16 +3581,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/j-g-melon/"
   },
   {
-    "id": "new-york-city-jin-soon-shop",
-    "name": "Jin Soon",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/jin-soon-3/"
-  },
-  {
     "id": "new-york-city-journelle-shop",
     "name": "Journelle",
     "category": "shop",
@@ -3689,16 +3589,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/journelle-2/"
-  },
-  {
-    "id": "new-york-city-kaffe-1668-shop",
-    "name": "Kaffe 1668",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-specialty/kaffe-1668/"
   },
   {
     "id": "new-york-city-khe-yo-restaurant",
@@ -3721,16 +3611,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/chinatown-restaurants/kikis/"
   },
   {
-    "id": "new-york-city-kimara-ahnert-shop",
-    "name": "Kimara Ahnert",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/kimara-ahnert/"
-  },
-  {
     "id": "new-york-city-kitchen-arts-and-letters-shop",
     "name": "Kitchen Arts & Letters",
     "category": "shop",
@@ -3749,16 +3629,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-shops/korin/"
-  },
-  {
-    "id": "new-york-city-la-colombe-shop",
-    "name": "La Colombe",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-specialty/la-colombe/"
   },
   {
     "id": "new-york-city-la-garconne-shop",
@@ -3781,24 +3651,15 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/la-mercerie/"
   },
   {
-    "id": "new-york-city-laughing-man-shop",
-    "name": "Laughing Man",
-    "category": "shop",
+    "id": "new-york-city-le-crocodile-hotel",
+    "name": "Le Crocodile",
+    "category": "hotel",
     "city": "New York City",
     "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-specialty/laughing-man/"
-  },
-  {
-    "id": "new-york-city-laura-schiller-m-d-shop",
-    "name": "Laura Schiller, M.D.",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/laura-schiller-m-d/"
+    "source": "vogue",
+    "sourceTitle": "Without further ado, the best hotels in New York City.",
+    "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
+    "placeUrl": "https://www.nytimes.com/2020/03/03/dining/le-crocodile-review-pete-wells.html"
   },
   {
     "id": "new-york-city-le-district-restaurant",
@@ -3861,16 +3722,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/marc-forgione/"
   },
   {
-    "id": "new-york-city-maris-dusan-shop",
-    "name": "Maris Dusan",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/maris-dusan/"
-  },
-  {
     "id": "new-york-city-markjoseph-steakhouse-restaurant",
     "name": "MarkJoseph Steakhouse",
     "category": "restaurant",
@@ -3901,24 +3752,24 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/mr-chow-2/"
   },
   {
-    "id": "new-york-city-olive-s-shop",
-    "name": "Olive’s",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-specialty/olives-2/"
-  },
-  {
-    "id": "new-york-city-p-j-clarke-s-restaurant",
-    "name": "P.J. Clarke’s",
-    "category": "restaurant",
+    "id": "new-york-city-neue-galerie-attraction",
+    "name": "Neue Galerie",
+    "category": "attraction",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/p-j-clarkes-3/"
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/neue-galerie/"
+  },
+  {
+    "id": "new-york-city-new-york-city-ballet-attraction",
+    "name": "New York City Ballet",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/new-york-city-ballet/"
   },
   {
     "id": "new-york-city-parachute-home-shop",
@@ -3941,16 +3792,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/parm-3/"
   },
   {
-    "id": "new-york-city-pasanella-and-son-shop",
-    "name": "Pasanella & Son",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/south-street-seaport-specialty/pasanella-son-2/"
-  },
-  {
     "id": "new-york-city-per-se-restaurant",
     "name": "Per Se",
     "category": "restaurant",
@@ -3959,6 +3800,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/per-se/"
+  },
+  {
+    "id": "new-york-city-puffy-s-restaurant",
+    "name": "Puffy’s",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/puffys/"
   },
   {
     "id": "new-york-city-red-farm-restaurant",
@@ -3991,16 +3842,6 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/sasabune/"
   },
   {
-    "id": "new-york-city-serendipity-3-shop",
-    "name": "Serendipity 3",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-kids/serendipity-3/"
-  },
-  {
     "id": "new-york-city-shinola-shop",
     "name": "Shinola",
     "category": "shop",
@@ -4011,6 +3852,26 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/shinola/"
   },
   {
+    "id": "new-york-city-shop-cooper-hewitt-shop",
+    "name": "SHOP Cooper Hewitt",
+    "category": "shop",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/shop-cooper-hewitt/"
+  },
+  {
+    "id": "new-york-city-smith-and-mills-restaurant",
+    "name": "Smith & Mills",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/smith-mills/"
+  },
+  {
     "id": "new-york-city-sol-cacao-restaurant",
     "name": "Sol Cacao",
     "category": "restaurant",
@@ -4019,16 +3880,6 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/bronx-specialty/sol-cacao/"
-  },
-  {
-    "id": "new-york-city-sweetgreen-shop",
-    "name": "Sweetgreen",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/sweetgreen-2/"
   },
   {
     "id": "new-york-city-takahachi-restaurant",
@@ -4051,74 +3902,14 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/tatiana/"
   },
   {
-    "id": "new-york-city-the-beekman-a-thompson-hotel-hotel",
-    "name": "The Beekman, A Thompson Hotel",
-    "category": "hotel",
+    "id": "new-york-city-terroir-restaurant",
+    "name": "Terroir",
+    "category": "restaurant",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-hotels/the-beekman-a-thompson-hotel/"
-  },
-  {
-    "id": "new-york-city-the-carlyle-a-rosewood-hotel-hotel",
-    "name": "The Carlyle, A Rosewood Hotel",
-    "category": "hotel",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-carlyle/"
-  },
-  {
-    "id": "new-york-city-the-jeffrey-restaurant",
-    "name": "The Jeffrey",
-    "category": "restaurant",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/the-jeffrey/"
-  },
-  {
-    "id": "new-york-city-the-lowell-hotel",
-    "name": "The Lowell",
-    "category": "hotel",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-lowell/"
-  },
-  {
-    "id": "new-york-city-the-mark-hotel",
-    "name": "The Mark",
-    "category": "hotel",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-mark/"
-  },
-  {
-    "id": "new-york-city-the-penrose-restaurant",
-    "name": "The Penrose",
-    "category": "restaurant",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/penrose-bar/"
-  },
-  {
-    "id": "new-york-city-upper-west-side-yoga-and-wellness-shop",
-    "name": "Upper West Side Yoga & Wellness",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/upper-west-side-yoga-wellness/"
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/terroir/"
   },
   {
     "id": "new-york-city-ursus-books-shop",
@@ -4141,6 +3932,26 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-bars-and-nightlife/vin-sur-vingt-2/"
   },
   {
+    "id": "new-york-city-walker-s-restaurant",
+    "name": "Walker’s",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/walkers/"
+  },
+  {
+    "id": "new-york-city-weather-up-restaurant",
+    "name": "Weather Up",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/weather-up-2/"
+  },
+  {
     "id": "new-york-city-zabar-s-restaurant",
     "name": "Zabar’s",
     "category": "restaurant",
@@ -4151,34 +3962,25 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/zabars/"
   },
   {
-    "id": "new-york-city-zitomer-shop",
-    "name": "Zitomer",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Uptown Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/zitomer/"
-  },
-  {
-    "id": "new-york-city-zucker-s-shop",
-    "name": "Zucker’s",
-    "category": "shop",
-    "city": "New York City",
-    "country": "United States",
-    "source": "goop",
-    "sourceTitle": "The Lower Manhattan Guide",
-    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-specialty/zuckers/"
-  },
-  {
-    "id": "paris-a-p-c-shop",
-    "name": "A.P.C.",
-    "category": "shop",
+    "id": "paris-au-passage-restaurant",
+    "name": "Au Passage",
+    "category": "restaurant",
     "city": "Paris",
     "country": "France",
     "source": "goop",
     "sourceTitle": "The Paris Hipster Guide",
-    "sourceUrl": "https://goop.com/place/france/paris/8th-arrondissement-shops/a-p-c-6/"
+    "sourceUrl": "https://goop.com/place/france/paris/11th-arrondissement-bars-and-nightlife/au-passage/"
+  },
+  {
+    "id": "paris-ballet-at-the-palais-garnier-attraction",
+    "name": "Ballet at the Palais Garnier",
+    "category": "attraction",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.operadeparis.fr/en/visits/palais-garnier"
   },
   {
     "id": "paris-bisou-restaurant",
@@ -4190,6 +3992,26 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://en.bar-bisou.fr/"
+  },
+  {
+    "id": "paris-bob-s-bake-shop-restaurant",
+    "name": "Bob’s Bake Shop",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/18th-arrondissement-specialty/bobs-bake-shop/"
+  },
+  {
+    "id": "paris-bob-s-juice-bar-restaurant",
+    "name": "Bob’s Juice Bar",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-specialty/bobs-juice-bar/"
   },
   {
     "id": "paris-bulgari-h-tel-paris-hotel",
@@ -4234,6 +4056,16 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://maisonkitsune.com/"
+  },
+  {
+    "id": "paris-candelaria-restaurant",
+    "name": "Candelaria",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-bars-and-nightlife/candelaria/"
   },
   {
     "id": "paris-centre-commercial-shop",
@@ -4312,6 +4144,27 @@ export const PLACES = [
     "placeUrl": "https://comice.paris/carte-menu"
   },
   {
+    "id": "paris-coutume-restaurant",
+    "name": "Coutume",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/7th-arrondissement-specialty/coutume/"
+  },
+  {
+    "id": "paris-crazy-horse-restaurant",
+    "name": "Crazy Horse",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.lecrazyhorseparis.com/en/"
+  },
+  {
     "id": "paris-dary-s-shop",
     "name": "Dary’s",
     "category": "shop",
@@ -4352,6 +4205,27 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.deyrolle.com/"
+  },
+  {
+    "id": "paris-du-pain-et-des-id-es-attraction",
+    "name": "Du Pain et des Idées",
+    "category": "attraction",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
+  },
+  {
+    "id": "paris-experimental-cocktail-club-restaurant",
+    "name": "Experimental Cocktail Club",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-bars-and-nightlife/experimental-cocktail-club/"
   },
   {
     "id": "paris-ferdi-restaurant",
@@ -4595,6 +4469,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/le-404/"
   },
   {
+    "id": "paris-le-baron-rouge-restaurant",
+    "name": "Le Baron Rouge",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/12th-arrondissement-bars-and-nightlife/le-baron-rouge/"
+  },
+  {
     "id": "paris-le-bon-georges-restaurant",
     "name": "Le Bon Georges",
     "category": "restaurant",
@@ -4604,6 +4488,27 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lebongeorges.paris/en/produits-de-maraichers-et-vins-de-proprietes/"
+  },
+  {
+    "id": "paris-le-bristol-spa-wellness",
+    "name": "Le Bristol Spa",
+    "category": "wellness",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/"
+  },
+  {
+    "id": "paris-le-camion-qui-fume-restaurant",
+    "name": "Le Camion Qui Fume",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-specialty/le-camion-qui-fume/"
   },
   {
     "id": "paris-le-chateaubriand-restaurant",
@@ -4659,6 +4564,16 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lesouffle.fr/"
+  },
+  {
+    "id": "paris-le-verre-vol-restaurant",
+    "name": "Le Verre Volé",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-bars-and-nightlife/le-verre-vole/"
   },
   {
     "id": "paris-loulou-restaurant",
@@ -4776,14 +4691,36 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/mes-demoiselles/"
   },
   {
-    "id": "paris-mirz-yoga-shop",
-    "name": "Mirz Yoga",
-    "category": "shop",
+    "id": "paris-miznon-restaurant",
+    "name": "Miznon",
+    "category": "restaurant",
     "city": "Paris",
     "country": "France",
     "source": "goop",
     "sourceTitle": "The Paris Hipster Guide",
-    "sourceUrl": "https://goop.com/place/france/paris/19th-arrondissement-health-and-beauty/mirz-yoga/"
+    "sourceUrl": "https://goop.com/place/france/paris/4th-arrondissement-restaurants/miznon/"
+  },
+  {
+    "id": "paris-musee-d-orsay-attraction",
+    "name": "Musee d’Orsay",
+    "category": "attraction",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.musee-orsay.fr/fr"
+  },
+  {
+    "id": "paris-mus-e-des-arts-d-coratifs-attraction",
+    "name": "Musée des Arts Décoratifs",
+    "category": "attraction",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://madparis.fr/"
   },
   {
     "id": "paris-noglu-restaurant",
@@ -4851,6 +4788,17 @@ export const PLACES = [
     "placeUrl": "https://www.pierreherme.com/"
   },
   {
+    "id": "paris-pinault-collection-attraction",
+    "name": "Pinault Collection",
+    "category": "attraction",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.pinaultcollection.com/en"
+  },
+  {
     "id": "paris-pink-mamma-restaurant",
     "name": "Pink Mamma",
     "category": "restaurant",
@@ -4870,6 +4818,26 @@ export const PLACES = [
     "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNS5XHm3FTVXDHL1To8P9yPCWUEaBfMghKPasVePMMWypfrSqS9AXYux3EnYXt6pFvFRc8adfUb1FPcdnK4DGonNsjU3EMUrJLJ4CzDExYRX8NBoTyai8NWUaa4YGd1Y6ptGzYoQNzBsynZrh8hBthSm7ndH2jqw2WwCKV62jNkG8MFVFqvUK41P9DRADGFxXvS46541sk9M2PQ7Bb9sm7aaT3innyP8nAtspsQkXjDzvaEurAf9wHnMtdptA7ZfHQasna"
+  },
+  {
+    "id": "paris-rivi-restaurant",
+    "name": "Rivié",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-bars-and-nightlife/hoxton-hotel-bar/"
+  },
+  {
+    "id": "paris-rosa-bonheur-restaurant",
+    "name": "Rosa Bonheur",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/19th-arrondissement-bars-and-nightlife/rosa-bonheur/"
   },
   {
     "id": "paris-rouje-shop",
@@ -4894,6 +4862,17 @@ export const PLACES = [
     "placeUrl": "https://cna.st/affiliate-link/7BxSbB2fAMuusDoNWXNP1FCzmoA9KDaZXHoMQMEv6DDFHnikSiJQ8ejGKSWfK7CSFeGMuySCTkCDpuNHe4NtiyikBdYqD7VWpEpi2o9dnt5145x4ouyx74U8g8znyq5HF7NsuUdeAKT4BcP7ZJD5v2KwzPRAUAYHAu93E3qWkgZXzvmuRu3q3XiyhWVtHCHsN6k14XpevtktJUVUHk3X49eSvU1K6E7XYzi7rCZ9wbM365HXitRBcPjsntwL7hF1uQQstqNbsZ4zL3494nBmNCtBirkV8XyC66CZwAZnQFnYAT1ksWkJZd4MrpS9GV8quVzhJqwwyPXp"
   },
   {
+    "id": "paris-salon-christophe-robin-wellness",
+    "name": "Salon Christophe Robin",
+    "category": "wellness",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.christophe-robin.salon/"
+  },
+  {
     "id": "paris-simrane-shop",
     "name": "Simrane",
     "category": "shop",
@@ -4916,24 +4895,15 @@ export const PLACES = [
     "placeUrl": "https://cna.st/affiliate-link/28iSGvNLVT39oMQ6buUZncWa39XfmTXuMer86tdrwTvDdVbezSEnubEuy8AjjAtgCL6of1QUbnh1prvjR997LXd8QDufAFcDAjDV46dfXTxvx4QHXsY7TCwuREjwBLgkNHyNKr6e21JYB9i7zrbKC885iZjaJSdAnkW6Pvafd3xpojzU8FtC9G1qw5j2JqmHGS4eTETUqx1g5T9Strwt7bD4Qc6jCm6VTfoE9n53HVBC9CMFx7DFeDDs5XxwwJeLbUbdU75ECgiBHSmtpWcsqniiubqMYt6ueK158D185CmfnaGirZWHN1ji3vTbwXjjWTzgmRGrm446V5eJU9UZZ6YeeSaHoiH7wwed8"
   },
   {
-    "id": "paris-the-broken-arm-shop",
-    "name": "The Broken Arm",
-    "category": "shop",
+    "id": "paris-ten-belles-attraction",
+    "name": "Ten Belles,",
+    "category": "attraction",
     "city": "Paris",
     "country": "France",
-    "source": "goop",
-    "sourceTitle": "The Paris Hipster Guide",
-    "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/the-broken-arm/"
-  },
-  {
-    "id": "paris-the-kooples-shop",
-    "name": "The Kooples",
-    "category": "shop",
-    "city": "Paris",
-    "country": "France",
-    "source": "goop",
-    "sourceTitle": "The Paris Hipster Guide",
-    "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/kooples-2/"
+    "source": "vogue",
+    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
   },
   {
     "id": "paris-villa-des-pr-s-hotel-hotel",
@@ -4965,6 +4935,17 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/wild-the-moon/"
+  },
+  {
+    "id": "seoul-soo-joo-park-attraction",
+    "name": "Soo Joo Park",
+    "category": "attraction",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "A Land",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/866831/chop-chop-model-soo-joo-park-sits-for-a-cut-with-christiaan-houtenbos/"
   },
   {
     "id": "tokyo-aman-tokyo-hotel",

@@ -19,7 +19,7 @@ const els = {
   closeAboutBtn: /** @type {HTMLButtonElement} */ ($("#closeAboutBtn")),
 };
 
-/** @typedef {"restaurant"|"hotel"|"shop"} Category */
+/** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Place
@@ -125,9 +125,17 @@ function updateMeta(count) {
   els.resultsMeta.textContent = `${count} result${count === 1 ? "" : "s"}${SEP}${cityLabel}`;
 }
 
+const CATEGORY_CHIP_CLASS = /** @type {const} */ ({
+  restaurant: "chip chip--accent",
+  hotel: "chip chip--hotel",
+  shop: "chip chip--teal",
+  attraction: "chip chip--attraction",
+  wellness: "chip chip--wellness",
+});
+
 function categoryChip(category) {
   const label = CATEGORIES[category];
-  const cls = "chip chip--accent";
+  const cls = CATEGORY_CHIP_CLASS[category] ?? "chip chip--accent";
   return `<span class="${cls}">${escapeHtml(label)}</span>`;
 }
 

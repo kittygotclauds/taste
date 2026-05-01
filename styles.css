@@ -155,7 +155,10 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   color: rgba(233,238,247,.92);
 }
 .chip--accent{border-color: rgba(124,92,255,.35); background: rgba(124,92,255,.16)}
+.chip--hotel{border-color: rgba(251,191,36,.35); background: rgba(251,191,36,.12)}
 .chip--teal{border-color: rgba(45,212,191,.35); background: rgba(45,212,191,.14)}
+.chip--attraction{border-color: rgba(244,114,182,.38); background: rgba(244,114,182,.12)}
+.chip--wellness{border-color: rgba(167,139,250,.38); background: rgba(167,139,250,.14)}
 
 .card__bottom{
   margin-top:auto;
