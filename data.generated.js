@@ -7,7 +7,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.42raw.com/"
   },
@@ -18,7 +18,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://aamanns.dk/"
   },
@@ -29,7 +29,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://antidotevinbar.dk/"
   },
@@ -40,7 +40,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://apollobar.dk/"
   },
@@ -51,7 +51,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.cafeatelierseptember.com/"
   },
@@ -62,7 +62,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://baest.dk/en/"
   },
@@ -73,7 +73,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.dangleterre.com/en/dining/balthazar"
   },
@@ -84,7 +84,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://beaumarche.dk/"
   },
@@ -95,18 +95,18 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.kb.dk/en/"
   },
   {
-    "id": "copenhagen-botanical-garden-restaurant",
+    "id": "copenhagen-botanical-garden-attraction",
     "name": "Botanical Garden",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.visitcopenhagen.com/copenhagen/botanical-garden-gdk422317"
   },
@@ -117,7 +117,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://tapperietbrus.dk/"
   },
@@ -128,7 +128,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://byredo.se/"
   },
@@ -139,7 +139,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://californiakitchen.dk/"
   },
@@ -150,7 +150,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.kongeligeslotte.dk/da/slotte-og-haver/christiansborg-slot.html"
   },
@@ -161,7 +161,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.facebook.com/Democratic-Coffee-147810001973306/"
   },
@@ -172,7 +172,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://designmuseum.org/"
   },
@@ -183,7 +183,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.farsdreng.com/"
   },
@@ -194,7 +194,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.fermliving.com/"
   },
@@ -205,7 +205,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://fiskebaren.dk/"
   },
@@ -216,7 +216,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.glyptoteket.com/"
   },
@@ -227,7 +227,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://groed.com/en/"
   },
@@ -238,7 +238,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://hay.dk/"
   },
@@ -249,7 +249,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.hijadesanchez.dk/"
   },
@@ -260,7 +260,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.dangleterre.com/"
   },
@@ -271,7 +271,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://illum.dk/"
   },
@@ -282,7 +282,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.kiinbao.dk/"
   },
@@ -293,7 +293,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://lagkagehuset.dk/"
   },
@@ -304,7 +304,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://mirabelle-bakery.dk/en/"
   },
@@ -315,7 +315,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://motherrestaurant.dk/"
   },
@@ -326,7 +326,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.naervaer.dk/"
   },
@@ -337,7 +337,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.nobishotel.dk/restaurant-niels"
   },
@@ -348,7 +348,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.nobishotel.dk/"
   },
@@ -359,7 +359,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://kglteater.dk/en/"
   },
@@ -370,7 +370,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.palaeo.dk/en/"
   },
@@ -381,7 +381,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.pederoxe.dk/"
   },
@@ -392,7 +392,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://restaurantpluto.dk/"
   },
@@ -403,7 +403,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.facebook.com/prologcoffeebar/"
   },
@@ -414,7 +414,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.restaurant-relae.dk/en/"
   },
@@ -425,7 +425,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.kongernessamling.dk/en/rosenborg/"
   },
@@ -436,7 +436,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.royalsmushicafe.dk/"
   },
@@ -447,7 +447,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://rby.dk/"
   },
@@ -458,7 +458,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.flysas.com/en/us/?WT.mc_id=US38&gclid=Cj0KCQiAyNjRBRCpARIsAPDBnn2OtYQ4VGs929FiC5vNbU-Ar2iiXpj22yX1PVY4qlLiX9L48FZFRFsaAvlgEALw_wcB&gclsrc=aw.ds&dclid=CIbc1syEktgCFZmdyAodc8UJKQ"
   },
@@ -469,7 +469,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.sonnycph.dk/"
   },
@@ -480,7 +480,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.brochner-hotels.com/hotel-sp34/"
   },
@@ -491,9 +491,20 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://stilleben.dk/"
+  },
+  {
+    "id": "copenhagen-the-union-kitchen-restaurant",
+    "name": "The Union Kitchen",
+    "category": "restaurant",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "source": "vogue",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
+    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
+    "placeUrl": "http://www.theunionkitchen.dk/"
   },
   {
     "id": "copenhagen-torvehallerne-restaurant",
@@ -502,7 +513,7 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://torvehallernekbh.dk/"
   },
@@ -513,9 +524,19 @@ export const PLACES = [
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
-    "sourceTitle": "Where to Stay",
+    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://restauranttrio.dk/bar"
+  },
+  {
+    "id": "london-alexandra-soveral-wellness",
+    "name": "Alexandra Soveral",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/maida-vale-health-and-beauty/alexandra-soveral/"
   },
   {
     "id": "london-allpress-espresso-restaurant",
@@ -526,6 +547,36 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391172-specialty/allpress-espresso/"
+  },
+  {
+    "id": "london-aman-spa-at-the-connaught-wellness",
+    "name": "Aman Spa at The Connaught",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/aman-spa-at-the-connaught/"
+  },
+  {
+    "id": "london-amberin-fur-wellness",
+    "name": "Amberin Fur",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/amberin-fur/"
+  },
+  {
+    "id": "london-andrea-hurst-wellness",
+    "name": "Andrea Hurst",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/andrea-hurst/"
   },
   {
     "id": "london-annabel-s-restaurant",
@@ -588,6 +639,36 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-385069-bars-and-nightlife/berkeley-blue-bar/"
   },
   {
+    "id": "london-blok-wellness",
+    "name": "BLOK",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/blok/"
+  },
+  {
+    "id": "london-bodhimaya-wellness",
+    "name": "Bodhimaya",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-429792-health-and-beauty/bodhimaya/"
+  },
+  {
+    "id": "london-bodyism-wellness",
+    "name": "Bodyism",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-386160-health-and-beauty/bodyism/"
+  },
+  {
     "id": "london-bond-street-shop",
     "name": "Bond Street",
     "category": "shop",
@@ -606,6 +687,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-restaurants/brat/"
+  },
+  {
+    "id": "london-breathpod-wellness",
+    "name": "Breathpod",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/breathpod/"
   },
   {
     "id": "london-brigadiers-restaurant",
@@ -738,6 +829,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-390551-specialty/claridges-tea-room/"
   },
   {
+    "id": "london-cloud-twelve-wellness-spa-and-kid-s-club-wellness",
+    "name": "Cloud Twelve Wellness, Spa and Kid’s Club",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/cloud-twelve/"
+  },
+  {
     "id": "london-como-the-halkin-hotel",
     "name": "Como The Halkin",
     "category": "hotel",
@@ -838,6 +939,66 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-385298-bars-and-nightlife/dukes-bar/"
   },
   {
+    "id": "london-emerald-and-tiger-wellness",
+    "name": "Emerald and Tiger",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emerald-and-tiger/"
+  },
+  {
+    "id": "london-emma-cannon-wellness",
+    "name": "Emma Cannon",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-cannon/"
+  },
+  {
+    "id": "london-emma-lucy-knowles-wellness",
+    "name": "Emma Lucy Knowles",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-lucy-knowles/"
+  },
+  {
+    "id": "london-emma-peel-wellness",
+    "name": "Emma Peel",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london-health-and-beauty/emma-peel/"
+  },
+  {
+    "id": "london-estelle-bingham-wellness",
+    "name": "Estelle Bingham",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-386386-health-and-beauty/estelle-bingham/"
+  },
+  {
+    "id": "london-eve-kalinik-wellness",
+    "name": "Eve Kalinik",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-385789-health-and-beauty/eve-kalinik/"
+  },
+  {
     "id": "london-evelyn-s-table-restaurant",
     "name": "Evelyn’s Table",
     "category": "restaurant",
@@ -856,6 +1017,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391174-specialty/fabrique-bakery/"
+  },
+  {
+    "id": "london-facegym-wellness",
+    "name": "FACEGYM",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/facegym/"
   },
   {
     "id": "london-farm-girl-caf-restaurant",
@@ -1058,6 +1229,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-382176-restaurants/kai/"
   },
   {
+    "id": "london-katy-meade-king-wellness",
+    "name": "Katy Meade King",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-429872-health-and-beauty/katy-meade-king/"
+  },
+  {
     "id": "london-kiln-restaurant",
     "name": "KILN",
     "category": "restaurant",
@@ -1128,6 +1309,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-382180-restaurants/la-petite-maison/"
   },
   {
+    "id": "london-lanserhof-at-the-arts-club-wellness",
+    "name": "Lanserhof at the Arts Club",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/lanserhof-at-the-arts-club/"
+  },
+  {
     "id": "london-le-relais-de-venise-l-entrecote-restaurant",
     "name": "Le Relais de Venise L’Entrecote",
     "category": "restaurant",
@@ -1136,6 +1327,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/lentrecote/"
+  },
+  {
+    "id": "london-lesalon-wellness",
+    "name": "LeSalon",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-452662-services/lesalon/"
   },
   {
     "id": "london-lina-stores-restaurant",
@@ -1208,6 +1409,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-390595-specialty/marylebone-farmers-market/"
   },
   {
+    "id": "london-melody-hekmat-wellness",
+    "name": "Melody Hekmat",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/citywide-health-and-beauty/melody-hekmat/"
+  },
+  {
     "id": "london-m-tier-shop",
     "name": "Métier",
     "category": "shop",
@@ -1238,6 +1449,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381577-restaurants/murano/"
   },
   {
+    "id": "london-nicola-clarke-wellness",
+    "name": "Nicola Clarke",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/fitzrovia-health-and-beauty/nicola-clarke/"
+  },
+  {
     "id": "london-noble-rot-restaurant",
     "name": "Noble Rot",
     "category": "restaurant",
@@ -1256,6 +1477,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/spitalfields-specialty/nude-espresso/"
+  },
+  {
+    "id": "london-nymph-of-neptune-wellness",
+    "name": "Nymph of Neptune",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-386387-health-and-beauty/nymph-of-neptune/"
   },
   {
     "id": "london-opso-restaurant",
@@ -1316,6 +1547,26 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382470-restaurants/portland-restaurant/"
+  },
+  {
+    "id": "london-professor-fares-haddad-wellness",
+    "name": "Professor Fares Haddad",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/professor-fares-haddad/"
+  },
+  {
+    "id": "london-raj-bhachu-wellness",
+    "name": "Raj Bhachu",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-385792-health-and-beauty/raj-bhachu/"
   },
   {
     "id": "london-review-bookshop-shop",
@@ -1428,6 +1679,26 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sketch/"
   },
   {
+    "id": "london-skin-matters-wellness",
+    "name": "Skin Matters",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/holland-park-health-and-beauty/skin-matters/"
+  },
+  {
+    "id": "london-skinwork-wellness",
+    "name": "SKINWORK",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-health-and-beauty/skinwork/"
+  },
+  {
     "id": "london-sotheran-s-shop",
     "name": "Sotheran’s",
     "category": "shop",
@@ -1446,6 +1717,256 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-381579-restaurants/spring-2/"
+  },
+  {
+    "id": "london-the-arts-club-restaurant",
+    "name": "The Arts Club",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-381565-restaurants/the-arts-club/"
+  },
+  {
+    "id": "london-the-beaumont-hotel",
+    "name": "The Beaumont",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-beaumont/"
+  },
+  {
+    "id": "london-the-berkeley-hotel",
+    "name": "The Berkeley",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-hotels/the-berkeley/"
+  },
+  {
+    "id": "london-the-blue-posts-restaurant",
+    "name": "The Blue Posts",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-bars-and-nightlife/the-blue-posts/"
+  },
+  {
+    "id": "london-the-cadogan-a-belmond-hotel-hotel",
+    "name": "The Cadogan, A Belmond Hotel",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-hotels/belmond-cadogan-hotel/"
+  },
+  {
+    "id": "london-the-churchill-arms-restaurant",
+    "name": "The Churchill Arms",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-381270-restaurants/the-churchill-arms/"
+  },
+  {
+    "id": "london-the-coach-restaurant",
+    "name": "The Coach",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/clerkenwell-restaurants/the-coach/"
+  },
+  {
+    "id": "london-the-connaught-hotel-hotel",
+    "name": "The Connaught Hotel",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-connaught-hotel/"
+  },
+  {
+    "id": "london-the-general-store-restaurant",
+    "name": "The General Store",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-391166-specialty/the-general-store-4/"
+  },
+  {
+    "id": "london-the-golden-hind-restaurant",
+    "name": "The Golden Hind",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-381953-restaurants/the-golden-hind/"
+  },
+  {
+    "id": "london-the-good-life-eatery-restaurant",
+    "name": "The Good Life Eatery",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-specialty/the-good-life-eatery-3/"
+  },
+  {
+    "id": "london-the-house-of-elemis-wellness",
+    "name": "The House of Elemis",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-386116-health-and-beauty/the-house-of-elemis/"
+  },
+  {
+    "id": "london-the-joshi-clinic-wellness",
+    "name": "The Joshi Clinic",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-385766-health-and-beauty/the-joshi-clinic/"
+  },
+  {
+    "id": "london-the-lanesborough-hotel",
+    "name": "The Lanesborough",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/belgravia-hotels/the-lanesborough/"
+  },
+  {
+    "id": "london-the-lanesborough-club-and-spa-wellness",
+    "name": "The Lanesborough Club & Spa",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/place-386163-health-and-beauty/the-lanesborough-spa/"
+  },
+  {
+    "id": "london-the-ned-hotel",
+    "name": "The Ned",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/city-of-london-hotels/the-ned/"
+  },
+  {
+    "id": "london-the-parlour-at-marylebone-restaurant",
+    "name": "The Parlour at Marylebone",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-bars-and-nightlife/seymours-parlour/"
+  },
+  {
+    "id": "london-the-punch-bowl-restaurant",
+    "name": "The Punch Bowl",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-381322-restaurants/the-punch-bowl/"
+  },
+  {
+    "id": "london-the-river-caf-restaurant",
+    "name": "The River Café",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/hammersmith-restaurants/the-river-cafe/"
+  },
+  {
+    "id": "london-the-spa-at-the-four-seasons-wellness",
+    "name": "The Spa at the Four Seasons",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/the-spa-at-the-four-seasons/"
+  },
+  {
+    "id": "london-the-stafford-hotel",
+    "name": "The Stafford",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/st-james-hotels/the-stafford/"
+  },
+  {
+    "id": "london-the-wallace-collection-attraction",
+    "name": "The Wallace Collection",
+    "category": "attraction",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-389179-museums/the-wallace-collection/"
+  },
+  {
+    "id": "london-the-wolseley-restaurant",
+    "name": "The Wolseley",
+    "category": "restaurant",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/place-382291-restaurants/the-wolseley/"
+  },
+  {
+    "id": "london-the-zetter-marylebone-hotel",
+    "name": "The Zetter Marylebone",
+    "category": "hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/zetter-townhouse/"
+  },
+  {
+    "id": "london-the-zita-west-fertility-clinic-wellness",
+    "name": "The Zita West Fertility Clinic",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/the-zita-west-fertility-clinic/"
   },
   {
     "id": "london-timothy-taylor-gallery-attraction",
@@ -1488,6 +2009,26 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-382273-restaurants/umu/"
   },
   {
+    "id": "london-vaishaly-wellness",
+    "name": "Vaishaly",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "The Mayfair & Marylebone Guide",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/vaishaly/"
+  },
+  {
+    "id": "london-vanessa-kandiyoti-wellness",
+    "name": "Vanessa Kandiyoti",
+    "category": "wellness",
+    "city": "London",
+    "country": "United Kingdom",
+    "source": "goop",
+    "sourceTitle": "What’s New and Great in London",
+    "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/vanessa-kandiyoti/"
+  },
+  {
     "id": "london-wiltons-restaurant",
     "name": "Wiltons",
     "category": "restaurant",
@@ -1504,7 +2045,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.anajakthai.com/"
   },
@@ -1515,7 +2056,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.angelinibeverly.com/"
   },
@@ -1526,7 +2067,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.bodenewyork.com/pages/bode-los-angeles"
   },
@@ -1537,7 +2078,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.brentwoodgeneralstore.com/pages/our-story"
   },
@@ -1548,7 +2089,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/"
   },
@@ -1559,7 +2100,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.casavega.com/"
   },
@@ -1570,7 +2111,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.chateaumarmont.com/"
   },
@@ -1581,7 +2122,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://couragebagels.com/"
   },
@@ -1592,7 +2133,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://craigs.la/"
   },
@@ -1603,7 +2144,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://dantanasrestaurant.com/"
   },
@@ -1614,7 +2155,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.foundoyster.com/"
   },
@@ -1625,7 +2166,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.giorgio-baldi.com/"
   },
@@ -1636,7 +2177,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://thehappyisles.com/"
   },
@@ -1647,7 +2188,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
   },
@@ -1658,7 +2199,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.huckleberrycafe.com/"
   },
@@ -1669,7 +2210,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://joansonthird.com/"
   },
@@ -1680,7 +2221,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.jonandvinnys.com/"
   },
@@ -1691,7 +2232,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.lascalabeverlyhills.com/"
   },
@@ -1702,7 +2243,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://manuela-la.com/"
   },
@@ -1713,7 +2254,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/613tZGZB2ZvVqb2wj4cfiKjWpUeN7E7Q6A3pLzuhRPotk5DxgWPsd88Qnidyb8f5ziY9DvRab69ENUKoN8WUzJi68LpnWbgSF6EQSMDyayBsxXHdDEmTb4EhN18hP222t7voxqtatv4kf74sPgHPgwixpCn5zWfenEnMcLNwfLwxF1PdpNi5pjTWNqMTq2UwXmJFhq4FyCmbsaKgG73ZB2xV1XK4Ka2HvZwexFrj1UDGk9mn8zVf4kCibnvETeZFbcmMwmAAanxrttDRHxbWLcSrAzXbUdBPtcsPBA4b3uVc9fDYujYNMP1o6aLWTeTNGzBQ4tkXDrECjLkNASEBp1vMzowmLDUTDkdsGf"
   },
@@ -1724,7 +2265,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://motherwolfla.com/"
   },
@@ -1735,7 +2276,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.noburestaurants.com/malibu/home/"
   },
@@ -1746,7 +2287,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.nobuhotels.com/malibu/"
   },
@@ -1757,7 +2298,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.pacegallery.com/galleries/los-angeles/"
   },
@@ -1768,7 +2309,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shoopsdeli.com/"
   },
@@ -1779,7 +2320,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shuttersonthebeach.com/"
   },
@@ -1790,7 +2331,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/qWr6YUDVveeLhXj1mG9tkuxSFL6B1BrXVNYjyaz9REmC3eJtxJ2j4TXQxBxK8LEi4n1yMuxyBWc3az61dk1TzF4dFqrTPLVxGCezCxyaiyq4oTJbdjZiRCL8HeGafSEDonaUPHPm1pKk1rK41S6wyub23ibnx52biQiYH4t178cdmPPedubwe8C36EVMG5rTSoHdsDqW4HAoM34g8xLZprQPy6VTFrdQegQFYP2UJM71hSjGKYL6C1hgSe4akeDAQRfGKJBUFgPQznWM1BPh5r8F2CYB1gr3GFLZstejVgwJfrN2moHgM65qVL5LpAo47y4BSnCMr7d2Wb8xAnZfoNdDRpV1JitbHVXLQ4iBQD324wu?xid=fr1740599192233ccj"
   },
@@ -1801,7 +2342,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://sushi-fumi.club/"
   },
@@ -1812,7 +2353,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://talesaistudiocity.com/"
   },
@@ -1823,9 +2364,119 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.tavernatony.com/"
+  },
+  {
+    "id": "los-angeles-the-apple-pan-restaurant",
+    "name": "The Apple Pan",
+    "category": "restaurant",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://theapplepan.com/"
+  },
+  {
+    "id": "los-angeles-the-beverly-hills-hotel-hotel",
+    "name": "The Beverly Hills Hotel",
+    "category": "hotel",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
+  },
+  {
+    "id": "los-angeles-the-georgian-hotel",
+    "name": "The Georgian",
+    "category": "hotel",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://cna.st/affiliate-link/MAg6NTLYhSzigA2vuJGJAiPEUCBxWEKmiztR6wTbG9TihGvF8213qZ67n4SKDp7uqBjFYSeZ2L5zs49a65KnWDM5k1B4FL54GCMM5ekHCQ3AW63hnAdSuY8B3Qd6o9Wxs7FuUFfpMDhQftMZ634tff4WRk2z2uT5aYkSiKXLACGLVsYdmYvTt2CEDMJt6TVhm5gD6n6mmzumd6wCm5LvHaYwV8kmA3yWQUXR6XccGQb8qz8MV7shF7G43K8X18VjtRNzoeL7JQffdJwuGdKgJB54VW71HkmNDQYuRFvoauK8GXZtqQufoGSFLhAYh1VoTQBsRsd8QfcFCT6Z5qgWfh8F"
+  },
+  {
+    "id": "los-angeles-the-infatuation-restaurant",
+    "name": "The Infatuation",
+    "category": "restaurant",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://www.theinfatuation.com/los-angeles/guides/saweetie-la-restaurant-guide"
+  },
+  {
+    "id": "los-angeles-the-ivy-restaurant",
+    "name": "The Ivy",
+    "category": "restaurant",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "http://theivyrestaurants.com/"
+  },
+  {
+    "id": "los-angeles-the-lore-restaurant",
+    "name": "The lore",
+    "category": "restaurant",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://lamag.com/crimeinla/the-zankou-chicken-murders/"
+  },
+  {
+    "id": "los-angeles-the-surfrider-hotel",
+    "name": "The Surfrider",
+    "category": "hotel",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://cna.st/affiliate-link/Wu6UuqeJKuLDvE7stGEPzHCrMVWCaGLokGvFJY2SQyuTvHdAJLcruJYQZAx9MSvedAWjvdFXajbwJPHZRoD7WHWrVt2mBavEKJWeSkuQ6KjLZTY6mdo4qwSqv3unc25kNdhi3d5v5BFecPsBAD1q2i5yFk2L61EquRbgZwEgQVTbxciKLYb2GZpcBvytiJu99xWqrqaNvtwW5Ni7ntyNi3KY9vCueuXWrK4SmA2AXAYhX3596wrreBYoe8SZvG3h6RmdifMpwrkbcVGAjV6pmh7XyhpSP3vGfpiF7iyfjqUmrAAQTRecmqpNP22B47HgdgwEPE8xp64JvGSX2Fm22trTKRHM"
+  },
+  {
+    "id": "los-angeles-the-way-we-wore-shop",
+    "name": "The Way We Wore",
+    "category": "shop",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://thewaywewore.com/"
+  },
+  {
+    "id": "los-angeles-the-webster-shop",
+    "name": "The Webster",
+    "category": "shop",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://thewebster.us/stores/los-angeles"
+  },
+  {
+    "id": "los-angeles-the-west-hollywood-edition-hotel",
+    "name": "The West Hollywood Edition",
+    "category": "hotel",
+    "city": "Los Angeles",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
+    "placeUrl": "https://cna.st/affiliate-link/4NeJabgQykde13q2rpUikrWb6HGoam6vYBe3u3BNcrA31T1QB12S5pkLMfFLffQorTPhhAgtRY9hgAfXjFnifv8ehR9kqQG8NhAYsMqcoyGmM9ARxTqG1Fm9VzPHRCeNkPVc3YayGqXcTcA5AvBQGmwoqtLcHekTPFn6BWAVKkLaidDQNAZzbN9nvoCsUwmqyc4nJAzgoZ7dmwYk7bmjPDNZabRraMUDvYndQ5oyPoXm4jtDm4MnYdk4fN5MYAbe3vWAGzBx5xERQ4KW3hSRV8w9x52h55bxfBgGJuKyQp8VGXFTjBZtjY2oPVT87prRnvqFfjYv71NaMPfBV49uryejpETeRrLqQf"
   },
   {
     "id": "los-angeles-tower-bar-restaurant",
@@ -1834,7 +2485,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.sunsettowerhotel.com/restaurants-and-bar/tower-bar"
   },
@@ -1845,7 +2496,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shopwasteland.com/"
   },
@@ -1856,7 +2507,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://zakeyes.com/pages/our-store"
   },
@@ -2764,7 +3415,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.1800lucky.com/"
   },
@@ -2775,7 +3426,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://byblosmiami.com/"
   },
@@ -2786,7 +3437,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.cecconismiamibeach.com/"
   },
@@ -2797,7 +3448,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cotemiami.com/"
   },
@@ -2808,7 +3459,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://danteshifi.com/"
   },
@@ -2819,7 +3470,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.doyarestaurant.com/"
   },
@@ -2830,7 +3481,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cna.st/affiliate-link/iqZ9y5iK3WikqEupNdNoyjojCGx2MUUo4VGRWyrMm2KTqyYxTYrfMjkP8cKrdAYbbHBytPzMiZxFKC1ovqmnkcFTkMdPkpkJ7KX8vC48XkwGBegErVCWuekVTutG4rqho88BPL2ASCUbWAJmqyA3UkThYZSQCPZXYjCPP3UwUq6RpDwwsPLwzuUWaXr8FqgASfJCw5zDXjvVmEJBzprJUS9ZaawduYrSrL2DtTS6GNH3feibDWtLA43xQEmTD3zKwNrdiHvtS9urUWe3dawQwMTkc"
   },
@@ -2841,7 +3492,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cna.st/affiliate-link/2axRRXrp1mKAPWK3dnxyrGQvPs4sCEqRUhYf3iu7uPEviegms8mdfnCpMpXa4VgpMfeNvffkoNpefdyJ597Q1qgv1EdwgR6vyRn4gv8ivS5Sy17B6KhiP5V4MCtZvgrFEfAwp4dzJhmkkXBGFkVLvkztP4NeGsWNbEu7pzZRoF2bA9u8sWftyKGwXbVY5tDUc1ymZ3UpaJPQ1MExmWcW6tV9CDNtDvXRM2RwMUgFmeVsezD56n849SwtFh7eh1oiUaroJoqtniCKC3CVbmYb7sR44qGxjtAfgc"
   },
@@ -2852,7 +3503,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cna.st/affiliate-link/2axRRXrp1mKAPWK3dnxyrGQvPs4sCEqRUhYf3iu7uPEviegms8mdfnCpMpXa4VgpMsxgwxioUrfaEY6yriNFdsXzLA2yARfS1urTw8rN5Kb1tVaKEK6W26y9PJ4tVuUrg6NnixKAyfkRa1vFJsTWym5fksH3XVdBNTmaBuCYgE3dnFAfmLf9Esto1BDStw9HFXrM7FfBNRiGmN9BUNnKgmJaSmKMrUUowDeqUZwcsVVYQ1ezcqSk7GN3gWu4hJyYpoRT8Z5FnDa93bRfgwQXN1yWVFG4cgrGmW"
   },
@@ -2863,7 +3514,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.joesstonecrab.com/"
   },
@@ -2874,7 +3525,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://kikiontheriver.com/"
   },
@@ -2885,7 +3536,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.faena.com/miami-beach/restaurant/los-fuegos-by-francis-mallmann/"
   },
@@ -2896,7 +3547,7 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "http://www.mandolinmiami.com/"
   },
@@ -2907,9 +3558,31 @@ export const PLACES = [
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "## Where to Stay",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://sacredspacemiami.com/pages/plant-miami"
+  },
+  {
+    "id": "miami-the-drexel-restaurant",
+    "name": "The Drexel,",
+    "category": "restaurant",
+    "city": "Miami",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
+    "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
+    "placeUrl": "https://www.drexelmiami.com/"
+  },
+  {
+    "id": "miami-the-key-club-restaurant",
+    "name": "The Key Club",
+    "category": "restaurant",
+    "city": "Miami",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
+    "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
+    "placeUrl": "https://thekeyclub.com/"
   },
   {
     "id": "milan-bar-quadronno-restaurant",
@@ -2918,7 +3591,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.barquadronno.it/en/homepage/"
   },
@@ -2929,7 +3602,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://biviomilano.it/"
   },
@@ -2940,7 +3613,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.camparino.com/"
   },
@@ -2951,7 +3624,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://casadelbiancomilano.it/en-us?"
   },
@@ -2962,7 +3635,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://cavallienastri.com/en-us?"
   },
@@ -2973,7 +3646,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://erbabrusca.it/"
   },
@@ -2984,7 +3657,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://eredizucca.com/en?"
   },
@@ -2995,7 +3668,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.thebicestercollection.com/fidenza-village/en/"
   },
@@ -3006,7 +3679,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.fioraiobianchicaffe.it/"
   },
@@ -3017,7 +3690,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://fotovenetaottica.com/"
   },
@@ -3028,7 +3701,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.giovannigalli.com/"
   },
@@ -3039,7 +3712,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/bettoladipiero/"
   },
@@ -3050,7 +3723,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/latteriasanmarco/?hl=en"
   },
@@ -3061,7 +3734,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.langosteria.com/en"
   },
@@ -3072,7 +3745,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.lisacorti.com/en?"
   },
@@ -3083,7 +3756,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://nilufar.com/"
   },
@@ -3094,7 +3767,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.nuovarena.com/"
   },
@@ -3105,7 +3778,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://oroincensoemirra.eu/"
   },
@@ -3116,7 +3789,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.grandhotelosteria.it/"
   },
@@ -3127,7 +3800,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://paninogiusto.it/en/homepage-eng/"
   },
@@ -3138,7 +3811,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/pasticceriasissi/?hl=en"
   },
@@ -3149,7 +3822,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.gioielleriapennisi.com/?"
   },
@@ -3160,7 +3833,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://romanengo.com/en/pages"
   },
@@ -3171,7 +3844,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.santambroeus.com/pages/location-milano?srsltid=AfmBOorq1jlBfQ_FV8tK7ZfE8XHLr4ah9SNGT0pfRto6NobdraH-_Bvt"
   },
@@ -3182,7 +3855,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://stephanjanson.com/"
   },
@@ -3193,7 +3866,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://trattoriadellagloria.com/"
   },
@@ -3204,7 +3877,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://masuellitrattoria.superbexperience.com/"
   },
@@ -3215,7 +3888,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.trattoriatorredipisa.it/en/"
   },
@@ -3226,7 +3899,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "## Where to Eat",
+    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.waitandsee.it/eu/en/"
   },
@@ -3441,6 +4114,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/cooper-hewitt-2/"
   },
   {
+    "id": "new-york-city-corepower-wellness",
+    "name": "Corepower",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/corepower-2/"
+  },
+  {
     "id": "new-york-city-cos-bar-shop",
     "name": "Cos Bar",
     "category": "shop",
@@ -3469,6 +4152,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/nolita-shops/cuyana/"
+  },
+  {
+    "id": "new-york-city-delphine-eyebrow-couture-wellness",
+    "name": "Delphine Eyebrow Couture",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/delphine-eyebrow-couture/"
   },
   {
     "id": "new-york-city-elio-s-restaurant",
@@ -3521,6 +4214,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/frenchette/"
   },
   {
+    "id": "new-york-city-georgia-louise-wellness",
+    "name": "Georgia Louise",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/georgia-louise/"
+  },
+  {
     "id": "new-york-city-gild-hall-hotel",
     "name": "Gild Hall",
     "category": "hotel",
@@ -3549,6 +4252,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/han-dynasty-2/"
+  },
+  {
+    "id": "new-york-city-heyday-wellness",
+    "name": "Heyday",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/heyday-2/"
   },
   {
     "id": "new-york-city-il-brigante-restaurant",
@@ -3581,6 +4294,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/j-g-melon/"
   },
   {
+    "id": "new-york-city-jin-soon-wellness",
+    "name": "Jin Soon",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/jin-soon-3/"
+  },
+  {
     "id": "new-york-city-journelle-shop",
     "name": "Journelle",
     "category": "shop",
@@ -3609,6 +4332,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/chinatown-restaurants/kikis/"
+  },
+  {
+    "id": "new-york-city-kimara-ahnert-wellness",
+    "name": "Kimara Ahnert",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/kimara-ahnert/"
   },
   {
     "id": "new-york-city-kitchen-arts-and-letters-shop",
@@ -3657,7 +4390,7 @@ export const PLACES = [
     "city": "New York City",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "Without further ado, the best hotels in New York City.",
+    "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "placeUrl": "https://www.nytimes.com/2020/03/03/dining/le-crocodile-review-pete-wells.html"
   },
@@ -3720,6 +4453,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/marc-forgione/"
+  },
+  {
+    "id": "new-york-city-maris-dusan-wellness",
+    "name": "Maris Dusan",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/maris-dusan/"
   },
   {
     "id": "new-york-city-markjoseph-steakhouse-restaurant",
@@ -3842,6 +4585,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/sasabune/"
   },
   {
+    "id": "new-york-city-shibui-spa-wellness",
+    "name": "Shibui Spa",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/shibui-spa/"
+  },
+  {
     "id": "new-york-city-shinola-shop",
     "name": "Shinola",
     "category": "shop",
@@ -3902,6 +4655,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/tatiana/"
   },
   {
+    "id": "new-york-city-tenoverten-wellness",
+    "name": "Tenoverten",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tenoverten/"
+  },
+  {
     "id": "new-york-city-terroir-restaurant",
     "name": "Terroir",
     "category": "restaurant",
@@ -3910,6 +4673,199 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/terroir/"
+  },
+  {
+    "id": "new-york-city-the-beekman-a-thompson-hotel-hotel",
+    "name": "The Beekman, A Thompson Hotel",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-hotels/the-beekman-a-thompson-hotel/"
+  },
+  {
+    "id": "new-york-city-the-carlyle-a-rosewood-hotel-hotel",
+    "name": "The Carlyle, A Rosewood Hotel",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-carlyle/"
+  },
+  {
+    "id": "new-york-city-the-class-wellness",
+    "name": "The Class",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/the-class/"
+  },
+  {
+    "id": "new-york-city-the-dead-rabbit-grocery-and-grog-restaurant",
+    "name": "The Dead Rabbit Grocery & Grog",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-bars-and-nightlife/the-dead-rabbit-grocery-grog/"
+  },
+  {
+    "id": "new-york-city-the-frick-collection-attraction",
+    "name": "The Frick Collection",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-frick-collection/"
+  },
+  {
+    "id": "new-york-city-the-guggenheim-attraction",
+    "name": "The Guggenheim",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-guggenheim/"
+  },
+  {
+    "id": "new-york-city-the-hideaway-seaport-restaurant",
+    "name": "The Hideaway Seaport",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-bars-and-nightlife/the-hideaway-seaport/"
+  },
+  {
+    "id": "new-york-city-the-jeffrey-restaurant",
+    "name": "The Jeffrey",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/the-jeffrey/"
+  },
+  {
+    "id": "new-york-city-the-lowell-hotel",
+    "name": "The Lowell",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-lowell/"
+  },
+  {
+    "id": "new-york-city-the-manner-hotel",
+    "name": "The Manner",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
+    "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
+    "placeUrl": "https://themanner.com/"
+  },
+  {
+    "id": "new-york-city-the-mark-hotel",
+    "name": "The Mark",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-mark/"
+  },
+  {
+    "id": "new-york-city-the-metropolitan-museum-of-art-attraction",
+    "name": "The Metropolitan Museum of Art",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-metropolitan-museum-of-art/"
+  },
+  {
+    "id": "new-york-city-the-metropolitan-opera-attraction",
+    "name": "The Metropolitan Opera",
+    "category": "attraction",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/metropolitan-opera/"
+  },
+  {
+    "id": "new-york-city-the-penrose-restaurant",
+    "name": "The Penrose",
+    "category": "restaurant",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/penrose-bar/"
+  },
+  {
+    "id": "new-york-city-the-rooftop-at-the-manner-hotel",
+    "name": "The Rooftop at The Manner",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
+    "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
+    "placeUrl": "https://resy.com/cities/new-york-ny/venues/rooftop-at-the-manner?"
+  },
+  {
+    "id": "new-york-city-the-twenty-two-hotel",
+    "name": "The Twenty Two",
+    "category": "hotel",
+    "city": "New York City",
+    "country": "United States",
+    "source": "vogue",
+    "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
+    "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
+    "placeUrl": "https://www.thetwentytwo.com/newyork/"
+  },
+  {
+    "id": "new-york-city-tracy-anderson-method-tribeca-wellness",
+    "name": "Tracy Anderson Method Tribeca",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tracy-anderson-method-tribeca/"
+  },
+  {
+    "id": "new-york-city-tulura-wellness",
+    "name": "Tulura",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Lower Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tulura/"
+  },
+  {
+    "id": "new-york-city-upper-west-side-yoga-and-wellness-wellness",
+    "name": "Upper West Side Yoga & Wellness",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/upper-west-side-yoga-wellness/"
   },
   {
     "id": "new-york-city-ursus-books-shop",
@@ -3962,6 +4918,16 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/zabars/"
   },
   {
+    "id": "new-york-city-zitomer-wellness",
+    "name": "Zitomer",
+    "category": "wellness",
+    "city": "New York City",
+    "country": "United States",
+    "source": "goop",
+    "sourceTitle": "The Uptown Manhattan Guide",
+    "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/zitomer/"
+  },
+  {
     "id": "paris-au-passage-restaurant",
     "name": "Au Passage",
     "category": "restaurant",
@@ -3978,7 +4944,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.operadeparis.fr/en/visits/palais-garnier"
   },
@@ -3989,7 +4955,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://en.bar-bisou.fr/"
   },
@@ -4020,7 +4986,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/8R1h8mj7jPeeTf2eFhQJHh3Tu54Jei3FtXuQRjYytyiocmxsMejWQ8oHZt4vXC8GcsGEH47Do9cc49mtHacDBZMsWYRQfnGBFMfdtEYxYonPqHPAUgs91YSeRpCLJa6idLo5YQQedCDdKWateT1mUXZbRfufyLcypqYFt4p8Zr6c1x7EoHMyPVZm39KTZNFwVSyLQDbG7eTgfr6iamtXDKqUSkayqcAbp9nDpm2gNFjk8yKonj3PFkVn4NzfY3j18dwErLR1dLGW1UaiW2rpBNhNfxuSYP95MZU4nyPMBSDcU79P4k1o47uC4YPN7crCBJEXsjnWRFxA887n2mmHabQw6h99fULUmuaepx9aXt"
   },
@@ -4031,7 +4997,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.cafebreizh.com/"
   },
@@ -4042,7 +5008,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cafedeflore.fr/men"
   },
@@ -4053,7 +5019,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://maisonkitsune.com/"
   },
@@ -4084,7 +5050,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/KRg5MejLKBakf5N312WU7gEnFx8orGLzn78e422udSBzA1wh1WwszSz2mL2d9THGrMikUJ6Y5LdAPGRKjde7XWUTAv8mfx4hyuRhzTxUFLcYf4bscHzGijexPtRpN4FF4tpBkkTxGAoqLD3zpTqg95apMYLgdK6WhsKX2hgszCoKqnjbiWjRPdYRSNwXKmG1opWzRKyWSU3mxqJns8naBn8BXqQU6ajA96J1QwUfcM5yaMtoQNGyEL1Fvv1VkCaFjqbjvez6RXpej51TAqGgMHDo7F1t3rpBNBHVdt9UWEn2JdStCTFtfvxB9bE7rEecWC9UoYjBp"
   },
@@ -4095,7 +5061,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNRg8KXnokGoc2VrNqhGwJgqnqdVdXbKpHGmazMu23spFUPfnQse44TeV26vZTXU8ekkquoHYiys5Mp2fBA5A9cB87BAPwxTSG9AP46PgvQig18VjSvZv4H3qf8tFF5qPSsAs9FvX8L4XnxhCUW86PtVfwUJLMgCfgVEAs1X1CbPGpGnytU7QcDvgTQK35MBPmusHwwyEsTfijffYHRxVVhtbiTpUWzmJvRexFHASQ8AaTjxbAD96Krw3SkkrcSjUZ9KyU"
   },
@@ -4106,7 +5072,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.chezjanou.com/"
   },
@@ -4117,7 +5083,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.clown-bar-paris.fr/"
   },
@@ -4128,7 +5094,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.colorfulblack.com/en"
   },
@@ -4139,7 +5105,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://comice.paris/carte-menu"
   },
@@ -4160,7 +5126,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lecrazyhorseparis.com/en/"
   },
@@ -4171,7 +5137,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.darys-bijouterie-paris.fr/"
   },
@@ -4202,7 +5168,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.deyrolle.com/"
   },
@@ -4213,7 +5179,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
   },
@@ -4234,7 +5200,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.ferdi-restaurant.com/en/paris/"
   },
@@ -4255,7 +5221,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/5B83M5vYZfeZ6TN5XpU4suPcBBgNwfNJAmSJ1ENjHQqFmBdrr4AGBJDU8n6MRa9Df3BKGyYL5akGc9QAJfAdu7Fc4hH97Ag1MWRY16uGYBCU8p6HBZdw6PjXAgeAyCnE6UGFLjYsyz3adcuVmiuMZhXBBrkQkrHzR8bpmrC8ixG5F8vt6jaDMyBBAqV4iSFkNFrxMMkqCVwQD2zpEdXMaRkEU3HHtG4iVNEeKYowPHHR9UELfBJ7uhM5Ms8rdmw19kao8khVeyZyiQZnxXfJi5DGAFBJeVL9QBri5F1Qj6Uii7dDGdsPe87KbPDESEqPmdtdsNxS"
   },
@@ -4266,7 +5232,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://haussmann.galerieslafayette.com/en/"
   },
@@ -4277,7 +5243,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://girafe-restaurant.com/en/"
   },
@@ -4328,7 +5294,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.expedia.com/Paris-Hotels-Hotel-Des-Grands-Voyageurs.h2105.Hotel-Information"
   },
@@ -4349,7 +5315,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/wrdL3vpUnuv39Eqc5QoeMw4SRAq24Fo2m41gUVwSU9fgvAFvFmEruqbEzo5B6hNu8tK2C27Sx3qDzykaemJpujqGa2Rzx6bjE8KWwub3NHDaNCFAN5cYxZZ6Ynpx4g9RadxK72i8mQxbj7kQfHy96y5uXtbYcweRSdUWRMEA57svqKc5JKRpBsZEE2BzLkA2Qmb6WnBJFh5q9h2JC41By2WKD8j6KD5bG7jkTYCBpJ28dojvgLW9zZxcCh6ivYmXYKXJggWRmCdQ9quW5piHpg7Dis93u3ztWqYCAkvsM4LtLgmUn8niwNUuembNu9hg62PGga"
   },
@@ -4360,7 +5326,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/2QKuUE9XrFFhyh4Fqq7f4gUBpkzMTnSjG264iYKZRHpBVGoAPbHBE4ZginexrAZWmvecike5q6CHuuvm7fCuwQjbDFhBawRnz3bkRLoqKv2PQY5eNsoruqrfjYmPSn3vpXZKCB2ftYs9xX1zA3Y8Efe24sYYLrtGWYQAW1JQrRNme9BwgQiKGUpmZwgtxccSRvDTcxCrmhH1fCCV4i7JAa7YL3eU835hLV9zNyTRgD6RhBVLLbw8vq4cJ5xYWtnzYoKiEtDhZfPiziUYSBKuZ1GF9HKuV1x5ojpggrhQDo4AvSAMrd9B7nanqqdgJNtrMkL7UAbLLdg"
   },
@@ -4371,7 +5337,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/e14Jm3PRWDmLmUZNNpHufMUgoeAVFNZqqpvQqKjdfpZUdc7gA6bMnigEmQGuN2typoDqgNY9ksGpVzHLp8kSEehBAS9KVciwUbM4ZBrbf7hzf8yKGPometXmBCnxY9eFxho78hppeayjq1GWPE1K9SjHRZh3oPhf8YZzHVLhs9HtWWdCbGUtWtA9QSPXMV4L5U1nZDZtfLz8wLa4yVYgJs2Ud8UUYwVJJrSzwA1dHnWYgKfjCSQSVcnt8XJRrAgFugy3Ahph1Yu7NA3YGt9ngT3g5Y1gyE68rppHCKVGTe7midc6LrJ9L78EjKpCx8T7Vc"
   },
@@ -4392,7 +5358,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/wrdL3vpUnuv39Eqc5QoeMw4SRAq24Fo2m41gUVwSU9fgvAFvFmEruqbEzo5B6hNuE6RddCnxfngYfxmLnysBZuRXDTXhWvziraB1PraWjwsCetwZzupqzE5JiJP1mDbRpzVUC7sVAYkHkBqwirJgmJgnj9jnPVExYGTSH9qLoU3QQtXZzVoD7qPkeZqeWmFjNVhcJEqvmmyZaBACNPtWwmJkAS6R9T8MoczfBSzomKNz1hBT7VVrYHbGNx1KRpJ3ERATyYv3GC3kZZNtmJzQLBwXtHZWfwvgGCfLrVb82vjzfPLzAy3e3X8FChhKDPdhLGBdqc"
   },
@@ -4433,7 +5399,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lamutinerie.eu/"
   },
@@ -4454,7 +5420,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lafayettes-restaurant.com/"
   },
@@ -4485,7 +5451,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lebongeorges.paris/en/produits-de-maraichers-et-vins-de-proprietes/"
   },
@@ -4496,7 +5462,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/"
   },
@@ -4517,7 +5483,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lechateaubriand.net/"
   },
@@ -4528,7 +5494,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/71dqhxbhZaYe6Hx9otnmBkVUJtXvrnZo8Xtmj8ybLypmNFhNwgzF7otBRoGC3TMB7GewVHNdFeRo6Vw7QTFQRm9ifTTGf3LVEuejEnfZX5nvLrZKkwbzRJQiJu6gjXfi29Qaor4f8fNwA3qsntauXwfrymJK6mnwv1zgx4XpMuynbjW1hzP9myMBWEFzL62iJ7yXG4higCk4y1XBsQRWrxa527JWwaCNKQDrLvggXoMG8cCef2o82RgMKgxWFgqWiKUkzBengUBrRPJuSLbJXnEATqJMXYENkQbscoGUWn6JJKFqbqyPSXwDuQbiLn8xSuKT8vcB98WAJMsXsC81wvCDXdxCm8mJr3hakSWjhc7pLS2Cqo2NnuWi8UHgqEkygoKRT4NiLEH1Kh3goVyYy4VGhJ4NW9Hk7w4S4WT6eqMiwAvHBopzpY8jNjc8JAEGqoQ8qXNWogqi87NvMKpu6CrcuaSE92y8CzjneLeUG1XHsWCEynBVJxGNabhvf17D38m4QdusPeMF3JM6JSiXPXsy3zumnPXqaX1KwXE3f5Ue6MgHKomTUiSPcUoSvqH4wRSPfd8y4W3Dhc91s7YVE9xdpsF3FYKzhMnQTrYKoBRjqswBFKyKbJkJ1ayNzfHdcoLhKGE8hYV1wgHLa8GZpRnPQoTDzzeiwLe1wJGu6B5bV5YKPcx8nLvtLYUBiu7EfKwbUpUirjCWcgPyYx7tTyQy8FYSD3tA3jjYJXowYUeDYWmhaHp6SwK9BJSGbnK4xzPgBjoMHheKB7fzc2gJU7eesiWfLHMRDvmnk1mXfcUP8ACiFHc5caM25z3EcN5n8qhJSHCMdnGCpkcXobGTRXw6qBqmi8gPGpP8MiCEBqy9cPd5UgPfUw7FLxyjGXbJLJBKwyxEk1vJAPE7oQMMuMzgVLQUfbLn2xcKsxzdA8rAD6N65pNKg3bixnkxgvf4ufLmQkVZvRvVAbDYqrjTaibahxktkbVguiHa2D8zCqmoHytYCfBXGowvX8CG3U7fzJuKSKVHSHxQqbpaiUTBjHPPJ94EPXB5Lu9HyuJA"
   },
@@ -4539,7 +5505,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.rosewoodhotels.com/fr/hotel-de-crillon/dining/jardin-d-hiver"
   },
@@ -4550,7 +5516,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://lerecamier.com/page-daccueil.html"
   },
@@ -4561,7 +5527,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lesouffle.fr/"
   },
@@ -4582,7 +5548,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/"
   },
@@ -4593,7 +5559,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/loulou-paris-english"
   },
@@ -4614,7 +5580,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/4pDSKR9fHyZqTp2DUKyrQLi3Q9WhqSCCa2UeJNzRhJgG7m83abGAjFTMhwWkHNgXsStg17g8JCd3pPZgxybANphqkM7GBn1xT9AhWwYLgaUBm62hQXP8HhENxnnD3MJSXrvcbLxSnFjUtJxnywtBtp6TMdW5opAqYS2SLpBQEkMfaQNG2Ek2SGy3cXfrawiTKDMQQQhGBDuXPoNmXjTE1pDztBvgGVd6b5qgpxeGFeHEhUxeh3L5zvDL2vwuLLWsQhjQAdJX6pMr85zcYThGnqf7AG8Ysob8UxzphgJ6mc8tTqVEM33nLFyaS"
   },
@@ -4635,7 +5601,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.dior.com/en_us/fashion/news-savoir-faire/folder-news-and-events/30-montaigne-restaurant"
   },
@@ -4676,7 +5642,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://merci-merci.com/"
   },
@@ -4689,6 +5655,16 @@ export const PLACES = [
     "source": "goop",
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/mes-demoiselles/"
+  },
+  {
+    "id": "paris-mirz-yoga-wellness",
+    "name": "Mirz Yoga",
+    "category": "wellness",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/19th-arrondissement-health-and-beauty/mirz-yoga/"
   },
   {
     "id": "paris-miznon-restaurant",
@@ -4707,7 +5683,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.musee-orsay.fr/fr"
   },
@@ -4718,7 +5694,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://madparis.fr/"
   },
@@ -4729,7 +5705,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://noglu.fr/"
   },
@@ -4740,7 +5716,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://nuovo-paris.com/"
   },
@@ -4761,7 +5737,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://pascalemonvoisin.com/en/"
   },
@@ -4772,7 +5748,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/v6nQvBesQrzd9CydjaL4uVsofwAhAsBPeofgHATX8qnn4asHKwo54DaV1r4XKESWZQ1qkxNC98kFFbBfRxcvaDu5BmsfPJj3dk3BdqagMxa51qwi39dX5NejjFXYtkQyv39FUBuTpVGvp3doKEheCohtSG3RZnDP7dVrL63d3YQuiku9UnpwGZ4oh5WTiADas96yS4MGLr16FriefWMVxvguM3MYi7uG1Sk86WHuU67VcaMnCi34yt7bwnaJgaRnZNePNYVZeVcxXFVmmLyLiEBStmPhLFiQvXSWY1UrakXtmYUCwFEvhh2fKjTRPuPcFqEdGoiQRZcew2YHJq8co5dFWTehnkv691LtWjet9MN1hwYjQqngj7mnY6BsXY"
   },
@@ -4783,7 +5759,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.pierreherme.com/"
   },
@@ -4794,7 +5770,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.pinaultcollection.com/en"
   },
@@ -4815,7 +5791,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNS5XHm3FTVXDHL1To8P9yPCWUEaBfMghKPasVePMMWypfrSqS9AXYux3EnYXt6pFvFRc8adfUb1FPcdnK4DGonNsjU3EMUrJLJ4CzDExYRX8NBoTyai8NWUaa4YGd1Y6ptGzYoQNzBsynZrh8hBthSm7ndH2jqw2WwCKV62jNkG8MFVFqvUK41P9DRADGFxXvS46541sk9M2PQ7Bb9sm7aaT3innyP8nAtspsQkXjDzvaEurAf9wHnMtdptA7ZfHQasna"
   },
@@ -4846,7 +5822,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://us.rouje.com/"
   },
@@ -4857,7 +5833,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/7BxSbB2fAMuusDoNWXNP1FCzmoA9KDaZXHoMQMEv6DDFHnikSiJQ8ejGKSWfK7CSFeGMuySCTkCDpuNHe4NtiyikBdYqD7VWpEpi2o9dnt5145x4ouyx74U8g8znyq5HF7NsuUdeAKT4BcP7ZJD5v2KwzPRAUAYHAu93E3qWkgZXzvmuRu3q3XiyhWVtHCHsN6k14XpevtktJUVUHk3X49eSvU1K6E7XYzi7rCZ9wbM365HXitRBcPjsntwL7hF1uQQstqNbsZ4zL3494nBmNCtBirkV8XyC66CZwAZnQFnYAT1ksWkJZd4MrpS9GV8quVzhJqwwyPXp"
   },
@@ -4868,7 +5844,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.christophe-robin.salon/"
   },
@@ -4879,7 +5855,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://simrane.com/en/"
   },
@@ -4890,7 +5866,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/28iSGvNLVT39oMQ6buUZncWa39XfmTXuMer86tdrwTvDdVbezSEnubEuy8AjjAtgCL6of1QUbnh1prvjR997LXd8QDufAFcDAjDV46dfXTxvx4QHXsY7TCwuREjwBLgkNHyNKr6e21JYB9i7zrbKC885iZjaJSdAnkW6Pvafd3xpojzU8FtC9G1qw5j2JqmHGS4eTETUqx1g5T9Strwt7bD4Qc6jCm6VTfoE9n53HVBC9CMFx7DFeDDs5XxwwJeLbUbdU75ECgiBHSmtpWcsqniiubqMYt6ueK158D185CmfnaGirZWHN1ji3vTbwXjjWTzgmRGrm446V5eJU9UZZ6YeeSaHoiH7wwed8"
   },
@@ -4901,9 +5877,29 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
+  },
+  {
+    "id": "paris-the-broken-arm-shop",
+    "name": "The Broken Arm",
+    "category": "shop",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/the-broken-arm/"
+  },
+  {
+    "id": "paris-the-kooples-shop",
+    "name": "The Kooples",
+    "category": "shop",
+    "city": "Paris",
+    "country": "France",
+    "source": "goop",
+    "sourceTitle": "The Paris Hipster Guide",
+    "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/kooples-2/"
   },
   {
     "id": "paris-villa-des-pr-s-hotel-hotel",
@@ -4912,7 +5908,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "Below, find  Vogue ’s Paris travel guide.",
+    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.villadespres.com/en/"
   },
@@ -4943,7 +5939,7 @@ export const PLACES = [
     "city": "Seoul",
     "country": "South Korea",
     "source": "vogue",
-    "sourceTitle": "A Land",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "placeUrl": "https://www.vogue.com/866831/chop-chop-model-soo-joo-park-sits-for-a-cut-with-christiaan-houtenbos/"
   },
@@ -4954,7 +5950,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/35a2Pj22cNjnRKnuYridSEFmjjmBxMLozJtCuJViiNrYkZ6bEWws8UTXpXCm7P8VMqsJZ5JCqJvj5FybqsxkqqU8VMYSKNBYf79DrGG3DQEs6oieQq5yGW57DnH78ReT4EEmWhGnc1inMNbiHoDDa3U3sBnEU7w7q3gwPphK12nZzaQjZEEyGcqdKFk63uzGnMcxGwkQKRAfkhjsShUbW5t6HY8EqWC3Vb4vbAQQ62XqAAENCEgh7zDUX5TLYpTmdDtRM8Qe993j3armdjEP4ZE44BEPPdxqCokTZ2AjNiXKoH8M1m7GVdQ8nMNNCz7WUNDyuhmUfMCDX1k"
   },
@@ -4965,7 +5961,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/EbxtFkHZLuQbEbrtZeN1eoGmURFV4cWUnFjDvaDmQZWzQTQDv6dT32bohGgNNXMzZ1JcxD12dy5jzQ12Cfe1MnfBSnyx5sJTf7bufhT5qASz1PV3Gzj7wVffajBRXzbCCLASCFEt1aeySEEvf3f3GZXtTkzxQ7GoPswXCHUMagnTqe8bH6H3nfoFZd38nBUR5t1wytjWWJRUxnSd3wubFB4PHaqJf7W1AwspXMxxcJaXQ7bPPqgPfKSE6kbAsJNNUbWUiqtEgynL9AU5zkaM3nP3AkrbQauSfPYqsHYAuhM5rFG9wwmpdbUEBhayTwxLk75YaaRGqxuSaRnSXndQ"
   },
@@ -4976,7 +5972,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/3j63gbMkR4nGMuRkekq9gnTUwxwo6BomSi5uLPdEzdati24cSqax3Wuqx2zg8LW6WwJ5CzdzPgViZqmVPGpmtLBbPqAUnGWpZwALEgz3crLMLNLbiKd9Xax11DwkHtkfPeJXhey8abJKSirkVBgHuGTNEjKBvfyavU6t6Zsx7kFg7ifARv8WLqjoaPHaoSs8Akv5UsL4snUHXXUU7zL8CKbUKJ4ZMSNCaQrTPpnjjKvpUMTvHg64fGDpi4F51BsP8Me2pvNmwwdGTZtKNsvf4GMDhXvtp24q9UySQNMDu8CdHHEG8DR5Ecp7K9tgwHtSFhEhBycRb2a8j2vDQrzri4LZ6Mqp9j1Zuz8oKsWVd56rmZNxUJaxaHanbBu4"
   },
@@ -4987,7 +5983,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/MAg6NTLYhSzigA2vuJGJAiPEUCBxWEKmiztR6wTbG9TihGvF8213qZ67n4SKDp7uoqzMa8VVXPT91wS1oqMuZUap5CRoqY1gBCyD7P1z9pEdgbNKJrKw2fm6jHS8jJehmfdYRdiY51Sydw9uJBRUKdUtDFQXzkiWacqgqV2Y882DY1Dm7xr2JwZA497g7mu3hcLvZt8Yu2zzBk6uhmxrwNo9dnZJ18dEf4LNC5cq6FzoU7nNbychabY5kE7Go7frW7m1iVvGtuti6hMprTNBgXW3LSegNdPXgKcdrYkUWxPv7FL5ov6sqxevpAg1pPXkmhFd1pjRTYYoWvYDiAf27Wbk"
   },
@@ -4998,7 +5994,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/KRg5MejLKBakf5N312WU7gEnFx8orGLzn78e422udSBzA1wh1WwszSz2mL2d9THGrBoFdhSiAbWp3tA2E5kQEbU54ZajMKnycAn77Dm8LSeC4cj2csnWApbKvGjbRFSDdQbrLk5srd6u7s3cJ7mWB2Wpas11XrerKPnFGmgmgQfWP3VhgbqRRcgjCssu3JLTYUJ2vLYbR2Js4qFrSExeKbrpPNFjsswznNBLpmw2vpzWXhJb3Uvzt8dCoVexhwcpV5pD2MZZvzUdo8Ppt5SDcr335bBwxppo8UXYk2tiW3zfqVJpvMA2F8i9Em91tUny9EF4Ns2i6"
   },
@@ -5009,7 +6005,7 @@ export const PLACES = [
     "city": "Tokyo",
     "country": "Japan",
     "source": "vogue",
-    "sourceTitle": "## Vogue’s favorite hotels in Tokyo",
+    "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/31iBLyJC6EiugmvFMBAgSWLfUXqd2ay4t5F4CTVuCWdLK92ci8LFuSj2VCQZ2d66rmiaYvP51FTuhkcazwHNsLqBDvavyUEJyk7NbkNZbCbRqwUJbVGosizsCyF7jMqmPWXS3B3jZszJVcqc5xV6SUN2qvJ3Sd3WjTqiskrHrLj1LNsbVVYXEaHiKoS3xUFqPdhCZ6j4rEXRpyWALFdVPsFkogUuhCTV9qRmk9hEFSbxRtxCsqFYtrSzKVcdDVo7hAExnFp2jDVdyFS6UnD2QhndyjWmZp1EXsWjMMdiNhDu525GA9mEsgXCbrZBMid7xcrA7efihrTngBYdS5xrb3fBY82t6um8XRoTGKd9QDgpJBg2NhMSVJPMCPhcceSRmN9aYUr"
   }

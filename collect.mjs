@@ -65,13 +65,70 @@ function cleanUrl(url) {
   }
 }
 
+/** Editorial / dek lines that must never become guide titles or source titles. */
+function isEditorialFluffLine(line) {
+  const s = (line ?? "").trim();
+  if (!s) return true;
+  const lower = s.toLowerCase();
+  if (/^below,?\s*find\b/i.test(lower)) return true;
+  if (/without\s+further\s+ado/i.test(lower)) return true;
+  if (/\bvogue\b/i.test(lower) && /\bguide\b/i.test(lower)) return true;
+  if (/editor'?s\s+(official\s+)?guide\b/i.test(lower)) return true;
+  if (/^\*{0,2}\s*vogue\b/i.test(lower)) return true;
+  if (/photographs?\s+(by|courtesy)/i.test(lower)) return true;
+  if (/^(published|posted|updated)\s+/i.test(lower)) return true;
+  return false;
+}
+
 /** @param {string} text */
 function titleFromText(text) {
   const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
   const h1 = lines.find((l) => /^#\s+\S/.test(l));
-  if (h1) return h1.replace(/^#\s+/, "").trim();
-  const first = lines.find((l) => l.length > 3 && l.length < 140);
+  if (h1) {
+    const t = h1.replace(/^#\s+/, "").trim();
+    if (!isEditorialFluffLine(t)) return t;
+  }
+  const first = lines.find(
+    (l) =>
+      l.length > 3 &&
+      l.length < 140 &&
+      !/^#{2,3}\s/.test(l) &&
+      !isEditorialFluffLine(l),
+  );
   return first || "Guide";
+}
+
+/** Decode common entities in og:title / title attributes. */
+function decodeHtmlEntities(s) {
+  return (s ?? "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#0*39;/g, "'")
+    .replace(/&#x27;/gi, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
+
+/** Prefer og:title, then document title (stripped of site suffix). */
+function extractHtmlArticleTitle(html) {
+  const og =
+    /<meta[^>]*property=["']og:title["'][^>]*content=["']([^"']+)["']/i.exec(html) ||
+    /<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:title["']/i.exec(html);
+  if (og) {
+    let t = decodeHtmlEntities(og[1]).trim();
+    t = t.replace(/\s*\|\s*Vogue\s*$/i, "").replace(/\s*\|\s*Goop\s*$/i, "").trim();
+    if (t && !isEditorialFluffLine(t)) return t;
+  }
+  const tit = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(html);
+  if (tit) {
+    let t = stripTags(tit[1])
+      .replace(/\s*\|\s*Vogue\s*$/i, "")
+      .replace(/\s*\|\s*Goop\s*$/i, "")
+      .trim();
+    t = decodeHtmlEntities(t);
+    if (t && !isEditorialFluffLine(t)) return t;
+  }
+  return null;
 }
 
 /** @param {string} s */
@@ -230,9 +287,9 @@ function inferCategoryFromHeadingLine(line) {
   const hotelRx =
     /\b(where to stay|hotels?|hotel guide|hotel picks|accommodation|lodging|places to stay)\b/;
   const wellnessRx =
-    /\b(wellness|spas?\b|spa\b|fitness|gym\b|pilates|yoga|health\s*(and\s*)?beauty|salon\b|beauty\s+services)\b/;
+    /\b(wellness|spas?\b|spa\b|fitness|gyms?\b|pilates|yoga|health\s*(and\s*|&\s*)beauty|beauty\s*(and\s*|&\s*)health|salons?\b|beauty\s+services|clinics?\b|medical\b|dermatolog|massage|facials?\b|skin\s*care|acupuncture|osteopath|physio|cryotherapy|barbershop|\bbarber\b)\b/;
   const attractionRx =
-    /\b(what to see|things to do|sightseeing|attractions?|museums?|museum guide|galleries|\bgallery\b|culture\b|cultural|landmarks?|\bparks?\b|castle|palaces?|monuments?|historic)\b/;
+    /\b(what to see|things to do|sightseeing|attractions?|museums?|museum guide|galleries|\bgallery\b|culture\b|cultural|landmarks?|\bparks?\b|castle|palaces?|monuments?|historic|exhibitions?|botanical|zoos?\b|aquarium|architecture)\b/;
   const shopRx = /\b(where to shop|shopping|shops?\b|stores?|boutiques?|retail|markets?\b)\b/;
   const restaurantRx =
     /\b(where to eat|restaurants?|dining|food\b|\bbars?\b|\bcafes?\b|\bcafés?\b|coffee|baker(y|ies)|breakfast|brunch|where to drink)\b/;
@@ -256,9 +313,13 @@ function inferCategoryFromMetaType(typeRaw) {
   if (!t) return null;
 
   if (/\b(hotel|ryokan|inn|resort|hostel)\b/i.test(t)) return "hotel";
-  if (/\b(spa|wellness|salon|gym|yoga|pilates|fitness|beauty)\b/i.test(t)) return "wellness";
   if (
-    /\b(museum|museo|gallery|park|castle|palace|landmark|attraction|monument|church|temple|plaza|university|universidad|historic)\b/i.test(t)
+    /\b(spa|wellness|salon|gym|yoga|pilates|fitness|beauty|clinic|medical|massage|facial|nails|brows?|lashes|dermatolog|skin|acupuncture|osteopath|physio|cryotherapy|barbershop|barber)\b/i.test(t)
+  ) {
+    return "wellness";
+  }
+  if (
+    /\b(museum|museo|gallery|park|castle|palace|landmark|attraction|monument|church|temple|plaza|university|universidad|historic|botanical|zoo|aquarium|exhibition)\b/i.test(t)
   ) {
     return "attraction";
   }
@@ -277,13 +338,18 @@ function inferCategoryFromName(name) {
   const lower = (name ?? "").trim().toLowerCase();
   if (!lower) return null;
 
-  if (/\b(m\.d\.|d\.o\.|clinic)\b/i.test(name)) return "wellness";
-  if (/\b(spa\b|yoga|pilates|salon\b)\b/i.test(lower)) return "wellness";
+  if (/\b(m\.d\.|d\.o\.|clinic|medical)\b/i.test(name)) return "wellness";
+  if (
+    /\b(spa\b|yoga|pilates|salon\b|massage|facial|cryotherapy|acupuncture|osteopath|physio|barbershop|\bbarber\b|medspa|anti-aging)\b/i.test(lower)
+  ) {
+    return "wellness";
+  }
+  if (/\b(gym\b|fitness\b|crossfit\b|\bspin\b|soulcycle)\b/i.test(lower)) return "wellness";
 
   if (/\b(hotel|hôtel|ryokan)\b/i.test(lower)) return "hotel";
 
   if (
-    /\bmuseo\b|\bmuseum\b|\bgallery\b|\bpark\b|\bcastle\b|\bpalace\b|\bmonument\b|\bcathedral\b|\bplaza\b/i.test(lower)
+    /\bmuseo\b|\bmuseum\b|\bgallery\b|\bpark\b|\bcastle\b|\bpalace\b|\bmonument\b|\bcathedral\b|\bplaza\b|\bzoo\b|\baquarium\b|\bobservatory\b|\bbotanical\b/i.test(lower)
   ) {
     return "attraction";
   }
@@ -294,14 +360,47 @@ function inferCategoryFromName(name) {
 }
 
 /**
+ * Goop /place/ URL paths often encode vertical (spa, health-and-beauty, etc.).
+ * @param {string} placeUrl
+ * @returns {Category | null}
+ */
+function inferCategoryFromPlaceUrl(placeUrl) {
+  try {
+    const u = new URL(placeUrl);
+    const host = u.hostname.toLowerCase();
+    const p = u.pathname.toLowerCase();
+    if (!host.includes("goop.com")) return null;
+    if (
+      /\/(spa|wellness|beauty|health|fitness|skin|massage|salon|health-and-beauty|health-and-wellness)\b/.test(p)
+    ) {
+      return "wellness";
+    }
+    if (
+      /\/(museum|gallery|activities|sightseeing|park|attractions|cultural)\b/.test(p) ||
+      /\/things-to-do\b/.test(p)
+    ) {
+      return "attraction";
+    }
+    if (/\/(hotel|hotels|accommodation)\b/.test(p)) return "hotel";
+    if (/\/(shop|shopping|stores|boutiques)\b/.test(p)) return "shop";
+    if (/\/(restaurant|restaurants|dining|cafes|bars)\b/.test(p)) return "restaurant";
+  } catch {
+    // ignore
+  }
+  return null;
+}
+
+/**
  * @param {Category | null} sectionCategory from nearest ## heading
  * @param {string} metaType Goop postcard line before ·
  * @param {string} name
  * @param {Guide} guide
+ * @param {string} placeUrl
  */
-function resolvePlaceCategory(sectionCategory, metaType, name, guide) {
+function resolvePlaceCategory(sectionCategory, metaType, name, guide, placeUrl) {
   const metaCat = inferCategoryFromMetaType(metaType);
   const nameCat = inferCategoryFromName(name);
+  const urlCat = inferCategoryFromPlaceUrl(placeUrl);
 
   const nameKey = name
     .normalize("NFD")
@@ -314,14 +413,23 @@ function resolvePlaceCategory(sectionCategory, metaType, name, guide) {
   if (nameCat === "attraction" && (sectionCategory === "shop" || sectionCategory === "restaurant")) {
     return "attraction";
   }
-  if (nameCat === "wellness" && (sectionCategory === "shop" || sectionCategory === "attraction")) {
+  if (
+    nameCat === "wellness" &&
+    (sectionCategory === "shop" || sectionCategory === "attraction" || sectionCategory === "restaurant")
+  ) {
     return "wellness";
   }
   if (nameCat === "restaurant" && sectionCategory === "hotel") return "restaurant";
 
   if (metaCat === "shop" && sectionCategory === "hotel") return "shop";
 
+  if (urlCat === "wellness" && (sectionCategory === "shop" || sectionCategory === "restaurant")) {
+    return "wellness";
+  }
+  if (urlCat === "attraction" && sectionCategory === "shop") return "attraction";
+
   if (sectionCategory) return sectionCategory;
+  if (urlCat) return urlCat;
   if (metaCat) return metaCat;
   if (nameCat) return nameCat;
   return guide.defaultCategory ?? "restaurant";
@@ -628,15 +736,17 @@ function isLikelyVenueName(name) {
   // Reject obviously descriptive phrases / sentences.
   if (/[.!?]/.test(n)) return false;
   if (/\b(this|that|these|those|here|below|while|when|because)\b/i.test(n)) return false;
-  if (/^(a|an|the)\b/i.test(n)) return false;
+  // Reject bare indefinite articles only; allow "The Ned", "The Connaught Spa", etc.
+  if (/^(a|an)\b/i.test(n)) return false;
 
   // Must look like a proper noun: starts with upper/digit and has at least one uppercase.
   if (!/^[A-Z0-9]/.test(n)) return false;
   if (!/[A-Z]/.test(n)) return false;
 
-  // Too many words is usually a description, not a venue.
+  // Too many words is usually a description, not a venue (allow longer clinic names).
   const wordCount = n.split(/\s+/).filter(Boolean).length;
-  if (wordCount > 7) return false;
+  const maxWords = /\b(M\.D\.|D\.O\.|Clinic|Medical|Hospital)\b/i.test(n) ? 10 : 7;
+  if (wordCount > maxWords) return false;
 
   return true;
 }
@@ -670,8 +780,13 @@ async function loadGuideText(guide) {
   }
 
   if (/<\/html>/i.test(body) || /<body\b/i.test(body)) {
+    const articleTitle = extractHtmlArticleTitle(body);
     const scoped = extractMainContentHtml(body);
-    return htmlToPseudoMarkdown(scoped, guide.guideUrl);
+    let md = htmlToPseudoMarkdown(scoped, guide.guideUrl);
+    if (articleTitle && !/^#\s+\S/m.test(md)) {
+      md = `# ${articleTitle}\n\n${md}`;
+    }
+    return md;
   }
   return body;
 }
@@ -714,7 +829,7 @@ function extractGoop(text, guide, stats) {
       const [typeRaw, neighborhoodRaw] = meta.split("·").map((x) => x.trim());
       const neighborhood = neighborhoodRaw || undefined;
 
-      const category = resolvePlaceCategory(sectionFromHeading, typeRaw ?? "", name, guide);
+      const category = resolvePlaceCategory(sectionFromHeading, typeRaw ?? "", name, guide, placeUrl);
 
       const candidate = {
         id: `${slugify(guide.city)}-${slugify(name)}-${category}`,
@@ -772,7 +887,7 @@ function extractGoop(text, guide, stats) {
 
     if (!placeUrl) continue;
 
-    const category = resolvePlaceCategory(current, "", name, guide);
+    const category = resolvePlaceCategory(current, "", name, guide, placeUrl);
 
     const v = validatePlace(name, placeUrl, guide, stats);
     if (!v.ok) continue;
@@ -838,7 +953,7 @@ function extractVogue(text, guide, stats) {
 
       const placeUrl = cleanUrl(m[2]);
 
-      const category = resolvePlaceCategory(sectionCategory, "", name, guide);
+      const category = resolvePlaceCategory(sectionCategory, "", name, guide, placeUrl);
 
       const v = validatePlace(name, placeUrl, guide, stats);
       if (!v.ok) continue;
