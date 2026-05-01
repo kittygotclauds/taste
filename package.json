@@ -1,0 +1,10 @@
+{
+  "name": "taste",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "collect": "node scripts/collect.mjs"
+  }
+}
+
