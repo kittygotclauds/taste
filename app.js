@@ -155,6 +155,24 @@ function escapeHtml(s) {
     .replaceAll("'", "&#039;");
 }
 
+/** Strip legacy Vogue deks if cached assets still serve old data. */
+function displayCitationTitle(p) {
+  let t = (p.sourceTitle ?? "").trim();
+  const folded = t
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/[\u2018\u2019\u0060]/g, "'")
+    .toLowerCase();
+  if (/below\s*[,.]?\s*find\b/.test(folded) && /\bvogue\b/.test(folded)) {
+    return `${SOURCES[p.source]}: ${p.city}`;
+  }
+  if (/\bvogue\b/.test(folded) && /\bguide\b/.test(folded) && /\b(below|find)\b/.test(folded)) {
+    return `${SOURCES[p.source]}: ${p.city}`;
+  }
+  if (!t) return `Read on ${SOURCES[p.source]}`;
+  return t;
+}
+
 function card(p) {
   const cityLine = [p.neighborhood, `${p.city}, ${p.country}`].filter(Boolean).join(SEP);
   const tags = (p.tags ?? []).slice(0, 5);
@@ -165,7 +183,7 @@ function card(p) {
   ].join("");
 
   const safeSourceUrl = p.sourceUrl;
-  const safeSourceTitle = p.sourceTitle || `Read on ${SOURCES[p.source]}`;
+  const safeSourceTitle = displayCitationTitle(p);
   const safePlaceUrl = p.placeUrl;
 
   return `

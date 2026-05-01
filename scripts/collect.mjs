@@ -65,12 +65,22 @@ function cleanUrl(url) {
   }
 }
 
+/** Fold unicode punctuation so curly apostrophes still match fluff patterns. */
+function foldForFluff(line) {
+  return (line ?? "")
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/[\u2018\u2019\u0060]/g, "'")
+    .toLowerCase();
+}
+
 /** Editorial / dek lines that must never become guide titles or source titles. */
 function isEditorialFluffLine(line) {
   const s = (line ?? "").trim();
   if (!s) return true;
-  const lower = s.toLowerCase();
-  if (/^below,?\s*find\b/i.test(lower)) return true;
+  const lower = foldForFluff(s);
+  if (/below\s*[,.]?\s*find\b/.test(lower)) return true;
+  if (/below\b/.test(lower) && /\bfind\b/.test(lower) && /\bvogue\b/.test(lower)) return true;
   if (/without\s+further\s+ado/i.test(lower)) return true;
   if (/\bvogue\b/i.test(lower) && /\bguide\b/i.test(lower)) return true;
   if (/editor'?s\s+(official\s+)?guide\b/i.test(lower)) return true;
@@ -78,6 +88,16 @@ function isEditorialFluffLine(line) {
   if (/photographs?\s+(by|courtesy)/i.test(lower)) return true;
   if (/^(published|posted|updated)\s+/i.test(lower)) return true;
   return false;
+}
+
+/** Stable citation line per listing (never raw article deks). */
+function pickGuideDisplayTitle(text, guide) {
+  const raw = titleFromText(text).trim();
+  if (!raw || isEditorialFluffLine(raw)) {
+    const src = guide.source === "goop" ? "Goop" : "Vogue";
+    return `${src}: ${guide.city}`;
+  }
+  return raw;
 }
 
 /** @param {string} text */
@@ -287,7 +307,7 @@ function inferCategoryFromHeadingLine(line) {
   const hotelRx =
     /\b(where to stay|hotels?|hotel guide|hotel picks|accommodation|lodging|places to stay)\b/;
   const wellnessRx =
-    /\b(wellness|spas?\b|spa\b|fitness|gyms?\b|pilates|yoga|health\s*(and\s*|&\s*)beauty|beauty\s*(and\s*|&\s*)health|salons?\b|beauty\s+services|clinics?\b|medical\b|dermatolog|massage|facials?\b|skin\s*care|acupuncture|osteopath|physio|cryotherapy|barbershop|\bbarber\b)\b/;
+    /\b(wellness|spas?\b|spa\b|fitness|gyms?\b|pilates|yoga|health\s*(and\s*|&\s*)beauty|beauty\s*(and\s*|&\s*)health|beauty\s*(and\s*|&\s*)wellness|wellness\s*(and\s*|&\s*)beauty|salons?\b|beauty\s+services|clinics?\b|medical\b|dermatolog|massage|facials?\b|skin\s*care|acupuncture|osteopath|physio|cryotherapy|barbershop|\bbarber\b)\b/;
   const attractionRx =
     /\b(what to see|things to do|sightseeing|attractions?|museums?|museum guide|galleries|\bgallery\b|culture\b|cultural|landmarks?|\bparks?\b|castle|palaces?|monuments?|historic|exhibitions?|botanical|zoos?\b|aquarium|architecture)\b/;
   const shopRx = /\b(where to shop|shopping|shops?\b|stores?|boutiques?|retail|markets?\b)\b/;
@@ -344,7 +364,9 @@ function inferCategoryFromName(name) {
   ) {
     return "wellness";
   }
-  if (/\b(gym\b|fitness\b|crossfit\b|\bspin\b|soulcycle)\b/i.test(lower)) return "wellness";
+  if (/\b(gym\b|fitness\b|crossfit\b|\bspin\b|soulcycle|facegym|bodyism|\bblok\b)\b/i.test(lower)) {
+    return "wellness";
+  }
 
   if (/\b(hotel|hôtel|ryokan)\b/i.test(lower)) return "hotel";
 
@@ -751,32 +773,45 @@ function isLikelyVenueName(name) {
   return true;
 }
 
+/** Browser-like headers — Goop often returns 403 to minimal bots; localFile mirrors then apply. */
+const GUIDE_FETCH_HEADERS = {
+  "user-agent":
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+  accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.9",
+};
+
+/** @param {string} url */
+async function tryFetchGuide(url) {
+  try {
+    const res = await fetch(url, {
+      headers: GUIDE_FETCH_HEADERS,
+      redirect: "follow",
+    });
+    if (!res.ok) return null;
+    return await res.text();
+  } catch {
+    return null;
+  }
+}
+
 /** @param {Guide} guide */
 async function loadGuideText(guide) {
-  /** @type {string} */
-  let body;
-  if (guide.localFile) {
+  /** @type {string | null} */
+  let body = await tryFetchGuide(guide.guideUrl);
+
+  if (!body && guide.localFile) {
     try {
       body = await fs.readFile(guide.localFile, "utf8");
     } catch {
-      const res = await fetch(guide.guideUrl, {
-        headers: {
-          "user-agent": "taste-collector/1.0 (+https://github.com/kittygotclauds/taste)",
-          accept: "text/html,*/*",
-        },
-      });
-      if (!res.ok) throw new Error(`Failed to fetch ${guide.guideUrl}: ${res.status}`);
-      body = await res.text();
+      body = null;
     }
-  } else {
-    const res = await fetch(guide.guideUrl, {
-      headers: {
-        "user-agent": "taste-collector/1.0 (+https://github.com/kittygotclauds/taste)",
-        accept: "text/html,*/*",
-      },
-    });
-    if (!res.ok) throw new Error(`Failed to fetch ${guide.guideUrl}: ${res.status}`);
-    body = await res.text();
+  }
+
+  if (!body) {
+    throw new Error(
+      `Could not load guide (${guide.guideUrl}). Fetch failed (often HTTP 403 outside a browser) and no readable localFile.`,
+    );
   }
 
   if (/<\/html>/i.test(body) || /<body\b/i.test(body)) {
@@ -839,7 +874,7 @@ function extractGoop(text, guide, stats) {
         country: guide.country,
         neighborhood,
         source: "goop",
-        sourceTitle: titleFromText(text),
+        sourceTitle: pickGuideDisplayTitle(text, guide),
         sourceUrl: cleanUrl(guide.guideUrl),
         placeUrl,
       };
@@ -900,7 +935,7 @@ function extractGoop(text, guide, stats) {
       country: guide.country,
       neighborhood,
       source: "goop",
-      sourceTitle: titleFromText(text),
+      sourceTitle: pickGuideDisplayTitle(text, guide),
       sourceUrl: placeUrl,
     });
   }
@@ -965,7 +1000,7 @@ function extractVogue(text, guide, stats) {
         city: guide.city,
         country: guide.country,
         source: "vogue",
-        sourceTitle: titleFromText(text),
+        sourceTitle: pickGuideDisplayTitle(text, guide),
         sourceUrl: cleanUrl(guide.guideUrl),
         placeUrl,
       });
