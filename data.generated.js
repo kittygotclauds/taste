@@ -2045,7 +2045,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.anajakthai.com/"
   },
@@ -2056,7 +2056,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.angelinibeverly.com/"
   },
@@ -2067,7 +2067,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.bodenewyork.com/pages/bode-los-angeles"
   },
@@ -2078,7 +2078,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.brentwoodgeneralstore.com/pages/our-story"
   },
@@ -2089,7 +2089,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/"
   },
@@ -2100,7 +2100,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.casavega.com/"
   },
@@ -2111,7 +2111,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.chateaumarmont.com/"
   },
@@ -2122,7 +2122,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://couragebagels.com/"
   },
@@ -2133,7 +2133,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://craigs.la/"
   },
@@ -2144,7 +2144,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://dantanasrestaurant.com/"
   },
@@ -2155,7 +2155,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.foundoyster.com/"
   },
@@ -2166,7 +2166,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.giorgio-baldi.com/"
   },
@@ -2177,7 +2177,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://thehappyisles.com/"
   },
@@ -2188,7 +2188,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
   },
@@ -2199,7 +2199,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.huckleberrycafe.com/"
   },
@@ -2210,7 +2210,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://joansonthird.com/"
   },
@@ -2221,7 +2221,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.jonandvinnys.com/"
   },
@@ -2232,7 +2232,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.lascalabeverlyhills.com/"
   },
@@ -2243,7 +2243,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://manuela-la.com/"
   },
@@ -2254,7 +2254,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/613tZGZB2ZvVqb2wj4cfiKjWpUeN7E7Q6A3pLzuhRPotk5DxgWPsd88Qnidyb8f5ziY9DvRab69ENUKoN8WUzJi68LpnWbgSF6EQSMDyayBsxXHdDEmTb4EhN18hP222t7voxqtatv4kf74sPgHPgwixpCn5zWfenEnMcLNwfLwxF1PdpNi5pjTWNqMTq2UwXmJFhq4FyCmbsaKgG73ZB2xV1XK4Ka2HvZwexFrj1UDGk9mn8zVf4kCibnvETeZFbcmMwmAAanxrttDRHxbWLcSrAzXbUdBPtcsPBA4b3uVc9fDYujYNMP1o6aLWTeTNGzBQ4tkXDrECjLkNASEBp1vMzowmLDUTDkdsGf"
   },
@@ -2265,7 +2265,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://motherwolfla.com/"
   },
@@ -2276,7 +2276,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.noburestaurants.com/malibu/home/"
   },
@@ -2287,7 +2287,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.nobuhotels.com/malibu/"
   },
@@ -2298,7 +2298,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.pacegallery.com/galleries/los-angeles/"
   },
@@ -2309,7 +2309,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shoopsdeli.com/"
   },
@@ -2320,7 +2320,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shuttersonthebeach.com/"
   },
@@ -2331,7 +2331,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/qWr6YUDVveeLhXj1mG9tkuxSFL6B1BrXVNYjyaz9REmC3eJtxJ2j4TXQxBxK8LEi4n1yMuxyBWc3az61dk1TzF4dFqrTPLVxGCezCxyaiyq4oTJbdjZiRCL8HeGafSEDonaUPHPm1pKk1rK41S6wyub23ibnx52biQiYH4t178cdmPPedubwe8C36EVMG5rTSoHdsDqW4HAoM34g8xLZprQPy6VTFrdQegQFYP2UJM71hSjGKYL6C1hgSe4akeDAQRfGKJBUFgPQznWM1BPh5r8F2CYB1gr3GFLZstejVgwJfrN2moHgM65qVL5LpAo47y4BSnCMr7d2Wb8xAnZfoNdDRpV1JitbHVXLQ4iBQD324wu?xid=fr1740599192233ccj"
   },
@@ -2342,7 +2342,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://sushi-fumi.club/"
   },
@@ -2353,7 +2353,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://talesaistudiocity.com/"
   },
@@ -2364,7 +2364,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.tavernatony.com/"
   },
@@ -2375,7 +2375,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://theapplepan.com/"
   },
@@ -2386,7 +2386,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
   },
@@ -2397,7 +2397,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/MAg6NTLYhSzigA2vuJGJAiPEUCBxWEKmiztR6wTbG9TihGvF8213qZ67n4SKDp7uqBjFYSeZ2L5zs49a65KnWDM5k1B4FL54GCMM5ekHCQ3AW63hnAdSuY8B3Qd6o9Wxs7FuUFfpMDhQftMZ634tff4WRk2z2uT5aYkSiKXLACGLVsYdmYvTt2CEDMJt6TVhm5gD6n6mmzumd6wCm5LvHaYwV8kmA3yWQUXR6XccGQb8qz8MV7shF7G43K8X18VjtRNzoeL7JQffdJwuGdKgJB54VW71HkmNDQYuRFvoauK8GXZtqQufoGSFLhAYh1VoTQBsRsd8QfcFCT6Z5qgWfh8F"
   },
@@ -2408,7 +2408,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.theinfatuation.com/los-angeles/guides/saweetie-la-restaurant-guide"
   },
@@ -2419,7 +2419,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "http://theivyrestaurants.com/"
   },
@@ -2430,7 +2430,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://lamag.com/crimeinla/the-zankou-chicken-murders/"
   },
@@ -2441,7 +2441,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/Wu6UuqeJKuLDvE7stGEPzHCrMVWCaGLokGvFJY2SQyuTvHdAJLcruJYQZAx9MSvedAWjvdFXajbwJPHZRoD7WHWrVt2mBavEKJWeSkuQ6KjLZTY6mdo4qwSqv3unc25kNdhi3d5v5BFecPsBAD1q2i5yFk2L61EquRbgZwEgQVTbxciKLYb2GZpcBvytiJu99xWqrqaNvtwW5Ni7ntyNi3KY9vCueuXWrK4SmA2AXAYhX3596wrreBYoe8SZvG3h6RmdifMpwrkbcVGAjV6pmh7XyhpSP3vGfpiF7iyfjqUmrAAQTRecmqpNP22B47HgdgwEPE8xp64JvGSX2Fm22trTKRHM"
   },
@@ -2452,7 +2452,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://thewaywewore.com/"
   },
@@ -2463,7 +2463,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://thewebster.us/stores/los-angeles"
   },
@@ -2474,7 +2474,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/4NeJabgQykde13q2rpUikrWb6HGoam6vYBe3u3BNcrA31T1QB12S5pkLMfFLffQorTPhhAgtRY9hgAfXjFnifv8ehR9kqQG8NhAYsMqcoyGmM9ARxTqG1Fm9VzPHRCeNkPVc3YayGqXcTcA5AvBQGmwoqtLcHekTPFn6BWAVKkLaidDQNAZzbN9nvoCsUwmqyc4nJAzgoZ7dmwYk7bmjPDNZabRraMUDvYndQ5oyPoXm4jtDm4MnYdk4fN5MYAbe3vWAGzBx5xERQ4KW3hSRV8w9x52h55bxfBgGJuKyQp8VGXFTjBZtjY2oPVT87prRnvqFfjYv71NaMPfBV49uryejpETeRrLqQf"
   },
@@ -2485,7 +2485,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.sunsettowerhotel.com/restaurants-and-bar/tower-bar"
   },
@@ -2496,7 +2496,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shopwasteland.com/"
   },
@@ -2507,7 +2507,7 @@ export const PLACES = [
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
-    "sourceTitle": "[Courage Bagels](https://couragebagels.com/)  Best bagel in the world! —Sergio Kletnoy, global entertainment director",
+    "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://zakeyes.com/pages/our-store"
   },
@@ -3591,7 +3591,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.barquadronno.it/en/homepage/"
   },
@@ -3602,7 +3602,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://biviomilano.it/"
   },
@@ -3613,7 +3613,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.camparino.com/"
   },
@@ -3624,7 +3624,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://casadelbiancomilano.it/en-us?"
   },
@@ -3635,7 +3635,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://cavallienastri.com/en-us?"
   },
@@ -3646,7 +3646,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://erbabrusca.it/"
   },
@@ -3657,7 +3657,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://eredizucca.com/en?"
   },
@@ -3668,7 +3668,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.thebicestercollection.com/fidenza-village/en/"
   },
@@ -3679,7 +3679,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.fioraiobianchicaffe.it/"
   },
@@ -3690,7 +3690,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://fotovenetaottica.com/"
   },
@@ -3701,7 +3701,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.giovannigalli.com/"
   },
@@ -3712,7 +3712,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/bettoladipiero/"
   },
@@ -3723,7 +3723,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/latteriasanmarco/?hl=en"
   },
@@ -3734,7 +3734,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.langosteria.com/en"
   },
@@ -3745,7 +3745,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.lisacorti.com/en?"
   },
@@ -3756,7 +3756,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://nilufar.com/"
   },
@@ -3767,7 +3767,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.nuovarena.com/"
   },
@@ -3778,7 +3778,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://oroincensoemirra.eu/"
   },
@@ -3789,7 +3789,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.grandhotelosteria.it/"
   },
@@ -3800,7 +3800,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://paninogiusto.it/en/homepage-eng/"
   },
@@ -3811,7 +3811,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/pasticceriasissi/?hl=en"
   },
@@ -3822,7 +3822,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.gioielleriapennisi.com/?"
   },
@@ -3833,7 +3833,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://romanengo.com/en/pages"
   },
@@ -3844,7 +3844,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.santambroeus.com/pages/location-milano?srsltid=AfmBOorq1jlBfQ_FV8tK7ZfE8XHLr4ah9SNGT0pfRto6NobdraH-_Bvt"
   },
@@ -3855,7 +3855,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://stephanjanson.com/"
   },
@@ -3866,7 +3866,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://trattoriadellagloria.com/"
   },
@@ -3877,7 +3877,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://masuellitrattoria.superbexperience.com/"
   },
@@ -3888,7 +3888,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.trattoriatorredipisa.it/en/"
   },
@@ -3899,7 +3899,7 @@ export const PLACES = [
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
-    "sourceTitle": "[Pasticceria Sissi](https://www.instagram.com/pasticceriasissi/?hl=en)  The most succulent cakes and pastries. —T.C.",
+    "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.waitandsee.it/eu/en/"
   },
@@ -4944,7 +4944,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.operadeparis.fr/en/visits/palais-garnier"
   },
@@ -4955,7 +4955,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://en.bar-bisou.fr/"
   },
@@ -4986,7 +4986,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/8R1h8mj7jPeeTf2eFhQJHh3Tu54Jei3FtXuQRjYytyiocmxsMejWQ8oHZt4vXC8GcsGEH47Do9cc49mtHacDBZMsWYRQfnGBFMfdtEYxYonPqHPAUgs91YSeRpCLJa6idLo5YQQedCDdKWateT1mUXZbRfufyLcypqYFt4p8Zr6c1x7EoHMyPVZm39KTZNFwVSyLQDbG7eTgfr6iamtXDKqUSkayqcAbp9nDpm2gNFjk8yKonj3PFkVn4NzfY3j18dwErLR1dLGW1UaiW2rpBNhNfxuSYP95MZU4nyPMBSDcU79P4k1o47uC4YPN7crCBJEXsjnWRFxA887n2mmHabQw6h99fULUmuaepx9aXt"
   },
@@ -4997,7 +4997,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.cafebreizh.com/"
   },
@@ -5008,7 +5008,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cafedeflore.fr/men"
   },
@@ -5019,7 +5019,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://maisonkitsune.com/"
   },
@@ -5050,7 +5050,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/KRg5MejLKBakf5N312WU7gEnFx8orGLzn78e422udSBzA1wh1WwszSz2mL2d9THGrMikUJ6Y5LdAPGRKjde7XWUTAv8mfx4hyuRhzTxUFLcYf4bscHzGijexPtRpN4FF4tpBkkTxGAoqLD3zpTqg95apMYLgdK6WhsKX2hgszCoKqnjbiWjRPdYRSNwXKmG1opWzRKyWSU3mxqJns8naBn8BXqQU6ajA96J1QwUfcM5yaMtoQNGyEL1Fvv1VkCaFjqbjvez6RXpej51TAqGgMHDo7F1t3rpBNBHVdt9UWEn2JdStCTFtfvxB9bE7rEecWC9UoYjBp"
   },
@@ -5061,7 +5061,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNRg8KXnokGoc2VrNqhGwJgqnqdVdXbKpHGmazMu23spFUPfnQse44TeV26vZTXU8ekkquoHYiys5Mp2fBA5A9cB87BAPwxTSG9AP46PgvQig18VjSvZv4H3qf8tFF5qPSsAs9FvX8L4XnxhCUW86PtVfwUJLMgCfgVEAs1X1CbPGpGnytU7QcDvgTQK35MBPmusHwwyEsTfijffYHRxVVhtbiTpUWzmJvRexFHASQ8AaTjxbAD96Krw3SkkrcSjUZ9KyU"
   },
@@ -5072,7 +5072,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.chezjanou.com/"
   },
@@ -5083,7 +5083,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.clown-bar-paris.fr/"
   },
@@ -5094,7 +5094,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.colorfulblack.com/en"
   },
@@ -5105,7 +5105,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://comice.paris/carte-menu"
   },
@@ -5126,7 +5126,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lecrazyhorseparis.com/en/"
   },
@@ -5137,7 +5137,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.darys-bijouterie-paris.fr/"
   },
@@ -5168,7 +5168,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.deyrolle.com/"
   },
@@ -5179,7 +5179,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
   },
@@ -5200,7 +5200,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.ferdi-restaurant.com/en/paris/"
   },
@@ -5221,7 +5221,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/5B83M5vYZfeZ6TN5XpU4suPcBBgNwfNJAmSJ1ENjHQqFmBdrr4AGBJDU8n6MRa9Df3BKGyYL5akGc9QAJfAdu7Fc4hH97Ag1MWRY16uGYBCU8p6HBZdw6PjXAgeAyCnE6UGFLjYsyz3adcuVmiuMZhXBBrkQkrHzR8bpmrC8ixG5F8vt6jaDMyBBAqV4iSFkNFrxMMkqCVwQD2zpEdXMaRkEU3HHtG4iVNEeKYowPHHR9UELfBJ7uhM5Ms8rdmw19kao8khVeyZyiQZnxXfJi5DGAFBJeVL9QBri5F1Qj6Uii7dDGdsPe87KbPDESEqPmdtdsNxS"
   },
@@ -5232,7 +5232,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://haussmann.galerieslafayette.com/en/"
   },
@@ -5243,7 +5243,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://girafe-restaurant.com/en/"
   },
@@ -5294,7 +5294,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.expedia.com/Paris-Hotels-Hotel-Des-Grands-Voyageurs.h2105.Hotel-Information"
   },
@@ -5315,7 +5315,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/wrdL3vpUnuv39Eqc5QoeMw4SRAq24Fo2m41gUVwSU9fgvAFvFmEruqbEzo5B6hNu8tK2C27Sx3qDzykaemJpujqGa2Rzx6bjE8KWwub3NHDaNCFAN5cYxZZ6Ynpx4g9RadxK72i8mQxbj7kQfHy96y5uXtbYcweRSdUWRMEA57svqKc5JKRpBsZEE2BzLkA2Qmb6WnBJFh5q9h2JC41By2WKD8j6KD5bG7jkTYCBpJ28dojvgLW9zZxcCh6ivYmXYKXJggWRmCdQ9quW5piHpg7Dis93u3ztWqYCAkvsM4LtLgmUn8niwNUuembNu9hg62PGga"
   },
@@ -5326,7 +5326,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/2QKuUE9XrFFhyh4Fqq7f4gUBpkzMTnSjG264iYKZRHpBVGoAPbHBE4ZginexrAZWmvecike5q6CHuuvm7fCuwQjbDFhBawRnz3bkRLoqKv2PQY5eNsoruqrfjYmPSn3vpXZKCB2ftYs9xX1zA3Y8Efe24sYYLrtGWYQAW1JQrRNme9BwgQiKGUpmZwgtxccSRvDTcxCrmhH1fCCV4i7JAa7YL3eU835hLV9zNyTRgD6RhBVLLbw8vq4cJ5xYWtnzYoKiEtDhZfPiziUYSBKuZ1GF9HKuV1x5ojpggrhQDo4AvSAMrd9B7nanqqdgJNtrMkL7UAbLLdg"
   },
@@ -5337,7 +5337,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/e14Jm3PRWDmLmUZNNpHufMUgoeAVFNZqqpvQqKjdfpZUdc7gA6bMnigEmQGuN2typoDqgNY9ksGpVzHLp8kSEehBAS9KVciwUbM4ZBrbf7hzf8yKGPometXmBCnxY9eFxho78hppeayjq1GWPE1K9SjHRZh3oPhf8YZzHVLhs9HtWWdCbGUtWtA9QSPXMV4L5U1nZDZtfLz8wLa4yVYgJs2Ud8UUYwVJJrSzwA1dHnWYgKfjCSQSVcnt8XJRrAgFugy3Ahph1Yu7NA3YGt9ngT3g5Y1gyE68rppHCKVGTe7midc6LrJ9L78EjKpCx8T7Vc"
   },
@@ -5358,7 +5358,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/wrdL3vpUnuv39Eqc5QoeMw4SRAq24Fo2m41gUVwSU9fgvAFvFmEruqbEzo5B6hNuE6RddCnxfngYfxmLnysBZuRXDTXhWvziraB1PraWjwsCetwZzupqzE5JiJP1mDbRpzVUC7sVAYkHkBqwirJgmJgnj9jnPVExYGTSH9qLoU3QQtXZzVoD7qPkeZqeWmFjNVhcJEqvmmyZaBACNPtWwmJkAS6R9T8MoczfBSzomKNz1hBT7VVrYHbGNx1KRpJ3ERATyYv3GC3kZZNtmJzQLBwXtHZWfwvgGCfLrVb82vjzfPLzAy3e3X8FChhKDPdhLGBdqc"
   },
@@ -5399,7 +5399,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lamutinerie.eu/"
   },
@@ -5420,7 +5420,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lafayettes-restaurant.com/"
   },
@@ -5451,7 +5451,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lebongeorges.paris/en/produits-de-maraichers-et-vins-de-proprietes/"
   },
@@ -5462,7 +5462,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/"
   },
@@ -5483,7 +5483,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lechateaubriand.net/"
   },
@@ -5494,7 +5494,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/71dqhxbhZaYe6Hx9otnmBkVUJtXvrnZo8Xtmj8ybLypmNFhNwgzF7otBRoGC3TMB7GewVHNdFeRo6Vw7QTFQRm9ifTTGf3LVEuejEnfZX5nvLrZKkwbzRJQiJu6gjXfi29Qaor4f8fNwA3qsntauXwfrymJK6mnwv1zgx4XpMuynbjW1hzP9myMBWEFzL62iJ7yXG4higCk4y1XBsQRWrxa527JWwaCNKQDrLvggXoMG8cCef2o82RgMKgxWFgqWiKUkzBengUBrRPJuSLbJXnEATqJMXYENkQbscoGUWn6JJKFqbqyPSXwDuQbiLn8xSuKT8vcB98WAJMsXsC81wvCDXdxCm8mJr3hakSWjhc7pLS2Cqo2NnuWi8UHgqEkygoKRT4NiLEH1Kh3goVyYy4VGhJ4NW9Hk7w4S4WT6eqMiwAvHBopzpY8jNjc8JAEGqoQ8qXNWogqi87NvMKpu6CrcuaSE92y8CzjneLeUG1XHsWCEynBVJxGNabhvf17D38m4QdusPeMF3JM6JSiXPXsy3zumnPXqaX1KwXE3f5Ue6MgHKomTUiSPcUoSvqH4wRSPfd8y4W3Dhc91s7YVE9xdpsF3FYKzhMnQTrYKoBRjqswBFKyKbJkJ1ayNzfHdcoLhKGE8hYV1wgHLa8GZpRnPQoTDzzeiwLe1wJGu6B5bV5YKPcx8nLvtLYUBiu7EfKwbUpUirjCWcgPyYx7tTyQy8FYSD3tA3jjYJXowYUeDYWmhaHp6SwK9BJSGbnK4xzPgBjoMHheKB7fzc2gJU7eesiWfLHMRDvmnk1mXfcUP8ACiFHc5caM25z3EcN5n8qhJSHCMdnGCpkcXobGTRXw6qBqmi8gPGpP8MiCEBqy9cPd5UgPfUw7FLxyjGXbJLJBKwyxEk1vJAPE7oQMMuMzgVLQUfbLn2xcKsxzdA8rAD6N65pNKg3bixnkxgvf4ufLmQkVZvRvVAbDYqrjTaibahxktkbVguiHa2D8zCqmoHytYCfBXGowvX8CG3U7fzJuKSKVHSHxQqbpaiUTBjHPPJ94EPXB5Lu9HyuJA"
   },
@@ -5505,7 +5505,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.rosewoodhotels.com/fr/hotel-de-crillon/dining/jardin-d-hiver"
   },
@@ -5516,7 +5516,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://lerecamier.com/page-daccueil.html"
   },
@@ -5527,7 +5527,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lesouffle.fr/"
   },
@@ -5548,7 +5548,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/"
   },
@@ -5559,7 +5559,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/loulou-paris-english"
   },
@@ -5580,7 +5580,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/4pDSKR9fHyZqTp2DUKyrQLi3Q9WhqSCCa2UeJNzRhJgG7m83abGAjFTMhwWkHNgXsStg17g8JCd3pPZgxybANphqkM7GBn1xT9AhWwYLgaUBm62hQXP8HhENxnnD3MJSXrvcbLxSnFjUtJxnywtBtp6TMdW5opAqYS2SLpBQEkMfaQNG2Ek2SGy3cXfrawiTKDMQQQhGBDuXPoNmXjTE1pDztBvgGVd6b5qgpxeGFeHEhUxeh3L5zvDL2vwuLLWsQhjQAdJX6pMr85zcYThGnqf7AG8Ysob8UxzphgJ6mc8tTqVEM33nLFyaS"
   },
@@ -5601,7 +5601,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.dior.com/en_us/fashion/news-savoir-faire/folder-news-and-events/30-montaigne-restaurant"
   },
@@ -5642,7 +5642,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://merci-merci.com/"
   },
@@ -5683,7 +5683,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.musee-orsay.fr/fr"
   },
@@ -5694,7 +5694,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://madparis.fr/"
   },
@@ -5705,7 +5705,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://noglu.fr/"
   },
@@ -5716,7 +5716,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://nuovo-paris.com/"
   },
@@ -5737,7 +5737,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://pascalemonvoisin.com/en/"
   },
@@ -5748,7 +5748,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/v6nQvBesQrzd9CydjaL4uVsofwAhAsBPeofgHATX8qnn4asHKwo54DaV1r4XKESWZQ1qkxNC98kFFbBfRxcvaDu5BmsfPJj3dk3BdqagMxa51qwi39dX5NejjFXYtkQyv39FUBuTpVGvp3doKEheCohtSG3RZnDP7dVrL63d3YQuiku9UnpwGZ4oh5WTiADas96yS4MGLr16FriefWMVxvguM3MYi7uG1Sk86WHuU67VcaMnCi34yt7bwnaJgaRnZNePNYVZeVcxXFVmmLyLiEBStmPhLFiQvXSWY1UrakXtmYUCwFEvhh2fKjTRPuPcFqEdGoiQRZcew2YHJq8co5dFWTehnkv691LtWjet9MN1hwYjQqngj7mnY6BsXY"
   },
@@ -5759,7 +5759,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.pierreherme.com/"
   },
@@ -5770,7 +5770,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.pinaultcollection.com/en"
   },
@@ -5791,7 +5791,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNS5XHm3FTVXDHL1To8P9yPCWUEaBfMghKPasVePMMWypfrSqS9AXYux3EnYXt6pFvFRc8adfUb1FPcdnK4DGonNsjU3EMUrJLJ4CzDExYRX8NBoTyai8NWUaa4YGd1Y6ptGzYoQNzBsynZrh8hBthSm7ndH2jqw2WwCKV62jNkG8MFVFqvUK41P9DRADGFxXvS46541sk9M2PQ7Bb9sm7aaT3innyP8nAtspsQkXjDzvaEurAf9wHnMtdptA7ZfHQasna"
   },
@@ -5822,7 +5822,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://us.rouje.com/"
   },
@@ -5833,7 +5833,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/7BxSbB2fAMuusDoNWXNP1FCzmoA9KDaZXHoMQMEv6DDFHnikSiJQ8ejGKSWfK7CSFeGMuySCTkCDpuNHe4NtiyikBdYqD7VWpEpi2o9dnt5145x4ouyx74U8g8znyq5HF7NsuUdeAKT4BcP7ZJD5v2KwzPRAUAYHAu93E3qWkgZXzvmuRu3q3XiyhWVtHCHsN6k14XpevtktJUVUHk3X49eSvU1K6E7XYzi7rCZ9wbM365HXitRBcPjsntwL7hF1uQQstqNbsZ4zL3494nBmNCtBirkV8XyC66CZwAZnQFnYAT1ksWkJZd4MrpS9GV8quVzhJqwwyPXp"
   },
@@ -5844,7 +5844,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.christophe-robin.salon/"
   },
@@ -5855,7 +5855,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://simrane.com/en/"
   },
@@ -5866,7 +5866,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/28iSGvNLVT39oMQ6buUZncWa39XfmTXuMer86tdrwTvDdVbezSEnubEuy8AjjAtgCL6of1QUbnh1prvjR997LXd8QDufAFcDAjDV46dfXTxvx4QHXsY7TCwuREjwBLgkNHyNKr6e21JYB9i7zrbKC885iZjaJSdAnkW6Pvafd3xpojzU8FtC9G1qw5j2JqmHGS4eTETUqx1g5T9Strwt7bD4Qc6jCm6VTfoE9n53HVBC9CMFx7DFeDDs5XxwwJeLbUbdU75ECgiBHSmtpWcsqniiubqMYt6ueK158D185CmfnaGirZWHN1ji3vTbwXjjWTzgmRGrm446V5eJU9UZZ6YeeSaHoiH7wwed8"
   },
@@ -5877,7 +5877,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.instagram.com/tenbelles/?hl=en"
   },
@@ -5908,7 +5908,7 @@ export const PLACES = [
     "city": "Paris",
     "country": "France",
     "source": "vogue",
-    "sourceTitle": "[Pierre Hermé](https://www.pierreherme.com/)  There’s simply no better place in town to get a macaron. —Elise Taylor",
+    "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.villadespres.com/en/"
   },

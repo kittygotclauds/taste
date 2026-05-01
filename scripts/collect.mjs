@@ -87,6 +87,8 @@ function isEditorialFluffLine(line) {
   if (/^\*{0,2}\s*vogue\b/i.test(lower)) return true;
   if (/photographs?\s+(by|courtesy)/i.test(lower)) return true;
   if (/^(published|posted|updated)\s+/i.test(lower)) return true;
+  // Inline markdown recommendations / editor blurbs mistaken for titles.
+  if (/\]\(https?:\/\//i.test(s)) return true;
   return false;
 }
 
@@ -97,6 +99,14 @@ function pickGuideDisplayTitle(text, guide) {
     const src = guide.source === "goop" ? "Goop" : "Vogue";
     return `${src}: ${guide.city}`;
   }
+
+  if (guide.source === "vogue") {
+    // Vogue markdown often lifts photo captions / short blurbs without markdown links.
+    if (/\.\s*$/.test(raw) && raw.length < 140 && !/\bguide\b/i.test(raw)) {
+      return `Vogue: ${guide.city}`;
+    }
+  }
+
   return raw;
 }
 

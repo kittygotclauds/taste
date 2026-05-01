@@ -169,6 +169,9 @@ function displayCitationTitle(p) {
   if (/\bvogue\b/.test(folded) && /\bguide\b/.test(folded) && /\b(below|find)\b/.test(folded)) {
     return `${SOURCES[p.source]}: ${p.city}`;
   }
+  if (/\]\(https?:\/\//i.test(t)) {
+    return `${SOURCES[p.source]}: ${p.city}`;
+  }
   if (!t) return `Read on ${SOURCES[p.source]}`;
   return t;
 }
