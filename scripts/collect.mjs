@@ -381,7 +381,16 @@ function inferCategoryFromName(name) {
   if (/\b(hotel|hôtel|ryokan)\b/i.test(lower)) return "hotel";
 
   if (
-    /\bmuseo\b|\bmuseum\b|\bgallery\b|\bpark\b|\bcastle\b|\bpalace\b|\bmonument\b|\bcathedral\b|\bplaza\b|\bzoo\b|\baquarium\b|\bobservatory\b|\bbotanical\b/i.test(lower)
+    /\bmuseo\b|\bmuseum\b|\bgallery\b|\bcastle\b|\bpalace\b|\bmonument\b|\bcathedral\b|\bplaza\b|\bzoo\b|\baquarium\b|\bobservatory\b|\bbotanical\b/i.test(lower)
+  ) {
+    return "attraction";
+  }
+  // Avoid treating surnames like "Park" as parks; require compound venue cues.
+  if (
+    /\b(?:national|city|theme|water|amusement|skate)\s+parks?\b|\bcentral\s+park\b|\bhyde\s+park\b|\bolympic\s+park\b/i.test(
+      lower,
+    ) ||
+    /\bparks?\s+(?:museum|hotel|theater|theatre|centre|center)\b/i.test(lower)
   ) {
     return "attraction";
   }
@@ -596,50 +605,30 @@ function recordFiltered(stats, reason) {
 }
 
 /**
+ * Full validation without mutating GuideStats (used to probe URLs before committing).
  * @param {string} name
  * @param {string} placeUrl
  * @param {Guide} guide
- * @param {GuideStats} stats
  * @returns {{ ok: boolean, reason?: string }}
  */
-function validatePlace(name, placeUrl, guide, stats) {
+function analyzePlaceCandidate(name, placeUrl, guide) {
   const n = (name ?? "").trim();
   const lower = n.toLowerCase();
 
-  if (!n) {
-    recordFiltered(stats, "empty_name");
-    return { ok: false, reason: "empty_name" };
-  }
+  if (!n) return { ok: false, reason: "empty_name" };
 
-  if (LEGACY_BANNED_LINK.has(lower)) {
-    recordFiltered(stats, "legacy_banned_link");
-    return { ok: false, reason: "legacy_banned_link" };
-  }
+  if (LEGACY_BANNED_LINK.has(lower)) return { ok: false, reason: "legacy_banned_link" };
 
-  if (BLOCKLIST_SOCIAL_SET.has(lower)) {
-    recordFiltered(stats, "blocklist_social");
-    return { ok: false, reason: "blocklist_social" };
-  }
-  if (BLOCKLIST_VOGUE_NAV_SET.has(lower)) {
-    recordFiltered(stats, "blocklist_vogue_nav");
-    return { ok: false, reason: "blocklist_vogue_nav" };
-  }
-  if (BLOCKLIST_COUNTRY_SET.has(lower)) {
-    recordFiltered(stats, "blocklist_country");
-    return { ok: false, reason: "blocklist_country" };
-  }
-  if (BLOCKLIST_FOOTER_SET.has(lower)) {
-    recordFiltered(stats, "blocklist_footer");
-    return { ok: false, reason: "blocklist_footer" };
-  }
+  if (BLOCKLIST_SOCIAL_SET.has(lower)) return { ok: false, reason: "blocklist_social" };
+  if (BLOCKLIST_VOGUE_NAV_SET.has(lower)) return { ok: false, reason: "blocklist_vogue_nav" };
+  if (BLOCKLIST_COUNTRY_SET.has(lower)) return { ok: false, reason: "blocklist_country" };
+  if (BLOCKLIST_FOOTER_SET.has(lower)) return { ok: false, reason: "blocklist_footer" };
 
   if (/expand/i.test(n) || /chevron/i.test(n) || /expand$/i.test(n)) {
-    recordFiltered(stats, "expand_chevron_ui");
     return { ok: false, reason: "expand_chevron_ui" };
   }
 
   if (/^all\s+(beauty|culture|fashion|living|weddings)\b/i.test(n)) {
-    recordFiltered(stats, "blocklist_all_section");
     return { ok: false, reason: "blocklist_all_section" };
   }
 
@@ -647,7 +636,6 @@ function validatePlace(name, placeUrl, guide, stats) {
     const u = new URL(placeUrl);
     const pth = u.pathname.toLowerCase();
     if (pth.includes("/contributor/") || pth.includes("/author/")) {
-      recordFiltered(stats, "byline_url");
       return { ok: false, reason: "byline_url" };
     }
 
@@ -655,21 +643,11 @@ function validatePlace(name, placeUrl, guide, stats) {
       const host = u.hostname.toLowerCase();
       if (!guide.allowInternalLinks) {
         if (host.endsWith("vogue.com") || host.endsWith("stag.vogue.com") || host.endsWith("compute.vogue.com")) {
-          recordFiltered(stats, "host_internal_vogue");
           return { ok: false, reason: "host_internal_vogue" };
         }
-        if (host.includes("vogue")) {
-          recordFiltered(stats, "host_vogue");
-          return { ok: false, reason: "host_vogue" };
-        }
-        if (host.includes("condenast")) {
-          recordFiltered(stats, "host_condenast");
-          return { ok: false, reason: "host_condenast" };
-        }
-        if (host.includes("aboutads")) {
-          recordFiltered(stats, "host_aboutads");
-          return { ok: false, reason: "host_aboutads" };
-        }
+        if (host.includes("vogue")) return { ok: false, reason: "host_vogue" };
+        if (host.includes("condenast")) return { ok: false, reason: "host_condenast" };
+        if (host.includes("aboutads")) return { ok: false, reason: "host_aboutads" };
       } else if (host.endsWith("vogue.com")) {
         if (
           pth.startsWith("/tag/") ||
@@ -683,29 +661,22 @@ function validatePlace(name, placeUrl, guide, stats) {
           pth.startsWith("/photovogue") ||
           pth.startsWith("/accessibility")
         ) {
-          recordFiltered(stats, "host_vogue_nav_path");
           return { ok: false, reason: "host_vogue_nav_path" };
         }
+        // Gallery / legacy numeric URLs are not stable place links.
+        if (!pth.startsWith("/article/")) {
+          return { ok: false, reason: "host_vogue_non_article" };
+        }
       }
-      if (host.includes("smart.link")) {
-        recordFiltered(stats, "host_smart_link");
-        return { ok: false, reason: "host_smart_link" };
-      }
+      if (host.includes("smart.link")) return { ok: false, reason: "host_smart_link" };
     }
   } catch {
-    recordFiltered(stats, "bad_place_url");
     return { ok: false, reason: "bad_place_url" };
   }
 
-  if (/^book\s+at\b/i.test(n) || /^book\s+now\b/i.test(n)) {
-    recordFiltered(stats, "cta_book");
-    return { ok: false, reason: "cta_book" };
-  }
+  if (/^book\s+at\b/i.test(n) || /^book\s+now\b/i.test(n)) return { ok: false, reason: "cta_book" };
 
-  if (/^##\s+/i.test(n) || /^#\s+/i.test(n)) {
-    recordFiltered(stats, "cta_markdown_heading");
-    return { ok: false, reason: "cta_markdown_heading" };
-  }
+  if (/^##\s+/i.test(n) || /^#\s+/i.test(n)) return { ok: false, reason: "cta_markdown_heading" };
 
   if (
     /^visit\s+site\b/i.test(n) ||
@@ -713,35 +684,35 @@ function validatePlace(name, placeUrl, guide, stats) {
     /^below,\s*find\b/i.test(n) ||
     /^without\s+further\s+ado\b/i.test(n)
   ) {
-    recordFiltered(stats, "cta_fragment_phrase");
     return { ok: false, reason: "cta_fragment_phrase" };
   }
 
-  if (/&#|&amp;|&quot;/i.test(n)) {
-    recordFiltered(stats, "html_entity_in_name");
-    return { ok: false, reason: "html_entity_in_name" };
-  }
+  if (/&#|&amp;|&quot;/i.test(n)) return { ok: false, reason: "html_entity_in_name" };
 
-  if (n.length > 60) {
-    recordFiltered(stats, "name_too_long");
-    return { ok: false, reason: "name_too_long" };
-  }
+  if (n.length > 60) return { ok: false, reason: "name_too_long" };
 
-  if (/^\d/.test(n) && /\bpercent\b/i.test(n)) {
-    recordFiltered(stats, "digit_percent_caption");
-    return { ok: false, reason: "digit_percent_caption" };
-  }
+  if (/^\d/.test(n) && /\bpercent\b/i.test(n)) return { ok: false, reason: "digit_percent_caption" };
 
-  if (/^\d+\s+of\b/i.test(n)) {
-    recordFiltered(stats, "digit_slide_caption");
-    return { ok: false, reason: "digit_slide_caption" };
-  }
+  if (/^\d+\s+of\b/i.test(n)) return { ok: false, reason: "digit_slide_caption" };
 
-  if (!isLikelyVenueName(n)) {
-    recordFiltered(stats, "unlikely_venue_name");
-    return { ok: false, reason: "unlikely_venue_name" };
-  }
+  if (!isLikelyVenueName(n)) return { ok: false, reason: "unlikely_venue_name" };
 
+  return { ok: true };
+}
+
+/**
+ * @param {string} name
+ * @param {string} placeUrl
+ * @param {Guide} guide
+ * @param {GuideStats} stats
+ * @returns {{ ok: boolean, reason?: string }}
+ */
+function validatePlace(name, placeUrl, guide, stats) {
+  const r = analyzePlaceCandidate(name, placeUrl, guide);
+  if (!r.ok) {
+    recordFiltered(stats, r.reason);
+    return { ok: false, reason: r.reason };
+  }
   stats.included++;
   return { ok: true };
 }
@@ -768,8 +739,11 @@ function isLikelyVenueName(name) {
   // Reject obviously descriptive phrases / sentences.
   if (/[.!?]/.test(n)) return false;
   if (/\b(this|that|these|those|here|below|while|when|because)\b/i.test(n)) return false;
-  // Reject bare indefinite articles only; allow "The Ned", "The Connaught Spa", etc.
-  if (/^(a|an)\b/i.test(n)) return false;
+  // Reject bare indefinite-article fragments ("a trendy boutique"); keep names like "A Land".
+  if (/^(a|an)\b/i.test(n)) {
+    const afterArticle = n.replace(/^(a|an)\s+/i, "").trim();
+    if (!afterArticle || !/^[A-Z]/.test(afterArticle)) return false;
+  }
 
   // Must look like a proper noun: starts with upper/digit and has at least one uppercase.
   if (!/^[A-Z0-9]/.test(n)) return false;
@@ -805,8 +779,8 @@ async function tryFetchGuide(url) {
   }
 }
 
-/** @param {Guide} guide */
-async function loadGuideText(guide) {
+/** @returns {Promise<{ markdown: string, scopedHtml: string }>} */
+async function loadGuidePayload(guide) {
   /** @type {string | null} */
   let body = await tryFetchGuide(guide.guideUrl);
 
@@ -831,9 +805,9 @@ async function loadGuideText(guide) {
     if (articleTitle && !/^#\s+\S/m.test(md)) {
       md = `# ${articleTitle}\n\n${md}`;
     }
-    return md;
+    return { markdown: md, scopedHtml: scoped };
   }
-  return body;
+  return { markdown: body, scopedHtml: "" };
 }
 
 /**
@@ -1020,6 +994,95 @@ function extractVogue(text, guide, stats) {
   return out;
 }
 
+/** @param {string} innerHtml @param {string} baseUrl */
+function collectAnchorHrefs(innerHtml, baseUrl) {
+  const hrefRe = /<a\b[^>]*href\s*=\s*(["'])([^"']+)\1/gi;
+  /** @type {string[]} */
+  const out = [];
+  let m;
+  while ((m = hrefRe.exec(innerHtml))) {
+    try {
+      out.push(cleanUrl(new URL(m[2], baseUrl).href));
+    } catch {
+      // ignore
+    }
+  }
+  return out;
+}
+
+/**
+ * Vogue shopping essays often list venues as `<p><strong>Name</strong><br/>…` with no outbound link.
+ * Prefer real URLs when present; otherwise allow linking back to the guide article when enabled.
+ */
+function pickParagraphPlaceUrl(innerHtml, name, guide) {
+  const hrefs = collectAnchorHrefs(innerHtml, guide.guideUrl);
+  /** @type {{ u: string, tier: number }[]} */
+  const tiers = [];
+  for (const u of hrefs) {
+    try {
+      const host = new URL(u).hostname.toLowerCase();
+      const pth = new URL(u).pathname.toLowerCase();
+      if (!host.endsWith("vogue.com")) tiers.push({ u, tier: 0 });
+      else if (guide.allowInternalLinks && pth.startsWith("/article/")) tiers.push({ u, tier: 1 });
+    } catch {
+      // ignore
+    }
+  }
+  tiers.sort((a, b) => a.tier - b.tier || a.u.localeCompare(b.u));
+  const fallback = cleanUrl(guide.guideUrl);
+  const ordered = [...new Set([...tiers.map((t) => t.u), fallback])];
+  for (const u of ordered) {
+    if (analyzePlaceCandidate(name, u, guide).ok) return u;
+  }
+  return null;
+}
+
+/**
+ * Paragraph-led Vogue listings (no ## headings / postcard links).
+ * @param {string} html
+ * @param {Guide} guide
+ * @param {GuideStats} stats
+ * @param {string} guideMarkdown full markdown for citation title resolution
+ */
+function extractVogueParagraphStrong(html, guide, stats, guideMarkdown) {
+  /** @type {Place[]} */
+  const out = [];
+  const paraRe = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  let m;
+  while ((m = paraRe.exec(html))) {
+    const inner = (m[1] ?? "").trim();
+    const sm = /^\s*<strong\b[^>]*>([\s\S]*?)<\/strong>/i.exec(inner);
+    if (!sm) continue;
+
+    let name = stripTags(sm[1]).trim().replace(/\s+/g, " ");
+    if (!name) continue;
+
+    const nk = name.toLowerCase();
+    if (/^photographs?\b/i.test(nk) || /^courtesy\b/i.test(nk) || /^photo\s*[.:]/i.test(nk)) continue;
+
+    const placeUrl = pickParagraphPlaceUrl(inner, name, guide);
+    if (!placeUrl) continue;
+
+    const category = resolvePlaceCategory(guide.defaultCategory ?? null, "", name, guide, placeUrl);
+
+    const v = validatePlace(name, placeUrl, guide, stats);
+    if (!v.ok) continue;
+
+    out.push({
+      id: `${slugify(guide.city)}-${slugify(name)}-${category}`,
+      name,
+      category,
+      city: guide.city,
+      country: guide.country,
+      source: "vogue",
+      sourceTitle: pickGuideDisplayTitle(guideMarkdown, guide),
+      sourceUrl: cleanUrl(guide.guideUrl),
+      placeUrl,
+    });
+  }
+  return out;
+}
+
 /** @param {string} name */
 function foldNameKey(name) {
   return name
@@ -1124,9 +1187,18 @@ async function main() {
   let all = [];
   for (const g of guides) {
     const stats = createStats();
-    const text = await loadGuideText(g);
-    const extracted =
+    const payload = await loadGuidePayload(g);
+    const text = payload.markdown;
+    let extracted =
       g.source === "goop" ? extractGoop(text, g, stats) : extractVogue(text, g, stats);
+
+    if (
+      g.source === "vogue" &&
+      payload.scopedHtml &&
+      (g.allowInternalLinks === true || !/^##\s+/m.test(text))
+    ) {
+      extracted = extracted.concat(extractVogueParagraphStrong(payload.scopedHtml, g, stats, text));
+    }
 
     const label = `${g.city} (${g.source}) ${g.guideUrl ? `<${g.guideUrl}>` : ""}`;
     logGuideSummary(label, stats);

@@ -1509,9 +1509,9 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/place-381681-restaurants/pachamama/"
   },
   {
-    "id": "london-park-chinois-attraction",
+    "id": "london-park-chinois-restaurant",
     "name": "Park Chinois",
-    "category": "attraction",
+    "category": "restaurant",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -4928,6 +4928,17 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/zitomer/"
   },
   {
+    "id": "paris-a-paris-chez-antoinette-de-poisson-shop",
+    "name": "A Paris chez Antoinette de Poisson",
+    "category": "shop",
+    "city": "Paris",
+    "country": "France",
+    "source": "vogue",
+    "sourceTitle": "Vogue: Paris",
+    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
+    "placeUrl": "https://www.antoinettepoisson.com/"
+  },
+  {
     "id": "paris-au-passage-restaurant",
     "name": "Au Passage",
     "category": "restaurant",
@@ -5933,15 +5944,81 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/wild-the-moon/"
   },
   {
-    "id": "seoul-soo-joo-park-attraction",
-    "name": "Soo Joo Park",
-    "category": "attraction",
+    "id": "seoul-a-land-in-garosu-gil-shop",
+    "name": "A Land in Garosu-gil",
+    "category": "shop",
     "city": "Seoul",
     "country": "South Korea",
     "source": "vogue",
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
-    "placeUrl": "https://www.vogue.com/866831/chop-chop-model-soo-joo-park-sits-for-a-cut-with-christiaan-houtenbos/"
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-boon-the-shop-in-cheongdam-shop",
+    "name": "Boon the Shop in Cheongdam",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-doota-in-dongdaemun-shop",
+    "name": "Doota in Dongdaemun",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-gwangjang-market-in-namdaemun-shop",
+    "name": "Gwangjang Market in Namdaemun",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-maison-des-bougies-in-itaewon-shop",
+    "name": "Maison des Bougies in Itaewon",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-pyeong-hwa-fashion-town-in-dongdaemun-shop",
+    "name": "Pyeong Hwa Fashion Town in Dongdaemun",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
+  },
+  {
+    "id": "seoul-ssg-food-market-around-seoul-shop",
+    "name": "SSG Food Market around Seoul",
+    "category": "shop",
+    "city": "Seoul",
+    "country": "South Korea",
+    "source": "vogue",
+    "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
+    "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
+    "placeUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park"
   },
   {
     "id": "tokyo-aman-tokyo-hotel",
