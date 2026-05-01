@@ -37,6 +37,7 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
  * @property {string} sourceTitle
  * @property {string} sourceUrl
  * @property {string=} placeUrl
+ * @property {string|null=} website Official venue URL discovered from listing page (never Goop/Vogue)
  * @property {string=} neighborhood
  * @property {readonly string[]=} tags
  */
@@ -779,6 +780,259 @@ async function tryFetchGuide(url) {
   }
 }
 
+/** Max concurrent listing-page fetches when resolving official websites. */
+const WEBSITE_RESOLVE_CONCURRENCY = 6;
+
+/**
+ * Accept only plausible official venue URLs (not editorial hosts or social profiles).
+ * @param {string|null|undefined} url
+ */
+function validateOfficialWebsiteUrl(url) {
+  if (!url || typeof url !== "string") return false;
+  try {
+    const u = new URL(url.trim());
+    if (u.protocol !== "http:" && u.protocol !== "https:") return false;
+    const host = u.hostname.toLowerCase();
+    if (host.endsWith("goop.com")) return false;
+    if (host.endsWith("vogue.com")) return false;
+    if (host.endsWith("stag.vogue.com")) return false;
+    if (host.includes("condenast")) return false;
+    if (host.endsWith("smart.link")) return false;
+    if (host.endsWith("lamag.com") || host.endsWith("laweekly.com")) return false;
+
+    const socialDomains = [
+      "facebook.com",
+      "instagram.com",
+      "twitter.com",
+      "tiktok.com",
+      "pinterest.com",
+      "linkedin.com",
+      "youtube.com",
+      "threads.net",
+    ];
+    if (socialDomains.some((d) => host === d || host.endsWith("." + d))) return false;
+    if (host === "x.com" || host.endsWith(".x.com")) return false;
+
+    if (host.endsWith("wikipedia.org") || host.endsWith("wikidata.org")) return false;
+    if (host.includes("tripadvisor.")) return false;
+    if (host.includes("yelp.")) return false;
+    if (host.includes("opentable.")) return false;
+    if (host.includes("foursquare.")) return false;
+    if (host === "maps.apple.com") return false;
+    if ((host === "google.com" || host.endsWith(".google.com")) && u.pathname.includes("/maps")) return false;
+
+    const segments = u.pathname.toLowerCase().split("/").filter(Boolean);
+    if (segments.includes("tag") || segments.includes("tags")) return false;
+    const editorialPrefixes = ["category", "categories", "news", "article", "articles", "topic", "topics"];
+    if (segments.length && editorialPrefixes.includes(segments[0])) return false;
+
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** @param {string} href @param {string} baseUrl */
+function resolveHrefAbsolute(href, baseUrl) {
+  const h = (href ?? "").trim();
+  if (!h || h.startsWith("#") || /^javascript:/i.test(h)) return null;
+  try {
+    return new URL(h, baseUrl).href;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Pull Organization / LocalBusiness URLs from JSON-LD when present (often highest precision).
+ * @param {string} html
+ * @param {string} pageUrl
+ */
+function extractOfficialWebsiteFromJsonLd(html, pageUrl) {
+  const scriptRe = /<script[^>]*type\s*=\s*["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+  let sm;
+  while ((sm = scriptRe.exec(html))) {
+    let raw = sm[1].trim().replace(/^\s*<!--/, "").replace(/-->\s*$/, "").trim();
+    /** @type {unknown} */
+    let data;
+    try {
+      data = JSON.parse(raw);
+    } catch {
+      continue;
+    }
+
+    /** @type {unknown[]} */
+    const roots = Array.isArray(data) ? data : [data];
+    for (const root of roots) {
+      if (!root || typeof root !== "object") continue;
+      const obj = /** @type {Record<string, unknown>} */ (root);
+      const graphRaw = obj["@graph"];
+      /** @type {Record<string, unknown>[]} */
+      const nodes = Array.isArray(graphRaw)
+        ? graphRaw.filter((x) => x && typeof x === "object").map((x) => /** @type {Record<string, unknown>} */ (x))
+        : [obj];
+
+      for (const node of nodes) {
+        const types = ([]).concat(/** @type {unknown} */ (node["@type"]) ?? []).flatMap((t) =>
+          String(t ?? "")
+            .split(/\s+/)
+            .filter(Boolean),
+        );
+        const placeLike = types.some((t) =>
+          /Restaurant|LocalBusiness|LodgingBusiness|Hotel|Store|ShoppingCenter|FoodEstablishment|TouristAttraction|SportsActivityLocation|HealthAndBeautyBusiness|DaySpa|BeautySalon/i.test(
+            t,
+          ),
+        );
+        if (!placeLike) continue;
+
+        /** @type {string[]} */
+        const candidates = [];
+        const urlVal = node.url;
+        if (typeof urlVal === "string") candidates.push(urlVal);
+        const sameAs = node.sameAs;
+        if (typeof sameAs === "string") candidates.push(sameAs);
+        if (Array.isArray(sameAs)) {
+          for (const s of sameAs) {
+            if (typeof s === "string") candidates.push(s);
+          }
+        }
+
+        for (const c of candidates) {
+          const abs = resolveHrefAbsolute(c, pageUrl);
+          if (abs && validateOfficialWebsiteUrl(abs)) return cleanUrl(abs);
+        }
+      }
+    }
+  }
+  return null;
+}
+
+/** @param {string} html */
+function extractAnchorRecords(html) {
+  /** @type {{ href: string; text: string; className: string; ariaLabel: string }[]} */
+  const out = [];
+  const re = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  let m;
+  while ((m = re.exec(html))) {
+    const attrs = m[1];
+    const inner = m[2];
+    const hrefM = /\bhref\s*=\s*(["'])([\s\S]*?)\1/i.exec(attrs);
+    if (!hrefM) continue;
+    const href = hrefM[2].trim().replace(/\s+/g, "");
+    if (!href) continue;
+
+    const clsM = /\bclass\s*=\s*(["'])([\s\S]*?)\1/i.exec(attrs);
+    const ariaM = /\baria-label\s*=\s*(["'])([\s\S]*?)\1/i.exec(attrs);
+
+    const text = stripTags(inner).replace(/\s+/g, " ").trim();
+    out.push({
+      href,
+      text,
+      className: clsM ? clsM[2] : "",
+      ariaLabel: ariaM ? ariaM[2].trim() : "",
+    });
+  }
+  return out;
+}
+
+const VISIT_WEBSITE_LABEL =
+  /\b(visit\s+(the\s+)?(website|site)|go\s+to\s+(the\s+)?(website|site)|official\s+website)\b/i;
+
+const FOOTERISH_LINK_TEXT =
+  /^(subscribe|sign\s+up|privacy|cookies?|cookie\s+policy|terms(\s+of\s+use)?|contact\s+us|advertise)/i;
+
+/**
+ * Scan a fetched listing/article HTML page for an outbound official website URL.
+ * @param {string} html
+ * @param {string} pageUrl
+ */
+function extractOfficialWebsiteFromListingHtml(html, pageUrl) {
+  const fromLd = extractOfficialWebsiteFromJsonLd(html, pageUrl);
+  if (fromLd) return fromLd;
+
+  const scoped = extractMainContentHtml(html);
+  const anchors = extractAnchorRecords(scoped);
+
+  for (const a of anchors) {
+    const label = `${a.text} ${a.ariaLabel}`.trim();
+    if (!VISIT_WEBSITE_LABEL.test(label)) continue;
+    const abs = resolveHrefAbsolute(a.href, pageUrl);
+    if (abs && validateOfficialWebsiteUrl(abs)) return cleanUrl(abs);
+  }
+
+  for (const a of anchors) {
+    if (!/\bexternal-link\b/i.test(a.className)) continue;
+    const abs = resolveHrefAbsolute(a.href, pageUrl);
+    if (abs && validateOfficialWebsiteUrl(abs)) return cleanUrl(abs);
+  }
+
+  for (const a of anchors) {
+    if (!/\b(arrow|outbound|opens?\s*-?\s*external|icon-external|external\b)/i.test(a.className)) continue;
+    const abs = resolveHrefAbsolute(a.href, pageUrl);
+    if (abs && validateOfficialWebsiteUrl(abs)) return cleanUrl(abs);
+  }
+
+  /** @type {{ url: string; score: number }[]} */
+  const scored = [];
+  for (const a of anchors) {
+    if (FOOTERISH_LINK_TEXT.test(a.text)) continue;
+    const abs = resolveHrefAbsolute(a.href, pageUrl);
+    if (!abs || !validateOfficialWebsiteUrl(abs)) continue;
+    let score = 1;
+    const tl = a.text.toLowerCase();
+    if (/^(website|homepage|official)$/i.test(a.text.trim())) score += 4;
+    if (/\b(book|reserve|shop|store|menu|tickets)\b/i.test(tl)) score += 2;
+    if (abs.startsWith("https:")) score += 1;
+    scored.push({ url: abs, score });
+  }
+  scored.sort((x, y) => y.score - x.score || x.url.length - y.url.length);
+  return scored.length ? cleanUrl(scored[0].url) : null;
+}
+
+/**
+ * Fetch each distinct place listing URL once and attach `website` (official URL or null).
+ * @param {Place[]} places
+ * @param {number} concurrency
+ */
+async function enrichPlacesWithOfficialWebsites(places, concurrency) {
+  const unique = [
+    ...new Set(
+      places.map((p) => p.placeUrl).filter((u) => typeof u === "string" && /^https?:\/\//i.test(u)),
+    ),
+  ];
+
+  /** @type {Map<string, string | null>} */
+  const resolved = new Map();
+
+  let cursor = 0;
+  async function worker() {
+    for (;;) {
+      const i = cursor++;
+      if (i >= unique.length) break;
+      const listingUrl = unique[i];
+      const html = await tryFetchGuide(listingUrl);
+      if (!html) {
+        resolved.set(listingUrl, null);
+        continue;
+      }
+      const site = extractOfficialWebsiteFromListingHtml(html, listingUrl);
+      resolved.set(listingUrl, site);
+    }
+  }
+
+  const nWorkers = unique.length === 0 ? 0 : Math.min(concurrency, unique.length);
+  await Promise.all(Array.from({ length: nWorkers }, () => worker()));
+
+  return places.map((p) => {
+    const u = p.placeUrl;
+    if (!u || typeof u !== "string" || !/^https?:\/\//i.test(u)) {
+      return { ...p, website: null };
+    }
+    const w = resolved.has(u) ? resolved.get(u) : null;
+    return { ...p, website: w ?? null };
+  });
+}
+
 /** @returns {Promise<{ markdown: string, scopedHtml: string }>} */
 async function loadGuidePayload(guide) {
   /** @type {string | null} */
@@ -1149,8 +1403,8 @@ function logGuideSummary(label, stats) {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  /** @type {{ guideIndex: number | null, limit: number | null, dryRun: boolean }} */
-  const opts = { guideIndex: null, limit: null, dryRun: false };
+  /** @type {{ guideIndex: number | null, limit: number | null, dryRun: boolean, skipWebsiteResolve: boolean }} */
+  const opts = { guideIndex: null, limit: null, dryRun: false, skipWebsiteResolve: false };
   for (let i = 0; i < args.length; i++) {
     const a = args[i];
     if (a === "--guide-index" && args[i + 1] !== undefined) {
@@ -1159,6 +1413,8 @@ function parseArgs() {
       opts.limit = Number(args[++i]);
     } else if (a === "--dry-run") {
       opts.dryRun = true;
+    } else if (a === "--skip-website-resolve") {
+      opts.skipWebsiteResolve = true;
     }
   }
   return opts;
@@ -1208,6 +1464,15 @@ async function main() {
 
   all = dedupeAccentVariants(all);
   all = uniqById(all).sort((a, b) => (a.city + a.name).localeCompare(b.city + b.name));
+
+  if (!opts.dryRun && !opts.skipWebsiteResolve) {
+    console.log("[collect] Fetching listing pages to resolve official websites…");
+    all = await enrichPlacesWithOfficialWebsites(all, WEBSITE_RESOLVE_CONCURRENCY);
+    const withSite = all.filter((p) => p.website).length;
+    console.log(`[collect] Official websites found for ${withSite} / ${all.length} places.`);
+  } else if (opts.dryRun || opts.skipWebsiteResolve) {
+    all = all.map((p) => ({ ...p, website: null }));
+  }
 
   const outPath = path.join(ROOT, "data.generated.js");
   const js =

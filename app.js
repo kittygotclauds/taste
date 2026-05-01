@@ -33,6 +33,7 @@ const els = {
  * @property {string} sourceTitle
  * @property {string} sourceUrl
  * @property {string=} placeUrl
+ * @property {string|null=} website Official venue URL when resolved by collector
  * @property {readonly string[]=} tags
  */
 
@@ -155,6 +156,33 @@ function escapeHtml(s) {
     .replaceAll("'", "&#039;");
 }
 
+/** @param {unknown} raw */
+function trustedHttpUrl(raw) {
+  try {
+    const u = new URL(String(raw ?? ""));
+    if (u.protocol !== "http:" && u.protocol !== "https:") return null;
+    return u.href;
+  } catch {
+    return null;
+  }
+}
+
+/** @param {string|null|undefined} a @param {string|null|undefined} b */
+function sameHttpUrl(a, b) {
+  const ua = trustedHttpUrl(a);
+  const ub = trustedHttpUrl(b);
+  if (!ua || !ub) return false;
+  try {
+    const x = new URL(ua);
+    const y = new URL(ub);
+    x.hash = "";
+    y.hash = "";
+    return x.href === y.href;
+  } catch {
+    return false;
+  }
+}
+
 /** Strip legacy Vogue deks if cached assets still serve old data. */
 function displayCitationTitle(p) {
   let t = (p.sourceTitle ?? "").trim();
@@ -185,9 +213,11 @@ function card(p) {
     ...tags.map((t) => `<span class="chip">${escapeHtml(t)}</span>`),
   ].join("");
 
-  const safeSourceUrl = p.sourceUrl;
+  const safeSourceUrl = trustedHttpUrl(p.sourceUrl) ?? "#";
   const safeSourceTitle = displayCitationTitle(p);
-  const safePlaceUrl = p.placeUrl;
+  const officialWebsite = trustedHttpUrl(p.website);
+  const listingUrl = trustedHttpUrl(p.placeUrl);
+  const showListing = listingUrl && (!officialWebsite || !sameHttpUrl(p.website, p.placeUrl));
 
   return `
     <article class="card">
@@ -200,12 +230,17 @@ function card(p) {
       </div>
       <div class="card__bottom">
         <div class="links">
-          <a class="link" href="${safeSourceUrl}" target="_blank" rel="noreferrer noopener">
+          <a class="link" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
             Read on ${escapeHtml(SOURCES[p.source])}
           </a>
           ${
-            safePlaceUrl
-              ? `<a class="link link--muted" href="${safePlaceUrl}" target="_blank" rel="noreferrer noopener">Visit site</a>`
+            officialWebsite
+              ? `<a class="link link--website" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Visit website</a>`
+              : ""
+          }
+          ${
+            showListing
+              ? `<a class="link link--muted" href="${listingUrl}" target="_blank" rel="noopener noreferrer">Listing</a>`
               : ""
           }
         </div>

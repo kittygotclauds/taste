@@ -186,6 +186,11 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   color: rgba(154,166,188,.95);
   font-weight:650;
 }
+.link--website{
+  color: var(--accent2);
+  font-weight:650;
+}
+.link--website:hover{text-decoration: underline}
 .fine{color:var(--muted); font-size:12px}
 .empty{margin:18px 0; padding:18px; text-align:center}
 
