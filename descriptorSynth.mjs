@@ -1,18 +1,19 @@
 /**
- * Place descriptors: one sentence, ≤10 words, Claudia voice (see project copy spec).
- * Optional overrides: descriptor-overrides.json keyed by place id.
+ * Place descriptors: optional factual sentence (8–14 words when shown).
+ * Editorial overrides in descriptor-overrides.json bypass reliability heuristics (lint only).
+ * Auto-filled lines must pass isReliableAutoDescriptor() or they ship as empty.
  */
 
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 
-/** @typedef {{ id: string; name: string; category: string; city: string; country: string; neighborhood?: string }} PlaceLike */
+/** @typedef {{ id: string; name: string; category: string; city: string; country: string; neighborhood?: string; descriptor?: string }} PlaceLike */
 
 const BANNED =
   /\b(hidden gem|must-visit|must visit|iconic|elevated|curated|ultimate destination|bucket list|instagram-worthy|instagram worthy|once-in-a-lifetime|best-kept secret)\b/i;
 
-const THROAT =
-  /\b(discover|experience|nestled|situated|boasts|offers a unique|welcome to|step into)\b/i;
+const MIN_W = 8;
+const MAX_W = 14;
 
 /** @param {string} s */
 function wordCount(s) {
@@ -23,130 +24,71 @@ function wordCount(s) {
 }
 
 /** @param {string} s */
-function lintDescriptor(s) {
-  let out = (s ?? "").trim().replace(/\s+/g, " ").replace(/\u2014/g, ","); // no em dashes
+export function lintDescriptor(s) {
+  let out = (s ?? "").trim().replace(/\s+/g, " ").replace(/\u2014/g, ",").replace(/[—–]/g, ",");
+  if (!out) return "";
   if (!out.endsWith(".")) out += ".";
-  const wc = wordCount(out.replace(/\.$/, ""));
-  if (wc > 10) {
+  let wc = wordCount(out.replace(/\.$/, ""));
+  if (wc > MAX_W) {
     const parts = out.replace(/\.$/, "").split(/\s+/);
-    out = parts.slice(0, 10).join(" ") + ".";
+    out = parts.slice(0, MAX_W).join(" ") + ".";
   }
-  return out;
+  if (BANNED.test(out.toLowerCase())) {
+    out = out.replace(BANNED, "").replace(/\s+/g, " ").trim();
+    if (!out.endsWith(".")) out += ".";
+  }
+  return out.trim();
 }
 
-/** @param {string} s */
-function passesVoiceLint(s) {
-  const lower = s.toLowerCase();
+/**
+ * Returns true only when automatic/meta-derived copy looks trustworthy enough to show.
+ * Editorial overrides skip this (see assignDescriptors).
+ *
+ * @param {string} text
+ */
+export function isReliableAutoDescriptor(text) {
+  const cleaned = (text ?? "").trim().replace(/\.$/, "");
+  if (!cleaned) return false;
+
+  const wc = wordCount(cleaned);
+  if (wc < MIN_W || wc > MAX_W) return false;
+
+  const lower = cleaned.toLowerCase();
+
   if (BANNED.test(lower)) return false;
-  if (THROAT.test(lower)) return false;
-  if (/\u2014/.test(s)) return false;
-  if (/it's not .*it's/i.test(s)) return false;
-  return wordCount(s.replace(/\.$/, "")) <= 10;
-}
 
-/** @param {string} s */
-function capitalizeWords(s) {
-  return (s ?? "")
-    .split(/\s+/)
-    .map((w) => (w.length ? w[0].toUpperCase() + w.slice(1).toLowerCase() : w))
-    .join(" ");
-}
+  if (/included in the cited guide/i.test(lower)) return false;
+  if (/without further verified/i.test(lower)) return false;
+  if (/without fuller verified/i.test(lower)) return false;
 
-/** @param {PlaceLike} p */
-function geoLead(p) {
-  const nb = (p.neighborhood ?? "").split("/")[0].split(",")[0].trim();
-  let raw =
-    nb && nb.length <= 36 && nb.length >= 2 ? nb : (p.city ?? "").split(",")[0].trim() || "Here";
-  const words = capitalizeWords(raw).split(/\s+/).filter(Boolean).slice(0, 4);
-  return words.join(" ");
-}
+  if (/\|\s*(find all|official|tickets|visit)\b/i.test(cleaned)) return false;
+  if (/before your visit\b/i.test(lower)) return false;
 
-/** @param {string} str */
-function hashStr(str) {
-  let h = 5381;
-  for (let i = 0; i < str.length; i++) h = ((h << 5) + h) ^ str.charCodeAt(i);
-  return Math.abs(h >>> 0);
-}
+  if (/\b(killed|murder|murdered|shooting|patriarch of the hugely)\b/i.test(lower)) return false;
 
-/** Shared tails after "{Geo}, …". Lowercase clause + period added in builder. */
-const BASE_FRAGMENTS = [
-  "the repeat customer's quiet argument",
-  "where locals spend real money",
-  "built for taste, not traction",
-  "receipts over captions",
-  "prettier than necessary, sharper than polite",
-  "the grown-up reading of the block",
-  "flavor before theater",
-  "sleep like you picked the neighborhood",
-  "shopping with judgment intact",
-  "the museum stop worth skipping lunch for",
-  "recovery without the whisper voice",
-  "the reservation flex done right",
-  "no brochure voice, better manners",
-  "honest smoke, honest bill",
-  "where hype ages out fast",
-  "quiet money, louder plates",
-  "proof the neighborhood still argues",
-  "for people past pretending",
-  "when you mean it this time",
-  "not auditioning for attention",
-  "the version insiders defend",
-  "writes small, spends loud",
-  "still rude about quality",
-]
+  if (
+    /^(visitor attraction|museum|art gallery|shop|hotel|restaurant|wellness studio|day spa|wellness business|wellness venue)\s+(el|la|los|las|les|der|die|das|det|den)\b/i.test(
+      lower,
+    )
+  )
+    return false;
 
-/** @type {Record<string, string[]>} */
-const CATEGORY_FRAGMENTS = {
-  restaurant: [
-    "the pasta memo nobody skips",
-    "a knife-edge appetite welcome",
-    "where hunger stops negotiating",
-    "menu as personality test",
-  ],
-  hotel: [
-    "old bones, newer nerve",
-    "check-in without the apology tour",
-    "the room rate that makes sense later",
-  ],
-  shop: [
-    "retail with a spine",
-    "the bag that ends the browse",
-    "credit card, no regret sequence",
-  ],
-  attraction: [
-    "culture with a line worth waiting in",
-    "the ticket stub you keep",
-  ],
-  wellness: [
-    "body work, no serenity cosplay",
-    "maintenance for people who skip yoga poetry",
-  ],
-};
+  if (/^(visitor attraction|shop)\s+[a-záéíóúñ]{2,},\s+/i.test(lower)) return false;
 
-/**
- * @param {PlaceLike} p
- * @param {number} salt
- */
-function pickFragment(p, salt) {
-  const pool = [...BASE_FRAGMENTS, ...(CATEGORY_FRAGMENTS[p.category] ?? [])];
-  const h = hashStr(`${p.id}|${p.category}|${salt}`);
-  return pool[h % pool.length];
-}
+  if (/\bdistrict in the danish capital\b/i.test(lower)) return false;
+  if (/\bconstructed in the late \d/i.test(lower)) return false;
 
-/**
- * @param {PlaceLike} p
- */
-function synthesizeDescriptor(p) {
-  const geo = geoLead(p);
-  for (let salt = 0; salt < 14; salt++) {
-    const frag = pickFragment(p, salt);
-    const body = `${frag[0].toUpperCase()}${frag.slice(1)}`;
-    let s = `${geo}, ${body}.`;
-    s = lintDescriptor(s);
-    if (passesVoiceLint(s)) return s;
-  }
-  const fallback = lintDescriptor(`${geo}, taste with receipts.`);
-  return passesVoiceLint(fallback) ? fallback : "Taste with receipts.";
+  if (/\b(boasts|nestled|situated|step into|welcome to|offers a unique)\b/i.test(lower)) return false;
+
+  if (/\brestaurant\s+restaurante\b/i.test(lower)) return false;
+
+  if (/\band\s*\.\s*$/.test(lower)) return false;
+  if (/,\s+with\s+(the\s+)?vibrant\s*\.\s*$/i.test(lower)) return false;
+
+  if (/\bin\s+'s\b/i.test(lower)) return false;
+  if (/\s\?\s/.test(lower)) return false;
+
+  return true;
 }
 
 /**
@@ -176,6 +118,13 @@ export function assignDescriptors(places, rootDir) {
       const d = lintDescriptor(overrides[id]);
       return { ...p, descriptor: d };
     }
-    return { ...p, descriptor: synthesizeDescriptor(row) };
+
+    const existing = typeof row.descriptor === "string" ? row.descriptor.trim() : "";
+    if (existing) {
+      const d = lintDescriptor(existing);
+      return { ...p, descriptor: isReliableAutoDescriptor(d) ? d : "" };
+    }
+
+    return { ...p, descriptor: "" };
   });
 }
