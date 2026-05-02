@@ -3,6 +3,8 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { enrichPlacesWithWebsitesMultiStrategy } from "../website-resolve.mjs";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = existsSync(path.join(__dirname, "package.json"))
@@ -10,8 +12,8 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
   : path.resolve(__dirname, "..");
 
 /**
- * Minimal collector for Goop city-guide pages and Vogue editor guides.
- * It stores factual place metadata + backlinks; it does not store article text.
+ * Collector for Goop city-guide pages and Vogue editor guides.
+ * Outputs places with backlinks; optional pass resolves official websites via website-resolve.mjs.
  */
 
 /** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
@@ -780,9 +782,6 @@ async function tryFetchGuide(url) {
   }
 }
 
-/** Max concurrent listing-page fetches when resolving official websites. */
-const WEBSITE_RESOLVE_CONCURRENCY = 6;
-
 /**
  * Accept only plausible official venue URLs (not editorial hosts or social profiles).
  * @param {string|null|undefined} url
@@ -817,6 +816,8 @@ function validateOfficialWebsiteUrl(url) {
     if (host.includes("tripadvisor.")) return false;
     if (host.includes("yelp.")) return false;
     if (host.includes("opentable.")) return false;
+    if (host.includes("resy.")) return false;
+    if (host.includes("mapquest.")) return false;
     if (host.includes("foursquare.")) return false;
     if (host === "maps.apple.com") return false;
     if ((host === "google.com" || host.endsWith(".google.com")) && u.pathname.includes("/maps")) return false;
@@ -987,50 +988,6 @@ function extractOfficialWebsiteFromListingHtml(html, pageUrl) {
   }
   scored.sort((x, y) => y.score - x.score || x.url.length - y.url.length);
   return scored.length ? cleanUrl(scored[0].url) : null;
-}
-
-/**
- * Fetch each distinct place listing URL once and attach `website` (official URL or null).
- * @param {Place[]} places
- * @param {number} concurrency
- */
-async function enrichPlacesWithOfficialWebsites(places, concurrency) {
-  const unique = [
-    ...new Set(
-      places.map((p) => p.placeUrl).filter((u) => typeof u === "string" && /^https?:\/\//i.test(u)),
-    ),
-  ];
-
-  /** @type {Map<string, string | null>} */
-  const resolved = new Map();
-
-  let cursor = 0;
-  async function worker() {
-    for (;;) {
-      const i = cursor++;
-      if (i >= unique.length) break;
-      const listingUrl = unique[i];
-      const html = await tryFetchGuide(listingUrl);
-      if (!html) {
-        resolved.set(listingUrl, null);
-        continue;
-      }
-      const site = extractOfficialWebsiteFromListingHtml(html, listingUrl);
-      resolved.set(listingUrl, site);
-    }
-  }
-
-  const nWorkers = unique.length === 0 ? 0 : Math.min(concurrency, unique.length);
-  await Promise.all(Array.from({ length: nWorkers }, () => worker()));
-
-  return places.map((p) => {
-    const u = p.placeUrl;
-    if (!u || typeof u !== "string" || !/^https?:\/\//i.test(u)) {
-      return { ...p, website: null };
-    }
-    const w = resolved.has(u) ? resolved.get(u) : null;
-    return { ...p, website: w ?? null };
-  });
 }
 
 /** @returns {Promise<{ markdown: string, scopedHtml: string }>} */
@@ -1441,9 +1398,13 @@ async function main() {
 
   /** @type {Place[]} */
   let all = [];
+  /** @type {Map<string, string>} */
+  const guideScopedHtmlBySourceUrl = new Map();
+
   for (const g of guides) {
     const stats = createStats();
     const payload = await loadGuidePayload(g);
+    guideScopedHtmlBySourceUrl.set(cleanUrl(g.guideUrl), payload.scopedHtml || "");
     const text = payload.markdown;
     let extracted =
       g.source === "goop" ? extractGoop(text, g, stats) : extractVogue(text, g, stats);
@@ -1466,10 +1427,12 @@ async function main() {
   all = uniqById(all).sort((a, b) => (a.city + a.name).localeCompare(b.city + b.name));
 
   if (!opts.dryRun && !opts.skipWebsiteResolve) {
-    console.log("[collect] Fetching listing pages to resolve official websites…");
-    all = await enrichPlacesWithOfficialWebsites(all, WEBSITE_RESOLVE_CONCURRENCY);
-    const withSite = all.filter((p) => p.website).length;
-    console.log(`[collect] Official websites found for ${withSite} / ${all.length} places.`);
+    all = await enrichPlacesWithWebsitesMultiStrategy(all, guideScopedHtmlBySourceUrl, {
+      strategy1Extract: extractOfficialWebsiteFromListingHtml,
+      fetchListingHtml: tryFetchGuide,
+      cleanUrl,
+      validateOfficialWebsiteUrl,
+    }, ROOT);
   } else if (opts.dryRun || opts.skipWebsiteResolve) {
     all = all.map((p) => ({ ...p, website: null }));
   }
