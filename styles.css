@@ -145,6 +145,13 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   color: var(--muted);
   font-size: 12px;
 }
+.descriptor{
+  margin:0;
+  font-size: 13px;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: rgba(233,238,247,.88);
+}
 .chips{display:flex; flex-wrap:wrap; gap:8px}
 .chip{
   font-size: 12px;

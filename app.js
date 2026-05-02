@@ -34,6 +34,7 @@ const els = {
  * @property {string} sourceUrl
  * @property {string=} placeUrl
  * @property {string|null=} website Official venue URL when resolved by collector
+ * @property {string=} descriptor One-line voice descriptor (≤10 words)
  * @property {readonly string[]=} tags
  */
 
@@ -58,6 +59,7 @@ function placeHaystack(p) {
       p.city,
       p.country,
       p.neighborhood ?? "",
+      p.descriptor ?? "",
       CATEGORIES[p.category],
       SOURCES[p.source],
       ...(p.tags ?? []),
@@ -226,6 +228,7 @@ function card(p) {
           <h3 class="title">${escapeHtml(p.name)}</h3>
         </div>
         <div class="city">${escapeHtml(cityLine)}</div>
+        ${p.descriptor ? `<p class="descriptor">${escapeHtml(p.descriptor)}</p>` : ""}
         <div class="chips">${chips}</div>
       </div>
       <div class="card__bottom">

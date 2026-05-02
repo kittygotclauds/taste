@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { enrichPlacesWithWebsitesMultiStrategy } from "../website-resolve.mjs";
+import { assignDescriptors } from "../descriptorSynth.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -40,6 +41,7 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
  * @property {string} sourceUrl
  * @property {string=} placeUrl
  * @property {string|null=} website Official venue URL discovered from listing page (never Goop/Vogue)
+ * @property {string} descriptor One-line voice descriptor (≤10 words)
  * @property {string=} neighborhood
  * @property {readonly string[]=} tags
  */
@@ -1436,6 +1438,8 @@ async function main() {
   } else if (opts.dryRun || opts.skipWebsiteResolve) {
     all = all.map((p) => ({ ...p, website: null }));
   }
+
+  all = assignDescriptors(all, ROOT);
 
   const outPath = path.join(ROOT, "data.generated.js");
   const js =
