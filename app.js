@@ -214,8 +214,8 @@ function displayCitationTitle(p) {
 function card(p, filters) {
   const cityLine = [p.neighborhood, `${p.city}, ${p.country}`].filter(Boolean).join(SEP);
   const tags = (p.tags ?? []).slice(0, 5);
-  const showCategoryChip = filters.category === "all" ? true : p.category !== filters.category;
-  const showSourceChip = filters.source === "all" ? true : p.source !== filters.source;
+  const showCategoryChip = !(filters.category !== "all" && p.category === filters.category);
+  const showSourceChip = !(filters.source !== "all" && p.source === filters.source);
   const chips = [
     ...(showCategoryChip ? [categoryChip(p.category)] : []),
     ...(showSourceChip ? [sourceChip(p.source)] : []),

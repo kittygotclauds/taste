@@ -188,11 +188,11 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   min-width:0;
   width:100%;
   font-size: 11px;
-  color: rgba(154,166,188,.60);
+  color: rgba(154,166,188,.55);
 }
 .sourceLink{
-  color: rgba(154,166,188,.72);
-  font-weight:650;
+  color: rgba(154,166,188,.55);
+  font-weight:500;
   font-size: 11px;
   white-space:nowrap;
 }
