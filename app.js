@@ -214,8 +214,8 @@ function displayCitationTitle(p) {
 function card(p, filters) {
   const cityLine = [p.neighborhood, `${p.city}, ${p.country}`].filter(Boolean).join(SEP);
   const tags = (p.tags ?? []).slice(0, 5);
-  const showCategoryChip = filters.category === "all" || p.category !== filters.category;
-  const showSourceChip = filters.source === "all" || p.source !== filters.source;
+  const showCategoryChip = filters.category === "all" ? true : p.category !== filters.category;
+  const showSourceChip = filters.source === "all" ? true : p.source !== filters.source;
   const chips = [
     ...(showCategoryChip ? [categoryChip(p.category)] : []),
     ...(showSourceChip ? [sourceChip(p.source)] : []),
@@ -235,6 +235,9 @@ function card(p, filters) {
     ? `<p class="descriptor">${escapeHtml(descriptor)}</p>`
     : `<p class="descriptor descriptor--fallback">${escapeHtml(CATEGORIES[p.category])}</p>`;
 
+  const showTitle = Boolean(safeSourceTitle) && safeSourceTitle !== `Read on ${SOURCES[p.source]}`;
+  const titleSep = showTitle ? `<span class="sep">${escapeHtml(SEP.trim())}</span>` : "";
+
   return `
     <article class="card">
       <div class="card__top">
@@ -246,24 +249,25 @@ function card(p, filters) {
         ${chips ? `<div class="chips">${chips}</div>` : ""}
       </div>
       <div class="card__bottom">
-        <div class="attribution">
-          <a class="link link--secondary" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
-            Read on ${escapeHtml(SOURCES[p.source])}
-          </a>
-          ${safeSourceTitle ? `<span class="articleTitle">${escapeHtml(safeSourceTitle)}</span>` : ""}
-        </div>
         ${
           showPrimary
             ? `<a class="cta" href="${primaryUrl}" target="_blank" rel="noopener noreferrer">${primaryLabel}</a>`
             : ""
         }
+        <div class="attributionLine">
+          <a class="sourceLink" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
+            Read on ${escapeHtml(SOURCES[p.source])}
+          </a>
+          ${showTitle ? `${titleSep}<span class="articleTitle">${escapeHtml(safeSourceTitle)}</span>` : ""}
+        </div>
       </div>
     </article>
   `.trim();
 }
 
 function render(list, filters) {
-  els.results.innerHTML = list.map((p) => card(p, filters)).join("");
+  const f = filters ?? lastFilters ?? filtersFromUI();
+  els.results.innerHTML = list.map((p) => card(p, f)).join("");
   els.empty.hidden = list.length > 0;
 }
 
