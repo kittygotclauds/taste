@@ -1,0 +1,14 @@
+{
+  "_comment": "Place id → category (restaurant|hotel|shop|attraction|wellness). Keys starting with _ are ignored.",
+  "copenhagen-hay-restaurant": "shop",
+  "copenhagen-byredo-restaurant": "shop",
+  "copenhagen-black-diamond-restaurant": "attraction",
+  "copenhagen-illum-restaurant": "shop",
+  "copenhagen-opera-house-restaurant": "attraction",
+  "copenhagen-ferm-living-s-showroom-restaurant": "shop",
+  "copenhagen-nobis-restaurant": "hotel",
+  "copenhagen-niels-restaurant": "attraction",
+  "copenhagen-hotel-d-angleterre-restaurant": "hotel",
+  "paris-le-bristol-spa-wellness": "wellness",
+  "new-york-city-le-crocodile-hotel": "restaurant"
+}
