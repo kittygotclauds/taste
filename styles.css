@@ -190,13 +190,13 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   font-size: 11px;
   color: rgba(154,166,188,.55);
 }
+.attributionLine:hover{text-decoration: underline}
 .sourceLink{
   color: rgba(154,166,188,.55);
   font-weight:500;
   font-size: 11px;
   white-space:nowrap;
 }
-.sourceLink:hover{text-decoration: underline}
 .sep{color: rgba(154,166,188,.55); font-size:11px}
 .link{
   display:inline-flex; align-items:center; gap:8px;

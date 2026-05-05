@@ -226,9 +226,8 @@ function card(p, filters) {
   const safeSourceTitle = displayCitationTitle(p);
   const officialWebsite = trustedHttpUrl(p.website);
   const listingUrl = trustedHttpUrl(p.placeUrl);
-  const primaryUrl = officialWebsite || (listingUrl && !sameHttpUrl(listingUrl, safeSourceUrl) ? listingUrl : null);
-  const primaryLabel = officialWebsite ? "Visit website" : "Listing";
-  const showPrimary = Boolean(primaryUrl) && !sameHttpUrl(primaryUrl, safeSourceUrl);
+  const listingLink = listingUrl && !sameHttpUrl(listingUrl, safeSourceUrl) ? listingUrl : safeSourceUrl;
+  const showWebsiteCta = Boolean(officialWebsite);
 
   const descriptor = (p.descriptor ?? "").trim();
   const descriptorLine = descriptor
@@ -250,16 +249,14 @@ function card(p, filters) {
       </div>
       <div class="card__bottom">
         ${
-          showPrimary
-            ? `<a class="cta" href="${primaryUrl}" target="_blank" rel="noopener noreferrer">${primaryLabel}</a>`
+          showWebsiteCta
+            ? `<a class="cta" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Visit website</a>`
             : ""
         }
-        <div class="attributionLine">
-          <a class="sourceLink" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
-            Read on ${escapeHtml(SOURCES[p.source])}
-          </a>
+        <a class="attributionLine" href="${listingLink}" target="_blank" rel="noopener noreferrer">
+          <span class="sourceLink">Read on ${escapeHtml(SOURCES[p.source])}</span>
           ${showTitle ? `${titleSep}<span class="articleTitle">${escapeHtml(safeSourceTitle)}</span>` : ""}
-        </div>
+        </a>
       </div>
     </article>
   `.trim();
