@@ -104,8 +104,12 @@ function filtersFromUI() {
   return { q, city, category, source };
 }
 
+/** @type {ReturnType<typeof filtersFromUI>} */
+let lastFilters = filtersFromUI();
+
 function applyFilters() {
   const { q, city, category, source } = filtersFromUI();
+  lastFilters = { q, city, category, source };
 
   const filtered = data.filter((p) => {
     if (city && (p.city !== city.city || p.country !== city.country)) return false;
@@ -118,7 +122,7 @@ function applyFilters() {
     return true;
   });
 
-  render(filtered);
+  render(filtered, lastFilters);
   updateMeta(filtered.length);
 }
 
@@ -206,12 +210,15 @@ function displayCitationTitle(p) {
   return t;
 }
 
-function card(p) {
+/** @param {Place} p @param {ReturnType<typeof filtersFromUI>} filters */
+function card(p, filters) {
   const cityLine = [p.neighborhood, `${p.city}, ${p.country}`].filter(Boolean).join(SEP);
   const tags = (p.tags ?? []).slice(0, 5);
+  const showCategoryChip = filters.category === "all" || p.category !== filters.category;
+  const showSourceChip = filters.source === "all" || p.source !== filters.source;
   const chips = [
-    categoryChip(p.category),
-    sourceChip(p.source),
+    ...(showCategoryChip ? [categoryChip(p.category)] : []),
+    ...(showSourceChip ? [sourceChip(p.source)] : []),
     ...tags.map((t) => `<span class="chip">${escapeHtml(t)}</span>`),
   ].join("");
 
@@ -219,7 +226,14 @@ function card(p) {
   const safeSourceTitle = displayCitationTitle(p);
   const officialWebsite = trustedHttpUrl(p.website);
   const listingUrl = trustedHttpUrl(p.placeUrl);
-  const showListing = listingUrl && (!officialWebsite || !sameHttpUrl(p.website, p.placeUrl));
+  const primaryUrl = officialWebsite || (listingUrl && !sameHttpUrl(listingUrl, safeSourceUrl) ? listingUrl : null);
+  const primaryLabel = officialWebsite ? "Visit website" : "Listing";
+  const showPrimary = Boolean(primaryUrl) && !sameHttpUrl(primaryUrl, safeSourceUrl);
+
+  const descriptor = (p.descriptor ?? "").trim();
+  const descriptorLine = descriptor
+    ? `<p class="descriptor">${escapeHtml(descriptor)}</p>`
+    : `<p class="descriptor descriptor--fallback">${escapeHtml(CATEGORIES[p.category])}</p>`;
 
   return `
     <article class="card">
@@ -227,34 +241,29 @@ function card(p) {
         <div class="titleRow">
           <h3 class="title">${escapeHtml(p.name)}</h3>
         </div>
+        ${descriptorLine}
         <div class="city">${escapeHtml(cityLine)}</div>
-        ${p.descriptor ? `<p class="descriptor">${escapeHtml(p.descriptor)}</p>` : ""}
-        <div class="chips">${chips}</div>
+        ${chips ? `<div class="chips">${chips}</div>` : ""}
       </div>
       <div class="card__bottom">
-        <div class="links">
-          <a class="link" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
+        <div class="attribution">
+          <a class="link link--secondary" href="${safeSourceUrl}" target="_blank" rel="noopener noreferrer">
             Read on ${escapeHtml(SOURCES[p.source])}
           </a>
-          ${
-            officialWebsite
-              ? `<a class="link link--website" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Visit website</a>`
-              : ""
-          }
-          ${
-            showListing
-              ? `<a class="link link--muted" href="${listingUrl}" target="_blank" rel="noopener noreferrer">Listing</a>`
-              : ""
-          }
+          ${safeSourceTitle ? `<span class="articleTitle">${escapeHtml(safeSourceTitle)}</span>` : ""}
         </div>
-        <span class="fine">${escapeHtml(safeSourceTitle)}</span>
+        ${
+          showPrimary
+            ? `<a class="cta" href="${primaryUrl}" target="_blank" rel="noopener noreferrer">${primaryLabel}</a>`
+            : ""
+        }
       </div>
     </article>
   `.trim();
 }
 
-function render(list) {
-  els.results.innerHTML = list.map(card).join("");
+function render(list, filters) {
+  els.results.innerHTML = list.map((p) => card(p, filters)).join("");
   els.empty.hidden = list.length > 0;
 }
 
