@@ -11,7 +11,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.42raw.com/",
     "website": "https://42raw.dk/",
-    "descriptor": "Restaurant 42RAW serverer frisk, rå og plantebaseret mad i hjertet af København."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-aamanns-192-restaurant",
@@ -24,7 +24,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://aamanns.dk/",
     "website": null,
-    "descriptor": "Aamanns restaurant og take-away Økologisk smørrebrød eller vegetarisk frokostordning i København."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-antidote-restaurant",
@@ -76,7 +76,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://baest.dk/en/",
     "website": "https://www.visitcopenhagen.com/copenhagen/planning/baest-gdk944378",
-    "descriptor": "Organic, Italian-inspired restaurant and pizzeria in the Nørrebro area of."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-balthazar-restaurant",
@@ -89,7 +89,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.dangleterre.com/en/dining/balthazar",
     "website": "https://www.sevenrooms.com/reservations/balthazardenmark",
-    "descriptor": "Restaurant book a reservation at Balthazar - Located at d'Angleterre Kongens Nytorv 34, København,."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-beau-march-restaurant",
@@ -107,7 +107,7 @@ export const PLACES = [
   {
     "id": "copenhagen-black-diamond-restaurant",
     "name": "Black Diamond",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -115,7 +115,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.kb.dk/en/",
     "website": "https://www.visitcopenhagen.com/copenhagen/planning/the-black-diamond-royal-danish-library-gdk412214",
-    "descriptor": "Restaurant this stunning modern addition to the Royal Library was finished in 1999 and."
+    "descriptor": "Modern harbor annex of Denmark's Royal Library with exhibitions and reading halls."
   },
   {
     "id": "copenhagen-botanical-garden-attraction",
@@ -128,7 +128,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.visitcopenhagen.com/copenhagen/botanical-garden-gdk422317",
     "website": "https://snm.dk/en/botanical-garden",
-    "descriptor": "The 10-hectare Botanical Garden is part of the Parkmuseerne museum district and offers a."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-brus-restaurant",
@@ -146,7 +146,7 @@ export const PLACES = [
   {
     "id": "copenhagen-byredo-restaurant",
     "name": "Byredo",
-    "category": "restaurant",
+    "category": "shop",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -154,7 +154,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://byredo.se/",
     "website": "https://stores.byredo.com/en/europe/dk/copenhagen",
-    "descriptor": "Restaurant shop Byredo's collection of luxury perfumes, candles and leather goods."
+    "descriptor": "Stockholm-founded fragrance house known for perfumes and leather goods."
   },
   {
     "id": "copenhagen-california-kitchen-restaurant",
@@ -193,12 +193,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.facebook.com/Democratic-Coffee-147810001973306/",
     "website": "https://www.visitcopenhagen.com/copenhagen/planning/democratic-coffee-gdk1092008",
-    "descriptor": "Located in the public library, Democratic Coffee is the perfect place to study, work."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-designmuseum-denmark-restaurant",
     "name": "Designmuseum Denmark",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -219,12 +219,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.farsdreng.com/",
     "website": "https://restaurantguru.com/Fars-Dreng-Copenhagen-2",
-    "descriptor": "I recommend you to visit the restaurant Far."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-ferm-living-s-showroom-restaurant",
     "name": "Ferm Living’s showroom",
-    "category": "restaurant",
+    "category": "shop",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -232,7 +232,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.fermliving.com/",
     "website": null,
-    "descriptor": "Shop passionate about authentic and functional Danish design, we create furniture, accessories and interiors."
+    "descriptor": "Danish interiors brand showroom highlighting furniture, lighting, and textiles."
   },
   {
     "id": "copenhagen-fiskebaren-restaurant",
@@ -271,12 +271,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://groed.com/en/",
     "website": "http://groed.com/en/menu",
-    "descriptor": "We're changing our menu according to the seasons."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-hay-restaurant",
     "name": "Hay",
-    "category": "restaurant",
+    "category": "shop",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -284,7 +284,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://hay.dk/",
     "website": "http://hay.dk/",
-    "descriptor": "Shop view HAY.com’s range of designer furniture, find local dealers, learn more about the."
+    "descriptor": "Danish contemporary furniture and homewares flagship retail store."
   },
   {
     "id": "copenhagen-hija-de-sanchez-restaurant",
@@ -297,12 +297,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.hijadesanchez.dk/",
     "website": "https://lovesanchez.com/hija-de-sanchez/k-dbyen/hours-and-info",
-    "descriptor": "Restaurant our second taqueria opened in April 2016 in ’s Meatpacking District (Kødbyen)."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-hotel-d-angleterre-restaurant",
     "name": "Hotel d’Angleterre",
-    "category": "restaurant",
+    "category": "hotel",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -310,12 +310,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.dangleterre.com/",
     "website": "https://dangleterre.hotel-copenhagen.com/en/",
-    "descriptor": "Hotel D\\'Angleterre - 5 star hotel Offering a health club, spa therapy, and a."
+    "descriptor": "Grand nineteenth-century Copenhagen hotel facing Kongens Nytorv square."
   },
   {
     "id": "copenhagen-illum-restaurant",
     "name": "Illum",
-    "category": "restaurant",
+    "category": "shop",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -323,7 +323,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://illum.dk/",
     "website": "https://illum.onlinebooq.dk/",
-    "descriptor": "Restaurant opdag ILLUMs fantastiske verden Lige fra butikkens lokation og åbningstider til Tax Free."
+    "descriptor": "Historic Copenhagen department store spanning luxury fashion and Danish design floors."
   },
   {
     "id": "copenhagen-kiin-kiin-bao-bao-restaurant",
@@ -362,7 +362,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://mirabelle-bakery.dk/en/",
     "website": "https://restaurantguru.com/Mirabelle-Copenhagen",
-    "descriptor": "I recommend you to visit the restaurant Mirabelle."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-mother-restaurant",
@@ -375,7 +375,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://motherrestaurant.dk/",
     "website": "https://mother.dk/menu2024",
-    "descriptor": "Restaurant mother is known for its trademark sourdough pizza baked in a wood-fired oven."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-n-rv-r-restaurant",
@@ -388,12 +388,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.naervaer.dk/",
     "website": "https://book.easytablebooking.com/book/?id=b5ce8&",
-    "descriptor": "Restaurant nærvær byder på en gourmetmiddag af kompromisløs kvalitet med byens bedste udsigt."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-niels-restaurant",
     "name": "Niels",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -401,12 +401,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.nobishotel.dk/restaurant-niels",
     "website": "https://www.nielsbrock.com/en/niels-brock-copenhagen-business-college/our-programmes/",
-    "descriptor": "Restaurant read about all our programmes at Niels Brock."
+    "descriptor": "Niels Brock Copenhagen business college campus offering international programmes."
   },
   {
     "id": "copenhagen-nobis-restaurant",
     "name": "Nobis",
-    "category": "restaurant",
+    "category": "hotel",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -414,12 +414,12 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.nobishotel.dk/",
     "website": "https://www.nobishotel.dk/da",
-    "descriptor": "Nobis Hotel er et moderne luksushotel, der ligger på en førsteklasses beliggenhed i hjertet."
+    "descriptor": "Upscale Copenhagen boutique hotel steps from Tivoli Gardens and transit hubs."
   },
   {
     "id": "copenhagen-opera-house-restaurant",
     "name": "Opera House",
-    "category": "restaurant",
+    "category": "attraction",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -427,7 +427,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://kglteater.dk/en/",
     "website": "https://copenhappen.com/the-royal-danish-opera-house-copenhagens-stunning-waterfront-temple-to-the-arts/",
-    "descriptor": "Restaurant standing majestically on the artificial island of Holmen, The Royal Danish Opera House."
+    "descriptor": "Royal Danish Opera waterfront venue designed by Henning Larsen's studio."
   },
   {
     "id": "copenhagen-paleo-restaurant",
@@ -479,7 +479,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://www.facebook.com/prologcoffeebar/",
     "website": null,
-    "descriptor": "Prolog Coffee, 3,696 likes · 12 talking about this · 1,445 were here."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-rel-restaurant",
@@ -492,7 +492,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.restaurant-relae.dk/en/",
     "website": null,
-    "descriptor": "Restaurant the website you are trying to reach could be suspended, deleted or DNS."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-rosenborg-restaurant",
@@ -583,7 +583,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://stilleben.dk/",
     "website": "https://stilleben.dk/pages/about-us",
-    "descriptor": "Restaurant stilleben designer farverige, håndlavede genstande lavet til at holde."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-the-union-kitchen-restaurant",
@@ -596,7 +596,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "http://www.theunionkitchen.dk/",
     "website": "https://theunionkitchen.dk/",
-    "descriptor": "The Union Kitchen are modern interpretations of neighbourhood feel, local hangouts."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-torvehallerne-restaurant",
@@ -609,7 +609,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://torvehallernekbh.dk/",
     "website": "https://torvehallernekbh.dk/stade/mikkeller-friends-bottle-shop/",
-    "descriptor": "Restaurant udvalgte flasker fra Mikkellers egne bryggerier, traditionelle belgiske bryggerier, spændende imports fra USA."
+    "descriptor": ""
   },
   {
     "id": "copenhagen-trio-restaurant",
@@ -646,7 +646,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391172-specialty/allpress-espresso/",
     "website": "https://allpressespresso.com/",
-    "descriptor": "Allpress Espresso roasts specialty coffee for independent cafés and coffee lovers around the world."
+    "descriptor": ""
   },
   {
     "id": "london-aman-spa-at-the-connaught-wellness",
@@ -706,7 +706,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387338-shops/another-country/",
     "website": "https://anothercountry.com/",
-    "descriptor": "Shop designers and makers of contemporary wood furniture for the natural home, delivering quality,."
+    "descriptor": ""
   },
   {
     "id": "london-bankside-hotel-hotel",
@@ -718,7 +718,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/southbank-hotels/bankside-hotel/",
     "website": "https://banksidehotel.com/",
-    "descriptor": "A design-led hotel on the culturally vibrant South Bank of."
+    "descriptor": ""
   },
   {
     "id": "london-bar-at-the-chiltern-firehouse-restaurant",
@@ -742,7 +742,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381985-restaurants/beast/",
     "website": "https://beastrestaurant.com/",
-    "descriptor": "Come and learn the legend of The Beast, the latest and most exclusive King."
+    "descriptor": ""
   },
   {
     "id": "london-berkeley-blue-bar-restaurant",
@@ -826,7 +826,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/breathpod/",
     "website": "https://breathpod.com/",
-    "descriptor": "Discover science-backed breathwork, music, and community to reduce stress, improve sleep, boost confidence, and."
+    "descriptor": ""
   },
   {
     "id": "london-brigadiers-restaurant",
@@ -886,7 +886,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387346-shops/burlington-arcade/",
     "website": "https://burlingtonarcade.com/",
-    "descriptor": "The original department store, the historic Burlington Arcade is home to fine watch and."
+    "descriptor": ""
   },
   {
     "id": "london-caf-murano-restaurant",
@@ -922,7 +922,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/chiltern-firehouse-2/",
     "website": "https://www.chilternfirehouse.com/",
-    "descriptor": "Andre Balazs luxury hotel and restaurant in Marylebone,."
+    "descriptor": ""
   },
   {
     "id": "london-chiltern-firehouse-restaurant",
@@ -934,7 +934,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381566-restaurants/chiltern-firehouse/",
     "website": "https://www.chilternfirehouse.com/",
-    "descriptor": "Andre Balazs luxury hotel and restaurant in Marylebone,."
+    "descriptor": ""
   },
   {
     "id": "london-china-tang-restaurant",
@@ -1066,7 +1066,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-specialty/daylesford/",
     "website": "https://daylesford.com/",
-    "descriptor": "Restaurant shop award-winning organic food, drink, homeware, hampers & gifts from Daylesford."
+    "descriptor": ""
   },
   {
     "id": "london-din-tai-fung-restaurant",
@@ -1126,7 +1126,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emerald-and-tiger/",
     "website": "https://emeraldandtiger.com/",
-    "descriptor": "Wellness studio conscious lifestyle brand promoting positive awareness through vibrant connection to wellbeing."
+    "descriptor": ""
   },
   {
     "id": "london-emma-cannon-wellness",
@@ -1222,7 +1222,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/facegym/",
     "website": "https://facegym.com/",
-    "descriptor": "Results-driven skincare, advanced technology tools, & collagen-boosting workouts to lift, tone, tighten & brighten."
+    "descriptor": ""
   },
   {
     "id": "london-farm-girl-caf-restaurant",
@@ -1354,7 +1354,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-hotels/hotel-cafe-royal/",
     "website": "https://hotelcaferoyal.com/",
-    "descriptor": "Experience the finest hotel in, immersing yourself in contemporary luxury and timeless elegance, right."
+    "descriptor": ""
   },
   {
     "id": "london-hovarda-restaurant",
@@ -1402,7 +1402,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/jessica-mccormack/",
     "website": "https://jessicamccormack.com/",
-    "descriptor": "Shop jessica McCormack designs exceptional diamond jewellery for the modern woman, creating heirlooms for."
+    "descriptor": ""
   },
   {
     "id": "london-jikoni-restaurant",
@@ -1414,7 +1414,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-383110-restaurants/jikoni/",
     "website": "https://jikonirestaurant.com/",
-    "descriptor": "Jikoni - a restaurant and other things in Marylebone, near Oxford Street & Baker."
+    "descriptor": ""
   },
   {
     "id": "london-john-bell-and-croyden-shop",
@@ -1486,7 +1486,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-restaurants/kiln/",
     "website": "https://kiln.com/",
-    "descriptor": "Hotel kiln offers private offices, team suites, and coworking spaces designed for growing companies."
+    "descriptor": ""
   },
   {
     "id": "london-kimpton-fitzroy-london-hotel",
@@ -1498,7 +1498,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/bloomsbury-hotels/the-kimpton-fitzroy-hotel/",
     "website": "https://kimptonfitzroylondon.com/",
-    "descriptor": "Hotel taking up residence in, Kimpton Fitzroy offers signature style and service."
+    "descriptor": ""
   },
   {
     "id": "london-kricket-restaurant",
@@ -1522,7 +1522,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/peckham-restaurants/kudu/",
     "website": "https://kudurestaurant.com/",
-    "descriptor": "Kudu is South African inspired restaurant Marylebone Our South African roots inspire our food."
+    "descriptor": ""
   },
   {
     "id": "london-l-oscar-hotel-hotel",
@@ -1594,7 +1594,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-452662-services/lesalon/",
     "website": "https://lesalon.com/",
-    "descriptor": "Wellness studio professional, hygienic, and long-lasting beauty treatments provided by the best mobile beauticians."
+    "descriptor": ""
   },
   {
     "id": "london-lina-stores-restaurant",
@@ -1606,7 +1606,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-restaurants/lina-stores/",
     "website": "https://linastores.com/",
-    "descriptor": "Italian Delicatessen and Italian Restaurant in Since 1944, we have been selling authentic Italian."
+    "descriptor": ""
   },
   {
     "id": "london-little-duck-the-picklery-restaurant",
@@ -1702,7 +1702,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/l-o-n-b/",
     "website": "https://metier.com/",
-    "descriptor": "Shop timeless collection of travel-inspired luxury leather goods for men and women, handcrafted in."
+    "descriptor": ""
   },
   {
     "id": "london-monocle-caf-restaurant",
@@ -1810,7 +1810,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381680-restaurants/park-chinois/",
     "website": "https://parkchinois.com/",
-    "descriptor": "A luxury Chinese restaurant in Mayfair inspired by the glamour and revelry of 1930s."
+    "descriptor": ""
   },
   {
     "id": "london-phillips-auctions-attraction",
@@ -1894,7 +1894,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-restaurants/rochelle-canteen/",
     "website": "https://rochellecanteen.com/",
-    "descriptor": "Restaurant our cooking is both classic and modern European, meaning we take influences from."
+    "descriptor": ""
   },
   {
     "id": "london-roka-mayfair-restaurant",
@@ -1978,7 +1978,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sexy-fish/",
     "website": "https://sexyfish.com/",
-    "descriptor": "Asian restaurant and bar located on the corner of Berkeley Square, Mayfair, serving Japanese-inspired."
+    "descriptor": ""
   },
   {
     "id": "london-shoreditch-grind-restaurant",
@@ -2026,7 +2026,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-health-and-beauty/skinwork/",
     "website": "https://skinwork.com/",
-    "descriptor": "At SKINWORK, our skin experts offer professional facial treatments from our Soho Studio."
+    "descriptor": ""
   },
   {
     "id": "london-sotheran-s-shop",
@@ -2050,7 +2050,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-381579-restaurants/spring-2/",
     "website": "https://springrestaurant.com/",
-    "descriptor": "At Spring Restaurant, Skye Gyngell's team serve daily changing, seasonal menus in a restored."
+    "descriptor": ""
   },
   {
     "id": "london-the-arts-club-restaurant",
@@ -2086,7 +2086,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-hotels/the-berkeley/",
     "website": "https://berkeley.com/",
-    "descriptor": "Hotel specialize in structuring and providing tailor­made solutions to our client’s most complex financial."
+    "descriptor": ""
   },
   {
     "id": "london-the-blue-posts-restaurant",
@@ -2170,7 +2170,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381953-restaurants/the-golden-hind/",
     "website": "https://goldenhindrestaurant.com/",
-    "descriptor": "Authentic Fish and Chips Restaurant Marylebone, It is ideal for your group dining party."
+    "descriptor": ""
   },
   {
     "id": "london-the-good-life-eatery-restaurant",
@@ -2314,7 +2314,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-389179-museums/the-wallace-collection/",
     "website": "https://wallacecollection.org/",
-    "descriptor": "Shop discover exceptional paintings, sculpture, ceramics, furniture and arms and armour, gifted to Britain."
+    "descriptor": ""
   },
   {
     "id": "london-the-wolseley-restaurant",
@@ -2398,7 +2398,7 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382273-restaurants/umu/",
     "website": "https://umurestaurant.com/",
-    "descriptor": "Discover Umu, a Michelin Star Japanese restaurant in Mayfair,."
+    "descriptor": ""
   },
   {
     "id": "london-vaishaly-wellness",
@@ -2422,7 +2422,7 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/vanessa-kandiyoti/",
     "website": "https://vanessakandiyoti.com/",
-    "descriptor": "Wellness studio i facilitate workshops and guided meditations throughout Europe."
+    "descriptor": ""
   },
   {
     "id": "london-wiltons-restaurant",
@@ -2473,7 +2473,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.bodenewyork.com/pages/bode-los-angeles",
     "website": null,
-    "descriptor": "Shop 7007 Melrose AvenueLos Angeles, CA 90038(213) 595-5696 Open daily 11am-7pm For all inquiries."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-brentwood-general-store-shop",
@@ -2499,7 +2499,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/",
     "website": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/",
-    "descriptor": "Santa Monica Proper Hotel's rooftop restaurant in Santa Monica features fresh mediterranean fare, hand-crafted."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-casa-vega-restaurant",
@@ -2512,7 +2512,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.casavega.com/",
     "website": "https://www.casavega.com/pages/drinks",
-    "descriptor": "Casa Vega Mexican restaurant operating in the San Fernando Valley of for over 65."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-chateau-marmont-hotel",
@@ -2655,7 +2655,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.jonandvinnys.com/",
     "website": null,
-    "descriptor": "California Italian restaurant that is open for breakfast, lunch and dinner, seven days a."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-la-scala-restaurant",
@@ -2681,7 +2681,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://manuela-la.com/",
     "website": "https://manuela-la.com/",
-    "descriptor": "A unique restaurant in LA uniting chefs, farmers and artists, and winner of Wine."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-maybourne-beverly-hills-hotel",
@@ -2694,7 +2694,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/613tZGZB2ZvVqb2wj4cfiKjWpUeN7E7Q6A3pLzuhRPotk5DxgWPsd88Qnidyb8f5ziY9DvRab69ENUKoN8WUzJi68LpnWbgSF6EQSMDyayBsxXHdDEmTb4EhN18hP222t7voxqtatv4kf74sPgHPgwixpCn5zWfenEnMcLNwfLwxF1PdpNi5pjTWNqMTq2UwXmJFhq4FyCmbsaKgG73ZB2xV1XK4Ka2HvZwexFrj1UDGk9mn8zVf4kCibnvETeZFbcmMwmAAanxrttDRHxbWLcSrAzXbUdBPtcsPBA4b3uVc9fDYujYNMP1o6aLWTeTNGzBQ4tkXDrECjLkNASEBp1vMzowmLDUTDkdsGf",
     "website": "https://www.maybourne.com/en/hotels/the-maybourne-beverly-hills/restaurants-bars",
-    "descriptor": "Hotel discover our luxury restaurants and bars in Beverly Hills, California."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-mother-wolf-restaurant",
@@ -2720,7 +2720,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.noburestaurants.com/malibu/home/",
     "website": "https://www.noburestaurants.com/malibu/reservations",
-    "descriptor": "Experience Nobu Malibu uptown with Bar & Lounge, Sushi Bar, Cocktails & more."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-nobu-ryokan-malibu-hotel",
@@ -2746,7 +2746,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.pacegallery.com/galleries/los-angeles/",
     "website": "https://pacerestaurant.com/",
-    "descriptor": "Pace Restaurant located Laurel Canyon Organic | Italian | Homemade."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-shoop-s-restaurant",
@@ -2759,7 +2759,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shoopsdeli.com/",
     "website": null,
-    "descriptor": "Restaurant a European deli and a market of imported meats, cheeses, candy, beer and."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-shutters-on-the-beach-hotel",
@@ -2772,7 +2772,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shuttersonthebeach.com/",
     "website": "https://www.shuttersonthebeach.com/",
-    "descriptor": "Santa Monica hotel that blends uxury with effortless charm, which makes it the perfect."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-silver-lake-pool-and-inn-hotel",
@@ -2785,7 +2785,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/qWr6YUDVveeLhXj1mG9tkuxSFL6B1BrXVNYjyaz9REmC3eJtxJ2j4TXQxBxK8LEi4n1yMuxyBWc3az61dk1TzF4dFqrTPLVxGCezCxyaiyq4oTJbdjZiRCL8HeGafSEDonaUPHPm1pKk1rK41S6wyub23ibnx52biQiYH4t178cdmPPedubwe8C36EVMG5rTSoHdsDqW4HAoM34g8xLZprQPy6VTFrdQegQFYP2UJM71hSjGKYL6C1hgSe4akeDAQRfGKJBUFgPQznWM1BPh5r8F2CYB1gr3GFLZstejVgwJfrN2moHgM65qVL5LpAo47y4BSnCMr7d2Wb8xAnZfoNdDRpV1JitbHVXLQ4iBQD324wu?xid=fr1740599192233ccj",
     "website": null,
-    "descriptor": "Stay at Silver Lake Pool & Inn, a boutique hotel in with rooftop pool,."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-sushi-fumi-restaurant",
@@ -2811,7 +2811,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://talesaistudiocity.com/",
     "website": "https://ordertalesai.square.site/",
-    "descriptor": "Restaurant order delicious and freshly prepared home-style Thai food from Talesai Studio City for."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-taverna-tony-restaurant",
@@ -2863,7 +2863,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/MAg6NTLYhSzigA2vuJGJAiPEUCBxWEKmiztR6wTbG9TihGvF8213qZ67n4SKDp7uqBjFYSeZ2L5zs49a65KnWDM5k1B4FL54GCMM5ekHCQ3AW63hnAdSuY8B3Qd6o9Wxs7FuUFfpMDhQftMZ634tff4WRk2z2uT5aYkSiKXLACGLVsYdmYvTt2CEDMJt6TVhm5gD6n6mmzumd6wCm5LvHaYwV8kmA3yWQUXR6XccGQb8qz8MV7shF7G43K8X18VjtRNzoeL7JQffdJwuGdKgJB54VW71HkmNDQYuRFvoauK8GXZtqQufoGSFLhAYh1VoTQBsRsd8QfcFCT6Z5qgWfh8F",
     "website": "https://www.thegeorgian.com/",
-    "descriptor": "Book Your Stay and Escape to Coastal Elegance at The Georgian Hotel, a Historic."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-the-infatuation-restaurant",
@@ -2876,7 +2876,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.theinfatuation.com/los-angeles/guides/saweetie-la-restaurant-guide",
     "website": null,
-    "descriptor": "From Thai and Filipino staples to California Pizza Kitchen’s mac and cheese, Saweetie knows."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-the-ivy-restaurant",
@@ -2889,7 +2889,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "http://theivyrestaurants.com/",
     "website": null,
-    "descriptor": "The Ivy Restaurant in and Ivy at The Shore in Santa Monica offer classic."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-the-lore-restaurant",
@@ -2915,7 +2915,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/Wu6UuqeJKuLDvE7stGEPzHCrMVWCaGLokGvFJY2SQyuTvHdAJLcruJYQZAx9MSvedAWjvdFXajbwJPHZRoD7WHWrVt2mBavEKJWeSkuQ6KjLZTY6mdo4qwSqv3unc25kNdhi3d5v5BFecPsBAD1q2i5yFk2L61EquRbgZwEgQVTbxciKLYb2GZpcBvytiJu99xWqrqaNvtwW5Ni7ntyNi3KY9vCueuXWrK4SmA2AXAYhX3596wrreBYoe8SZvG3h6RmdifMpwrkbcVGAjV6pmh7XyhpSP3vGfpiF7iyfjqUmrAAQTRecmqpNP22B47HgdgwEPE8xp64JvGSX2Fm22trTKRHM",
     "website": "https://hotels.cloudbeds.com/reservation/7kn0fV?",
-    "descriptor": "Hotel planning a group stay? For bookings of 5 or more rooms, our Sales."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-the-way-we-wore-shop",
@@ -2954,7 +2954,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://cna.st/affiliate-link/4NeJabgQykde13q2rpUikrWb6HGoam6vYBe3u3BNcrA31T1QB12S5pkLMfFLffQorTPhhAgtRY9hgAfXjFnifv8ehR9kqQG8NhAYsMqcoyGmM9ARxTqG1Fm9VzPHRCeNkPVc3YayGqXcTcA5AvBQGmwoqtLcHekTPFn6BWAVKkLaidDQNAZzbN9nvoCsUwmqyc4nJAzgoZ7dmwYk7bmjPDNZabRraMUDvYndQ5oyPoXm4jtDm4MnYdk4fN5MYAbe3vWAGzBx5xERQ4KW3hSRV8w9x52h55bxfBgGJuKyQp8VGXFTjBZtjY2oPVT87prRnvqFfjYv71NaMPfBV49uryejpETeRrLqQf",
     "website": "https://www.editionhotels.com/weho",
-    "descriptor": "Hotel the West Hollywood EDITION, on the corner of West Sunset Boulevard and North."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-tower-bar-restaurant",
@@ -2967,7 +2967,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.sunsettowerhotel.com/restaurants-and-bar/tower-bar",
     "website": "https://www.sunsettowerhotel.com/menus",
-    "descriptor": "A landmark amongst West Hollywood restaurants, the Tower Bar and Restaurant blends a moody."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-wasteland-shop",
@@ -2980,7 +2980,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://www.shopwasteland.com/",
     "website": "https://www.shopwasteland.com/",
-    "descriptor": "High-end clothing boutique and online shop selling new, gently-used, and vintage women's and men's."
+    "descriptor": ""
   },
   {
     "id": "los-angeles-zak-eyes-shop",
@@ -2993,7 +2993,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "https://zakeyes.com/pages/our-store",
     "website": null,
-    "descriptor": "Shop affordable eye exams, preventative care, diagnosis, prescription glasses + contacts, onsite lab, custom."
+    "descriptor": ""
   },
   {
     "id": "mexico-city-abarrotes-delirio-restaurant",
@@ -3516,7 +3516,7 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/maison-artemisia-mexico-city",
     "website": "https://maisonartemisia.com/",
-    "descriptor": "Maison Artemisia - Bar de Cocteles - Cocktail bar -A temple for the Bons."
+    "descriptor": ""
   },
   {
     "id": "mexico-city-maque-restaurant",
@@ -3585,7 +3585,7 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/mercado-roma-mexico-city",
     "website": "https://mercadoroma.com/",
-    "descriptor": "Restaurant mercadoroma es un mercado público, el primero en la Ciudad de México de."
+    "descriptor": ""
   },
   {
     "id": "mexico-city-merotoro-restaurant",
@@ -3724,7 +3724,7 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/national-palace-mexico-city",
     "website": null,
-    "descriptor": ""
+    "descriptor": "Federal palace on the Zócalo housing Diego Rivera murals and state ceremonies."
   },
   {
     "id": "mexico-city-never-a-roxy-shop",
@@ -3738,7 +3738,7 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/neveria-roxy-mexico-city",
     "website": "https://neveriaroxy.com/",
-    "descriptor": "Shop durante más de 70 años hemos elaborado nuestras nieves y helados de la."
+    "descriptor": ""
   },
   {
     "id": "mexico-city-nina-menocal-restaurant",
@@ -3889,7 +3889,7 @@ export const PLACES = [
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "placeUrl": "https://www.postcard.inc/places/sandra-weil-mexico-city",
     "website": "https://sandraweil.com/",
-    "descriptor": "Contemporary Latin American fashion brand, established in since 2012."
+    "descriptor": ""
   },
   {
     "id": "mexico-city-soumaya-museum-attraction",
@@ -4081,7 +4081,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.cecconismiamibeach.com/",
     "website": "https://www.cecconismiamibeach.com/miami-beach/private-events/",
-    "descriptor": "Restaurant located inside the same building as Soho Beach House, Cecconi’s Beach is open."
+    "descriptor": ""
   },
   {
     "id": "miami-cote-restaurant",
@@ -4120,7 +4120,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.doyarestaurant.com/",
     "website": "https://doyarestaurant.com/about-us/",
-    "descriptor": "Modern Aegean restaurant and bar in Wynwood, We serve plates to share (‘meze’) from."
+    "descriptor": ""
   },
   {
     "id": "miami-east-hotel",
@@ -4146,7 +4146,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cna.st/affiliate-link/2axRRXrp1mKAPWK3dnxyrGQvPs4sCEqRUhYf3iu7uPEviegms8mdfnCpMpXa4VgpMfeNvffkoNpefdyJ597Q1qgv1EdwgR6vyRn4gv8ivS5Sy17B6KhiP5V4MCtZvgrFEfAwp4dzJhmkkXBGFkVLvkztP4NeGsWNbEu7pzZRoF2bA9u8sWftyKGwXbVY5tDUc1ymZ3UpaJPQ1MExmWcW6tV9CDNtDvXRM2RwMUgFmeVsezD56n849SwtFh7eh1oiUaroJoqtniCKC3CVbmYb7sR44qGxjtAfgc",
     "website": "https://www.faena.com/miami-beach",
-    "descriptor": "Experience Faena Hotel Beach, an award-winning luxury hotel in Beach featuring stunning suites, world-class."
+    "descriptor": ""
   },
   {
     "id": "miami-goodtime-hotel-hotel",
@@ -4159,7 +4159,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://cna.st/affiliate-link/2axRRXrp1mKAPWK3dnxyrGQvPs4sCEqRUhYf3iu7uPEviegms8mdfnCpMpXa4VgpMsxgwxioUrfaEY6yriNFdsXzLA2yARfS1urTw8rN5Kb1tVaKEK6W26y9PJ4tVuUrg6NnixKAyfkRa1vFJsTWym5fksH3XVdBNTmaBuCYgE3dnFAfmLf9Esto1BDStw9HFXrM7FfBNRiGmN9BUNnKgmJaSmKMrUUowDeqUZwcsVVYQ1ezcqSk7GN3gWu4hJyYpoRT8Z5FnDa93bRfgwQXN1yWVFG4cgrGmW",
     "website": "https://www.thegoodtimehotel.com/",
-    "descriptor": "Hotel planning a South Beach getaway? The Goodtime Hotel offers extraordinary entertainment and experiences."
+    "descriptor": ""
   },
   {
     "id": "miami-joe-s-stone-crab-restaurant",
@@ -4185,7 +4185,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://kikiontheriver.com/",
     "website": "https://www.kikiontheriver.com/",
-    "descriptor": "Modern Greek cuisine on the River Luxurious waterfront dining, live DJs, and the vibrant."
+    "descriptor": ""
   },
   {
     "id": "miami-los-fuegos-restaurant",
@@ -4211,7 +4211,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "http://www.mandolinmiami.com/",
     "website": "http://www.mandolinmiami.com/",
-    "descriptor": "Restaurant at Mandolin we pride ourselves on consistency and quality of our food."
+    "descriptor": ""
   },
   {
     "id": "miami-plant-miami-restaurant",
@@ -4237,7 +4237,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "placeUrl": "https://www.drexelmiami.com/",
     "website": "https://www.drexelmiami.com/menu",
-    "descriptor": "The Drexel upscale spot for Mediterranean cuisine and cocktails in a cozy, romantic atmosphere."
+    "descriptor": ""
   },
   {
     "id": "miami-the-key-club-restaurant",
@@ -4276,7 +4276,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://biviomilano.it/",
     "website": "https://biviomilano.it/",
-    "descriptor": "Shop compriamo esclusivamente da privati con una formula unica in Italia."
+    "descriptor": ""
   },
   {
     "id": "milan-camparino-in-galleria-restaurant",
@@ -4289,7 +4289,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.camparino.com/",
     "website": "https://www.camparino.com/our-menu/",
-    "descriptor": "Restaurant see our offering of the most cocktails and pairing offerings."
+    "descriptor": ""
   },
   {
     "id": "milan-casa-del-bianco-shop",
@@ -4302,7 +4302,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://casadelbiancomilano.it/en-us?",
     "website": "https://casadelbiancomilano.it/en-us/pages/casa-del-bianco-dal-1940-racconta-una-storia-di-qualita",
-    "descriptor": "Historic shop based in one of the most know streets for shopping and strolling."
+    "descriptor": ""
   },
   {
     "id": "milan-cavalli-e-nastri-mora-shop",
@@ -4328,7 +4328,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://erbabrusca.it/",
     "website": "https://erbabrusca.com/",
-    "descriptor": "Restaurant due botanici torinesi creano Erba Brüsca, un brand tutto all."
+    "descriptor": ""
   },
   {
     "id": "milan-eredi-zucca-shop",
@@ -4341,7 +4341,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://eredizucca.com/en?",
     "website": "https://eredizucca.com/en/products/cuoio",
-    "descriptor": "Shop discover the art of traditional shaving at ’s most historic barbershop."
+    "descriptor": ""
   },
   {
     "id": "milan-fidenza-village-part-of-the-bicester-collection-shop",
@@ -4354,7 +4354,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.thebicestercollection.com/fidenza-village/en/",
     "website": null,
-    "descriptor": "Enjoy shopping at more than 120 designer and fashion brands with up to 70%."
+    "descriptor": ""
   },
   {
     "id": "milan-fioraio-bianchi-caff-restaurant",
@@ -4367,7 +4367,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.fioraiobianchicaffe.it/",
     "website": "https://www.fioraiobianchicaffe.it/menu/",
-    "descriptor": "Restaurant una cucina Italiana che affonda le sue radici nelle tradizioni, reinterpretandole con sensibilità."
+    "descriptor": ""
   },
   {
     "id": "milan-foto-veneta-ottica-shop",
@@ -4406,7 +4406,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/bettoladipiero/",
     "website": null,
-    "descriptor": "Restaurant 9,923 Followers, 680 Following, 91 Posts - See Instagram photos and videos from."
+    "descriptor": ""
   },
   {
     "id": "milan-la-latteria-restaurant",
@@ -4419,7 +4419,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/latteriasanmarco/?hl=en",
     "website": null,
-    "descriptor": "Restaurant 5,051 Followers, 1 Following, 43 Posts - See Instagram photos and videos from."
+    "descriptor": ""
   },
   {
     "id": "milan-langosteria-restaurant",
@@ -4445,7 +4445,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.lisacorti.com/en?",
     "website": "https://www.lisacorti.com/en/collection/homeware--1435",
-    "descriptor": "Shop company based in that creates and designs fabrics used to create a very."
+    "descriptor": ""
   },
   {
     "id": "milan-nilufar-gallery-attraction",
@@ -4471,7 +4471,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.nuovarena.com/",
     "website": "https://www.nuovarena.com/",
-    "descriptor": "Restaurant il Ristorante Nuova Arena è una piccola realtà nel panorama milanese."
+    "descriptor": ""
   },
   {
     "id": "milan-oro-incenso-e-mirra-shop",
@@ -4523,7 +4523,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.instagram.com/pasticceriasissi/?hl=en",
     "website": null,
-    "descriptor": "Restaurant 18K Followers, 1,000 Following, 216 Posts - See Instagram photos and videos from."
+    "descriptor": ""
   },
   {
     "id": "milan-pennisi-shop",
@@ -4562,7 +4562,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.santambroeus.com/pages/location-milano?srsltid=AfmBOorq1jlBfQ_FV8tK7ZfE8XHLr4ah9SNGT0pfRto6NobdraH-_Bvt",
     "website": "https://www.santambroeus.com/pages/milano-menu",
-    "descriptor": "Milanese Italian restaurant and coffee bar serving classic dishes, espresso, and pastries, with a."
+    "descriptor": ""
   },
   {
     "id": "milan-stephan-janson-shop",
@@ -4601,7 +4601,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://masuellitrattoria.superbexperience.com/",
     "website": null,
-    "descriptor": "Restaurant superb - Manage reservations, avoid no-shows, host events, sell tickets, and gift cards."
+    "descriptor": ""
   },
   {
     "id": "milan-trattoria-torre-di-pisa-restaurant",
@@ -4627,7 +4627,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "placeUrl": "https://www.waitandsee.it/eu/en/",
     "website": null,
-    "descriptor": "The Italian lifestyle and fashion concept store that offers premium-quality niche brands that combine."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-adrienne-s-pizzabar-restaurant",
@@ -4639,7 +4639,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/adriennes-pizzabar/",
     "website": "https://adriennespizzabar.com/",
-    "descriptor": "Restaurant family-owned and operated since 2004, join us in and West Palm Beach."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-albertine-shop",
@@ -4651,7 +4651,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/albertine-2/",
     "website": "https://albertine.com/",
-    "descriptor": "Reading room and bookshop that brings to life French-American intellectual exchange."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-american-cut-restaurant",
@@ -4735,7 +4735,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/barbalu/",
     "website": "https://barbalu.com/",
-    "descriptor": "Authentic Italian restaurant near downtown Brooklyn Boerum Hill."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-barney-greengrass-restaurant",
@@ -4747,7 +4747,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/barney-greengrass/",
     "website": "https://barneygreengrass.com/",
-    "descriptor": "Restaurant some things shouldn't change, like our obsessive dedication to hand chosen fish specialties."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-bemelmans-bar-restaurant",
@@ -4771,7 +4771,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/bk-antiques/",
     "website": "https://bkantiques.com/",
-    "descriptor": "Shop bK Antiques & Home sells vintage lighting, custom furniture, ceramics, artwork & unique."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-blue-ribbon-sushi-bar-restaurant",
@@ -4843,7 +4843,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/soho-restaurants/carbone/",
     "website": "https://carbonerestaurant.com/",
-    "descriptor": "Italian-American restaurant by Mario Carbone, Rich Torrisi, and Jeff Zalaznick, offering a quintessential York."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-central-park-attraction",
@@ -4855,7 +4855,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/central-park-activities/central-park/",
     "website": "https://centralpark.com/",
-    "descriptor": "Visitor attraction everything you need to plan your visit to."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-colony-shop",
@@ -4939,7 +4939,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/delphine-eyebrow-couture/",
     "website": "https://delphineeyebrowcouture.com/",
-    "descriptor": "Wellness studio world-renowned beauty restoration in specializing in natural eyebrow, scalp, scar, and areola."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-elio-s-restaurant",
@@ -4975,7 +4975,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/fairway-market-4/",
     "website": "https://fairwaymarket.com/",
-    "descriptor": "Shop groceries in-store or order online Discover weekly savings in our circular, load digital."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-fd-gallery-attraction",
@@ -5011,7 +5011,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/georgia-louise/",
     "website": "https://georgialouise.com/",
-    "descriptor": "Wellness studio beauty Longevity in Upper East Side, NYC."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-gild-hall-hotel",
@@ -5035,7 +5035,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/grand-banks/",
     "website": "https://grandbanks.org/",
-    "descriptor": "Restaurant innovative hospitality group that creates and operates experience focused restaurants and maritime ventures."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-han-dynasty-restaurant",
@@ -5047,7 +5047,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/han-dynasty-2/",
     "website": "https://handynasty.net/",
-    "descriptor": "Han Dynasty opened its doors in 2007 as a Mother-Son restaurant bringing Sichuan style."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-heyday-wellness",
@@ -5119,7 +5119,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/journelle-2/",
     "website": "https://journelle.com/",
-    "descriptor": "Shop discover luxury lingerie brands for modern women."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-khe-yo-restaurant",
@@ -5216,7 +5216,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "placeUrl": "https://www.nytimes.com/2020/03/03/dining/le-crocodile-review-pete-wells.html",
     "website": "https://lecrocodile.com/",
-    "descriptor": ""
+    "descriptor": "Williamsburg brasserie known for lively French-inspired plates and natural wine."
   },
   {
     "id": "new-york-city-le-district-restaurant",
@@ -5228,7 +5228,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-specialty/le-district/",
     "website": "https://ledistrict.com/",
-    "descriptor": "Restaurant market serving fresh Charcuterie, Crepes, Pastries, and more!."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-le-moulin-caf-restaurant",
@@ -5252,7 +5252,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/lincoln-ristorante/",
     "website": "https://lincolnristorante.com/",
-    "descriptor": "Destination for fine Italian cuisine in With our panoramic views of Lincoln Center and."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-locanda-verde-restaurant",
@@ -5300,7 +5300,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/maris-dusan/",
     "website": "https://marisdusan.com/",
-    "descriptor": "Wellness studio sanctuary of tranquility and luxury designed to rejuvenate the body, strengthen your."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-markjoseph-steakhouse-restaurant",
@@ -5336,7 +5336,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/mr-chow-2/",
     "website": "https://mrchow.com/",
-    "descriptor": "MR CHOW serves authentic Beijing cuisine and with creative original recipes such as Chicken."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-neue-galerie-attraction",
@@ -5348,7 +5348,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/neue-galerie/",
     "website": "https://neuegalerie.org/",
-    "descriptor": "Museum for German and Austrian art from the early twentieth century."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-new-york-city-ballet-attraction",
@@ -5360,7 +5360,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/new-york-city-ballet/",
     "website": "https://newyorkcityballet.org/",
-    "descriptor": "Visitor attraction one of the foremost dance companies in the world, with a roster."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-parachute-home-shop",
@@ -5432,7 +5432,7 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/sarabeths-4/",
     "website": "https://sarabethsrestaurant.com/",
-    "descriptor": "Experience the best of NYC dining at Sarabeth."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-sasabune-restaurant",
@@ -5660,7 +5660,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-lowell/",
     "website": "https://lowellhotel.com/",
-    "descriptor": "Hotel indulge in wood-burning fireplaces, sunlit terraces & Dior Afternoon Tea."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-the-manner-hotel",
@@ -5673,7 +5673,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "placeUrl": "https://themanner.com/",
     "website": null,
-    "descriptor": "Discover a boutique hotel in SoHo NYC Refined stays, discreet charm, and thoughtful service."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-the-mark-hotel",
@@ -5747,7 +5747,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "placeUrl": "https://www.thetwentytwo.com/newyork/",
     "website": "https://www.thetwentytwo.com/newyork/",
-    "descriptor": "Experience unparalleled luxury at The Twenty Two York, a boutique hotel in Union Square."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-tracy-anderson-method-tribeca-wellness",
@@ -5807,7 +5807,7 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-bars-and-nightlife/vin-sur-vingt-2/",
     "website": "https://vinsurvingt.com/",
-    "descriptor": "Vin Sur Vingt Wine Bar, creatively named after."
+    "descriptor": ""
   },
   {
     "id": "new-york-city-walker-s-restaurant",
@@ -5868,7 +5868,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.antoinettepoisson.com/",
     "website": "https://www.antoinettepoisson.com/en-int/collections/boxes",
-    "descriptor": "Shop c’est tout le charme des décors intérieurs intimistes du XVIIIe siècle que propose."
+    "descriptor": ""
   },
   {
     "id": "paris-au-passage-restaurant",
@@ -5893,7 +5893,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.operadeparis.fr/en/visits/palais-garnier",
     "website": null,
-    "descriptor": "Visitor attraction palais Garnier, Opéra Bastille On-line ticket sales."
+    "descriptor": ""
   },
   {
     "id": "paris-bisou-restaurant",
@@ -5906,7 +5906,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://en.bar-bisou.fr/",
     "website": "https://bisou.com/",
-    "descriptor": "Restaurant le salon professionnel et international du cadeau, Bisou, est devenu le rendez-vous incontournable."
+    "descriptor": ""
   },
   {
     "id": "paris-bob-s-bake-shop-restaurant",
@@ -5969,7 +5969,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cafedeflore.fr/men",
     "website": "https://cafedeflore.fr/",
-    "descriptor": "Restaurant à St Germain, le Café de Flore est situé au 172 boulevard St."
+    "descriptor": ""
   },
   {
     "id": "paris-cafe-kitsun-restaurant",
@@ -5982,7 +5982,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://maisonkitsune.com/",
     "website": null,
-    "descriptor": "Restaurant quality music label, a clothing brand and a lot more."
+    "descriptor": ""
   },
   {
     "id": "paris-candelaria-restaurant",
@@ -6019,7 +6019,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/KRg5MejLKBakf5N312WU7gEnFx8orGLzn78e422udSBzA1wh1WwszSz2mL2d9THGrMikUJ6Y5LdAPGRKjde7XWUTAv8mfx4hyuRhzTxUFLcYf4bscHzGijexPtRpN4FF4tpBkkTxGAoqLD3zpTqg95apMYLgdK6WhsKX2hgszCoKqnjbiWjRPdYRSNwXKmG1opWzRKyWSU3mxqJns8naBn8BXqQU6ajA96J1QwUfcM5yaMtoQNGyEL1Fvv1VkCaFjqbjvez6RXpej51TAqGgMHDo7F1t3rpBNBHVdt9UWEn2JdStCTFtfvxB9bE7rEecWC9UoYjBp",
     "website": "https://www.chateauvoltaire.com/",
-    "descriptor": "Hotel découvrez le Château Voltaire, un hôtel 5 étoiles confidentiel au cœur du 1er."
+    "descriptor": ""
   },
   {
     "id": "paris-cheval-blanc-paris-hotel",
@@ -6071,7 +6071,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.colorfulblack.com/en",
     "website": "https://www.colorfulblack.com/en",
-    "descriptor": "Shop expert in curly / afro hair care since 2009."
+    "descriptor": ""
   },
   {
     "id": "paris-comice-restaurant",
@@ -6109,7 +6109,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lecrazyhorseparis.com/en/",
     "website": "https://reservation.lecrazy.com/en/shop",
-    "descriptor": "Restaurant réservez votre spectacle sur la billetterie officielle du Crazy Horse."
+    "descriptor": ""
   },
   {
     "id": "paris-dary-s-shop",
@@ -6122,7 +6122,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.darys-bijouterie-paris.fr/",
     "website": "https://www.darys-bijouterie-paris.fr/",
-    "descriptor": "Découvrez notre boutique de bijoux anciens et contemporains, située dans la prestigieuse Rue Saint-Honoré,."
+    "descriptor": ""
   },
   {
     "id": "paris-delfonics-shop",
@@ -6172,7 +6172,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.instagram.com/tenbelles/?hl=en",
     "website": "https://dupainetdesidees.com/",
-    "descriptor": "Visitor attraction du Pain et Des Idées, boulangerie artisanale et table autour du four,."
+    "descriptor": ""
   },
   {
     "id": "paris-experimental-cocktail-club-restaurant",
@@ -6184,7 +6184,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-bars-and-nightlife/experimental-cocktail-club/",
     "website": "https://experimentalcocktailclub.com/",
-    "descriptor": "Restaurant explore unique cocktail destinations with Experimental Cocktail Club, offering innovative and bespoke cocktail."
+    "descriptor": ""
   },
   {
     "id": "paris-ferdi-restaurant",
@@ -6222,7 +6222,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/5B83M5vYZfeZ6TN5XpU4suPcBBgNwfNJAmSJ1ENjHQqFmBdrr4AGBJDU8n6MRa9Df3BKGyYL5akGc9QAJfAdu7Fc4hH97Ag1MWRY16uGYBCU8p6HBZdw6PjXAgeAyCnE6UGFLjYsyz3adcuVmiuMZhXBBrkQkrHzR8bpmrC8ixG5F8vt6jaDMyBBAqV4iSFkNFrxMMkqCVwQD2zpEdXMaRkEU3HHtG4iVNEeKYowPHHR9UELfBJ7uhM5Ms8rdmw19kao8khVeyZyiQZnxXfJi5DGAFBJeVL9QBri5F1Qj6Uii7dDGdsPe87KbPDESEqPmdtdsNxS",
     "website": "https://www.fourseasons.com/paris/",
-    "descriptor": "Four Seasons Hotel George V, offers luxury accommodations, Michelin-starred dining, a Spa and more."
+    "descriptor": ""
   },
   {
     "id": "paris-galeries-lafayette-paris-haussmann-shop",
@@ -6235,7 +6235,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://haussmann.galerieslafayette.com/en/",
     "website": "https://haussmann.galerieslafayette.com/en/the-paris-haussmann-shop-windows/",
-    "descriptor": "Shop every year, young and old alike marvel at the windows of Galeries Lafayette."
+    "descriptor": ""
   },
   {
     "id": "paris-girafe-restaurant",
@@ -6248,7 +6248,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://girafe-restaurant.com/en/",
     "website": "https://girafe-restaurant.com/paris/",
-    "descriptor": "Restaurant girafe offers stunning views of the Eiffel Tower while enjoying dinner."
+    "descriptor": ""
   },
   {
     "id": "paris-glou-restaurant",
@@ -6309,7 +6309,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.expedia.com/Paris-Hotels-Hotel-Des-Grands-Voyageurs.h2105.Hotel-Information",
     "website": "https://hoteldesgrandsvoyageurs.com/",
-    "descriptor": "A hotel by design, a pied-à-terre by spirit."
+    "descriptor": ""
   },
   {
     "id": "paris-h-tel-du-rond-point-des-champs-lys-es-hotel",
@@ -6347,7 +6347,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/2QKuUE9XrFFhyh4Fqq7f4gUBpkzMTnSjG264iYKZRHpBVGoAPbHBE4ZginexrAZWmvecike5q6CHuuvm7fCuwQjbDFhBawRnz3bkRLoqKv2PQY5eNsoruqrfjYmPSn3vpXZKCB2ftYs9xX1zA3Y8Efe24sYYLrtGWYQAW1JQrRNme9BwgQiKGUpmZwgtxccSRvDTcxCrmhH1fCCV4i7JAa7YL3eU835hLV9zNyTRgD6RhBVLLbw8vq4cJ5xYWtnzYoKiEtDhZfPiziUYSBKuZ1GF9HKuV1x5ojpggrhQDo4AvSAMrd9B7nanqqdgJNtrMkL7UAbLLdg",
     "website": "https://hotelducdesaintsimon.com/",
-    "descriptor": "Hotel Duc de Saint Simon has 34 rooms and suites the Saint-Germain des Près."
+    "descriptor": ""
   },
   {
     "id": "paris-h-tel-elysia-hotel",
@@ -6360,7 +6360,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/e14Jm3PRWDmLmUZNNpHufMUgoeAVFNZqqpvQqKjdfpZUdc7gA6bMnigEmQGuN2typoDqgNY9ksGpVzHLp8kSEehBAS9KVciwUbM4ZBrbf7hzf8yKGPometXmBCnxY9eFxho78hppeayjq1GWPE1K9SjHRZh3oPhf8YZzHVLhs9HtWWdCbGUtWtA9QSPXMV4L5U1nZDZtfLz8wLa4yVYgJs2Ud8UUYwVJJrSzwA1dHnWYgKfjCSQSVcnt8XJRrAgFugy3Ahph1Yu7NA3YGt9ngT3g5Y1gyE68rppHCKVGTe7midc6LrJ9L78EjKpCx8T7Vc",
     "website": "https://www.hotelelysia.fr/",
-    "descriptor": "Hotel hôtel Elysia, un hôtel 5 étoiles sur les Champs-Élysées, vous propose des chambres."
+    "descriptor": ""
   },
   {
     "id": "paris-h-tel-particulier-montmartre-hotel",
@@ -6385,7 +6385,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/wrdL3vpUnuv39Eqc5QoeMw4SRAq24Fo2m41gUVwSU9fgvAFvFmEruqbEzo5B6hNuE6RddCnxfngYfxmLnysBZuRXDTXhWvziraB1PraWjwsCetwZzupqzE5JiJP1mDbRpzVUC7sVAYkHkBqwirJgmJgnj9jnPVExYGTSH9qLoU3QQtXZzVoD7qPkeZqeWmFjNVhcJEqvmmyZaBACNPtWwmJkAS6R9T8MoczfBSzomKNz1hBT7VVrYHbGNx1KRpJ3ERATyYv3GC3kZZNtmJzQLBwXtHZWfwvgGCfLrVb82vjzfPLzAy3e3X8FChhKDPdhLGBdqc",
     "website": "https://www.raphael-hotel.com/en/book.html",
-    "descriptor": "5-star hotel in 16 combining Parisian charm, luxury rooms and suites, a rooftop and."
+    "descriptor": ""
   },
   {
     "id": "paris-isabel-marant-shop",
@@ -6397,7 +6397,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/isabel-marant-2/",
     "website": "https://isabelmarant.com/",
-    "descriptor": "Découvrez la boutique en ligne officielle ISABEL MARANT et l’univers de la Maison à."
+    "descriptor": ""
   },
   {
     "id": "paris-jerome-dreyfuss-shop",
@@ -6459,7 +6459,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lafayettes-restaurant.com/",
     "website": "https://www.lafayettes-restaurant.com/",
-    "descriptor": "Une cuisine néobourgeoise raffinée, un bar glamour prisé des mondes de l’art et de."
+    "descriptor": ""
   },
   {
     "id": "paris-le-404-restaurant",
@@ -6509,7 +6509,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/",
     "website": null,
-    "descriptor": ""
+    "descriptor": "Oetker Collection spa wing inside Le Bristol Paris with pool and fitness studios."
   },
   {
     "id": "paris-le-camion-qui-fume-restaurant",
@@ -6534,7 +6534,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lechateaubriand.net/",
     "website": "https://www.lechateaubriand.net/index_uk.html",
-    "descriptor": "Site du restaurant Le Chateaubriand à, réservez en ligne."
+    "descriptor": ""
   },
   {
     "id": "paris-le-grand-mazarin-hotel",
@@ -6560,7 +6560,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.rosewoodhotels.com/fr/hotel-de-crillon/dining/jardin-d-hiver",
     "website": null,
-    "descriptor": "Restaurant un cadre historique pour les délicates créations de pâtisserie française."
+    "descriptor": ""
   },
   {
     "id": "paris-le-recamier-restaurant",
@@ -6573,7 +6573,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://lerecamier.com/page-daccueil.html",
     "website": "https://lerecamier.com/",
-    "descriptor": "Restaurant institution parisienne du 7e arrondissement, célèbre pour ses soufflés sucrés et salés."
+    "descriptor": ""
   },
   {
     "id": "paris-le-souffl-restaurant",
@@ -6586,7 +6586,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.lesouffle.fr/",
     "website": "https://www.lesouffle.fr/bienvenue/home/menu/",
-    "descriptor": "Our menu is homemade with fresh products We suggest you savoury and sweet souffles."
+    "descriptor": ""
   },
   {
     "id": "paris-le-verre-vol-restaurant",
@@ -6611,7 +6611,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/",
     "website": "https://www.loulou-paris.com/",
-    "descriptor": "Restaurant enclave gourmande aux accents méditerranéens, Loulou célèbre loin des foules les déjeuners qui."
+    "descriptor": ""
   },
   {
     "id": "paris-loulou-paris-restaurant",
@@ -6624,7 +6624,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.loulou-paris.com/loulou-paris-english",
     "website": null,
-    "descriptor": "Restaurant enclave gourmande aux accents méditerranéens, Loulou célèbre loin des foules les déjeuners qui."
+    "descriptor": ""
   },
   {
     "id": "paris-love-stories-paris-shop",
@@ -6649,7 +6649,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/4pDSKR9fHyZqTp2DUKyrQLi3Q9WhqSCCa2UeJNzRhJgG7m83abGAjFTMhwWkHNgXsStg17g8JCd3pPZgxybANphqkM7GBn1xT9AhWwYLgaUBm62hQXP8HhENxnnD3MJSXrvcbLxSnFjUtJxnywtBtp6TMdW5opAqYS2SLpBQEkMfaQNG2Ek2SGy3cXfrawiTKDMQQQhGBDuXPoNmXjTE1pDztBvgGVd6b5qgpxeGFeHEhUxeh3L5zvDL2vwuLLWsQhjQAdJX6pMr85zcYThGnqf7AG8Ysob8UxzphgJ6mc8tTqVEM33nLFyaS",
     "website": "https://madamereve.com/",
-    "descriptor": "Hotel un hôtel 5 étoiles unique niché au sein de l’immeuble iconique de la."
+    "descriptor": ""
   },
   {
     "id": "paris-maisie-caf-restaurant",
@@ -6661,7 +6661,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/1st-arrondissement-specialty/maisie-cafe/",
     "website": "https://maisiecafe.com/",
-    "descriptor": "Notre coffee shop parisien, vegan et gluten free !."
+    "descriptor": ""
   },
   {
     "id": "paris-maison-dior-shop",
@@ -6686,7 +6686,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/maison-labiche/",
     "website": "https://maisonlabiche.com/",
-    "descriptor": "Maison Labiche, French brand, offers embroidered clothing for Men, Women and Kids."
+    "descriptor": ""
   },
   {
     "id": "paris-mama-shelter-paris-east-hotel",
@@ -6723,7 +6723,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://merci-merci.com/",
     "website": "https://merci-merci.com/collections/table",
-    "descriptor": "Shop découvrez notre gamme de linge table ✔️ Profitez de la qualité Merci toute."
+    "descriptor": ""
   },
   {
     "id": "paris-mes-demoiselles-shop",
@@ -6759,7 +6759,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/4th-arrondissement-restaurants/miznon/",
     "website": "https://miznonrestaurant.com/",
-    "descriptor": "Pitas and dishes of Israel’s street food scene infused with chef Eyal Shani’s rebellious."
+    "descriptor": ""
   },
   {
     "id": "paris-musee-d-orsay-attraction",
@@ -6772,7 +6772,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.musee-orsay.fr/fr",
     "website": "https://www.musee-orsay.fr/fr/agenda/expositions",
-    "descriptor": "Musée pluridisciplinaire exposant la plus riche collection de tableaux impressionnistes et post impressionnistes au."
+    "descriptor": ""
   },
   {
     "id": "paris-mus-e-des-arts-d-coratifs-attraction",
@@ -6785,7 +6785,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://madparis.fr/",
     "website": "https://madparis.fr/",
-    "descriptor": "Visitor attraction découvrez Les Arts Décoratifs, une institution unique qui regroupe le musée des."
+    "descriptor": ""
   },
   {
     "id": "paris-noglu-restaurant",
@@ -6798,7 +6798,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://noglu.fr/",
     "website": "https://www.noglu.nyc/menus/",
-    "descriptor": "See the menu for Noglu in New York, NY."
+    "descriptor": ""
   },
   {
     "id": "paris-nuovo-shop",
@@ -6836,7 +6836,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://pascalemonvoisin.com/en/",
     "website": "https://pascalemonvoisin.com/en/store-locator",
-    "descriptor": "Find a point of sale nearby and discover Pascale Monvoisin's jewelry in-store."
+    "descriptor": ""
   },
   {
     "id": "paris-peninsula-paris-hotel",
@@ -6862,7 +6862,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://www.pierreherme.com/",
     "website": "https://www.pierreherme.com/nos-boutiques",
-    "descriptor": "Retrouvez nos café-restaurant et nos boutiques macarons, chocolats et pâtisseries."
+    "descriptor": ""
   },
   {
     "id": "paris-pinault-collection-attraction",
@@ -6900,7 +6900,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/3pKFbPPXy9yLiFJdsMHjdSHPCgs2sgSBxaWWkCHhArLvLxZzTq9geknxBkyjC7qNS5XHm3FTVXDHL1To8P9yPCWUEaBfMghKPasVePMMWypfrSqS9AXYux3EnYXt6pFvFRc8adfUb1FPcdnK4DGonNsjU3EMUrJLJ4CzDExYRX8NBoTyai8NWUaa4YGd1Y6ptGzYoQNzBsynZrh8hBthSm7ndH2jqw2WwCKV62jNkG8MFVFqvUK41P9DRADGFxXvS46541sk9M2PQ7Bb9sm7aaT3innyP8nAtspsQkXjDzvaEurAf9wHnMtdptA7ZfHQasna",
     "website": "https://ritzparis.com/",
-    "descriptor": "Hotel an experience offering luxury rooms and suites, refined gastronomy, an exceptional spa, a."
+    "descriptor": ""
   },
   {
     "id": "paris-rivi-restaurant",
@@ -6937,7 +6937,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://us.rouje.com/",
     "website": "https://us.rouje.com/",
-    "descriptor": "Shop a direct reflection of Jeanne Damas, Rouje exudes character and approaches everything with."
+    "descriptor": ""
   },
   {
     "id": "paris-saint-james-paris-hotel",
@@ -6989,7 +6989,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "placeUrl": "https://cna.st/affiliate-link/28iSGvNLVT39oMQ6buUZncWa39XfmTXuMer86tdrwTvDdVbezSEnubEuy8AjjAtgCL6of1QUbnh1prvjR997LXd8QDufAFcDAjDV46dfXTxvx4QHXsY7TCwuREjwBLgkNHyNKr6e21JYB9i7zrbKC885iZjaJSdAnkW6Pvafd3xpojzU8FtC9G1qw5j2JqmHGS4eTETUqx1g5T9Strwt7bD4Qc6jCm6VTfoE9n53HVBC9CMFx7DFeDDs5XxwwJeLbUbdU75ECgiBHSmtpWcsqniiubqMYt6ueK158D185CmfnaGirZWHN1ji3vTbwXjjWTzgmRGrm446V5eJU9UZZ6YeeSaHoiH7wwed8",
     "website": null,
-    "descriptor": "19th-century building in Pigalle with 36 hotel bedrooms, dining, plunge pool, gym, and art."
+    "descriptor": ""
   },
   {
     "id": "paris-ten-belles-attraction",
@@ -7014,7 +7014,7 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/the-broken-arm/",
     "website": "https://the-broken-arm.com/",
-    "descriptor": "The Broken Arm est une boutique de vêtements de créateurs homme et femme."
+    "descriptor": ""
   },
   {
     "id": "paris-the-kooples-shop",
@@ -7167,7 +7167,7 @@ export const PLACES = [
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "placeUrl": "https://cna.st/affiliate-link/35a2Pj22cNjnRKnuYridSEFmjjmBxMLozJtCuJViiNrYkZ6bEWws8UTXpXCm7P8VMqsJZ5JCqJvj5FybqsxkqqU8VMYSKNBYf79DrGG3DQEs6oieQq5yGW57DnH78ReT4EEmWhGnc1inMNbiHoDDa3U3sBnEU7w7q3gwPphK12nZzaQjZEEyGcqdKFk63uzGnMcxGwkQKRAfkhjsShUbW5t6HY8EqWC3Vb4vbAQQ62XqAAENCEgh7zDUX5TLYpTmdDtRM8Qe993j3armdjEP4ZE44BEPPdxqCokTZ2AjNiXKoH8M1m7GVdQ8nMNNCz7WUNDyuhmUfMCDX1k",
     "website": "https://www.aman.com/hotels/aman-tokyo/wellness",
-    "descriptor": "Hotel discover the luxury spa at Aman A peaceful sanctuary offering traditional Japanese treatments."
+    "descriptor": ""
   },
   {
     "id": "tokyo-bulgari-hotel-tokyo-hotel",

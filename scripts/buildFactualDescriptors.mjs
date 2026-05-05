@@ -1,4 +1,7 @@
 /**
+ * @deprecated Homepage/meta scraping produces unreliable marketing copy and errors.
+ * Use scripts/fullRegeneratePlaces.mjs (Wikipedia summaries + English shaping) instead.
+ *
  * Build factual place descriptors from web metadata (og:description, meta description).
  * Lines must pass descriptorSynth.isReliableAutoDescriptor() or they are omitted.
  * Usage: node scripts/buildFactualDescriptors.mjs
