@@ -584,10 +584,171 @@ const BLOCKLIST_FOOTER = [
   "Forces of Fashion",
 ].map((s) => s.toLowerCase());
 
+// Airlines that scrapers sometimes pick up as "places".
+const BLOCKLIST_AIRLINES = [
+  "Scandinavian Airlines",
+  "SAS",
+  "Lufthansa",
+  "Delta",
+  "Delta Air Lines",
+  "American Airlines",
+  "United",
+  "United Airlines",
+  "British Airways",
+  "Air France",
+  "KLM",
+  "Emirates",
+  "Qatar Airways",
+  "Singapore Airlines",
+  "Cathay Pacific",
+  "JetBlue",
+  "Southwest",
+  "Southwest Airlines",
+  "Ryanair",
+  "EasyJet",
+  "Norwegian",
+  "Norwegian Air",
+  "Finnair",
+  "Iberia",
+  "Alitalia",
+  "ITA Airways",
+  "Turkish Airlines",
+  "ANA",
+  "JAL",
+  "Japan Airlines",
+  "Korean Air",
+  "Qantas",
+  "Virgin Atlantic",
+  "Air Canada",
+  "Alaska Airlines",
+  "Aeromexico",
+].map((s) => s.toLowerCase());
+
+// Travel booking platforms and aggregators.
+const BLOCKLIST_BOOKING = [
+  "Expedia",
+  "Booking.com",
+  "Booking",
+  "Airbnb",
+  "Hotels.com",
+  "Mr & Mrs Smith",
+  "Mr and Mrs Smith",
+  "Vrbo",
+  "Kayak",
+  "Skyscanner",
+  "Hopper",
+  "Trivago",
+  "Agoda",
+  "Priceline",
+  "Orbitz",
+  "Travelocity",
+  "Hotwire",
+  "Tablet Hotels",
+  "Plum Guide",
+].map((s) => s.toLowerCase());
+
+// Publications, magazines, and editorial brands — only blocked when they appear
+// as a place NAME (the source field is separately tracked and not affected).
+const BLOCKLIST_PUBLICATION = [
+  "Vogue",
+  "Vogue Magazine",
+  "Goop",
+  "Condé Nast Traveler",
+  "Conde Nast Traveler",
+  "Condé Nast Traveller",
+  "Conde Nast Traveller",
+  "Condé Nast",
+  "Conde Nast",
+  "Eater",
+  "The Strategist",
+  "Strategist",
+  "New York Magazine",
+  "The New York Times",
+  "NY Times",
+  "T Magazine",
+  "T: The New York Times Style Magazine",
+  "Bon Appétit",
+  "Bon Appetit",
+  "Food & Wine",
+  "Travel + Leisure",
+  "Travel and Leisure",
+  "Afar",
+  "Wallpaper",
+  "Wallpaper*",
+  "Monocle",
+  "Architectural Digest",
+  "Elle",
+  "Elle Decor",
+  "Harper's Bazaar",
+  "Harpers Bazaar",
+  "GQ",
+  "Refinery29",
+  "The Cut",
+  "Grub Street",
+  "Time Out",
+  "Lonely Planet",
+  "Fodor's",
+  "Frommer's",
+  "The Infatuation",
+].map((s) => s.toLowerCase());
+
+// Review and reservation aggregator sites.
+const BLOCKLIST_AGGREGATOR = [
+  "TripAdvisor",
+  "Trip Advisor",
+  "Yelp",
+  "OpenTable",
+  "Open Table",
+  "Resy",
+  "Tock",
+  "Google Maps",
+  "Google Reviews",
+  "Foursquare",
+  "Zomato",
+  "Zagat",
+  "Michelin Guide",
+  "The Michelin Guide",
+].map((s) => s.toLowerCase());
+
+// Generic category headings that occasionally get scraped as place names.
+const BLOCKLIST_GENERIC_CATEGORY = [
+  "Where to stay",
+  "Where to eat",
+  "Where to drink",
+  "Where to shop",
+  "Where to go",
+  "What to do",
+  "Things to do",
+  "Things to see",
+  "Restaurants",
+  "Hotels",
+  "Bars",
+  "Cafes",
+  "Cafés",
+  "Shops",
+  "Shopping",
+  "Museums",
+  "Attractions",
+  "Activities",
+  "Sights",
+  "Neighborhoods",
+  "Itinerary",
+  "The Guide",
+  "Guide",
+  "Overview",
+  "Map",
+  "Maps",
+].map((s) => s.toLowerCase());
+
 const BLOCKLIST_SOCIAL_SET = new Set(BLOCKLIST_SOCIAL);
 const BLOCKLIST_VOGUE_NAV_SET = new Set(BLOCKLIST_VOGUE_NAV);
 const BLOCKLIST_COUNTRY_SET = new Set(BLOCKLIST_COUNTRY);
 const BLOCKLIST_FOOTER_SET = new Set(BLOCKLIST_FOOTER);
+const BLOCKLIST_AIRLINES_SET = new Set(BLOCKLIST_AIRLINES);
+const BLOCKLIST_BOOKING_SET = new Set(BLOCKLIST_BOOKING);
+const BLOCKLIST_PUBLICATION_SET = new Set(BLOCKLIST_PUBLICATION);
+const BLOCKLIST_AGGREGATOR_SET = new Set(BLOCKLIST_AGGREGATOR);
+const BLOCKLIST_GENERIC_CATEGORY_SET = new Set(BLOCKLIST_GENERIC_CATEGORY);
 
 const LEGACY_BANNED_LINK = new Set([
   "save this story",
@@ -628,6 +789,13 @@ function analyzePlaceCandidate(name, placeUrl, guide) {
   if (BLOCKLIST_VOGUE_NAV_SET.has(lower)) return { ok: false, reason: "blocklist_vogue_nav" };
   if (BLOCKLIST_COUNTRY_SET.has(lower)) return { ok: false, reason: "blocklist_country" };
   if (BLOCKLIST_FOOTER_SET.has(lower)) return { ok: false, reason: "blocklist_footer" };
+  // These blocklists intentionally check the `name` field only. The `source`
+  // field (e.g. "vogue", "goop") is a separate attribution and is not affected.
+  if (BLOCKLIST_AIRLINES_SET.has(lower)) return { ok: false, reason: "blocklist_airline" };
+  if (BLOCKLIST_BOOKING_SET.has(lower)) return { ok: false, reason: "blocklist_booking_platform" };
+  if (BLOCKLIST_PUBLICATION_SET.has(lower)) return { ok: false, reason: "blocklist_publication" };
+  if (BLOCKLIST_AGGREGATOR_SET.has(lower)) return { ok: false, reason: "blocklist_aggregator" };
+  if (BLOCKLIST_GENERIC_CATEGORY_SET.has(lower)) return { ok: false, reason: "blocklist_generic_category" };
 
   if (/expand/i.test(n) || /chevron/i.test(n) || /expand$/i.test(n)) {
     return { ok: false, reason: "expand_chevron_ui" };

@@ -223,7 +223,7 @@ export const PLACES = [
   },
   {
     "id": "copenhagen-ferm-living-s-showroom-restaurant",
-    "name": "Ferm Living’s showroom",
+    "name": "Ferm Living",
     "category": "shop",
     "city": "Copenhagen",
     "country": "Denmark",
@@ -530,19 +530,6 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "placeUrl": "https://rby.dk/",
-    "website": null,
-    "descriptor": ""
-  },
-  {
-    "id": "copenhagen-scandinavian-airlines-restaurant",
-    "name": "Scandinavian Airlines",
-    "category": "restaurant",
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "source": "vogue",
-    "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
-    "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
-    "placeUrl": "https://www.flysas.com/en/us/?WT.mc_id=US38&gclid=Cj0KCQiAyNjRBRCpARIsAPDBnn2OtYQ4VGs929FiC5vNbU-Ar2iiXpj22yX1PVY4qlLiX9L48FZFRFsaAvlgEALw_wcB&gclsrc=aw.ds&dclid=CIbc1syEktgCFZmdyAodc8UJKQ",
     "website": null,
     "descriptor": ""
   },
@@ -2866,19 +2853,6 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "los-angeles-the-infatuation-restaurant",
-    "name": "The Infatuation",
-    "category": "restaurant",
-    "city": "Los Angeles",
-    "country": "United States",
-    "source": "vogue",
-    "sourceTitle": "Guide",
-    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
-    "placeUrl": "https://www.theinfatuation.com/los-angeles/guides/saweetie-la-restaurant-guide",
-    "website": null,
-    "descriptor": ""
-  },
-  {
     "id": "los-angeles-the-ivy-restaurant",
     "name": "The Ivy",
     "category": "restaurant",
@@ -2888,19 +2862,6 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "placeUrl": "http://theivyrestaurants.com/",
-    "website": null,
-    "descriptor": ""
-  },
-  {
-    "id": "los-angeles-the-lore-restaurant",
-    "name": "The lore",
-    "category": "restaurant",
-    "city": "Los Angeles",
-    "country": "United States",
-    "source": "vogue",
-    "sourceTitle": "Guide",
-    "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
-    "placeUrl": "https://lamag.com/crimeinla/the-zankou-chicken-murders/",
     "website": null,
     "descriptor": ""
   },
