@@ -16,7 +16,7 @@ It intentionally **does not scrape** websites. Each listing is a manual entry wi
 
 If your browser blocks module loading from `file://`, run any static server in the `taste/` folder (examples):
 
-- **VS Code / Cursor**: “Live Server” extension
+- **VS Code / Cursor**: ï¿½Live Serverï¿½ extension
 - **Node** (if installed): `npx serve`
 - **Node (no deps)**: `node server.mjs`
 

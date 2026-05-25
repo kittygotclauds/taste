@@ -93,6 +93,38 @@
     "city": "Copenhagen",
     "country": "Denmark",
     "defaultCategory": "restaurant"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/the-best-hotels-in-miami-from-south-beach-to-brickell",
+    "city": "Miami",
+    "country": "United States",
+    "defaultCategory": "hotel"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/the-best-hotels-in-the-hamptons",
+    "city": "The Hamptons",
+    "country": "United States",
+    "defaultCategory": "hotel"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/vogue-staffers-hamptons-guide",
+    "city": "The Hamptons",
+    "country": "United States"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/palm-springs-travel-guide",
+    "city": "Palm Springs",
+    "country": "United States"
+  },
+  {
+    "source": "vogue",
+    "guideUrl": "https://www.vogue.com/article/detroit-art-scene-travel",
+    "city": "Detroit",
+    "country": "United States"
   }
 ]
 
