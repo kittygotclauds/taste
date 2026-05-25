@@ -9214,7 +9214,7 @@ export const PLACES = [
     "googleRating": 4.5,
     "googleRatingCount": 775,
     "googlePlaceId": "ChIJ93uz9TFu5kcRc8c4Y3tP3dI",
-    "manualPick": false,
+    "manualPick": true,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
