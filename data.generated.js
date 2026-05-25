@@ -6042,7 +6042,7 @@ export const PLACES = [
     "googleRating": 3.4,
     "googleRatingCount": 948,
     "googlePlaceId": "ChIJWR4ru5fGhkcR4WVi8J6Fihk",
-    "manualPick": true,
+    "manualPick": false,
     "ratingLookupStatus": "success"
   },
   {
@@ -8065,7 +8065,7 @@ export const PLACES = [
     "googleRating": 3.9,
     "googleRatingCount": 14100,
     "googlePlaceId": "ChIJq537gddx5kcR_3PhRd2muxg",
-    "manualPick": true,
+    "manualPick": false,
     "ratingLookupStatus": "success"
   },
   {
@@ -8371,7 +8371,7 @@ export const PLACES = [
     "googleRating": 3.8,
     "googleRatingCount": 1021,
     "googlePlaceId": "ChIJm5Tziy1u5kcRYcQytg5Bw1g",
-    "manualPick": true,
+    "manualPick": false,
     "ratingLookupStatus": "success"
   },
   {
@@ -8711,7 +8711,7 @@ export const PLACES = [
     "googleRating": 3.8,
     "googleRatingCount": 1934,
     "googlePlaceId": "ChIJyfO5k9hx5kcREL2ZZVRFexE",
-    "manualPick": true,
+    "manualPick": false,
     "ratingLookupStatus": "success"
   },
   {
