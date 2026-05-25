@@ -31,9 +31,8 @@ const els = {
  * @property {string=} neighborhood
  * @property {Source} source
  * @property {string} sourceTitle
- * @property {string} sourceUrl
- * @property {string=} placeUrl
- * @property {string|null=} website Official venue URL when resolved by collector
+ * @property {string} sourceUrl Article (or post) where this place was recommended
+ * @property {string|null=} venueUrl The venue's own website, when known
  * @property {string=} descriptor One-line voice descriptor (≤10 words)
  * @property {readonly string[]=} tags
  */
@@ -176,22 +175,6 @@ function trustedHttpUrl(raw) {
   }
 }
 
-/** @param {string|null|undefined} a @param {string|null|undefined} b */
-function sameHttpUrl(a, b) {
-  const ua = trustedHttpUrl(a);
-  const ub = trustedHttpUrl(b);
-  if (!ua || !ub) return false;
-  try {
-    const x = new URL(ua);
-    const y = new URL(ub);
-    x.hash = "";
-    y.hash = "";
-    return x.href === y.href;
-  } catch {
-    return false;
-  }
-}
-
 /** Strip legacy Vogue deks if cached assets still serve old data. */
 function displayCitationTitle(p) {
   let t = (p.sourceTitle ?? "").trim();
@@ -225,19 +208,18 @@ function card(p, filters) {
     ...tags.map((t) => `<span class="chip">${escapeHtml(t)}</span>`),
   ].join("");
 
-  const safeSourceUrl = trustedHttpUrl(p.sourceUrl) ?? "#";
+  const venueUrl = trustedHttpUrl(p.venueUrl);
+  const sourceUrl = trustedHttpUrl(p.sourceUrl);
   const safeSourceTitle = displayCitationTitle(p);
-  const officialWebsite = trustedHttpUrl(p.website);
-  const listingUrl = trustedHttpUrl(p.placeUrl);
-  const listingLink = listingUrl && !sameHttpUrl(listingUrl, safeSourceUrl) ? listingUrl : safeSourceUrl;
-  const showWebsiteCta = Boolean(officialWebsite);
 
   const descriptor = (p.descriptor ?? "").trim();
   const descriptorLine = descriptor
     ? `<p class="descriptor">${escapeHtml(descriptor)}</p>`
     : `<p class="descriptor descriptor--fallback">${escapeHtml(CATEGORIES[p.category])}</p>`;
 
-  const showTitle = Boolean(safeSourceTitle) && safeSourceTitle !== `Read on ${SOURCES[p.source]}`;
+  const sourceLabel = sourceLinkLabel(p, sourceUrl);
+  const showTitle =
+    Boolean(safeSourceTitle) && safeSourceTitle !== `Read on ${SOURCES[p.source]}`;
   const titleSep = showTitle ? `<span class="sep">${escapeHtml(SEP.trim())}</span>` : "";
 
   return `
@@ -252,17 +234,46 @@ function card(p, filters) {
       </div>
       <div class="card__bottom">
         ${
-          showWebsiteCta
-            ? `<a class="cta" href="${officialWebsite}" target="_blank" rel="noopener noreferrer">Visit website</a>`
+          venueUrl
+            ? `<a class="cta" href="${venueUrl}" target="_blank" rel="noopener noreferrer">Visit website</a>`
             : ""
         }
-        <a class="attributionLine" href="${listingLink}" target="_blank" rel="noopener noreferrer">
-          <span class="sourceLink">Read on ${escapeHtml(SOURCES[p.source])}</span>
+        ${
+          sourceUrl
+            ? `<a class="attributionLine" href="${sourceUrl}" target="_blank" rel="noopener noreferrer">
+          <span class="sourceLink">${escapeHtml(sourceLabel)}</span>
           ${showTitle ? `${titleSep}<span class="articleTitle">${escapeHtml(safeSourceTitle)}</span>` : ""}
-        </a>
+        </a>`
+            : ""
+        }
       </div>
     </article>
   `.trim();
+}
+
+/**
+ * Pick a friendly label for the source link.
+ * - Vogue / Goop sources use the source field directly.
+ * - Otherwise infer from the URL host (Instagram, etc.).
+ * @param {Place} p
+ * @param {string|null} sourceUrl
+ */
+function sourceLinkLabel(p, sourceUrl) {
+  const known = SOURCES[p.source];
+  if (known) return `Read on ${known}`;
+  if (!sourceUrl) return "Read source";
+  try {
+    const host = new URL(sourceUrl).hostname.replace(/^www\./i, "").toLowerCase();
+    if (host.endsWith("instagram.com")) return "View on Instagram";
+    if (host.endsWith("facebook.com") || host === "fb.com") return "View on Facebook";
+    if (host.endsWith("tiktok.com")) return "View on TikTok";
+    if (host.endsWith("youtube.com") || host === "youtu.be") return "Watch on YouTube";
+    if (host.endsWith("twitter.com") || host === "x.com") return "View on X";
+    const pretty = host.replace(/\.(com|net|org|co\.uk|fr|de|it|es|dk|se|no)$/i, "");
+    return `Read on ${pretty.charAt(0).toUpperCase() + pretty.slice(1)}`;
+  } catch {
+    return "Read source";
+  }
 }
 
 function render(list, filters) {

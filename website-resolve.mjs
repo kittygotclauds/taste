@@ -13,7 +13,7 @@ const FETCH_HEADERS = {
   "accept-language": "en-US,en;q=0.9",
 };
 
-/** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
+/** @typedef {"restaurant"|"cafe"|"bakery"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 
 /**
  * @typedef {object} PlaceRow
@@ -23,9 +23,9 @@ const FETCH_HEADERS = {
  * @property {string} city
  * @property {string} country
  * @property {string} source
- * @property {string} sourceUrl
- * @property {string} [placeUrl]
- * @property {string|null} [website]
+ * @property {string} sourceUrl Article URL (publication / IG post) where the place was recommended
+ * @property {string} [placeUrl] In-memory hint URL extracted from the article (e.g. a postcard.inc listing); never stored in final output
+ * @property {string|null} [venueUrl] Resolved venue's own website (the output of this module)
  */
 
 /**
@@ -68,14 +68,43 @@ function isBlockedAggregatorHost(hostname) {
   const h = hostname.toLowerCase();
   if (h.includes("resy.")) return true;
   const blocked = [
+    // Publications / editorial brands
     "goop.com",
     "vogue.com",
+    "vanityfair.com",
     "condenast",
+    "cna.st",
+    "cntraveler.com",
+    "cntraveller.com",
+    "nymag.com",
+    "nytimes.com",
+    "eater.com",
+    "thestrategist.com",
+    "bonappetit.com",
+    "newyorker.com",
+    "afar.com",
+    "monocle.com",
+    "architecturaldigest.com",
+    "elle.com",
+    "harpersbazaar.com",
+    "gq.com",
+    "lonelyplanet.com",
+    "fodors.com",
+    "frommers.com",
+    "lamag.com",
+    "laweekly.com",
+    "theinfatuation.com",
+    "timeout.com",
+    // Data sources / listing aggregators
+    "postcard.inc",
     "smart.link",
     "tripadvisor.",
     "yelp.",
     "opentable.",
     "foursquare.",
+    "zagat.",
+    "michelinguide.",
+    // Social platforms
     "instagram.",
     "facebook.com",
     "twitter.com",
@@ -84,15 +113,44 @@ function isBlockedAggregatorHost(hostname) {
     "linkedin.",
     "youtube.com",
     "youtu.be",
-    "wikipedia.org",
-    "wikidata.org",
-    "mapquest.",
     "threads.net",
     "snapchat.",
     "reddit.com",
+    // Travel platforms / tourism boards
     "expedia.",
-    "lamag.com",
-    "laweekly.com",
+    "booking.com",
+    "hotels.com",
+    "airbnb.com",
+    "vrbo.com",
+    "kayak.com",
+    "agoda.com",
+    "priceline.com",
+    "trivago.",
+    "visitcopenhagen.com",
+    "visitsweden.com",
+    "visitnorway.com",
+    "visitdenmark.com",
+    "visitlondon.com",
+    "nycgo.com",
+    "now-where.com",
+    "happeningnext.com",
+    "restaurantguru.com",
+    "tripaim.com",
+    "visitacity.com",
+    "copenhappen.com",
+    "hotel-copenhagen.com",
+    // Reservation widgets / booking SaaS
+    "sevenrooms.com",
+    "easytablebooking.com",
+    "cloudbeds.com",
+    "onlinebooq.dk",
+    "superbexperience.com",
+    "order.online",
+    "square.site",
+    // Reference / mapping
+    "wikipedia.org",
+    "wikidata.org",
+    "mapquest.",
   ];
   if (blocked.some((b) => (b.endsWith(".") ? h.includes(b) : h === b || h.endsWith("." + b)))) return true;
   if (h === "x.com" || h.endsWith(".x.com")) return true;
@@ -589,7 +647,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
 
     const place = places[i];
     /** @type {PlaceRow} */
-    let next = { ...place, website: null };
+    let next = { ...place, venueUrl: null };
 
     const listingUrl = place.placeUrl && /^https?:\/\//i.test(place.placeUrl) ? place.placeUrl : null;
     const guideHtml = guideScopedHtmlBySourceUrl.get(deps.cleanUrl(place.sourceUrl)) || "";
@@ -606,7 +664,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
       if (cand && deps.validateOfficialWebsiteUrl(cand)) {
         const v = await verifyCandidate(place, deps.cleanUrl(cand), 1);
         if (v.accepted && (v.confidence === "high" || v.confidence === "medium")) {
-          next.website = deps.cleanUrl(cand);
+          next.venueUrl = deps.cleanUrl(cand);
           bumpStored(1, v.confidence);
           out.push(next);
           continue;
@@ -623,7 +681,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
     for (const u of prox) {
       const v = await verifyCandidate(place, deps.cleanUrl(u), 2);
       if (v.accepted && (v.confidence === "high" || v.confidence === "medium")) {
-        next.website = deps.cleanUrl(u);
+        next.venueUrl = deps.cleanUrl(u);
         bumpStored(2, v.confidence);
         out.push(next);
         break;
@@ -633,7 +691,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
         reason: `${place.name}: strat2 ${v.detail || v.confidence} http=${v.httpStatus}`,
       });
     }
-    if (next.website) {
+    if (next.venueUrl) {
       continue;
     }
 
@@ -655,7 +713,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
 
       const v = await verifyCandidate(place, deps.cleanUrl(abs), 3);
       if (v.accepted && v.confidence === "medium") {
-        next.website = deps.cleanUrl(abs);
+        next.venueUrl = deps.cleanUrl(abs);
         bumpStored(3, "medium");
         break;
       }
@@ -679,7 +737,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
       });
     }
 
-    if (next.website) {
+    if (next.venueUrl) {
       out.push(next);
       continue;
     }
@@ -690,7 +748,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
       if (!verificationDomainAllowed(g)) continue;
       const v = await verifyCandidate(place, g, 4);
       if (v.accepted && v.confidence === "medium") {
-        next.website = deps.cleanUrl(g);
+        next.venueUrl = deps.cleanUrl(g);
         bumpStored(4, "medium");
         break;
       }
@@ -712,7 +770,7 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
 
     out.push(next);
 
-    if (!next.website && triedRejections.length) {
+    if (!next.venueUrl && triedRejections.length) {
       for (const tr of triedRejections.slice(0, 6)) {
         if (stats.rejected.length >= 60) break;
         stats.rejected.push({
@@ -728,25 +786,25 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
 
   console.log(`[collect] Website resolve progress ${places.length}/${places.length}`);
 
-  const withWebsite = out.filter((p) => p.website).length;
-  console.log("\n=== Website resolution summary ===");
+  const withVenueUrl = out.filter((p) => p.venueUrl).length;
+  console.log("\n=== Venue URL resolution summary ===");
   console.log(`Total places: ${out.length}`);
-  console.log(`With website: ${withWebsite}`);
-  console.log(`Without website: ${out.length - withWebsite}`);
+  console.log(`With venueUrl: ${withVenueUrl}`);
+  console.log(`Without venueUrl: ${out.length - withVenueUrl}`);
   console.log(`By strategy (accepted): ${JSON.stringify(stats.strategy)}`);
   console.log(`By confidence (stored): ${JSON.stringify(stats.confidence)}`);
   console.log(`Strategy × confidence: ${JSON.stringify(stats.strategyConfidence)}`);
 
-  /** Spot-check 10 stored websites */
-  const withSites = out.filter((p) => p.website);
+  /** Spot-check 10 stored venue URLs */
+  const withSites = out.filter((p) => p.venueUrl);
   const shuffled = [...withSites].sort(() => Math.random() - 0.5);
   const sampleSize = Math.min(10, shuffled.length);
   console.log("\n=== Spot-check (10 random samples, name on page) ===");
   for (let s = 0; s < sampleSize; s++) {
     const p = shuffled[s];
-    const page = await fetchHttpPage(p.website || "");
+    const page = await fetchHttpPage(p.venueUrl || "");
     const ok = page.html ? nameVerifiedOnPage(p.name, page.html) : false;
-    console.log(`  ${ok ? "OK" : "FAIL"} ${p.name} → ${p.website} (http ${page.status})`);
+    console.log(`  ${ok ? "OK" : "FAIL"} ${p.name} → ${p.venueUrl} (http ${page.status})`);
   }
 
   console.log("\n=== Sample rejected candidates (see report file for more) ===");
@@ -767,8 +825,8 @@ export async function enrichPlacesWithWebsitesMultiStrategy(places, guideScopedH
         generatedAt: new Date().toISOString(),
         totals: {
           places: out.length,
-          withWebsite,
-          withoutWebsite: out.length - withWebsite,
+          withVenueUrl,
+          withoutVenueUrl: out.length - withVenueUrl,
         },
         strategyAccepted: stats.strategy,
         confidenceStored: stats.confidence,

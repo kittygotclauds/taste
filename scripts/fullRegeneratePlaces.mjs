@@ -4,7 +4,7 @@
  * Phase 3: Layered English descriptors:
  *   Layer 1 — EN Wikipedia REST summaries (translate if needed).
  *   Layer 2 — DuckDuckGo HTML search snippets (translate + shape).
- *   Layer 3 — Venue og:/meta description from website / listing URL (last resort; translate + shape).
+ *   Layer 3 — Venue og:/meta description from venueUrl (last resort; translate + shape).
  *
  * Parallelism: 5 concurrent workers (light jitter to ease rate limits).
  *
@@ -497,19 +497,11 @@ async function layerWebSearch(place) {
   return finalizeEnglish(blob, place);
 }
 
-/** @param {{ website?: string|null; placeUrl?: string }} place */
+/** @param {{ venueUrl?: string|null }} place */
 async function layerHomepage(place) {
   /** @type {string[]} */
   const urls = [];
-  if (place.website && /^https?:\/\//i.test(place.website)) urls.push(place.website);
-  if (place.placeUrl && /^https?:\/\//i.test(place.placeUrl)) {
-    try {
-      const h = new URL(place.placeUrl).hostname.replace(/^www\./, "");
-      if (!/^(goop\.com|vogue\.com)$/i.test(h)) urls.push(place.placeUrl);
-    } catch {
-      /* skip */
-    }
-  }
+  if (place.venueUrl && /^https?:\/\//i.test(place.venueUrl)) urls.push(place.venueUrl);
 
   for (const url of urls) {
     if (isJunkUrl(url)) continue;
@@ -522,7 +514,7 @@ async function layerHomepage(place) {
   return "";
 }
 
-/** @param {{ name: string; city: string; country: string; category: string; website?: string|null; placeUrl?: string }} place */
+/** @param {{ name: string; city: string; country: string; category: string; venueUrl?: string|null }} place */
 async function describeLayered(place) {
   try {
     let out = await layerWikipedia(place);

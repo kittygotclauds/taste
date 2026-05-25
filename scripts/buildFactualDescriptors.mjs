@@ -30,7 +30,7 @@ const JUNK_URL_SUBSTR = ["happeningnext.com", "eventbrite.", "meetup.com", "tick
 const JUNK_TEXT =
   /\b(happening at|virtual-time coverage|buy tickets|rsvp now|\b\d{1,2}:\d{2}\s*(am|pm)\s+to\b|eid\d{6,})\b/i;
 
-/** @typedef {{ id: string; name: string; category: string; city: string; country: string; placeUrl?: string; website?: string|null; descriptor?: string }} Place */
+/** @typedef {{ id: string; name: string; category: string; city: string; country: string; venueUrl?: string|null; descriptor?: string }} Place */
 
 function loadPlaces() {
   let t = readFileSync(DATA, "utf8");
@@ -349,23 +349,10 @@ async function describePlace(p) {
   let raw = "";
   let sourceUrl = "";
 
-  if (p.website && !isJunkUrl(p.website, "")) {
-    raw = await fetchMetaDescription(p.website);
-    sourceUrl = p.website;
+  if (p.venueUrl && !isJunkUrl(p.venueUrl, "")) {
+    raw = await fetchMetaDescription(p.venueUrl);
+    sourceUrl = p.venueUrl;
     if (isJunkUrl(sourceUrl, raw) || isBoilerplateMeta(raw)) raw = "";
-  }
-
-  if (!raw && p.placeUrl && /^https?:\/\//i.test(p.placeUrl)) {
-    try {
-      const host = new URL(p.placeUrl).hostname.replace(/^www\./, "");
-      if (!/^(goop\.com|vogue\.com)$/i.test(host)) {
-        raw = await fetchMetaDescription(p.placeUrl);
-        sourceUrl = p.placeUrl;
-        if (isJunkUrl(sourceUrl, raw) || isBoilerplateMeta(raw)) raw = "";
-      }
-    } catch {
-      raw = "";
-    }
   }
 
   if (!raw) return "";

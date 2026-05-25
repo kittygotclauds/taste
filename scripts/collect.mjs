@@ -38,9 +38,9 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
  * @property {string} country
  * @property {Source} source
  * @property {string} sourceTitle
- * @property {string} sourceUrl
- * @property {string=} placeUrl
- * @property {string|null=} website Official venue URL discovered from listing page (never Goop/Vogue)
+ * @property {string} sourceUrl Article URL (publication / IG post) where the place was recommended
+ * @property {string=} placeUrl In-memory only: candidate URL extracted from the article (passed to website-resolve as a hint, dropped before final output)
+ * @property {string|null=} venueUrl Final venue's own website (never a publication / social / postcard.inc URL)
  * @property {string} descriptor One-line voice descriptor (≤10 words)
  * @property {string=} neighborhood
  * @property {readonly string[]=} tags
@@ -1436,10 +1436,13 @@ async function main() {
       validateOfficialWebsiteUrl,
     }, ROOT);
   } else if (opts.dryRun || opts.skipWebsiteResolve) {
-    all = all.map((p) => ({ ...p, website: null }));
+    all = all.map((p) => ({ ...p, venueUrl: null }));
   }
 
   all = assignDescriptors(all, ROOT);
+
+  // Strip the in-memory-only hint field; final output uses sourceUrl + venueUrl only.
+  all = all.map(({ placeUrl: _internalHint, ...rest }) => rest);
 
   const outPath = path.join(ROOT, "data.generated.js");
   const js =
