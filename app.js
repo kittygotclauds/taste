@@ -167,9 +167,10 @@ let lastFilters = filtersFromUI();
 
 /**
  * The quality filter. A place passes if any of these hold:
- *   - googleRating >= 4.0
- *   - manualPick === true
- *   - ratingLookupStatus is not "success" (we haven't successfully rated it yet)
+ *   - manualPick === true (your personal endorsement; also shows Editor's pick badge)
+ *   - curator is set (trusted curator vouched; visible, no Editor's pick badge)
+ *   - googleRating >= 4.0 (when enough reviews to filter on)
+ *   - ratingLookupStatus is not "success" (not yet rated)
  *   - success but fewer than MIN_REVIEWS_FILTER reviews (not enough signal to filter on)
  * Places that fail are hidden in the default (filtered) view, but visible
  * with a low-rated indicator in the admin (all) view.
@@ -183,6 +184,7 @@ function hasEnoughReviewsToFilterOn(p) {
 
 function passesQualityFilter(p) {
   if (p.manualPick === true) return true;
+  if ((p.curator ?? "").trim()) return true;
   if (!hasEnoughReviewsToFilterOn(p)) return true;
   return typeof p.googleRating === "number" && p.googleRating >= RATING_MIN;
 }

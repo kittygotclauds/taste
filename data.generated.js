@@ -8378,7 +8378,7 @@ export const PLACES = [
     "googleRating": 4.3,
     "googleRatingCount": 2041,
     "googlePlaceId": "ChIJd19uAMhZwokRmdYBmRJJ08s",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -8519,7 +8519,7 @@ export const PLACES = [
     "googleRating": 4.2,
     "googleRatingCount": 1762,
     "googlePlaceId": "ChIJnYPdmaZz5kcR80ulUF3wtjQ",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -8623,7 +8623,7 @@ export const PLACES = [
     "googleRating": 4.3,
     "googleRatingCount": 7414,
     "googlePlaceId": "ChIJlW2G2zBu5kcRhim6uqUi8Fs",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -8675,7 +8675,7 @@ export const PLACES = [
     "googleRating": 3.9,
     "googleRatingCount": 10270,
     "googlePlaceId": "ChIJXQvlQftv5kcROZUkVMlEAdo",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9056,7 +9056,7 @@ export const PLACES = [
     "googleRating": 4.4,
     "googleRatingCount": 2464,
     "googlePlaceId": "ChIJ_dBPoN9v5kcRt2CYxV1xzrM",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9214,7 +9214,7 @@ export const PLACES = [
     "googleRating": 4.5,
     "googleRatingCount": 775,
     "googlePlaceId": "ChIJ93uz9TFu5kcRc8c4Y3tP3dI",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9266,7 +9266,7 @@ export const PLACES = [
     "googleRating": 4.3,
     "googleRatingCount": 2769,
     "googlePlaceId": "ChIJsa_SADJu5kcRQPS1EqkYIPQ",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9472,7 +9472,7 @@ export const PLACES = [
     "googleRating": 3.7,
     "googleRatingCount": 569,
     "googlePlaceId": "ChIJIW_rlA9u5kcR1E9tsnW7M68",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9490,7 +9490,7 @@ export const PLACES = [
     "googleRating": 4.4,
     "googleRatingCount": 2095,
     "googlePlaceId": "ChIJ15uOdd9x5kcRw1GFVVp2-KA",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9508,7 +9508,7 @@ export const PLACES = [
     "googleRating": 4.3,
     "googleRatingCount": 14329,
     "googlePlaceId": "ChIJL5QZXQJu5kcRwsTfM6YEA3E",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9790,7 +9790,7 @@ export const PLACES = [
     "googleRating": 4.4,
     "googleRatingCount": 57266,
     "googlePlaceId": "ChIJoyC4CRxu5kcRRTPcWX5srLc",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -9930,7 +9930,7 @@ export const PLACES = [
     "googleRating": 4.2,
     "googleRatingCount": 8981,
     "googlePlaceId": "ChIJqeYv3MJv5kcR2PpHs5RdJEg",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -10517,7 +10517,7 @@ export const PLACES = [
     "googleRating": 4,
     "googleRatingCount": 3184,
     "googlePlaceId": "ChIJt3yh--9v5kcRQVjd-8MZ4jM",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
@@ -10604,7 +10604,7 @@ export const PLACES = [
     "googleRating": null,
     "googleRatingCount": null,
     "googlePlaceId": "ChIJffWGaQJu5kcRAx_Jh-XUt7Y",
-    "manualPick": true,
+    "manualPick": false,
     "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
