@@ -27,9 +27,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-antidote-restaurant",
+    "id": "copenhagen-antidote-bar",
     "name": "Antidote",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -40,9 +40,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-apollo-bar-restaurant",
+    "id": "copenhagen-apollo-bar-bar",
     "name": "Apollo Bar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -53,9 +53,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-ateli-r-september-restaurant",
+    "id": "copenhagen-ateli-r-september-cafe",
     "name": "Ateliér September",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -79,9 +79,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-balthazar-restaurant",
+    "id": "copenhagen-balthazar-bar",
     "name": "Balthazar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -131,9 +131,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-brus-restaurant",
+    "id": "copenhagen-brus-bar",
     "name": "BRUS",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -183,9 +183,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-democratic-coffee-restaurant",
+    "id": "copenhagen-democratic-coffee-cafe",
     "name": "Democratic Coffee",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -339,9 +339,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-lagkagehuset-restaurant",
+    "id": "copenhagen-lagkagehuset-bakery",
     "name": "Lagkagehuset",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -352,9 +352,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-mirabelle-restaurant",
+    "id": "copenhagen-mirabelle-bakery",
     "name": "Mirabelle",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -469,9 +469,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-prolog-coffee-bar-restaurant",
+    "id": "copenhagen-prolog-coffee-bar-cafe",
     "name": "Prolog Coffee Bar",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -508,9 +508,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-royal-smushi-restaurant",
+    "id": "copenhagen-royal-smushi-cafe",
     "name": "Royal Smushi",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -521,9 +521,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-ruby-restaurant",
+    "id": "copenhagen-ruby-bar",
     "name": "Ruby",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -534,9 +534,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "copenhagen-sonny-restaurant",
+    "id": "copenhagen-sonny-cafe",
     "name": "Sonny",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Copenhagen",
     "country": "Denmark",
     "source": "vogue",
@@ -624,9 +624,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-allpress-espresso-restaurant",
+    "id": "london-allpress-espresso-cafe",
     "name": "Allpress Espresso",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -708,9 +708,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-bar-at-the-chiltern-firehouse-restaurant",
+    "id": "london-bar-at-the-chiltern-firehouse-bar",
     "name": "Bar at the Chiltern Firehouse",
-    "category": "restaurant",
+    "category": "bar",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -732,9 +732,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-berkeley-blue-bar-restaurant",
+    "id": "london-berkeley-blue-bar-bar",
     "name": "Berkeley Blue Bar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -960,9 +960,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-claridge-s-tea-room-restaurant",
+    "id": "london-claridge-s-tea-room-cafe",
     "name": "Claridge’s Tea Room",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1092,9 +1092,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-dukes-bar-restaurant",
+    "id": "london-dukes-bar-bar",
     "name": "Dukes Bar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1188,9 +1188,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-fabrique-bakery-restaurant",
+    "id": "london-fabrique-bakery-bakery",
     "name": "Fabrique Bakery",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1212,9 +1212,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-farm-girl-caf-restaurant",
+    "id": "london-farm-girl-caf-cafe",
     "name": "Farm Girl Café",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1428,9 +1428,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-kaffeine-restaurant",
+    "id": "london-kaffeine-cafe",
     "name": "Kaffeine",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1692,9 +1692,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-monocle-caf-restaurant",
+    "id": "london-monocle-caf-cafe",
     "name": "Monocle Café",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1728,9 +1728,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-noble-rot-restaurant",
+    "id": "london-noble-rot-bar",
     "name": "Noble Rot",
-    "category": "restaurant",
+    "category": "bar",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1740,9 +1740,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-nude-coffee-roasters-restaurant",
+    "id": "london-nude-coffee-roasters-cafe",
     "name": "Nude Coffee Roasters",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -1968,9 +1968,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-shoreditch-grind-restaurant",
+    "id": "london-shoreditch-grind-cafe",
     "name": "Shoreditch Grind",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -2160,9 +2160,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "london-the-good-life-eatery-restaurant",
+    "id": "london-the-good-life-eatery-cafe",
     "name": "The Good Life Eatery",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "London",
     "country": "United Kingdom",
     "source": "goop",
@@ -2515,9 +2515,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "los-angeles-courage-bagels-restaurant",
+    "id": "los-angeles-courage-bagels-bakery",
     "name": "Courage Bagels",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
@@ -2606,9 +2606,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "los-angeles-huckleberry-restaurant",
+    "id": "los-angeles-huckleberry-cafe",
     "name": "Huckleberry",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
@@ -2619,9 +2619,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "los-angeles-joan-s-on-third-restaurant",
+    "id": "los-angeles-joan-s-on-third-cafe",
     "name": "Joan’s on Third",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
@@ -2918,9 +2918,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "los-angeles-tower-bar-restaurant",
+    "id": "los-angeles-tower-bar-bar",
     "name": "Tower Bar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Los Angeles",
     "country": "United States",
     "source": "vogue",
@@ -3094,9 +3094,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-chiquitito-caf-restaurant",
+    "id": "mexico-city-chiquitito-caf-cafe",
     "name": "Chiquitito Café",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Nápoles",
@@ -3108,9 +3108,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-churrer-a-el-moro-restaurant",
+    "id": "mexico-city-churrer-a-el-moro-bakery",
     "name": "Churrería El Moro",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Centro",
@@ -3316,9 +3316,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-gingin-restaurant",
+    "id": "mexico-city-gingin-bar",
     "name": "GinGin",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Roma Norte",
@@ -3371,9 +3371,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-jules-basement-restaurant",
+    "id": "mexico-city-jules-basement-bar",
     "name": "Jules Basement",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "source": "goop",
@@ -3398,9 +3398,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-la-botica-restaurant",
+    "id": "mexico-city-la-botica-bar",
     "name": "La botica",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "source": "goop",
@@ -3438,9 +3438,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-licorer-a-limantour-restaurant",
+    "id": "mexico-city-licorer-a-limantour-bar",
     "name": "Licorería Limantour",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Roma Norte",
@@ -3466,9 +3466,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-maison-artemisia-restaurant",
+    "id": "mexico-city-maison-artemisia-bar",
     "name": "Maison Artemisia",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Roma Norte",
@@ -3480,9 +3480,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-maque-restaurant",
+    "id": "mexico-city-maque-cafe",
     "name": "Maque",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Juarez",
@@ -3729,9 +3729,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-panader-a-rosetta-restaurant",
+    "id": "mexico-city-panader-a-rosetta-bakery",
     "name": "Panadería Rosetta",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Roma Norte",
@@ -3992,9 +3992,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "mexico-city-zinco-jazz-club-restaurant",
+    "id": "mexico-city-zinco-jazz-club-bar",
     "name": "Zinco Jazz Club",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Mexico City",
     "country": "Mexico",
     "neighborhood": "Centro",
@@ -4058,9 +4058,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "miami-dante-s-hifi-restaurant",
+    "id": "miami-dante-s-hifi-bar",
     "name": "Dante’s HiFi",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Miami",
     "country": "United States",
     "source": "vogue",
@@ -4240,9 +4240,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "milan-camparino-in-galleria-restaurant",
+    "id": "milan-camparino-in-galleria-bar",
     "name": "Camparino in Galleria",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
@@ -4318,9 +4318,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "milan-fioraio-bianchi-caff-restaurant",
+    "id": "milan-fioraio-bianchi-caff-cafe",
     "name": "Fioraio Bianchi Caffè",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
@@ -4474,9 +4474,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "milan-pasticceria-sissi-restaurant",
+    "id": "milan-pasticceria-sissi-bakery",
     "name": "Pasticceria Sissi",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
@@ -4513,9 +4513,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "milan-sant-ambroeus-restaurant",
+    "id": "milan-sant-ambroeus-cafe",
     "name": "Sant Ambroeus",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Milan",
     "country": "Italy",
     "source": "vogue",
@@ -4711,9 +4711,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-bemelmans-bar-restaurant",
+    "id": "new-york-city-bemelmans-bar-bar",
     "name": "Bemelmans Bar",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -4783,9 +4783,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-caf-sabarsky-restaurant",
+    "id": "new-york-city-caf-sabarsky-cafe",
     "name": "Café Sabarsky",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5360,9 +5360,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-puffy-s-restaurant",
+    "id": "new-york-city-puffy-s-bar",
     "name": "Puffy’s",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5504,9 +5504,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-terroir-restaurant",
+    "id": "new-york-city-terroir-bar",
     "name": "Terroir",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5552,9 +5552,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-the-dead-rabbit-grocery-and-grog-restaurant",
+    "id": "new-york-city-the-dead-rabbit-grocery-and-grog-bar",
     "name": "The Dead Rabbit Grocery & Grog",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5600,9 +5600,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-the-jeffrey-restaurant",
+    "id": "new-york-city-the-jeffrey-bar",
     "name": "The Jeffrey",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5759,9 +5759,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-vin-sur-vingt-restaurant",
+    "id": "new-york-city-vin-sur-vingt-bar",
     "name": "Vin Sur Vingt",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5783,9 +5783,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "new-york-city-weather-up-restaurant",
+    "id": "new-york-city-weather-up-bar",
     "name": "Weather Up",
-    "category": "restaurant",
+    "category": "bar",
     "city": "New York City",
     "country": "United States",
     "source": "goop",
@@ -5857,9 +5857,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-bisou-restaurant",
+    "id": "paris-bisou-bar",
     "name": "Bisou",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
@@ -5870,9 +5870,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-bob-s-bake-shop-restaurant",
+    "id": "paris-bob-s-bake-shop-bakery",
     "name": "Bob’s Bake Shop",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -5882,9 +5882,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-bob-s-juice-bar-restaurant",
+    "id": "paris-bob-s-juice-bar-cafe",
     "name": "Bob’s Juice Bar",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -5920,9 +5920,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-caf-de-flore-restaurant",
+    "id": "paris-caf-de-flore-cafe",
     "name": "Café de Flore",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
@@ -5933,9 +5933,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-cafe-kitsun-restaurant",
+    "id": "paris-cafe-kitsun-cafe",
     "name": "Cafe Kitsuné",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
@@ -6048,9 +6048,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-coutume-restaurant",
+    "id": "paris-coutume-cafe",
     "name": "Coutume",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6136,9 +6136,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-experimental-cocktail-club-restaurant",
+    "id": "paris-experimental-cocktail-club-bar",
     "name": "Experimental Cocktail Club",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6385,9 +6385,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-la-mutinerie-restaurant",
+    "id": "paris-la-mutinerie-bar",
     "name": "La Mutinerie",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
@@ -6398,9 +6398,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-la-palette-restaurant",
+    "id": "paris-la-palette-cafe",
     "name": "La Palette",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6435,9 +6435,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-le-baron-rouge-restaurant",
+    "id": "paris-le-baron-rouge-bar",
     "name": "Le Baron Rouge",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6550,9 +6550,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-le-verre-vol-restaurant",
+    "id": "paris-le-verre-vol-bar",
     "name": "Le Verre Volé",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6613,9 +6613,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-maisie-caf-restaurant",
+    "id": "paris-maisie-caf-cafe",
     "name": "Maisie Café",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -6813,9 +6813,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-pierre-herm-restaurant",
+    "id": "paris-pierre-herm-bakery",
     "name": "Pierre Hermé",
-    "category": "restaurant",
+    "category": "bakery",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
@@ -6876,9 +6876,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-rosa-bonheur-restaurant",
+    "id": "paris-rosa-bonheur-bar",
     "name": "Rosa Bonheur",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -7003,9 +7003,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-vivant-2-restaurant",
+    "id": "paris-vivant-2-bar",
     "name": "Vivant 2",
-    "category": "restaurant",
+    "category": "bar",
     "city": "Paris",
     "country": "France",
     "source": "goop",
@@ -7015,9 +7015,9 @@ export const PLACES = [
     "descriptor": ""
   },
   {
-    "id": "paris-wild-and-the-moon-restaurant",
+    "id": "paris-wild-and-the-moon-cafe",
     "name": "Wild & The Moon",
-    "category": "restaurant",
+    "category": "cafe",
     "city": "Paris",
     "country": "France",
     "source": "goop",

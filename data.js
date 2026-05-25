@@ -5,6 +5,9 @@ export const SOURCES = /** @type {const} */ ({
 
 export const CATEGORIES = /** @type {const} */ ({
   restaurant: "Restaurant",
+  cafe: "Cafe",
+  bakery: "Bakery",
+  bar: "Bar",
   hotel: "Hotel",
   shop: "Shop",
   attraction: "Attraction",

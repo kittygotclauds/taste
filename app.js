@@ -19,7 +19,7 @@ const els = {
   closeAboutBtn: /** @type {HTMLButtonElement} */ ($("#closeAboutBtn")),
 };
 
-/** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
+/** @typedef {"restaurant"|"cafe"|"bakery"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Place
@@ -134,6 +134,9 @@ function updateMeta(count) {
 
 const CATEGORY_CHIP_CLASS = /** @type {const} */ ({
   restaurant: "chip chip--accent",
+  cafe: "chip chip--cafe",
+  bakery: "chip chip--bakery",
+  bar: "chip chip--bar",
   hotel: "chip chip--hotel",
   shop: "chip chip--teal",
   attraction: "chip chip--attraction",
