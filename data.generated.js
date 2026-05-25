@@ -8365,9 +8365,9 @@ export const PLACES = [
     "ratingLookupStatus": "success"
   },
   {
-    "id": "paris-angelinas-cafe",
+    "id": "paris-angelinas-dessert",
     "name": "Angelinas",
-    "category": "cafe",
+    "category": "dessert",
     "city": "Paris",
     "country": "France",
     "source": null,
@@ -8712,6 +8712,24 @@ export const PLACES = [
     "googleRatingCount": 6857,
     "googlePlaceId": "ChIJAbQV5AVw5kcR3as-MQ8GJCI",
     "manualPick": false,
+    "ratingLookupStatus": "success"
+  },
+  {
+    "id": "paris-chapon-et-la-chocolaterie-dessert",
+    "name": "Chapon et la Chocolaterie",
+    "category": "dessert",
+    "city": "Paris",
+    "country": "France",
+    "source": null,
+    "sourceTitle": null,
+    "sourceUrl": null,
+    "venueUrl": null,
+    "descriptor": "Mousse au chocolat on the go",
+    "googleRating": 4.4,
+    "googleRatingCount": 780,
+    "googlePlaceId": "ChIJLY0HodVx5kcRUtmRSOBMpz0",
+    "manualPick": false,
+    "curator": "Lily Rivkin",
     "ratingLookupStatus": "success"
   },
   {
@@ -10418,9 +10436,9 @@ export const PLACES = [
     "ratingLookupStatus": "success"
   },
   {
-    "id": "paris-pierre-herm-bakery",
+    "id": "paris-pierre-herme-dessert",
     "name": "Pierre Hermé",
-    "category": "bakery",
+    "category": "dessert",
     "city": "Paris",
     "country": "France",
     "source": "vogue",
