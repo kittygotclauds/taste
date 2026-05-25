@@ -173,6 +173,65 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
 .chip--bakery{border-color: rgba(230,184,118,.40); background: rgba(230,184,118,.16)}
 .chip--bar{border-color: rgba(190,18,60,.42); background: rgba(190,18,60,.16)}
 
+.badges{display:flex; flex-wrap:wrap; gap:6px}
+.badge{
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  color: rgba(233,238,247,.85);
+  text-transform: uppercase;
+}
+.badge--highlyRated{
+  border-color: rgba(245,200,86,.55);
+  background: rgba(245,200,86,.14);
+  color: rgba(245,220,160,.95);
+}
+.badge--pick{
+  border-color: rgba(244,114,182,.55);
+  background: rgba(244,114,182,.14);
+  color: rgba(248,180,210,.98);
+}
+.badge--lowRated{
+  border-color: rgba(154,166,188,.30);
+  background: rgba(154,166,188,.10);
+  color: rgba(154,166,188,.85);
+  text-transform: none;
+  font-weight: 500;
+}
+
+.card--filteredOut{
+  opacity: .55;
+}
+.card--filteredOut:hover{opacity: .85}
+.card--pick{
+  border-color: rgba(244,114,182,.32);
+  box-shadow: 0 10px 32px rgba(0,0,0,.25), 0 0 0 1px rgba(244,114,182,.20) inset;
+}
+
+.attributionMeta{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  width:100%;
+}
+.ratingLine{
+  font-size: 11px;
+  color: rgba(233,238,247,.72);
+  font-weight: 550;
+  letter-spacing: 0.01em;
+}
+.ratingLine--muted{color: rgba(154,166,188,.55); font-style: italic; font-weight: 500}
+
+.btn--admin{font-size: 12px; padding: 0 10px; height: 36px}
+.btn--admin[aria-pressed="true"]{
+  background: rgba(124,92,255,.22);
+  border-color: rgba(124,92,255,.55);
+}
+
 .card__bottom{
   margin-top:auto;
   padding:12px 14px 14px;

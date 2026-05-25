@@ -10,7 +10,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://42raw.dk/"
+    "venueUrl": "https://42raw.dk/",
+    "googleRating": 4.1,
+    "googleRatingCount": 1131,
+    "googlePlaceId": "ChIJc6fCUBdTUkYRTCUQ0mnnxYw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-aamanns-192-restaurant",
@@ -22,7 +27,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://aamanns.dk/"
+    "venueUrl": "https://aamanns.dk/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1649,
+    "googlePlaceId": "ChIJoa1vixBTUkYRD8NYW74jRsc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-antidote-bar",
@@ -34,7 +44,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://antidotevinbar.dk/"
+    "venueUrl": "http://antidotevinbar.dk/",
+    "googleRating": 5,
+    "googleRatingCount": 4,
+    "googlePlaceId": "ChIJjU6yEHNTUkYRXtvI6IT4AFE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-apollo-bar-bar",
@@ -46,7 +61,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://apollobar.dk/"
+    "venueUrl": "http://apollobar.dk/",
+    "googleRating": 3.7,
+    "googleRatingCount": 640,
+    "googlePlaceId": "ChIJLerE_xdTUkYRPqu7rhma1X0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-ateli-r-september-cafe",
@@ -58,7 +78,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.cafeatelierseptember.com/products/cookbook"
+    "venueUrl": "http://www.cafeatelierseptember.com/products/cookbook",
+    "googleRating": 4.1,
+    "googleRatingCount": 831,
+    "googlePlaceId": "ChIJs4ycwBlTUkYRIEz8phVb5Ls",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-b-st-restaurant",
@@ -70,7 +95,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://baest.dk/en/"
+    "venueUrl": "http://baest.dk/en/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2874,
+    "googlePlaceId": "ChIJfXsI359TUkYRXn0Fbeq4Uy0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-balthazar-bar",
@@ -82,7 +112,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://www.dangleterre.com/en/dining/balthazar"
+    "venueUrl": "https://www.dangleterre.com/en/dining/balthazar",
+    "googleRating": 4.3,
+    "googleRatingCount": 250,
+    "googlePlaceId": "ChIJhz84fBdTUkYR7leepygwfPc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-beau-march-restaurant",
@@ -94,7 +129,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://beaumarche.dk/vare/bench/"
+    "venueUrl": "https://beaumarche.dk/vare/bench/",
+    "googleRating": 4.2,
+    "googleRatingCount": 343,
+    "googlePlaceId": "ChIJIfZw7RlTUkYRyGyaGpG5seA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-black-diamond-restaurant",
@@ -106,7 +146,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Modern harbor annex of Denmark's Royal Library with exhibitions and reading halls.",
-    "venueUrl": "http://www.kb.dk/en/"
+    "venueUrl": "http://www.kb.dk/en/",
+    "googleRating": 4.7,
+    "googleRatingCount": 1604,
+    "googlePlaceId": "ChIJ36KzuxVTUkYRDDCgC3HCTGw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-botanical-garden-attraction",
@@ -118,7 +163,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://snm.dk/en/botanical-garden"
+    "venueUrl": "https://snm.dk/en/botanical-garden",
+    "googleRating": 4.5,
+    "googleRatingCount": 7424,
+    "googlePlaceId": "ChIJ7Rxj0RpTUkYRNLMP89LTNhM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-brus-bar",
@@ -130,7 +180,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://tapperietbrus.dk/"
+    "venueUrl": "http://tapperietbrus.dk/",
+    "googleRating": 4.5,
+    "googleRatingCount": 3882,
+    "googlePlaceId": "ChIJN-5GHkeLS0YRUMSC1_FNNAE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-byredo-restaurant",
@@ -142,7 +197,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Stockholm-founded fragrance house known for perfumes and leather goods.",
-    "venueUrl": "https://stores.byredo.com/en/europe/dk/copenhagen"
+    "venueUrl": "https://stores.byredo.com/en/europe/dk/copenhagen",
+    "googleRating": 4.7,
+    "googleRatingCount": 62,
+    "googlePlaceId": "ChIJ23WFpiJTUkYRaV11oOAADgY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-california-kitchen-restaurant",
@@ -154,7 +214,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://californiakitchen.dk/mad"
+    "venueUrl": "https://californiakitchen.dk/mad",
+    "googleRating": 4.5,
+    "googleRatingCount": 5291,
+    "googlePlaceId": "ChIJryeroxNTUkYRr-BldWI2bfo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-christianborg-restaurant",
@@ -166,7 +231,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.kongeligeslotte.dk/da/slotte-og-haver/christiansborg-slot.html"
+    "venueUrl": "http://www.kongeligeslotte.dk/da/slotte-og-haver/christiansborg-slot.html",
+    "googleRating": 4.6,
+    "googleRatingCount": 21866,
+    "googlePlaceId": "ChIJCbqRvxZTUkYRGWI2eOd3tiw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-democratic-coffee-cafe",
@@ -178,7 +248,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 940,
+    "googlePlaceId": "ChIJrbBJza5TUkYRbrrwiR1PKq4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-designmuseum-denmark-restaurant",
@@ -190,7 +265,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://designmuseum.org/"
+    "venueUrl": "https://designmuseum.org/",
+    "googleRating": 4.3,
+    "googleRatingCount": 8044,
+    "googlePlaceId": "ChIJMTzE6yFTUkYR90_sHEhzRqc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-far-s-dreng-restaurant",
@@ -202,7 +282,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.farsdreng.com/"
+    "venueUrl": "http://www.farsdreng.com/",
+    "googleRating": 4,
+    "googleRatingCount": 655,
+    "googlePlaceId": "ChIJD9NT0BlTUkYRG8EdW8mGVik",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-ferm-living-s-showroom-restaurant",
@@ -214,7 +299,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Danish interiors brand showroom highlighting furniture, lighting, and textiles.",
-    "venueUrl": "https://www.fermliving.com/"
+    "venueUrl": "https://www.fermliving.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 93,
+    "googlePlaceId": "ChIJz2zRQ7Yq3EMR5uPy78FVXu8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-fiskebaren-restaurant",
@@ -226,7 +316,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://fiskebaren.dk/"
+    "venueUrl": "http://fiskebaren.dk/",
+    "googleRating": 4.3,
+    "googleRatingCount": 4545,
+    "googlePlaceId": "ChIJ6a9VvnNTUkYR70EJ8UFFlv0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-glyptoteket-restaurant",
@@ -238,7 +333,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://www.glyptoteket.com/"
+    "venueUrl": "https://www.glyptoteket.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 14676,
+    "googlePlaceId": "ChIJfXQRBBNTUkYRoec4408un1k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-gr-d-restaurant",
@@ -250,7 +350,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://groed.com/en/menu"
+    "venueUrl": "http://groed.com/en/menu",
+    "googleRating": 4.5,
+    "googleRatingCount": 874,
+    "googlePlaceId": "ChIJOz-ciLJTUkYRX0Y2Baa6Jac",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-hay-restaurant",
@@ -262,7 +367,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Danish contemporary furniture and homewares flagship retail store.",
-    "venueUrl": "http://hay.dk/"
+    "venueUrl": "http://hay.dk/",
+    "googleRating": 4.4,
+    "googleRatingCount": 958,
+    "googlePlaceId": "ChIJ4dNTLhdTUkYRShq3fLu3I14",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-hija-de-sanchez-restaurant",
@@ -274,7 +384,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://lovesanchez.com/hija-de-sanchez/k-dbyen/hours-and-info"
+    "venueUrl": "https://lovesanchez.com/hija-de-sanchez/k-dbyen/hours-and-info",
+    "googleRating": 4.3,
+    "googleRatingCount": 2148,
+    "googlePlaceId": "ChIJZx5Ng3NTUkYRJMsRUpGzBcQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-hotel-d-angleterre-restaurant",
@@ -286,7 +401,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Grand nineteenth-century Copenhagen hotel facing Kongens Nytorv square.",
-    "venueUrl": "https://www.dangleterre.com/"
+    "venueUrl": "https://www.dangleterre.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 1909,
+    "googlePlaceId": "ChIJtRm9KRhTUkYRdv7vSCAmeVM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-illum-restaurant",
@@ -298,7 +418,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Historic Copenhagen department store spanning luxury fashion and Danish design floors.",
-    "venueUrl": "http://illum.dk/"
+    "venueUrl": "http://illum.dk/",
+    "googleRating": 4.2,
+    "googleRatingCount": 7276,
+    "googlePlaceId": "ChIJMxm_kUdTUkYRLg-q4dnzA5c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-kiin-kiin-bao-bao-restaurant",
@@ -310,7 +435,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://eat.kiinbao.dk/"
+    "venueUrl": "https://eat.kiinbao.dk/",
+    "googleRating": 4.2,
+    "googleRatingCount": 612,
+    "googlePlaceId": "ChIJ7f4EkZ9TUkYRaa_lvX4mIuQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-lagkagehuset-bakery",
@@ -322,7 +452,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://lagkagehuset.dk/"
+    "venueUrl": "https://lagkagehuset.dk/",
+    "googleRating": 4.1,
+    "googleRatingCount": 765,
+    "googlePlaceId": "ChIJWVwCxj5TUkYRfffbhrHW6fY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-mirabelle-bakery",
@@ -334,7 +469,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://mirabelle-bakery.dk/en/"
+    "venueUrl": "http://mirabelle-bakery.dk/en/",
+    "googleRating": 4.1,
+    "googleRatingCount": 933,
+    "googlePlaceId": "ChIJ2QDM_apTUkYRvlCBYFjWh48",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-mother-restaurant",
@@ -346,7 +486,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://mother.dk/menu2024"
+    "venueUrl": "https://mother.dk/menu2024",
+    "googleRating": 3.8,
+    "googleRatingCount": 3714,
+    "googlePlaceId": "ChIJyw-diHNTUkYRKrUmhof81iQ",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-n-rv-r-restaurant",
@@ -358,7 +503,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.naervaer.dk/"
+    "venueUrl": "http://www.naervaer.dk/",
+    "googleRating": 4,
+    "googleRatingCount": 605,
+    "googlePlaceId": "ChIJp7LdcTtTUkYRuX_CcvxfGiU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-niels-restaurant",
@@ -370,7 +520,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Niels Brock Copenhagen business college campus offering international programmes.",
-    "venueUrl": "https://www.nielsbrock.com/en/niels-brock-copenhagen-business-college/our-programmes/"
+    "venueUrl": "https://www.nielsbrock.com/en/niels-brock-copenhagen-business-college/our-programmes/",
+    "googleRating": 4.3,
+    "googleRatingCount": 13,
+    "googlePlaceId": "ChIJ4eeVeWlTUkYRX1QLUUB1t2g",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-nobis-restaurant",
@@ -382,7 +537,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Upscale Copenhagen boutique hotel steps from Tivoli Gardens and transit hubs.",
-    "venueUrl": "https://www.nobishotel.dk/da"
+    "venueUrl": "https://www.nobishotel.dk/da",
+    "googleRating": 4.5,
+    "googleRatingCount": 444,
+    "googlePlaceId": "ChIJfXY1EhNTUkYR9JTN38WMUZk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-opera-house-restaurant",
@@ -394,7 +554,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "Royal Danish Opera waterfront venue designed by Henning Larsen's studio.",
-    "venueUrl": "https://kglteater.dk/en/"
+    "venueUrl": "https://kglteater.dk/en/",
+    "googleRating": 4.7,
+    "googleRatingCount": 7700,
+    "googlePlaceId": "ChIJAT81qSVTUkYRJPOOnVNxCr4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-paleo-restaurant",
@@ -406,7 +571,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://www.novacircle.com/spots/europe/denmark/hellerup/copenhagen/copenhagen/palo-3bbe68"
+    "venueUrl": "https://www.novacircle.com/spots/europe/denmark/hellerup/copenhagen/copenhagen/palo-3bbe68",
+    "googleRating": 3.7,
+    "googleRatingCount": 553,
+    "googlePlaceId": "ChIJZ54hCQVTUkYREJuNCc_Dlls",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-peder-oxe-restaurant",
@@ -418,7 +588,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://www.pederoxe.dk/"
+    "venueUrl": "https://www.pederoxe.dk/",
+    "googleRating": 4.1,
+    "googleRatingCount": 1126,
+    "googlePlaceId": "ChIJQ0hz7RBTUkYRsK2olEtnX3k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-pluto-restaurant",
@@ -430,7 +605,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://restaurantpluto.dk/reservation/private-events/"
+    "venueUrl": "https://restaurantpluto.dk/reservation/private-events/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1413,
+    "googlePlaceId": "ChIJnRZCABlTUkYRdbR4fra9eNQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-prolog-coffee-bar-cafe",
@@ -442,7 +622,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1335,
+    "googlePlaceId": "ChIJRzBmiXNTUkYRqRXF2ZEdEkg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-rel-restaurant",
@@ -454,7 +639,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.restaurant-relae.dk/en/"
+    "venueUrl": "http://www.restaurant-relae.dk/en/",
+    "googleRating": 4.3,
+    "googleRatingCount": 518,
+    "googlePlaceId": "ChIJiaM1ebJTUkYRftvdLprjf6E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-rosenborg-restaurant",
@@ -466,7 +656,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.kongernessamling.dk/en/rosenborg-castle/calendar/"
+    "venueUrl": "http://www.kongernessamling.dk/en/rosenborg-castle/calendar/",
+    "googleRating": 4.6,
+    "googleRatingCount": 25851,
+    "googlePlaceId": "ChIJHVOeQhtTUkYRPBsoRTOcNVI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-royal-smushi-cafe",
@@ -478,7 +673,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.royalsmushicafe.dk/"
+    "venueUrl": "http://www.royalsmushicafe.dk/",
+    "googleRating": 3.8,
+    "googleRatingCount": 16,
+    "googlePlaceId": "ChIJFbZrlhxTUkYR7CboFkCOOd8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-ruby-bar",
@@ -490,7 +690,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://rby.dk/"
+    "venueUrl": "https://rby.dk/",
+    "googleRating": 4.5,
+    "googleRatingCount": 2162,
+    "googlePlaceId": "ChIJfdikRRFTUkYRDaGpK1d168U",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-sonny-cafe",
@@ -502,7 +707,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://www.sonnycph.dk/"
+    "venueUrl": "https://www.sonnycph.dk/",
+    "googleRating": 4.3,
+    "googleRatingCount": 932,
+    "googlePlaceId": "ChIJOyzDdhFTUkYRdBMFJJDRXJA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-sp34-restaurant",
@@ -514,7 +724,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://www.brochner-hotels.com/hotel-sp34/"
+    "venueUrl": "http://www.brochner-hotels.com/hotel-sp34/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1177,
+    "googlePlaceId": "ChIJvY9hWg5TUkYR1jm4WtjFTkc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-stilleben-restaurant",
@@ -526,7 +741,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://stilleben.dk/pages/about-us"
+    "venueUrl": "https://stilleben.dk/pages/about-us",
+    "googleRating": 4.2,
+    "googleRatingCount": 68,
+    "googlePlaceId": "ChIJU8jTIgVTUkYRg_bt9USKI0I",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-the-union-kitchen-restaurant",
@@ -538,7 +758,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://theunionkitchen.dk/"
+    "venueUrl": "https://theunionkitchen.dk/",
+    "googleRating": 4.3,
+    "googleRatingCount": 2602,
+    "googlePlaceId": "ChIJGYVWoiJTUkYRy6YAxGkDckI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-torvehallerne-restaurant",
@@ -550,7 +775,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "https://torvehallernekbh.dk/stade/mikkeller-friends-bottle-shop/"
+    "venueUrl": "https://torvehallernekbh.dk/stade/mikkeller-friends-bottle-shop/",
+    "googleRating": 4.5,
+    "googleRatingCount": 16213,
+    "googlePlaceId": "ChIJGzGFEgVTUkYRO2LpXOPtdHM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "copenhagen-trio-restaurant",
@@ -562,7 +792,12 @@ export const PLACES = [
     "sourceTitle": "A Weekend in Copenhagen Is Full of Possibility",
     "sourceUrl": "https://www.vogue.com/article/weekend-copenhagen-guide",
     "descriptor": "",
-    "venueUrl": "http://restauranttrio.dk/bar"
+    "venueUrl": "http://restauranttrio.dk/bar",
+    "googleRating": 4.3,
+    "googleRatingCount": 537,
+    "googlePlaceId": "ChIJL6pGyQ1TUkYR_bGHKmWisCw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-alexandra-soveral-wellness",
@@ -574,7 +809,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/maida-vale-health-and-beauty/alexandra-soveral/",
     "descriptor": "",
-    "venueUrl": "https://alexandrasoveral.com/"
+    "venueUrl": "https://alexandrasoveral.com/",
+    "googleRating": 5,
+    "googleRatingCount": 6,
+    "googlePlaceId": "ChIJ-U8zSQ8QdkgRkRSDQinOh4o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-allpress-espresso-cafe",
@@ -586,7 +826,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391172-specialty/allpress-espresso/",
     "descriptor": "",
-    "venueUrl": "https://allpressespresso.com/"
+    "venueUrl": "https://allpressespresso.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 587,
+    "googlePlaceId": "ChIJYXaVqpIcdkgRgK5fJruLJ7s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-aman-spa-at-the-connaught-wellness",
@@ -598,7 +843,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/aman-spa-at-the-connaught/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 138,
+    "googlePlaceId": "ChIJD5ZQMiwFdkgRLSuZru8rY8o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-amberin-fur-wellness",
@@ -610,7 +860,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/amberin-fur/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 5,
+    "googleRatingCount": 4,
+    "googlePlaceId": "ChIJmcSZmCwFdkgRLi00l1q1hrw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-andrea-hurst-wellness",
@@ -622,7 +877,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/andrea-hurst/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJKV6EqykFdkgRIdePbFhhAqY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-annabel-s-restaurant",
@@ -634,7 +894,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/annabels/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1484,
+    "googlePlaceId": "ChIJUw6mrS4FdkgRwZyBsbycWiM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-another-country-shop",
@@ -646,7 +911,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387338-shops/another-country/",
     "descriptor": "",
-    "venueUrl": "https://anothercountry.com/"
+    "venueUrl": "https://anothercountry.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 22,
+    "googlePlaceId": "ChIJXV2h48sadkgRRcK9LJJ7ftk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bankside-hotel-hotel",
@@ -658,7 +928,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/southbank-hotels/bankside-hotel/",
     "descriptor": "",
-    "venueUrl": "https://banksidehotel.com/"
+    "venueUrl": "https://banksidehotel.com/",
+    "googleRating": 4.8,
+    "googleRatingCount": 944,
+    "googlePlaceId": "ChIJA-ovIUkFdkgRBF-NEe_g9Ws",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bar-at-the-chiltern-firehouse-bar",
@@ -670,7 +945,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-bars-and-nightlife/bar-at-the-chiltern-firehouse/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 2909,
+    "googlePlaceId": "ChIJAYkvus0adkgR-BHnv8lER38",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-beast-restaurant",
@@ -682,7 +962,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381985-restaurants/beast/",
     "descriptor": "",
-    "venueUrl": "https://beastrestaurant.com/"
+    "venueUrl": "https://beastrestaurant.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1380,
+    "googlePlaceId": "ChIJdfQDVtMadkgRywCRPsP_GiU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-berkeley-blue-bar-bar",
@@ -694,7 +979,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-385069-bars-and-nightlife/berkeley-blue-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 168,
+    "googlePlaceId": "ChIJfy5VHjsFdkgRIRpEukYHuJs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-blok-wellness",
@@ -706,7 +996,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/blok/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 290,
+    "googlePlaceId": "ChIJ-1fl_lYcdkgRmGphUAWBVHs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bodhimaya-wellness",
@@ -718,7 +1013,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-429792-health-and-beauty/bodhimaya/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJVVVRiNQadkgRNY-T7GO0hWk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bodyism-wellness",
@@ -730,7 +1030,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-386160-health-and-beauty/bodyism/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 170,
+    "googlePlaceId": "ChIJESWvQTkFdkgROl_l2XBN3ic",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bond-street-shop",
@@ -742,7 +1047,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387342-shops/bond-street/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1942,
+    "googlePlaceId": "ChIJn8Ps1ywFdkgRJcpkcuK0o0c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-brat-restaurant",
@@ -754,7 +1064,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-restaurants/brat/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 2369,
+    "googlePlaceId": "ChIJ7XVltrAcdkgRISmskLX7lbw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-breathpod-wellness",
@@ -766,7 +1081,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-health-and-beauty/breathpod/",
     "descriptor": "",
-    "venueUrl": "https://breathpod.com/"
+    "venueUrl": "https://breathpod.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJadBy_dUddkgRSaIkoA6u4mY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-brigadiers-restaurant",
@@ -778,7 +1098,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-383419-restaurants/brigadiers/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 3081,
+    "googlePlaceId": "ChIJU1e3CVUDdkgRbWhGVEiDv0Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-brown-s-hotel-hotel",
@@ -790,7 +1115,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/browns-hotel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1603,
+    "googlePlaceId": "ChIJP4LZ8ikFdkgRUmF0m4CmccM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-browns-shop",
@@ -802,7 +1132,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/browns/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 8742,
+    "googlePlaceId": "ChIJkWJjuc0EdkgRqL0ffd2j1aA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-bruton-street-shop",
@@ -814,7 +1149,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387345-shops/bruton-street/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJAXMwzysFdkgRXSo0FS1QNaU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-burlington-arcade-shop",
@@ -826,7 +1166,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387346-shops/burlington-arcade/",
     "descriptor": "",
-    "venueUrl": "https://burlingtonarcade.com/"
+    "venueUrl": "https://burlingtonarcade.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 3003,
+    "googlePlaceId": "ChIJjyvv_9UEdkgRUrbU725BBf4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-caf-murano-restaurant",
@@ -838,7 +1183,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381580-restaurants/cafe-murano/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1129,
+    "googlePlaceId": "ChIJGVQ1VMoEdkgRdIvOMEsGuyw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-caravane-shop",
@@ -850,7 +1200,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-387347-shops/caravane-5/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.2,
+    "googleRatingCount": 21,
+    "googlePlaceId": "ChIJqz5hNtIadkgRmw1-PN4-Pd0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-chiltern-firehouse-hotel",
@@ -862,7 +1217,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/chiltern-firehouse-2/",
     "descriptor": "",
-    "venueUrl": "https://www.chilternfirehouse.com/"
+    "venueUrl": "https://www.chilternfirehouse.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2909,
+    "googlePlaceId": "ChIJAYkvus0adkgR-BHnv8lER38",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-chiltern-firehouse-restaurant",
@@ -874,7 +1234,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381566-restaurants/chiltern-firehouse/",
     "descriptor": "",
-    "venueUrl": "https://www.chilternfirehouse.com/"
+    "venueUrl": "https://www.chilternfirehouse.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2909,
+    "googlePlaceId": "ChIJAYkvus0adkgR-BHnv8lER38",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-china-tang-restaurant",
@@ -886,7 +1251,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/china-tang/",
     "descriptor": "",
-    "venueUrl": "https://chinatang.com/"
+    "venueUrl": "https://chinatang.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 865,
+    "googlePlaceId": "ChIJAwfVzzMFdkgRxQG6ymOFpOk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-chisou-restaurant",
@@ -898,7 +1268,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/chisou/",
     "descriptor": "",
-    "venueUrl": "https://chisourestaurant.com/"
+    "venueUrl": "https://chisourestaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1421,
+    "googlePlaceId": "ChIJA2F7oSwFdkgRVkmQrSL-ok8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-claridge-s-hotel",
@@ -910,7 +1285,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/claridges/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 4113,
+    "googlePlaceId": "ChIJcZY1XAAFdkgRieYQg6UqpzQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-claridge-s-tea-room-cafe",
@@ -922,7 +1302,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-390551-specialty/claridges-tea-room/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 313,
+    "googlePlaceId": "ChIJq45_yF4FdkgRwv4Vdhs0shE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-cloud-twelve-wellness-spa-and-kid-s-club-wellness",
@@ -934,7 +1319,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/cloud-twelve/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.9,
+    "googleRatingCount": 319,
+    "googlePlaceId": "ChIJN3J7YR0QdkgR4ARvvQD7OwY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-como-the-halkin-hotel",
@@ -946,7 +1336,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/belgravia-hotels/como-the-halkin/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 442,
+    "googlePlaceId": "ChIJV9OnyCQFdkgRWbLDZd7A8Ng",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-cora-pearl-restaurant",
@@ -958,7 +1353,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-429835-restaurants/cora-pearl/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 899,
+    "googlePlaceId": "ChIJpXVfg3QFdkgR3QFeKXdNHEQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-coya-mayfair-restaurant",
@@ -970,7 +1370,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/coya/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 3103,
+    "googlePlaceId": "ChIJdS2rWC8FdkgR0OwXxtyU8UI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-daunt-books-shop",
@@ -982,7 +1387,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-shops/daunt-books/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 6750,
+    "googlePlaceId": "ChIJTQJH99EadkgRgli4gpxCkOY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-david-zwirner-gallery-attraction",
@@ -994,7 +1404,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-389138-museums/david-zwirner-gallery/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 148,
+    "googlePlaceId": "ChIJt0kDhikFdkgR2TQwCwNqPqw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-daylesford-restaurant",
@@ -1006,7 +1421,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-specialty/daylesford/",
     "descriptor": "",
-    "venueUrl": "https://daylesford.com/"
+    "venueUrl": "https://daylesford.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 887,
+    "googlePlaceId": "ChIJIbMlqeIPdkgRSz2jBsaw3wc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-din-tai-fung-restaurant",
@@ -1018,7 +1438,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-429841-restaurants/din-tai-fung-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 8985,
+    "googlePlaceId": "ChIJGco1pPMFdkgRBYvJLBKyJIo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-dinings-restaurant",
@@ -1030,7 +1455,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382467-restaurants/dinings/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 593,
+    "googlePlaceId": "ChIJYSYt-bUadkgRWynUg_VJ1gg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-dover-street-market-shop",
@@ -1042,7 +1472,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-shops/dover-street-market-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 1545,
+    "googlePlaceId": "ChIJvzl56ykFdkgRFaTdR6ut1DI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-dukes-bar-bar",
@@ -1054,7 +1489,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-385298-bars-and-nightlife/dukes-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4,
+    "googleRatingCount": 231,
+    "googlePlaceId": "ChIJLds3OEkFdkgRcYk3My6S59o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-emerald-and-tiger-wellness",
@@ -1066,7 +1506,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emerald-and-tiger/",
     "descriptor": "",
-    "venueUrl": "https://emeraldandtiger.com/"
+    "venueUrl": "https://emeraldandtiger.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-emma-cannon-wellness",
@@ -1078,7 +1523,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-cannon/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.7,
+    "googleRatingCount": 3,
+    "googlePlaceId": "ChIJs9gkjW4FdkgRXPdPsCzXChM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-emma-lucy-knowles-wellness",
@@ -1090,7 +1540,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/emma-lucy-knowles/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3,
+    "googleRatingCount": 2,
+    "googlePlaceId": "ChIJ2WNnq_wddkgR9JSHeAW-nI4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-emma-peel-wellness",
@@ -1102,7 +1557,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london-health-and-beauty/emma-peel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 107,
+    "googlePlaceId": "ChIJ_yP8g4NZwokRGwO9GVZmp8o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-estelle-bingham-wellness",
@@ -1114,7 +1574,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-386386-health-and-beauty/estelle-bingham/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 936,
+    "googlePlaceId": "ChIJlZg6qD8MdkgRJpwAF33oLbI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-eve-kalinik-wellness",
@@ -1126,7 +1591,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-385789-health-and-beauty/eve-kalinik/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-evelyn-s-table-restaurant",
@@ -1138,7 +1608,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-383133-restaurants/evelyns-table/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.9,
+    "googleRatingCount": 1447,
+    "googlePlaceId": "ChIJtZpbttMEdkgRl7-te2KdeSg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-fabrique-bakery-bakery",
@@ -1150,7 +1625,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391174-specialty/fabrique-bakery/",
     "descriptor": "",
-    "venueUrl": "https://fabriquebakery.com/"
+    "venueUrl": "https://fabriquebakery.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 935,
+    "googlePlaceId": "ChIJAZ5daM0EdkgRGwjHCHoktPE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-facegym-wellness",
@@ -1162,7 +1642,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-health-and-beauty/facegym/",
     "descriptor": "",
-    "venueUrl": "https://facegym.com/"
+    "venueUrl": "https://facegym.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 71,
+    "googlePlaceId": "ChIJzYqPY0ZZwokRBQ6FjO52Ato",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-farm-girl-caf-cafe",
@@ -1174,7 +1659,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/notting-hill-specialty/farm-girl-cafe/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 4251,
+    "googlePlaceId": "ChIJR_W2JuMPdkgRyJM3RwBG_jg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-fischer-s-restaurant-restaurant",
@@ -1186,7 +1676,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382142-restaurants/fischers-restaurant/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 2066,
+    "googlePlaceId": "ChIJdXacwdEadkgR-FWbcyqk_xU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-four-seasons-hotel-london-at-tower-bridge-hotel",
@@ -1198,7 +1693,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/city-of-london-hotels/four-seasons-ten-trinity-square/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 1664,
+    "googlePlaceId": "ChIJ7zYiIkwDdkgR0ik2_MUMEbk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-frette-shop",
@@ -1210,7 +1710,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/frette/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 10,
+    "googlePlaceId": "ChIJkTlU5C0FdkgRDCatdkgIBQc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-gymkhana-restaurant",
@@ -1222,7 +1727,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381568-restaurants/gymkhana/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 3311,
+    "googlePlaceId": "ChIJtwn55ikFdkgRAvOuPIWeLM0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-harvey-nichols-shop",
@@ -1234,7 +1744,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-shops/harvey-nichols-3/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 5278,
+    "googlePlaceId": "ChIJyb1cdDkFdkgREU_E5UeVK6M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-hatchards-shop",
@@ -1246,7 +1761,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-shops/hatchards/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 2418,
+    "googlePlaceId": "ChIJSWSmitYEdkgRe77ksmfpz4E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-hauser-and-wirth-attraction",
@@ -1258,7 +1778,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-museums/hauser-wirth/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 190,
+    "googlePlaceId": "ChIJB8-IeyoFdkgRHkoF-SYwsjY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-h-l-ne-darroze-at-the-connaught-restaurant",
@@ -1270,7 +1795,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/helene-darroze/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 889,
+    "googlePlaceId": "ChIJNdaqLSwFdkgRcp3iqGlL6Ek",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-henrietta-experimental-hotel",
@@ -1282,7 +1812,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/covent-garden-hotels/henrietta-hotel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 312,
+    "googlePlaceId": "ChIJ0ZJL7egFdkgRUxm2gUkZOGk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-hotel-caf-royal-hotel",
@@ -1294,7 +1829,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-hotels/hotel-cafe-royal/",
     "descriptor": "",
-    "venueUrl": "https://hotelcaferoyal.com/"
+    "venueUrl": "https://hotelcaferoyal.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 2140,
+    "googlePlaceId": "ChIJawUNG9QEdkgRf4wGMuxqTXc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-hovarda-restaurant",
@@ -1306,7 +1846,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-385297-bars-and-nightlife/hovarda/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 988,
+    "googlePlaceId": "ChIJBT_NsNMEdkgRPSN0MQzdRS4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-ikeda-restaurant",
@@ -1318,7 +1863,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382171-restaurants/ikeda/",
     "descriptor": "",
-    "venueUrl": "https://ikedarestaurant.com/"
+    "venueUrl": "https://ikedarestaurant.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 245,
+    "googlePlaceId": "ChIJSwpbZCsFdkgRe4uSBd3GNuM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-ikoyi-restaurant",
@@ -1330,7 +1880,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/covent-garden-restaurants/ikoyi/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1091,
+    "googlePlaceId": "ChIJkw2CZtEEdkgRgiNBxbdniHE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-jessica-mccormack-shop",
@@ -1342,7 +1897,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/jessica-mccormack/",
     "descriptor": "",
-    "venueUrl": "https://jessicamccormack.com/"
+    "venueUrl": "https://jessicamccormack.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 23,
+    "googlePlaceId": "ChIJlf0pMCwFdkgR1RxOTrDJ1RI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-jikoni-restaurant",
@@ -1354,7 +1914,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-383110-restaurants/jikoni/",
     "descriptor": "",
-    "venueUrl": "https://jikonirestaurant.com/"
+    "venueUrl": "https://jikonirestaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 809,
+    "googlePlaceId": "ChIJCwzfjs0adkgRM1UKFINVRzg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-john-bell-and-croyden-shop",
@@ -1366,7 +1931,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/john-bell-croyden/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.5,
+    "googleRatingCount": 471,
+    "googlePlaceId": "ChIJMRb7GNMadkgRoYa-_HVjUqI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-john-lewis-shop",
@@ -1378,7 +1948,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-shops/john-lewis/",
     "descriptor": "",
-    "venueUrl": "https://johnlewis.com/"
+    "venueUrl": "https://johnlewis.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 9680,
+    "googlePlaceId": "ChIJI6IWjywbdkgRZCa6K6ZF4UI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kaffeine-cafe",
@@ -1390,7 +1965,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391180-specialty/kaffeine-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 2236,
+    "googlePlaceId": "ChIJF0CUcSobdkgRM2Mz_ZJTXgM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kai-restaurant",
@@ -1402,7 +1982,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382176-restaurants/kai/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 999,
+    "googlePlaceId": "ChIJJ2HpEy4FdkgR-ZxFLGDPpcg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-katy-meade-king-wellness",
@@ -1414,7 +1999,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-429872-health-and-beauty/katy-meade-king/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJ1z_zgi0he0gRADUf8QfuMFo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kiln-restaurant",
@@ -1426,7 +2016,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-restaurants/kiln/",
     "descriptor": "",
-    "venueUrl": "https://kiln.com/"
+    "venueUrl": "https://kiln.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 3971,
+    "googlePlaceId": "ChIJ_7nqbtQEdkgRuNOUsTUwfTI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kimpton-fitzroy-london-hotel",
@@ -1438,7 +2033,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/bloomsbury-hotels/the-kimpton-fitzroy-hotel/",
     "descriptor": "",
-    "venueUrl": "https://kimptonfitzroylondon.com/"
+    "venueUrl": "https://kimptonfitzroylondon.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 2288,
+    "googlePlaceId": "ChIJ3XxCGjEbdkgRbkG5fZFKqrY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kricket-restaurant",
@@ -1450,7 +2050,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-restaurants/kricket/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 3059,
+    "googlePlaceId": "ChIJXWnxCtQEdkgRcG32UcQZFVQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-kudu-restaurant",
@@ -1462,7 +2067,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/peckham-restaurants/kudu/",
     "descriptor": "",
-    "venueUrl": "https://kudurestaurant.com/"
+    "venueUrl": "https://kudurestaurant.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1281,
+    "googlePlaceId": "ChIJWTIkDggDdkgRwo3fbxXdVkc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-l-oscar-hotel-hotel",
@@ -1474,7 +2084,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/the-strand-hotels/loscar-hotel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 555,
+    "googlePlaceId": "ChIJ2y9erDUbdkgR79LJMUfwIYQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-la-fromagerie-restaurant",
@@ -1486,7 +2101,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-390588-specialty/la-fromagerie/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 869,
+    "googlePlaceId": "ChIJQ_xyA9IadkgRgMIkd4-ZVxc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-la-petite-maison-restaurant",
@@ -1498,7 +2118,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382180-restaurants/la-petite-maison/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1446,
+    "googlePlaceId": "ChIJgeGDeSsFdkgRdmrFtEogVbI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-lanserhof-at-the-arts-club-wellness",
@@ -1510,7 +2135,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/lanserhof-at-the-arts-club/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 36,
+    "googlePlaceId": "ChIJTzlS9TcFdkgReNkOyqQbDqc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-le-relais-de-venise-l-entrecote-restaurant",
@@ -1522,7 +2152,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/lentrecote/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 3860,
+    "googlePlaceId": "ChIJYwXPXNIadkgRhqBqxBm5ddA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-lesalon-wellness",
@@ -1534,7 +2169,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-452662-services/lesalon/",
     "descriptor": "",
-    "venueUrl": "https://lesalon.com/"
+    "venueUrl": "https://lesalon.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 261,
+    "googlePlaceId": "ChIJwQsFUtIEdkgRZp6LDXHo9EM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-lina-stores-restaurant",
@@ -1546,7 +2186,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-restaurants/lina-stores/",
     "descriptor": "",
-    "venueUrl": "https://linastores.com/"
+    "venueUrl": "https://linastores.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 3121,
+    "googlePlaceId": "ChIJDzt8MxQbdkgREAU6tIAGDbM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-little-duck-the-picklery-restaurant",
@@ -1558,7 +2203,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/dalston-restaurants/little-duck-picklery/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 682,
+    "googlePlaceId": "ChIJ7fYEpfIcdkgRkZFUV4nBUoM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-ln-cc-shop",
@@ -1570,7 +2220,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/dalston-shops/ln-cc/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 2.5,
+    "googleRatingCount": 278,
+    "googlePlaceId": "ChIJWSfjkYwcdkgRumdlT6Vtzh4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-locanda-locatelli-restaurant",
@@ -1582,7 +2237,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382183-restaurants/locanda-locatelli/",
     "descriptor": "",
-    "venueUrl": "https://locandalocatelli.com/"
+    "venueUrl": "https://locandalocatelli.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1433,
+    "googlePlaceId": "ChIJqYRPtswadkgRp8CIE-kbpH0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-lyndsey-ingram-attraction",
@@ -1594,7 +2254,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-389292-museums/lyndsey-ingram/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 35,
+    "googlePlaceId": "ChIJ9by54S0FdkgRHbOABLHsPPo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-mandarin-oriental-hyde-park-hotel",
@@ -1606,7 +2271,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-hotels/mandarin-oriental-hyde-park/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 2720,
+    "googlePlaceId": "ChIJG4IcmDkFdkgR3IYfJhJy-SM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-marylebone-farmers-market-restaurant",
@@ -1618,7 +2288,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-390595-specialty/marylebone-farmers-market/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 373,
+    "googlePlaceId": "ChIJecuoDtIadkgRR_GbSwzzU8o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-melody-hekmat-wellness",
@@ -1630,7 +2305,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/citywide-health-and-beauty/melody-hekmat/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-m-tier-shop",
@@ -1642,7 +2322,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/l-o-n-b/",
     "descriptor": "",
-    "venueUrl": "https://metier.com/"
+    "venueUrl": "https://metier.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 18,
+    "googlePlaceId": "ChIJDxHk8DEFdkgR0_CMRdByqvU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-monocle-caf-cafe",
@@ -1654,7 +2339,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/monocle-cafe/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 2114,
+    "googlePlaceId": "ChIJjSKnuM0adkgRA725Gi-2JFk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-murano-restaurant",
@@ -1666,7 +2356,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381577-restaurants/murano/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1002,
+    "googlePlaceId": "ChIJTUlS0S4FdkgRAGTHjEn0wF4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-nicola-clarke-wellness",
@@ -1678,7 +2373,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/fitzrovia-health-and-beauty/nicola-clarke/",
     "descriptor": "",
-    "venueUrl": "https://nicolaclarke.com/"
+    "venueUrl": "https://nicolaclarke.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 67,
+    "googlePlaceId": "ChIJ6czLKtQadkgRgwndItO5jQo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-noble-rot-bar",
@@ -1690,7 +2390,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-384961-bars-and-nightlife/noble-rot/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 349,
+    "googlePlaceId": "ChIJAzNI_8sFdkgRbRvnLqAvUJY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-nude-coffee-roasters-cafe",
@@ -1702,7 +2407,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/spitalfields-specialty/nude-espresso/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 682,
+    "googlePlaceId": "ChIJx6V6eLYcdkgRd_3-5pTLxPE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-nymph-of-neptune-wellness",
@@ -1714,7 +2424,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-386387-health-and-beauty/nymph-of-neptune/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-opso-restaurant",
@@ -1726,7 +2441,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/opso/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2367,
+    "googlePlaceId": "ChIJ7YK1As4adkgREHR6mdwfwNE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-pachamama-restaurant",
@@ -1738,7 +2458,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381681-restaurants/pachamama/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-park-chinois-restaurant",
@@ -1750,7 +2475,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381680-restaurants/park-chinois/",
     "descriptor": "",
-    "venueUrl": "https://parkchinois.com/"
+    "venueUrl": "https://parkchinois.com/",
+    "googleRating": 4,
+    "googleRatingCount": 1535,
+    "googlePlaceId": "ChIJvYYqnCkFdkgRpJro2gbpZMs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-phillips-auctions-attraction",
@@ -1762,7 +2492,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/phillips-de-pury-auctions/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 175,
+    "googlePlaceId": "ChIJV8_--N4EdkgRbgaqxnrAPpM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-picturehouse-cinema-central-attraction",
@@ -1774,7 +2509,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-activities/picturehouse-cinema-central/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 4636,
+    "googlePlaceId": "ChIJ3VekwdMEdkgRLykSZWGOPnk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-portland-restaurant-restaurant",
@@ -1786,7 +2526,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382470-restaurants/portland-restaurant/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 852,
+    "googlePlaceId": "ChIJUQmz3dUadkgRGnD2W-pGoFM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-professor-fares-haddad-wellness",
@@ -1798,7 +2543,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/professor-fares-haddad/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJhxgWk2MPdkgRhNIrYcXhhPA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-raj-bhachu-wellness",
@@ -1810,7 +2560,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-385792-health-and-beauty/raj-bhachu/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4,
+    "googleRatingCount": 8,
+    "googlePlaceId": "ChIJoUJDBilrdkgRsSwfKnTgfw4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-review-bookshop-shop",
@@ -1822,7 +2577,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-387959-shops/review-bookshop/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 13299,
+    "googlePlaceId": "ChIJ5574rdIEdkgRA9294QpXDhw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-rochelle-canteen-restaurant",
@@ -1834,7 +2594,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/shoreditch-restaurants/rochelle-canteen/",
     "descriptor": "",
-    "venueUrl": "https://rochellecanteen.com/"
+    "venueUrl": "https://rochellecanteen.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 809,
+    "googlePlaceId": "ChIJNfBU2bkcdkgRJoQiLng7HHY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-roka-mayfair-restaurant",
@@ -1846,7 +2611,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/roka/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2123,
+    "googlePlaceId": "ChIJQV-ujzIFdkgReTqDKWG7KVk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-rovi-restaurant",
@@ -1858,7 +2628,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/fitzrovia-restaurants/rovi/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 2439,
+    "googlePlaceId": "ChIJ2RgEeicbdkgRZwQczgnQNN8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-royal-academy-attraction",
@@ -1870,7 +2645,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/piccadilly-museums/royal-academy/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1928,
+    "googlePlaceId": "ChIJM5ERbdYEdkgRFkMO56hrE_k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-sabor-restaurant",
@@ -1882,7 +2662,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sabor/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 2263,
+    "googlePlaceId": "ChIJoXHzltUEdkgRc7QLGWRren0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-savile-row-and-jermyn-street-shop",
@@ -1894,7 +2679,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/savile-row-jermyn-street/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 214,
+    "googlePlaceId": "ChIJTbN_bioFdkgRWOdi3mE5bJs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-selfridges-shop",
@@ -1906,7 +2696,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/selfridges/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 46605,
+    "googlePlaceId": "ChIJDUkDWC0FdkgRvr1r4roiH4E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-sexy-fish-restaurant",
@@ -1918,7 +2713,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sexy-fish/",
     "descriptor": "",
-    "venueUrl": "https://sexyfish.com/"
+    "venueUrl": "https://sexyfish.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 6462,
+    "googlePlaceId": "ChIJYVq92CsFdkgRVOTD3hS1L2Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-shoreditch-grind-cafe",
@@ -1930,7 +2730,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391176-specialty/shoreditch-grind/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 3128,
+    "googlePlaceId": "ChIJLWv3G6YcdkgRm3YOJwo4rXc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-sketch-restaurant",
@@ -1942,7 +2747,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-restaurants/sketch/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 10036,
+    "googlePlaceId": "ChIJa4btjyoFdkgRJAOdAdsAdbA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-skin-matters-wellness",
@@ -1954,7 +2764,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/holland-park-health-and-beauty/skin-matters/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 5,
+    "googleRatingCount": 68,
+    "googlePlaceId": "ChIJTyrVeVgFdkgRrfzGDaeQDJA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-skinwork-wellness",
@@ -1966,7 +2781,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-health-and-beauty/skinwork/",
     "descriptor": "",
-    "venueUrl": "https://skinwork.com/"
+    "venueUrl": "https://skinwork.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 430,
+    "googlePlaceId": "ChIJRTOnxCkFdkgRviUobPOVOWk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-sotheran-s-shop",
@@ -1978,7 +2798,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-shops/sotherans/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 112,
+    "googlePlaceId": "ChIJ6xRThtYEdkgR205f35xqHM8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-spring-restaurant",
@@ -1990,7 +2815,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-381579-restaurants/spring-2/",
     "descriptor": "",
-    "venueUrl": "https://springrestaurant.com/"
+    "venueUrl": "https://springrestaurant.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 745,
+    "googlePlaceId": "ChIJw38uE8oEdkgR9hD3azVChzM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-arts-club-restaurant",
@@ -2002,7 +2832,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381565-restaurants/the-arts-club/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1447,
+    "googlePlaceId": "ChIJy9WbwSkFdkgRNvdHpgUh5JU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-beaumont-hotel",
@@ -2014,7 +2849,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-beaumont/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 772,
+    "googlePlaceId": "ChIJjxDGljIFdkgRtvX999m-Jkk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-berkeley-hotel",
@@ -2026,7 +2866,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/knightsbridge-hotels/the-berkeley/",
     "descriptor": "",
-    "venueUrl": "https://berkeley.com/"
+    "venueUrl": "https://berkeley.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1976,
+    "googlePlaceId": "ChIJ5YHhqjsFdkgR3-qEY9FMp_M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-blue-posts-restaurant",
@@ -2038,7 +2883,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/soho-bars-and-nightlife/the-blue-posts/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 592,
+    "googlePlaceId": "ChIJ3V-yt9MEdkgRCK3JcjNfK7s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-cadogan-a-belmond-hotel-hotel",
@@ -2050,7 +2900,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-hotels/belmond-cadogan-hotel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 426,
+    "googlePlaceId": "ChIJ4STvjj4FdkgRFPN-t7VEWD8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-churchill-arms-restaurant",
@@ -2062,7 +2917,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-381270-restaurants/the-churchill-arms/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 8464,
+    "googlePlaceId": "ChIJGTDVMfoPdkgROs9QO9Kgmjc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-coach-restaurant",
@@ -2074,7 +2934,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/clerkenwell-restaurants/the-coach/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 763,
+    "googlePlaceId": "ChIJ754nA08bdkgREdEAgaHt2ak",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-connaught-hotel-hotel",
@@ -2086,7 +2951,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-hotels/the-connaught-hotel/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 2390,
+    "googlePlaceId": "ChIJiTyvxdcEdkgRIE3fJmxwzVM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-general-store-restaurant",
@@ -2098,7 +2968,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-391166-specialty/the-general-store-4/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 127,
+    "googlePlaceId": "ChIJ38iF2JgDdkgRYlv5XW3dDNc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-golden-hind-restaurant",
@@ -2110,7 +2985,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381953-restaurants/the-golden-hind/",
     "descriptor": "",
-    "venueUrl": "https://goldenhindrestaurant.com/"
+    "venueUrl": "https://goldenhindrestaurant.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1657,
+    "googlePlaceId": "ChIJezfRVFYDdkgRPvbycxADmY4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-good-life-eatery-cafe",
@@ -2122,7 +3002,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-specialty/the-good-life-eatery-3/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 402,
+    "googlePlaceId": "ChIJJZ-MW9IadkgRdJegPJc4qaw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-house-of-elemis-wellness",
@@ -2134,7 +3019,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-386116-health-and-beauty/the-house-of-elemis/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 218,
+    "googlePlaceId": "ChIJc26dDCsFdkgRK40diFi5txQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-joshi-clinic-wellness",
@@ -2146,7 +3036,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-385766-health-and-beauty/the-joshi-clinic/",
     "descriptor": "",
-    "venueUrl": "https://joshiclinic.com/"
+    "venueUrl": "https://joshiclinic.com/",
+    "googleRating": 4.1,
+    "googleRatingCount": 10,
+    "googlePlaceId": "ChIJ1Qc4xNMadkgR78z3skutz1w",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-lanesborough-hotel",
@@ -2158,7 +3053,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/belgravia-hotels/the-lanesborough/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 1751,
+    "googlePlaceId": "ChIJ2_19mdYEdkgRoZ6Ys0Mcj7I",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-lanesborough-club-and-spa-wellness",
@@ -2170,7 +3070,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/place-386163-health-and-beauty/the-lanesborough-spa/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 99,
+    "googlePlaceId": "ChIJ-R0_MyUFdkgRk50g83DTtlU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-ned-hotel",
@@ -2182,7 +3087,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/city-of-london-hotels/the-ned/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 7858,
+    "googlePlaceId": "ChIJYdET4FQDdkgRbjvXg_CcAm0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-parlour-at-marylebone-restaurant",
@@ -2194,7 +3104,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-bars-and-nightlife/seymours-parlour/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 246,
+    "googlePlaceId": "ChIJxZVZVTMFdkgRCeNDuy7hibQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-punch-bowl-restaurant",
@@ -2206,7 +3121,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-381322-restaurants/the-punch-bowl/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1292,
+    "googlePlaceId": "ChIJoxTphS4FdkgRlo7DD-ny0Mo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-river-caf-restaurant",
@@ -2218,7 +3138,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/hammersmith-restaurants/the-river-cafe/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2054,
+    "googlePlaceId": "ChIJxxa_ELAPdkgRF2wx7RLroiY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-spa-at-the-four-seasons-wellness",
@@ -2230,7 +3155,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-health-and-beauty/the-spa-at-the-four-seasons/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 1664,
+    "googlePlaceId": "ChIJ7zYiIkwDdkgR0ik2_MUMEbk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-stafford-hotel",
@@ -2242,7 +3172,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/st-james-hotels/the-stafford/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 805,
+    "googlePlaceId": "ChIJUcD-3NcEdkgRkzG9rMMCBKE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-wallace-collection-attraction",
@@ -2254,7 +3189,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-389179-museums/the-wallace-collection/",
     "descriptor": "",
-    "venueUrl": "https://wallacecollection.org/"
+    "venueUrl": "https://wallacecollection.org/",
+    "googleRating": 4.8,
+    "googleRatingCount": 10478,
+    "googlePlaceId": "ChIJczuZfc0adkgRc8X-u3ZiHcE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-wolseley-restaurant",
@@ -2266,7 +3206,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382291-restaurants/the-wolseley/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 7739,
+    "googlePlaceId": "ChIJr_4cVy8FdkgRIrNbO93eUFM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-zetter-marylebone-hotel",
@@ -2278,7 +3223,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-hotels/zetter-townhouse/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 390,
+    "googlePlaceId": "ChIJ06R2qjQFdkgRXEH7aWCFEuA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-the-zita-west-fertility-clinic-wellness",
@@ -2290,7 +3240,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/the-zita-west-fertility-clinic/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 34,
+    "googlePlaceId": "ChIJWQf6wM0adkgRKKDMBibmUCU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-timothy-taylor-gallery-attraction",
@@ -2302,7 +3257,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/mayfair-museums/timothy-taylor-gallery/",
     "descriptor": "",
-    "venueUrl": "https://timothytaylorgallery.com/"
+    "venueUrl": "https://timothytaylorgallery.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 34,
+    "googlePlaceId": "ChIJ7VNsMywFdkgR_BOQDBwz3EU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-toast-shop",
@@ -2314,7 +3274,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-shops/toast/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJidh8KPcFdkgRHfR4Vq80RqI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-trishna-restaurant",
@@ -2326,7 +3291,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-restaurants/trishna/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1952,
+    "googlePlaceId": "ChIJ8fHhiM0adkgR5dxGPhTVlvA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-umu-restaurant",
@@ -2338,7 +3308,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382273-restaurants/umu/",
     "descriptor": "",
-    "venueUrl": "https://umurestaurant.com/"
+    "venueUrl": "https://umurestaurant.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1165,
+    "googlePlaceId": "ChIJ9cBDsSsFdkgR79Fc_1y6_cI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-vaishaly-wellness",
@@ -2350,7 +3325,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/marylebone-health-and-beauty/vaishaly/",
     "descriptor": "",
-    "venueUrl": "https://vaishaly.com/"
+    "venueUrl": "https://vaishaly.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 74,
+    "googlePlaceId": "ChIJVWNNBM4adkgR8CuWAL2bTo4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "london-vanessa-kandiyoti-wellness",
@@ -2362,7 +3342,12 @@ export const PLACES = [
     "sourceTitle": "What’s New and Great in London",
     "sourceUrl": "https://goop.com/place/united-kingdom/england/london/chelsea-health-and-beauty/vanessa-kandiyoti/",
     "descriptor": "",
-    "venueUrl": "https://vanessakandiyoti.com/"
+    "venueUrl": "https://vanessakandiyoti.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "london-wiltons-restaurant",
@@ -2374,7 +3359,12 @@ export const PLACES = [
     "sourceTitle": "The Mayfair & Marylebone Guide",
     "sourceUrl": "https://goop.com/place/place-382271-restaurants/wiltons/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 790,
+    "googlePlaceId": "ChIJbemuSNYEdkgRGcSDvjPdl9s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-anajak-thai-restaurant",
@@ -2386,7 +3376,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.anajakthai.com/events"
+    "venueUrl": "https://www.anajakthai.com/events",
+    "googleRating": 4.1,
+    "googleRatingCount": 693,
+    "googlePlaceId": "ChIJn-ihusWXwoARE6yGp6tPoIM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-angelini-osteria-restaurant",
@@ -2398,7 +3393,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.angelinibeverly.com/"
+    "venueUrl": "https://www.angelinibeverly.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1226,
+    "googlePlaceId": "ChIJIw18dSm5woARA1m3GjDhyR8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-bode-store-shop",
@@ -2410,7 +3410,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.bodenewyork.com/pages/bode-los-angeles"
+    "venueUrl": "https://www.bodenewyork.com/pages/bode-los-angeles",
+    "googleRating": 4.2,
+    "googleRatingCount": 43,
+    "googlePlaceId": "ChIJgb0ajOpbwokRdSp9a3h4YlM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-brentwood-general-store-shop",
@@ -2422,7 +3427,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.brentwoodgeneralstore.com/collections"
+    "venueUrl": "https://www.brentwoodgeneralstore.com/collections",
+    "googleRating": 4.2,
+    "googleRatingCount": 13,
+    "googlePlaceId": "ChIJzQE4A7GkwoAR-I-XxeDoK2A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-calabra-restaurant",
@@ -2434,7 +3444,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/"
+    "venueUrl": "https://www.properhotel.com/santa-monica/restaurants-bars/calabra/",
+    "googleRating": 4.3,
+    "googleRatingCount": 400,
+    "googlePlaceId": "ChIJud2bfmelwoARt5YCxfvNDCs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-casa-vega-restaurant",
@@ -2446,7 +3461,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.casavega.com/pages/drinks"
+    "venueUrl": "https://www.casavega.com/pages/drinks",
+    "googleRating": 4,
+    "googleRatingCount": 2299,
+    "googlePlaceId": "ChIJv-IVTyeWwoARsFmBgl_RdX8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-chateau-marmont-hotel",
@@ -2458,7 +3478,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://shop.chateaumarmont.com/"
+    "venueUrl": "https://shop.chateaumarmont.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1400,
+    "googlePlaceId": "ChIJKROQJcC-woARXQdWnTspoVk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-courage-bagels-bakery",
@@ -2470,7 +3495,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://couragebagels.com/"
+    "venueUrl": "https://couragebagels.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1024,
+    "googlePlaceId": "ChIJu8x9tXjHwoAREmq4D9dKj8M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-craig-s-restaurant",
@@ -2482,7 +3512,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://craigs.la/menu/"
+    "venueUrl": "https://craigs.la/menu/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1252,
+    "googlePlaceId": "ChIJC82Z166-woART-e875tW9-s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-dan-tana-s-restaurant",
@@ -2494,7 +3529,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://dantanasrestaurant.com/home"
+    "venueUrl": "https://dantanasrestaurant.com/home",
+    "googleRating": 4.3,
+    "googleRatingCount": 1011,
+    "googlePlaceId": "ChIJreK-k6i-woARSyd335Nkcr0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-found-oyster-restaurant",
@@ -2506,7 +3546,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://foundoyster.com/"
+    "venueUrl": "https://foundoyster.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 437,
+    "googlePlaceId": "ChIJkfUoRk_HwoARyBuvtlImPoQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-giorgio-baldi-restaurant",
@@ -2518,7 +3563,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.giorgio-baldi.com/"
+    "venueUrl": "https://www.giorgio-baldi.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 447,
+    "googlePlaceId": "ChIJSxc3XpCkwoARojp0NVes41A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-happy-isles-shop",
@@ -2530,7 +3580,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://thehappyisles.com/pages/austin"
+    "venueUrl": "https://thehappyisles.com/pages/austin",
+    "googleRating": 4.5,
+    "googleRatingCount": 8,
+    "googlePlaceId": "ChIJaaXzIyW_woARMfTy-yrfb7M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-hotel-bel-air-hotel",
@@ -2542,7 +3597,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
+    "venueUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel",
+    "googleRating": 4.7,
+    "googleRatingCount": 2547,
+    "googlePlaceId": "ChIJ4XfXK_G8woARbUYxTMpyDo8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-huckleberry-cafe",
@@ -2554,7 +3614,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.huckleberrycafe.com/"
+    "venueUrl": "https://www.huckleberrycafe.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1281,
+    "googlePlaceId": "ChIJE_NFKsqkwoARS1PVu8TV4Qs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-joan-s-on-third-cafe",
@@ -2566,7 +3631,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://joansonthird.com/"
+    "venueUrl": "https://joansonthird.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1541,
+    "googlePlaceId": "ChIJN8EXOkq5woARB3-gElbHC5I",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-jon-and-vinny-s-restaurant",
@@ -2578,7 +3648,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.jonandvinnys.com/"
+    "venueUrl": "https://www.jonandvinnys.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1552,
+    "googlePlaceId": "ChIJA2LuJDO5woARuhCFGBZy40o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-la-scala-restaurant",
@@ -2590,7 +3665,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.lascalabeverlyhills.com/"
+    "venueUrl": "https://www.lascalabeverlyhills.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 520,
+    "googlePlaceId": "ChIJl2h7CAe8woARIelxRKYxkMo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-manuela-restaurant",
@@ -2602,7 +3682,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://manuela-la.com/"
+    "venueUrl": "https://manuela-la.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1484,
+    "googlePlaceId": "ChIJ1c-IyT7GwoARIYcIK2TyJ3k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-maybourne-beverly-hills-hotel",
@@ -2614,7 +3699,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.maybourne.com/en/hotels/the-maybourne-beverly-hills/restaurants-bars"
+    "venueUrl": "https://www.maybourne.com/en/hotels/the-maybourne-beverly-hills/restaurants-bars",
+    "googleRating": 4.6,
+    "googleRatingCount": 2182,
+    "googlePlaceId": "ChIJuZadDlu7woAR1Wzrce7wjow",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-mother-wolf-restaurant",
@@ -2626,7 +3716,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://motherwolfla.com/private-dining/"
+    "venueUrl": "https://motherwolfla.com/private-dining/",
+    "googleRating": 4.2,
+    "googleRatingCount": 890,
+    "googlePlaceId": "ChIJxdFqHyq_woARDUHX8G7HMgo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-nobu-malibu-restaurant",
@@ -2638,7 +3733,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.noburestaurants.com/malibu/reservations"
+    "venueUrl": "https://www.noburestaurants.com/malibu/reservations",
+    "googleRating": 4.3,
+    "googleRatingCount": 3608,
+    "googlePlaceId": "ChIJewC2XzIe6IARgQhofffh6fE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-nobu-ryokan-malibu-hotel",
@@ -2650,7 +3750,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.nobuhotels.com/malibu/"
+    "venueUrl": "https://www.nobuhotels.com/malibu/",
+    "googleRating": 4.5,
+    "googleRatingCount": 57,
+    "googlePlaceId": "ChIJ6UONuoGgwoARW1KZz_0b7rc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-pace-restaurant",
@@ -2662,7 +3767,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://pacerestaurant.com/"
+    "venueUrl": "https://pacerestaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 577,
+    "googlePlaceId": "ChIJk6fFsvK-woARmlVDAS6VLHI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-shoop-s-restaurant",
@@ -2674,7 +3784,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.shoopsdeli.com/"
+    "venueUrl": "https://www.shoopsdeli.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 704,
+    "googlePlaceId": "ChIJQxUbz9S6woARC8xkJjrIiRg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-shutters-on-the-beach-hotel",
@@ -2686,7 +3801,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.shuttersonthebeach.com/"
+    "venueUrl": "https://www.shuttersonthebeach.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 2498,
+    "googlePlaceId": "ChIJv7e_5NWkwoARawpLSMDa7mI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-silver-lake-pool-and-inn-hotel",
@@ -2698,7 +3818,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 134,
+    "googlePlaceId": "ChIJB7x_3E7HwoARby2w2st4Mwg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-sushi-fumi-restaurant",
@@ -2710,7 +3835,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://sushi-fumi.club/"
+    "venueUrl": "https://sushi-fumi.club/",
+    "googleRating": 4.6,
+    "googleRatingCount": 407,
+    "googlePlaceId": "ChIJCzG4DLO-woARHxYBrH_AVdU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-talesai-restaurant",
@@ -2722,7 +3852,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://talesaistudiocity.com/"
+    "venueUrl": "https://talesaistudiocity.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 87,
+    "googlePlaceId": "ChIJGY6X4wi-woARnSlJ1qgoGvQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-taverna-tony-restaurant",
@@ -2734,7 +3869,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.tavernatony.com/"
+    "venueUrl": "https://www.tavernatony.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1357,
+    "googlePlaceId": "ChIJE5TqjTIe6IAREtbysD5fqXE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-apple-pan-restaurant",
@@ -2746,7 +3886,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://theapplepan.com/menu"
+    "venueUrl": "https://theapplepan.com/menu",
+    "googleRating": 4.4,
+    "googleRatingCount": 3566,
+    "googlePlaceId": "ChIJyWIAM727woARCh0VBNP7GsU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-beverly-hills-hotel-hotel",
@@ -2758,7 +3903,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel"
+    "venueUrl": "https://www.dorchestercollection.com/los-angeles/the-beverly-hills-hotel",
+    "googleRating": 4.6,
+    "googleRatingCount": 1208,
+    "googlePlaceId": "ChIJXVs5lQa8woARSWRNqYGVUNo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-georgian-hotel",
@@ -2770,7 +3920,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.thegeorgian.com/"
+    "venueUrl": "https://www.thegeorgian.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1163,
+    "googlePlaceId": "ChIJmUX7DdCkwoAREiyIPcEgeu0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-ivy-restaurant",
@@ -2782,7 +3937,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "http://theivyrestaurants.com/"
+    "venueUrl": "http://theivyrestaurants.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2353,
+    "googlePlaceId": "ChIJCWhMHa2-woAR5xjOgff0Afs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-surfrider-hotel",
@@ -2794,7 +3954,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 233,
+    "googlePlaceId": "ChIJnfcQkSse6IARPhQnF1CaY_w",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-way-we-wore-shop",
@@ -2806,7 +3971,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://thewaywewore.com/pages/contact"
+    "venueUrl": "https://thewaywewore.com/pages/contact",
+    "googleRating": 4.7,
+    "googleRatingCount": 58,
+    "googlePlaceId": "ChIJ35eBeq1ZwokR1lTp8AlL6SU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-webster-shop",
@@ -2818,7 +3988,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://thewebster.us/stores/los-angeles"
+    "venueUrl": "https://thewebster.us/stores/los-angeles",
+    "googleRating": 3,
+    "googleRatingCount": 24,
+    "googlePlaceId": "ChIJQwKHJ8S5woARfECa6W1sdKw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-the-west-hollywood-edition-hotel",
@@ -2830,7 +4005,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.editionhotels.com/weho"
+    "venueUrl": "https://www.editionhotels.com/weho",
+    "googleRating": 4.3,
+    "googleRatingCount": 779,
+    "googlePlaceId": "ChIJr7tLCKG-woARNVvQTdKErgU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-tower-bar-bar",
@@ -2842,7 +4022,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.sunsettowerhotel.com/menus"
+    "venueUrl": "https://www.sunsettowerhotel.com/menus",
+    "googleRating": 4.2,
+    "googleRatingCount": 294,
+    "googlePlaceId": "ChIJPR1jrb--woARVwhQ-pCDnMU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-wasteland-shop",
@@ -2854,7 +4039,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://www.shopwasteland.com/"
+    "venueUrl": "https://www.shopwasteland.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 445,
+    "googlePlaceId": "ChIJ7b4kntS-woARQxnGiTvzykc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "los-angeles-zak-eyes-shop",
@@ -2866,7 +4056,12 @@ export const PLACES = [
     "sourceTitle": "Guide",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-los-angeles",
     "descriptor": "",
-    "venueUrl": "https://zakeyes.com/pages/our-store"
+    "venueUrl": "https://zakeyes.com/pages/our-store",
+    "googleRating": 4.6,
+    "googleRatingCount": 43,
+    "googlePlaceId": "ChIJdyWv0MJZwokRORhSBDQ1b5Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-abarrotes-delirio-restaurant",
@@ -2879,7 +4074,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 599,
+    "googlePlaceId": "ChIJ0SyEnzr_0YUR2mOTCEut-V4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-archivo-dise-o-y-arquitectura-attraction",
@@ -2891,7 +4091,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJrZZVyVIB0oUR7-fm0DcQxfs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-azul-historico-restaurant",
@@ -2904,7 +4109,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 10682,
+    "googlePlaceId": "ChIJzbJ7ydL-0YURDh_BqkCUY5E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-biblioteca-vasconcelos-restaurant",
@@ -2917,7 +4127,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 7268,
+    "googlePlaceId": "ChIJ6d9af9n40YURPUNrUN4aOKs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-bosque-de-chapultepec-attraction",
@@ -2930,7 +4145,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 266579,
+    "googlePlaceId": "ChIJP1dJRVf_0YURr8MZosHl4kI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-carla-fern-ndez-shop",
@@ -2942,7 +4162,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://carlafernandez.com/"
+    "venueUrl": "https://carlafernandez.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 37,
+    "googlePlaceId": "ChIJoYvAQTv_0YURO5lam4YY7lA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-casa-bosques-shop",
@@ -2955,7 +4180,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://www.casabosques.com/"
+    "venueUrl": "https://www.casabosques.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 234,
+    "googlePlaceId": "ChIJuxbiATH_0YURFa2ad47yDXY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-casa-estudio-luis-barrag-n-attraction",
@@ -2968,7 +4198,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1864,
+    "googlePlaceId": "ChIJDyVqpOEB0oURU3r1WNxPXlo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-casa-virginia-restaurant",
@@ -2980,7 +4215,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 766,
+    "googlePlaceId": "ChIJhV5tpzn_0YURp8N7RiMWlXc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-chapultepec-castle-attraction",
@@ -2993,7 +4233,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 87677,
+    "googlePlaceId": "ChIJI4_tR83-0YURMouBJIUA4KY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-chiquitito-caf-cafe",
@@ -3006,7 +4251,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1766,
+    "googlePlaceId": "ChIJV_W9HGr_0YURpcwR_-cpQWg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-churrer-a-el-moro-bakery",
@@ -3019,7 +4269,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 61329,
+    "googlePlaceId": "ChIJwQNPQCT50YURd0rOhlLTvH4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-comrade-restaurant",
@@ -3031,7 +4286,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 58,
+    "googlePlaceId": "ChIJ71x7EsMA0oURdwnVx3w-CmU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-contramar-restaurant",
@@ -3044,7 +4304,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 6613,
+    "googlePlaceId": "ChIJez8vvy__0YURP0rx5WhEig4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-covadonga-restaurant",
@@ -3057,7 +4322,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 4149,
+    "googlePlaceId": "ChIJuxX74zD_0YURbhx-0TfwSjA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-decada-vintage-furniture-shop",
@@ -3070,7 +4340,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4,
+    "googleRatingCount": 22,
+    "googlePlaceId": "ChIJ_0OVNR0C0oURrPSIFW2X7Yw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-delirio-restaurant",
@@ -3083,7 +4358,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 4039,
+    "googlePlaceId": "ChIJiwz9pjn_0YURt1frSnykPnY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-downtown-mexico-hotel",
@@ -3096,7 +4376,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://www.downtownmexico.com/"
+    "venueUrl": "https://www.downtownmexico.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 448,
+    "googlePlaceId": "ChIJ9TvPydUczoURtD9zTqdTor8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-dulce-patria-restaurant",
@@ -3108,7 +4393,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://dulcepatria.com/"
+    "venueUrl": "https://dulcepatria.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1424,
+    "googlePlaceId": "ChIJxaXnZgIC0oUR5kwVJF3F_X8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-el-bazar-s-bado-restaurant",
@@ -3121,7 +4411,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 37436,
+    "googlePlaceId": "ChIJH6RGVQIA0oURGvnVLX9_YKY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-el-cardenal-restaurant",
@@ -3134,7 +4429,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 20060,
+    "googlePlaceId": "ChIJh3D2US350YURVW0T-_DRdsA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-el-parnita-restaurant",
@@ -3147,7 +4447,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://elparnita.com/"
+    "venueUrl": "https://elparnita.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 2871,
+    "googlePlaceId": "ChIJJdCJrD7_0YUR4Is1efl-ngE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-felina-restaurant",
@@ -3160,7 +4465,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 904,
+    "googlePlaceId": "ChIJOetDkGn_0YUR2dSXktEwse8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-four-seasons-hotel-mexico-city-hotel",
@@ -3173,7 +4483,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 11099,
+    "googlePlaceId": "ChIJAWi27E7_0YURT_5T_lCrv2A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-frida-kahlo-museum-attraction",
@@ -3186,7 +4501,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 44125,
+    "googlePlaceId": "ChIJOz-6AMT_0YURofTM9_ekAWI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-gallery-omr-attraction",
@@ -3199,7 +4519,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 348,
+    "googlePlaceId": "ChIJVZ4WCJX_0YURcQi51Q4dZJA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-gingin-bar",
@@ -3212,7 +4537,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 3354,
+    "googlePlaceId": "ChIJk72aDjj_0YURGOTieAlE6K0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-hotel-condesadf-hotel",
@@ -3225,7 +4555,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2511,
+    "googlePlaceId": "ChIJE0DysPj-0YURKUYZ3xch4ks",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-ignacia-guest-house-hotel",
@@ -3238,7 +4573,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 111,
+    "googlePlaceId": "ChIJB03EZjz_0YURq-RAc28p2Yk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-j-by-jos-andr-s-restaurant",
@@ -3250,7 +4590,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 93,
+    "googlePlaceId": "ChIJ0Xwnw_8B0oURbZpQEwq4AT0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-jules-basement-bar",
@@ -3262,7 +4607,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 581,
+    "googlePlaceId": "ChIJD70XDwIC0oURBzYuAbv3izM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-kurimanzutto-attraction",
@@ -3275,7 +4625,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://kurimanzutto.com/"
+    "venueUrl": "https://kurimanzutto.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 740,
+    "googlePlaceId": "ChIJAw6NOEX_0YURAWGp5-IvJXk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-la-botica-bar",
@@ -3287,7 +4642,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 448,
+    "googlePlaceId": "ChIJpUyFezv_0YURzJ9qC45456k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-la-lonja-mercantil-shop",
@@ -3300,7 +4660,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.7,
+    "googleRatingCount": 3,
+    "googlePlaceId": "ChIJ24egdzP50YURvV1ZhVjXugE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-la-nicolasa-restaurant",
@@ -3312,7 +4677,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJ7zJkbJD40YURlptdLdYDGwQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-licorer-a-limantour-bar",
@@ -3325,7 +4695,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 3565,
+    "googlePlaceId": "ChIJX03s9zr_0YURHdcjFe9hbiE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-loncheria-mar-a-isabel-restaurant",
@@ -3338,7 +4713,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4,
+    "googleRatingCount": 2427,
+    "googlePlaceId": "ChIJsWwBmf8B0oURByR8dGFzpVI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-maison-artemisia-bar",
@@ -3351,7 +4731,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://maisonartemisia.com/"
+    "venueUrl": "https://maisonartemisia.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 604,
+    "googlePlaceId": "ChIJvYjjXDf_0YUR3wZXAO6MFKo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-maque-cafe",
@@ -3364,7 +4749,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 7306,
+    "googlePlaceId": "ChIJY9txr0H_0YURXc53tk361Dw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-maximo-restaurant",
@@ -3377,7 +4767,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2709,
+    "googlePlaceId": "ChIJdw0B4zv_0YURK8xSHYwyp2E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-memory-and-tolerance-museum-attraction",
@@ -3390,7 +4785,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 20467,
+    "googlePlaceId": "ChIJIRo9WdX-0YUR8SAxEJ2aSHU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-mercado-lagunilla-de-telas-y-varios-shop",
@@ -3402,7 +4802,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 858,
+    "googlePlaceId": "ChIJx2cOmef50YURLxpCcWI27ik",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-mercado-roma-restaurant",
@@ -3415,7 +4820,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://mercadoroma.com/"
+    "venueUrl": "https://mercadoroma.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 16952,
+    "googlePlaceId": "ChIJ0Z9P0z7_0YURVqrnz-OpFms",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-merotoro-restaurant",
@@ -3428,7 +4838,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1683,
+    "googlePlaceId": "ChIJzdbHQUD_0YUR1Vqx8mGkQsk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-anahuacalli-attraction",
@@ -3441,7 +4856,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 10756,
+    "googlePlaceId": "ChIJE-z088wBzoURBQC1jpv8UXc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-de-arte-popular-attraction",
@@ -3454,7 +4874,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 11342,
+    "googlePlaceId": "ChIJnb61RNX40YURjLOqxoI9oh0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-dolores-olmedo-attraction",
@@ -3466,7 +4891,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 8449,
+    "googlePlaceId": "ChIJoXG9Uz4BzoURUh6XkUqgPmw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-franz-mayer-attraction",
@@ -3479,7 +4909,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 19569,
+    "googlePlaceId": "ChIJ9dC2SSr50YURbY8j7GyISTc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-jumex-attraction",
@@ -3492,7 +4927,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://museojumex.com/"
+    "venueUrl": "https://museojumex.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 17087,
+    "googlePlaceId": "ChIJv0LcYRoC0oURwXXz3593qE8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-mural-diego-rivera-attraction",
@@ -3505,7 +4945,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 7703,
+    "googlePlaceId": "ChIJY2WVmNX40YUReN3PtV1PvGQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-nacional-de-antropolog-a-attraction",
@@ -3518,7 +4963,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 90081,
+    "googlePlaceId": "ChIJScjIILQB0oURJMVub-MaI4Q",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-museo-tamayo-arte-contempor-neo-attraction",
@@ -3531,7 +4981,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 10902,
+    "googlePlaceId": "ChIJS0th0lP_0YURUhbp0wYZ1Cw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-national-palace-attraction",
@@ -3544,7 +4999,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "Federal palace on the Zócalo housing Diego Rivera murals and state ceremonies.",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 2018,
+    "googlePlaceId": "ChIJ8ZWV2cz-0YUR_dZtPvUaOPc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-never-a-roxy-shop",
@@ -3557,7 +5017,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://neveriaroxy.com/"
+    "venueUrl": "https://neveriaroxy.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 5892,
+    "googlePlaceId": "ChIJncB4kET_0YURJSXzqofKbms",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-nina-menocal-restaurant",
@@ -3569,7 +5034,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://ninamenocal.com/"
+    "venueUrl": "https://ninamenocal.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJx-Jla98B0oURtkbF2jUR_aE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-onora-shop",
@@ -3582,7 +5052,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 175,
+    "googlePlaceId": "ChIJ4y-64ar40YURrpiN9_YiCBI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-panader-a-rosetta-bakery",
@@ -3595,7 +5070,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 10282,
+    "googlePlaceId": "ChIJ-_GNczr_0YURLJgHYS8ZPMg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-pujol-restaurant",
@@ -3608,7 +5088,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 5913,
+    "googlePlaceId": "ChIJWZ2zdav40YURFvsU_rU3uaE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-quintonil-restaurant",
@@ -3621,7 +5106,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://quintonil.com/"
+    "venueUrl": "https://quintonil.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 2922,
+    "googlePlaceId": "ChIJbS8EZf8B0oURwwD8B0MpqK0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-rodrigo-rivero-lake-shop",
@@ -3634,7 +5124,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://rodrigoriverolake.com/"
+    "venueUrl": "https://rodrigoriverolake.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 31,
+    "googlePlaceId": "ChIJgbUI2FT_0YURr8Z_GOyXf-s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-rokai-ramen-ya-restaurant",
@@ -3647,7 +5142,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2400,
+    "googlePlaceId": "ChIJFfP19Ur_0YUR6AlUz0a6wmI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-roma-quince-shop",
@@ -3659,7 +5159,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJQfmWFYxRK4QR95X9CHBt-_w",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-san-ngel-inn-restaurant",
@@ -3672,7 +5177,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://sanangelinn.com/"
+    "venueUrl": "https://sanangelinn.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJh1yIFxsA0oURas6YjhYto5A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-san-juan-teotihuac-n-restaurant",
@@ -3684,7 +5194,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJyd0BTvnq0YUR2mRxFCPVfsc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-sandra-weil-shop",
@@ -3697,7 +5212,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": "https://sandraweil.com/"
+    "venueUrl": "https://sandraweil.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 22,
+    "googlePlaceId": "ChIJb3cpsAIC0oURWr10J_EmZjo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-soumaya-museum-attraction",
@@ -3710,7 +5230,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 69896,
+    "googlePlaceId": "ChIJCT06bhoC0oURszwDTCLicpM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-st-regis-mexico-city-hotel",
@@ -3723,7 +5248,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 8467,
+    "googlePlaceId": "ChIJrR704kv_0YURl2pvM1WTF-c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-taquer-a-el-califa-restaurant",
@@ -3736,7 +5266,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 10769,
+    "googlePlaceId": "ChIJ01vziUn_0YURyKoDt6Go4P4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-taqueria-gabriel-restaurant",
@@ -3749,7 +5284,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 2743,
+    "googlePlaceId": "ChIJDVEeEDX_0YURvVBnPfvIbnQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-templo-mayor-museum-attraction",
@@ -3762,7 +5302,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 34571,
+    "googlePlaceId": "ChIJ3dGBci350YURsDYUZcq-kIw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-tlapaleria-gastronomica-restaurant",
@@ -3774,7 +5319,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 12985,
+    "googlePlaceId": "ChIJy7V6g8z-0YUR8I5_hnTzPAI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-tori-tori-restaurant",
@@ -3787,7 +5337,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 406,
+    "googlePlaceId": "ChIJaSBnaxsA0oURsDySjxzlytg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-universidad-nacional-aut-noma-de-m-xico-attraction",
@@ -3800,7 +5355,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 277,
+    "googlePlaceId": "ChIJoVxf4P__0YUR2vJ4ww77744",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-xochimilco-restaurant",
@@ -3813,7 +5373,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJo97obYwDzoURhFO92h_3eZs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-yakampot-shop",
@@ -3826,7 +5391,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.9,
+    "googleRatingCount": 7,
+    "googlePlaceId": "ChIJua-VEgb_0YURm1EUbeHm1U4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "mexico-city-zinco-jazz-club-bar",
@@ -3839,7 +5409,12 @@ export const PLACES = [
     "sourceTitle": "The Mexico City Guide",
     "sourceUrl": "https://goop.com/city-guide/the-mexico-city-guide/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 2824,
+    "googlePlaceId": "ChIJr5ALKC350YUR-4SQmgr-4Sg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-1-800-lucky-restaurant",
@@ -3851,7 +5426,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://1800lucky.com/"
+    "venueUrl": "https://1800lucky.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 3814,
+    "googlePlaceId": "ChIJrZEg7q222YgRlkyUsCuoyJY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-byblos-restaurant",
@@ -3863,7 +5443,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://byblosmiami.com/"
+    "venueUrl": "https://byblosmiami.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1652,
+    "googlePlaceId": "ChIJA8lhm5q02YgRulFV1k7lCpA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-cecconi-s-restaurant",
@@ -3875,7 +5460,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.cecconismiamibeach.com/miami-beach/private-events/"
+    "venueUrl": "https://www.cecconismiamibeach.com/miami-beach/private-events/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1615,
+    "googlePlaceId": "ChIJpRtljWmz2YgRJ6ksY39Xs9A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-cote-restaurant",
@@ -3887,7 +5477,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://cotemiami.com/events"
+    "venueUrl": "https://cotemiami.com/events",
+    "googleRating": 4.6,
+    "googleRatingCount": 2593,
+    "googlePlaceId": "ChIJT8zbHlex2YgRbmlvb54NTIY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-dante-s-hifi-bar",
@@ -3899,7 +5494,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://danteshifi.com/"
+    "venueUrl": "https://danteshifi.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 962,
+    "googlePlaceId": "ChIJa9RIBS632YgRDyxaL3bb0xE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-doya-restaurant",
@@ -3911,7 +5511,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://doyarestaurant.com/about-us/"
+    "venueUrl": "https://doyarestaurant.com/about-us/",
+    "googleRating": 4.7,
+    "googleRatingCount": 4013,
+    "googlePlaceId": "ChIJgf9eP_m32YgRHv6mVX9npl0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-east-hotel",
@@ -3923,7 +5528,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 3896,
+    "googlePlaceId": "ChIJMUSwboO22YgRDFlX6qQGxrE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-faena-hotel",
@@ -3935,7 +5545,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.faena.com/miami-beach"
+    "venueUrl": "https://www.faena.com/miami-beach",
+    "googleRating": 4.6,
+    "googleRatingCount": 3008,
+    "googlePlaceId": "ChIJBVShAmez2YgRvNWv6nIzzzY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-goodtime-hotel-hotel",
@@ -3947,7 +5562,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.thegoodtimehotel.com/"
+    "venueUrl": "https://www.thegoodtimehotel.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2099,
+    "googlePlaceId": "ChIJn_8FgDq12YgRmkCtXbMfacc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-joe-s-stone-crab-restaurant",
@@ -3959,7 +5579,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://joesstonecrab.com/pages/menu-joe"
+    "venueUrl": "https://joesstonecrab.com/pages/menu-joe",
+    "googleRating": 4.5,
+    "googleRatingCount": 11508,
+    "googlePlaceId": "ChIJgYZ4DvG02YgR6zxax8FTfHo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-kiki-on-the-river-restaurant",
@@ -3971,7 +5596,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.kikiontheriver.com/"
+    "venueUrl": "https://www.kikiontheriver.com/",
+    "googleRating": 3.8,
+    "googleRatingCount": 4091,
+    "googlePlaceId": "ChIJeQ0gW5S22YgRcCOSyhZcRMM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-los-fuegos-restaurant",
@@ -3983,7 +5613,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.faena.com/miami-beach/restaurant/los-fuegos-by-francis-mallmann/"
+    "venueUrl": "https://www.faena.com/miami-beach/restaurant/los-fuegos-by-francis-mallmann/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1084,
+    "googlePlaceId": "ChIJpTbo_Gaz2YgRJXEN4WP4uNQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-mandolin-restaurant",
@@ -3995,7 +5630,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "http://www.mandolinmiami.com/"
+    "venueUrl": "http://www.mandolinmiami.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 4519,
+    "googlePlaceId": "ChIJOVl231mx2YgR7HvVdFmsUuc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-plant-miami-restaurant",
@@ -4007,7 +5647,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://plantmiami.com/"
+    "venueUrl": "https://plantmiami.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 3109,
+    "googlePlaceId": "ChIJj_rijkZZwokRpTRkbMwBRXk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-the-drexel-restaurant",
@@ -4019,7 +5664,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://www.drexelmiami.com/menu"
+    "venueUrl": "https://www.drexelmiami.com/menu",
+    "googleRating": 4.5,
+    "googleRatingCount": 440,
+    "googlePlaceId": "ChIJ_6vIYm612YgRN1U6eYr6WLg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "miami-the-key-club-restaurant",
@@ -4031,7 +5681,12 @@ export const PLACES = [
     "sourceTitle": "The Faena in Miami Beach.   Courtesy of The Faena.          Faena, Miami Beach",
     "sourceUrl": "https://www.vogue.com/article/vogues-official-guide-to-miami",
     "descriptor": "",
-    "venueUrl": "https://thekeyclub.com/"
+    "venueUrl": "https://thekeyclub.com/",
+    "googleRating": 4,
+    "googleRatingCount": 385,
+    "googlePlaceId": "ChIJbb8tVcu32YgRPtCrwcyXtRU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-bar-quadronno-restaurant",
@@ -4043,7 +5698,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.barquadronno.it/en/homepage/"
+    "venueUrl": "https://www.barquadronno.it/en/homepage/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1754,
+    "googlePlaceId": "ChIJ58IXWxzEhkcRwPJjW_Bcsy0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-bivio-milano-shop",
@@ -4055,7 +5715,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://biviomilano.it/"
+    "venueUrl": "https://biviomilano.it/",
+    "googleRating": 4,
+    "googleRatingCount": 447,
+    "googlePlaceId": "ChIJ1WHTXVXBhkcRcfztbhrRrLA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-camparino-in-galleria-bar",
@@ -4067,7 +5732,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.camparino.com/our-menu/"
+    "venueUrl": "https://www.camparino.com/our-menu/",
+    "googleRating": 4.4,
+    "googleRatingCount": 2688,
+    "googlePlaceId": "ChIJp12yKazGhkcRf6_h7JBATK0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-casa-del-bianco-shop",
@@ -4079,7 +5749,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://casadelbiancomilano.it/en-us/pages/casa-del-bianco-dal-1940-racconta-una-storia-di-qualita"
+    "venueUrl": "https://casadelbiancomilano.it/en-us/pages/casa-del-bianco-dal-1940-racconta-una-storia-di-qualita",
+    "googleRating": 4.7,
+    "googleRatingCount": 43,
+    "googlePlaceId": "ChIJL0BztVPBhkcR_fpaXi2RMXw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-cavalli-e-nastri-mora-shop",
@@ -4091,7 +5766,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://cavallienastri.com/en-us?"
+    "venueUrl": "https://cavallienastri.com/en-us?",
+    "googleRating": 4,
+    "googleRatingCount": 127,
+    "googlePlaceId": "ChIJJ27beTXBhkcRWMG1Xuve--A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-erba-brusca-restaurant",
@@ -4103,7 +5783,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://erbabrusca.com/"
+    "venueUrl": "https://erbabrusca.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1329,
+    "googlePlaceId": "ChIJDfnXyoHDhkcRgcYhd6Wg15A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-eredi-zucca-shop",
@@ -4115,7 +5800,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://eredizucca.com/en/products/cuoio"
+    "venueUrl": "https://eredizucca.com/en/products/cuoio",
+    "googleRating": 5,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJMYSO2qXHhkcRIVgNsXFDA6Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-fidenza-village-part-of-the-bicester-collection-shop",
@@ -4127,7 +5817,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.thebicestercollection.com/fidenza-village/en/"
+    "venueUrl": "https://www.thebicestercollection.com/fidenza-village/en/",
+    "googleRating": 4.3,
+    "googleRatingCount": 21828,
+    "googlePlaceId": "ChIJDV7TM2RegEcRnUjnaYR4iJg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-fioraio-bianchi-caff-cafe",
@@ -4139,7 +5834,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.fioraiobianchicaffe.it/menu/"
+    "venueUrl": "https://www.fioraiobianchicaffe.it/menu/",
+    "googleRating": 3.8,
+    "googleRatingCount": 670,
+    "googlePlaceId": "ChIJsTasELXGhkcR6-oRtweYeUY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-foto-veneta-ottica-shop",
@@ -4151,7 +5851,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://fotovenetaottica.com/categoria-prodotto/oval/"
+    "venueUrl": "https://fotovenetaottica.com/categoria-prodotto/oval/",
+    "googleRating": 4.9,
+    "googleRatingCount": 60,
+    "googlePlaceId": "ChIJFxkF2arGhkcRwjJ0wzqCYT8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-giovanni-galli-shop",
@@ -4163,7 +5868,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.giovannigalli.com/torte"
+    "venueUrl": "https://www.giovannigalli.com/torte",
+    "googleRating": 4.2,
+    "googleRatingCount": 178,
+    "googlePlaceId": "ChIJp_U8aKzGhkcR_2dNeMm6fDI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-la-bettola-di-piero-restaurant",
@@ -4175,7 +5885,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1296,
+    "googlePlaceId": "ChIJ39flWx7EhkcRHUWnGTcsvC4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-la-latteria-restaurant",
@@ -4187,7 +5902,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 451,
+    "googlePlaceId": "ChIJz1LQRrXGhkcRmv77jN3YPLg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-langosteria-restaurant",
@@ -4199,7 +5919,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.langosteria.com/en"
+    "venueUrl": "https://www.langosteria.com/en",
+    "googleRating": 4.6,
+    "googleRatingCount": 3229,
+    "googlePlaceId": "ChIJJ-xSRePDhkcRDJRTjmN-7_o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-lisa-corti-shop",
@@ -4211,7 +5936,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.lisacorti.com/en/collection/homeware--1435"
+    "venueUrl": "https://www.lisacorti.com/en/collection/homeware--1435",
+    "googleRating": 4.2,
+    "googleRatingCount": 106,
+    "googlePlaceId": "ChIJYcbCX8fGhkcRXMhXPedAHF8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-nilufar-gallery-attraction",
@@ -4223,7 +5953,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://nilufar.com/"
+    "venueUrl": "https://nilufar.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 67,
+    "googlePlaceId": "ChIJnxJOxrDGhkcRpQ6rr37f9uc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-nuova-arena-restaurant",
@@ -4235,7 +5970,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.nuovarena.com/"
+    "venueUrl": "https://www.nuovarena.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 384,
+    "googlePlaceId": "ChIJKbsQJjbBhkcRHv2xJ48qGCo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-oro-incenso-e-mirra-shop",
@@ -4247,7 +5987,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://oroincensoemirra.eu/selezione-mese/"
+    "venueUrl": "https://oroincensoemirra.eu/selezione-mese/",
+    "googleRating": 5,
+    "googleRatingCount": 20,
+    "googlePlaceId": "ChIJL4Wmb7XGhkcRli0PJE21gC8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-osteria-grand-hotel-restaurant",
@@ -4259,7 +6004,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.grandhotelosteria.it/gho/menu-osteria-grand-hotel/"
+    "venueUrl": "https://www.grandhotelosteria.it/gho/menu-osteria-grand-hotel/",
+    "googleRating": 4.3,
+    "googleRatingCount": 485,
+    "googlePlaceId": "ChIJsZ1dePXDhkcRGZMwQDZGJ0Q",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-panino-giusto-restaurant",
@@ -4271,7 +6021,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://paninogiusto.it/en/menu/"
+    "venueUrl": "https://paninogiusto.it/en/menu/",
+    "googleRating": 4.2,
+    "googleRatingCount": 2004,
+    "googlePlaceId": "ChIJA1JcbT_HhkcRjpvqJSvAMS8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-pasticceria-sissi-bakery",
@@ -4283,7 +6038,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.4,
+    "googleRatingCount": 948,
+    "googlePlaceId": "ChIJWR4ru5fGhkcR4WVi8J6Fihk",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-pennisi-shop",
@@ -4295,7 +6055,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.gioielleriapennisi.com/pages/pennisi-collection-book"
+    "venueUrl": "https://www.gioielleriapennisi.com/pages/pennisi-collection-book",
+    "googleRating": 4.4,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJBXKsdLHGhkcRpHt-6lhiEh4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-romanengo-restaurant",
@@ -4307,7 +6072,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://romanengo.com/"
+    "venueUrl": "https://romanengo.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 111,
+    "googlePlaceId": "ChIJp_abDyPBhkcRnal2Kahu-mI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-sant-ambroeus-cafe",
@@ -4319,7 +6089,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.santambroeus.com/pages/milano-menu"
+    "venueUrl": "https://www.santambroeus.com/pages/milano-menu",
+    "googleRating": 4.3,
+    "googleRatingCount": 1492,
+    "googlePlaceId": "ChIJ50MAArDGhkcR3s-oelKZtUI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-stephan-janson-shop",
@@ -4331,7 +6106,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://stephanjanson.com/my-account/lost-password/"
+    "venueUrl": "https://stephanjanson.com/my-account/lost-password/",
+    "googleRating": 4.8,
+    "googleRatingCount": 10,
+    "googlePlaceId": "ChIJvdMhlZbGhkcRASvifjgdpnc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-trattoria-della-gloria-restaurant",
@@ -4343,7 +6123,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://trattoriadellagloria.com/"
+    "venueUrl": "https://trattoriadellagloria.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 802,
+    "googlePlaceId": "ChIJ_ar-BvfDhkcRcCAsz0IRqHk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-trattoria-masuelli-restaurant",
@@ -4355,7 +6140,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1086,
+    "googlePlaceId": "ChIJ-_7vu4LGhkcRmixti3Qz7E4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-trattoria-torre-di-pisa-restaurant",
@@ -4367,7 +6157,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.trattoriatorredipisa.it/en/"
+    "venueUrl": "https://www.trattoriatorredipisa.it/en/",
+    "googleRating": 3.9,
+    "googleRatingCount": 1470,
+    "googlePlaceId": "ChIJcxvPrEzBhkcRJGavtpkUkKY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "milan-wait-and-see-shop",
@@ -4379,7 +6174,12 @@ export const PLACES = [
     "sourceTitle": "Save to wishlist    Save to wishlist           Prada",
     "sourceUrl": "https://www.vogue.com/article/vogue-editors-guide-to-milan",
     "descriptor": "",
-    "venueUrl": "https://www.waitandsee.it/eu/en/"
+    "venueUrl": "https://www.waitandsee.it/eu/en/",
+    "googleRating": 4.4,
+    "googleRatingCount": 143,
+    "googlePlaceId": "ChIJy6WONKvGhkcRgJ-z-SFV3IU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-adrienne-s-pizzabar-restaurant",
@@ -4391,7 +6191,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/adriennes-pizzabar/",
     "descriptor": "",
-    "venueUrl": "https://adriennespizzabar.com/"
+    "venueUrl": "https://adriennespizzabar.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 2540,
+    "googlePlaceId": "ChIJYaLtJRRawokRjw4GeC7pTdk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-albertine-shop",
@@ -4403,7 +6208,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/albertine-2/",
     "descriptor": "",
-    "venueUrl": "https://albertine.com/"
+    "venueUrl": "https://albertine.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 594,
+    "googlePlaceId": "ChIJe8TwIpRYwokRbZVYCpL0UWo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-american-cut-restaurant",
@@ -4415,7 +6225,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/american-cut/",
     "descriptor": "",
-    "venueUrl": "https://americancutrestaurant.com/"
+    "venueUrl": "https://americancutrestaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 1038,
+    "googlePlaceId": "ChIJv-a4KB5awokR6TLKvHwGqQE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-american-museum-of-natural-history-attraction",
@@ -4427,7 +6242,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/american-museum-of-natural-history/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 24705,
+    "googlePlaceId": "ChIJCXoPsPRYwokRsV1MYnKBfaI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-atera-restaurant",
@@ -4439,7 +6259,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/atera/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 618,
+    "googlePlaceId": "ChIJ_Y7rMCBawokR0mnRmN5kL2o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-azabu-restaurant",
@@ -4451,7 +6276,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/azabu/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 418,
+    "googlePlaceId": "ChIJPVxLV_RZwokRAVu37ml9Vwo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-bar-boulud-restaurant",
@@ -4463,7 +6293,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/bar-boulud-2/",
     "descriptor": "",
-    "venueUrl": "https://barboulud.com/"
+    "venueUrl": "https://barboulud.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 948,
+    "googlePlaceId": "ChIJCcAxi5RYwokRdUqdw5_FHIk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-bar-masa-restaurant",
@@ -4475,7 +6310,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/bar-masa/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 584,
+    "googlePlaceId": "ChIJM26HnlhYwokR4IfXFz-AuCA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-barbalu-restaurant",
@@ -4487,7 +6327,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/barbalu/",
     "descriptor": "",
-    "venueUrl": "https://barbalu.com/"
+    "venueUrl": "https://barbalu.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 534,
+    "googlePlaceId": "ChIJb8rqw5JbwokRBOBigHr02u0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-barney-greengrass-restaurant",
@@ -4499,7 +6344,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/barney-greengrass/",
     "descriptor": "",
-    "venueUrl": "https://barneygreengrass.com/"
+    "venueUrl": "https://barneygreengrass.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1625,
+    "googlePlaceId": "ChIJZ996e4RYwokR2kEubU7CVhA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-bemelmans-bar-bar",
@@ -4511,7 +6361,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/bemelmans-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 864,
+    "googlePlaceId": "ChIJEQ6D9pRYwokRS-qUAZyIb6k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-bk-antiques-shop",
@@ -4523,7 +6378,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/bk-antiques/",
     "descriptor": "",
-    "venueUrl": "https://bkantiques.com/"
+    "venueUrl": "https://bkantiques.com/",
+    "googleRating": 5,
+    "googleRatingCount": 5,
+    "googlePlaceId": "ChIJZaYDLuZYwokRKMAUKq046xg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-blue-ribbon-sushi-bar-restaurant",
@@ -4535,7 +6395,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/blue-ribbon-sushi-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 1872,
+    "googlePlaceId": "ChIJS7q7to1ZwokRWbN1t_AXYME",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-blue-tree-shop",
@@ -4547,7 +6412,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/blue-tree/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.7,
+    "googleRatingCount": 79,
+    "googlePlaceId": "ChIJ18WutqNYwokRX1X0TGfUNXE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-bowne-and-co-stationers-shop",
@@ -4559,7 +6429,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-shops/bowne-co-stationers/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 65,
+    "googlePlaceId": "ChIJI0gIID1awokRwCrHt-8CIKU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-cafe-luxembourg-restaurant",
@@ -4571,7 +6446,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/cafe-luxembourg/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1790,
+    "googlePlaceId": "ChIJXQP8fYpYwokRgkepJvnLNlc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-caf-sabarsky-cafe",
@@ -4583,7 +6463,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/cafe-sabarsky/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1269,
+    "googlePlaceId": "ChIJ01_9-ZdYwokR7iv7XpkKAic",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-carbone-restaurant",
@@ -4595,7 +6480,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/soho-restaurants/carbone/",
     "descriptor": "",
-    "venueUrl": "https://carbonerestaurant.com/"
+    "venueUrl": "https://carbonerestaurant.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 2610,
+    "googlePlaceId": "ChIJmSvG_ZFZwokRTOFeiLXzkmA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-central-park-attraction",
@@ -4607,7 +6497,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/central-park-activities/central-park/",
     "descriptor": "",
-    "venueUrl": "https://centralpark.com/"
+    "venueUrl": "https://centralpark.com/",
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJ6XWMiRn2wokROZOJYqrTD4k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-colony-shop",
@@ -4619,7 +6514,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/colony/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJUzF91MxOwokRAITlZgAxsks",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-cooper-hewitt-attraction",
@@ -4631,7 +6531,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/cooper-hewitt-2/",
     "descriptor": "",
-    "venueUrl": "https://cooperhewitt.org/"
+    "venueUrl": "https://cooperhewitt.org/",
+    "googleRating": 4.4,
+    "googleRatingCount": 3085,
+    "googlePlaceId": "ChIJsT8qSaJYwokR-m20OGJUKCA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-corepower-wellness",
@@ -4643,7 +6548,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/corepower-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.7,
+    "googleRatingCount": 25,
+    "googlePlaceId": "ChIJlXh-1YdZwokR1K4bQelolm8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-cos-bar-shop",
@@ -4655,7 +6565,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-shops/cos-bar-4/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 43,
+    "googlePlaceId": "ChIJgbhbdBtawokRogZKd2QXIDA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-creel-and-gow-shop",
@@ -4667,7 +6582,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/creel-and-gow/",
     "descriptor": "",
-    "venueUrl": "https://creelandgow.com/"
+    "venueUrl": "https://creelandgow.com/",
+    "googleRating": 4.9,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJgVqoputYwokRoIBCCdreBtM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-cuyana-shop",
@@ -4679,7 +6599,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/nolita-shops/cuyana/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.6,
+    "googleRatingCount": 101,
+    "googlePlaceId": "ChIJJ3qNmIVZwokRwRWx7jcs_ag",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-delphine-eyebrow-couture-wellness",
@@ -4691,7 +6616,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/delphine-eyebrow-couture/",
     "descriptor": "",
-    "venueUrl": "https://delphineeyebrowcouture.com/"
+    "venueUrl": "https://delphineeyebrowcouture.com/",
+    "googleRating": 5,
+    "googleRatingCount": 102,
+    "googlePlaceId": "ChIJDcYH2D5ZwokRQ7hJxxR6qs8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-elio-s-restaurant",
@@ -4703,7 +6633,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/elios/",
     "descriptor": "",
-    "venueUrl": "https://eliosrestaurant.com/"
+    "venueUrl": "https://eliosrestaurant.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 542,
+    "googlePlaceId": "ChIJtcTkkrtYwokRav-iyD-cV_Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-emily-thompson-flowers-shop",
@@ -4715,7 +6650,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/south-street-seaport-services/emily-thompson-flowers/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": null,
+    "manualPick": false,
+    "ratingLookupStatus": "not_found"
   },
   {
     "id": "new-york-city-fairway-market-restaurant",
@@ -4727,7 +6667,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/fairway-market-4/",
     "descriptor": "",
-    "venueUrl": "https://fairwaymarket.com/"
+    "venueUrl": "https://fairwaymarket.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 2364,
+    "googlePlaceId": "ChIJVY3s0ghZwokR6e1D8qjJL1k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-fd-gallery-attraction",
@@ -4739,7 +6684,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/fd-gallery/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 14,
+    "googlePlaceId": "ChIJBwaIee5YwokRrPEY5IeHdAs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-frenchette-restaurant",
@@ -4751,7 +6701,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/frenchette/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1289,
+    "googlePlaceId": "ChIJu7pIuopZwokRvIsndYhPg4U",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-georgia-louise-wellness",
@@ -4763,7 +6718,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/georgia-louise/",
     "descriptor": "",
-    "venueUrl": "https://georgialouise.com/"
+    "venueUrl": "https://georgialouise.com/",
+    "googleRating": 4.8,
+    "googleRatingCount": 83,
+    "googlePlaceId": "ChIJi2GDC-tYwokRqgrz6lr39Qg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-gild-hall-hotel",
@@ -4775,7 +6735,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-hotels/gild-hall/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1031,
+    "googlePlaceId": "ChIJNfKP5xdawokRyCFSWap_ogE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-grand-banks-restaurant",
@@ -4787,7 +6752,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/grand-banks/",
     "descriptor": "",
-    "venueUrl": "https://grandbanks.org/"
+    "venueUrl": "https://grandbanks.org/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1966,
+    "googlePlaceId": "ChIJjya-JfZZwokRv3dUHMcHc9M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-han-dynasty-restaurant",
@@ -4799,7 +6769,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/han-dynasty-2/",
     "descriptor": "",
-    "venueUrl": "https://handynasty.net/"
+    "venueUrl": "https://handynasty.net/",
+    "googleRating": 4.3,
+    "googleRatingCount": 1525,
+    "googlePlaceId": "ChIJx3Nrt55ZwokRP3Xiw0TGnKE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-heyday-wellness",
@@ -4811,7 +6786,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/heyday-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 251,
+    "googlePlaceId": "ChIJ1xC3u5pZwokRjQW3AKB_v0M",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-il-brigante-restaurant",
@@ -4823,7 +6803,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/il-brigante/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1171,
+    "googlePlaceId": "ChIJo9uywzxawokR0qaNwBPTfY8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-jenni-kayne-shop",
@@ -4835,7 +6820,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/jenni-kayne-3/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 15,
+    "googlePlaceId": "ChIJpWr1t-hZwokR60ccJ-GnVdo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-jg-melon-restaurant",
@@ -4847,7 +6837,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/j-g-melon/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 3964,
+    "googlePlaceId": "ChIJORutA8BYwokR6obC5YpaamM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-jin-soon-wellness",
@@ -4859,7 +6854,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/jin-soon-3/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 47,
+    "googlePlaceId": "ChIJGZLGl5NZwokRwaGL_vaObu4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-journelle-shop",
@@ -4871,7 +6871,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/journelle-2/",
     "descriptor": "",
-    "venueUrl": "https://journelle.com/"
+    "venueUrl": "https://journelle.com/",
+    "googleRating": 3.8,
+    "googleRatingCount": 48,
+    "googlePlaceId": "ChIJpyWj645ZwokR9BRG_4L9PWQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-khe-yo-restaurant",
@@ -4883,7 +6888,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/khe-yo/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 962,
+    "googlePlaceId": "ChIJb6jHpx9awokRj6rvb31V6WM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-kiki-s-restaurant",
@@ -4895,7 +6905,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/chinatown-restaurants/kikis/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 2497,
+    "googlePlaceId": "ChIJD-1a9ChawokRnTSi_Et62x4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-kimara-ahnert-wellness",
@@ -4907,7 +6922,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/kimara-ahnert/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 23,
+    "googlePlaceId": "ChIJow2S05dYwokR-cQKWgIXtcc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-kitchen-arts-and-letters-shop",
@@ -4919,7 +6939,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/kitchen-arts-letters/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 196,
+    "googlePlaceId": "ChIJqUPJPqRYwokRmE0efLE4EWE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-korin-shop",
@@ -4931,7 +6956,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-shops/korin/",
     "descriptor": "",
-    "venueUrl": "https://korin.com/"
+    "venueUrl": "https://korin.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 352,
+    "googlePlaceId": "ChIJIVUn1h5awokR07P2NK_cufQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-la-garconne-shop",
@@ -4943,7 +6973,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/la-garconne/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.5,
+    "googleRatingCount": 59,
+    "googlePlaceId": "ChIJNwHvhvRZwokR4HrlskyYAtk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-la-mercerie-restaurant",
@@ -4955,7 +6990,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/la-mercerie/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1773,
+    "googlePlaceId": "ChIJ22wiSIpZwokRUmlXovJnWDI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-le-crocodile-hotel",
@@ -4967,7 +7007,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "descriptor": "Williamsburg brasserie known for lively French-inspired plates and natural wine.",
-    "venueUrl": "https://lecrocodile.com/"
+    "venueUrl": "https://lecrocodile.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1225,
+    "googlePlaceId": "ChIJ4faAXmBZwokRebmpx9kQxx4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-le-district-restaurant",
@@ -4979,7 +7024,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-specialty/le-district/",
     "descriptor": "",
-    "venueUrl": "https://ledistrict.com/"
+    "venueUrl": "https://ledistrict.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 2464,
+    "googlePlaceId": "ChIJk6BlWBpawokRrlTIQNhyxLw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-le-moulin-caf-restaurant",
@@ -4991,7 +7041,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/le-moulin-a-cafe/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 573,
+    "googlePlaceId": "ChIJWdv9ZcdYwokR9bumkUKCAgo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-lincoln-ristorante-restaurant",
@@ -5003,7 +7058,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/lincoln-ristorante/",
     "descriptor": "",
-    "venueUrl": "https://lincolnristorante.com/"
+    "venueUrl": "https://lincolnristorante.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 531,
+    "googlePlaceId": "ChIJk_Dtk19YwokRF5wWFVytjQM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-locanda-verde-restaurant",
@@ -5015,7 +7075,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/locanda-verde/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 2338,
+    "googlePlaceId": "ChIJTWkuhfVZwokRS_go-fdp7Vs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-ludivine-shop",
@@ -5027,7 +7092,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/ludivine/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 14,
+    "googlePlaceId": "ChIJFTi1x71YwokR5P2W3w_42Z4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-marc-forgione-restaurant",
@@ -5039,7 +7109,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/marc-forgione/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 772,
+    "googlePlaceId": "ChIJhSLc_R5awokReYEI4dyODxA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-maris-dusan-wellness",
@@ -5051,7 +7126,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-health-and-beauty/maris-dusan/",
     "descriptor": "",
-    "venueUrl": "https://marisdusan.com/"
+    "venueUrl": "https://marisdusan.com/",
+    "googleRating": 5,
+    "googleRatingCount": 7,
+    "googlePlaceId": "ChIJmfhOuD5ZwokRd1gzl6psbGs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-markjoseph-steakhouse-restaurant",
@@ -5063,7 +7143,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-restaurants/markjoseph-steakhouse/",
     "descriptor": "",
-    "venueUrl": "https://markjosephsteakhouse.com/"
+    "venueUrl": "https://markjosephsteakhouse.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 757,
+    "googlePlaceId": "ChIJEx7kTCNawokRCpJ7Z5FMIHA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-max-restaurant",
@@ -5075,7 +7160,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/max/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 333,
+    "googlePlaceId": "ChIJdU4dUB5awokR1TsplO8Nz_4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-mr-chow-restaurant",
@@ -5087,7 +7177,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/mr-chow-2/",
     "descriptor": "",
-    "venueUrl": "https://mrchow.com/"
+    "venueUrl": "https://mrchow.com/",
+    "googleRating": 4,
+    "googleRatingCount": 728,
+    "googlePlaceId": "ChIJlfNObvVZwokRYKVKPX21uOU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-neue-galerie-attraction",
@@ -5099,7 +7194,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/neue-galerie/",
     "descriptor": "",
-    "venueUrl": "https://neuegalerie.org/"
+    "venueUrl": "https://neuegalerie.org/",
+    "googleRating": 4.4,
+    "googleRatingCount": 3165,
+    "googlePlaceId": "ChIJ01_9-ZdYwokRL2JrA28GJp8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-new-york-city-ballet-attraction",
@@ -5111,7 +7211,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/new-york-city-ballet/",
     "descriptor": "",
-    "venueUrl": "https://newyorkcityballet.org/"
+    "venueUrl": "https://newyorkcityballet.org/",
+    "googleRating": 4.8,
+    "googleRatingCount": 569,
+    "googlePlaceId": "ChIJh_Ofbl9YwokRCgdgotG-RX8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-parachute-home-shop",
@@ -5123,7 +7228,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/soho-shops/parachute-home/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.3,
+    "googleRatingCount": 44,
+    "googlePlaceId": "ChIJVVVZgolZwokR14zlHpoGeT0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-parm-restaurant",
@@ -5135,7 +7245,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/parm-3/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 1150,
+    "googlePlaceId": "ChIJy0e8RY9ZwokR-zqC89eWtnY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-per-se-restaurant",
@@ -5147,7 +7262,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/per-se/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 2089,
+    "googlePlaceId": "ChIJp3PsL_ZYwokRZYqs_40RJF4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-puffy-s-bar",
@@ -5159,7 +7279,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/puffys/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 382,
+    "googlePlaceId": "ChIJbaMMzh9awokREFm2F_LMBy4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-red-farm-restaurant",
@@ -5171,7 +7296,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/red-farm/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 699,
+    "googlePlaceId": "ChIJx3LV_bWAj4ARlW17cSsmwp4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-sarabeth-s-restaurant",
@@ -5183,7 +7313,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/sarabeths-4/",
     "descriptor": "",
-    "venueUrl": "https://sarabethsrestaurant.com/"
+    "venueUrl": "https://sarabethsrestaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 245,
+    "googlePlaceId": "ChIJ5S0VWktZwokRetKibOvuanw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-sasabune-restaurant",
@@ -5195,7 +7330,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-restaurants/sasabune/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 195,
+    "googlePlaceId": "ChIJxeHh4cBYwokRrnTTpHq-6fM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-shibui-spa-wellness",
@@ -5207,7 +7347,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/shibui-spa/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 81,
+    "googlePlaceId": "ChIJkQxhg_VZwokRu69-xykT-IE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-shinola-shop",
@@ -5219,7 +7364,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-shops/shinola/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 114,
+    "googlePlaceId": "ChIJ21YIgPVZwokRZXC7xKS1sWs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-shop-cooper-hewitt-shop",
@@ -5231,7 +7381,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/shop-cooper-hewitt/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 2,
+    "googlePlaceId": "ChIJ__MhIktZwokR_9b8yT8rxSs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-smith-and-mills-restaurant",
@@ -5243,7 +7398,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/smith-mills/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 63,
+    "googlePlaceId": "ChIJe-B7YGlZwokRF1qMLUO16Yw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-sol-cacao-restaurant",
@@ -5255,7 +7415,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/bronx-specialty/sol-cacao/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 9,
+    "googlePlaceId": "ChIJRaO-G_f1wokRbsXE8K3tWBM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-takahachi-restaurant",
@@ -5267,7 +7432,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-restaurants/takahachi/",
     "descriptor": "",
-    "venueUrl": "https://takahachi.net/"
+    "venueUrl": "https://takahachi.net/",
+    "googleRating": 4.5,
+    "googleRatingCount": 611,
+    "googlePlaceId": "ChIJaVgbdR9awokRqxIwG9AywT4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-tatiana-restaurant",
@@ -5279,7 +7449,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-restaurants/tatiana/",
     "descriptor": "",
-    "venueUrl": "https://tatianarestaurant.com/"
+    "venueUrl": "https://tatianarestaurant.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 886,
+    "googlePlaceId": "ChIJxy0SM0xZwokR5vC0f4wVlP0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-tenoverten-wellness",
@@ -5291,7 +7466,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tenoverten/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 277,
+    "googlePlaceId": "ChIJg-PyaoRZwokRrVIGGpsyOQk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-terroir-bar",
@@ -5303,7 +7483,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/terroir/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 562,
+    "googlePlaceId": "ChIJ1Z3-Oh5awokR6ReR4JZHAfA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-beekman-a-thompson-hotel-hotel",
@@ -5315,7 +7500,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-hotels/the-beekman-a-thompson-hotel/",
     "descriptor": "",
-    "venueUrl": "https://beekmanathompsonhotel.com/"
+    "venueUrl": "https://beekmanathompsonhotel.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 2306,
+    "googlePlaceId": "ChIJq6r-exhawokRKgBzzPkn57U",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-carlyle-a-rosewood-hotel-hotel",
@@ -5327,7 +7517,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-carlyle/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1236,
+    "googlePlaceId": "ChIJEQ6D9pRYwokR5TXzH7ACo7I",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-class-wellness",
@@ -5339,7 +7534,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/the-class/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 90,
+    "googlePlaceId": "ChIJp1PQ6BhawokRoyB2V8UrB2k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-dead-rabbit-grocery-and-grog-bar",
@@ -5351,7 +7551,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-bars-and-nightlife/the-dead-rabbit-grocery-grog/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 8381,
+    "googlePlaceId": "ChIJIRiJaRRawokR2KyQ984qa-o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-frick-collection-attraction",
@@ -5363,7 +7568,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-frick-collection/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 4728,
+    "googlePlaceId": "ChIJHRH97uxYwokR6CBeDyn1jtg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-guggenheim-attraction",
@@ -5375,7 +7585,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-guggenheim/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 26335,
+    "googlePlaceId": "ChIJmZ5emqJYwokRuDz79o0coAQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-hideaway-seaport-restaurant",
@@ -5387,7 +7602,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/financial-district-bars-and-nightlife/the-hideaway-seaport/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 238,
+    "googlePlaceId": "ChIJ87oGtjxawokRezKwgXh6Cg4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-jeffrey-bar",
@@ -5399,7 +7619,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/the-jeffrey/",
     "descriptor": "",
-    "venueUrl": "https://jeffrey.com/"
+    "venueUrl": "https://jeffrey.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1675,
+    "googlePlaceId": "ChIJy9odN-ZYwokRlJdO1M8gzA8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-lowell-hotel",
@@ -5411,7 +7636,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-lowell/",
     "descriptor": "",
-    "venueUrl": "https://lowellhotel.com/"
+    "venueUrl": "https://lowellhotel.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 379,
+    "googlePlaceId": "ChIJb9nOTe5YwokR5og3CprlOX4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-manner-hotel",
@@ -5423,7 +7653,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "descriptor": "",
-    "venueUrl": "https://themanner.com/"
+    "venueUrl": "https://themanner.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 205,
+    "googlePlaceId": "ChIJoQx_SPxZwokRL34SHZ4JHKY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-mark-hotel",
@@ -5435,7 +7670,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-hotels/the-mark/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 907,
+    "googlePlaceId": "ChIJXYOiRJRYwokRm1i3c9R6WDA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-metropolitan-museum-of-art-attraction",
@@ -5447,7 +7687,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-museums/the-metropolitan-museum-of-art/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 92942,
+    "googlePlaceId": "ChIJb8Jg9pZYwokR-qHGtvSkLzs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-metropolitan-opera-attraction",
@@ -5459,7 +7704,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-activities/metropolitan-opera/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 7181,
+    "googlePlaceId": "ChIJwVmwc15YwokRiyj-7qS1gX4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-penrose-restaurant",
@@ -5471,7 +7721,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-bars-and-nightlife/penrose-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 2447,
+    "googlePlaceId": "ChIJE1SK5LtYwokRH1APiOrZNq0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-rooftop-at-the-manner-hotel",
@@ -5483,7 +7738,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 28,
+    "googlePlaceId": "ChIJ5RNdxPJZwokRRFUP12_qWsc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-the-twenty-two-hotel",
@@ -5495,7 +7755,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in New York City, From Five-Star to Boutique",
     "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-new-york-city-from-five-star-to-boutique",
     "descriptor": "",
-    "venueUrl": "https://www.thetwentytwo.com/newyork/"
+    "venueUrl": "https://www.thetwentytwo.com/newyork/",
+    "googleRating": 4.3,
+    "googleRatingCount": 39,
+    "googlePlaceId": "ChIJE1hgNQBZwokR99qCvqXTmIQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-tracy-anderson-method-tribeca-wellness",
@@ -5507,7 +7772,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tracy-anderson-method-tribeca/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.8,
+    "googleRatingCount": 12,
+    "googlePlaceId": "ChIJ1QKwdCBawokRtR7xOTIXKcE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-tulura-wellness",
@@ -5519,7 +7789,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-health-and-beauty/tulura/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 5,
+    "googleRatingCount": 4,
+    "googlePlaceId": "ChIJn9XfXh9awokRZk3zJcRC4CA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-upper-west-side-yoga-and-wellness-wellness",
@@ -5531,7 +7806,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-health-and-beauty/upper-west-side-yoga-wellness/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 5,
+    "googleRatingCount": 32,
+    "googlePlaceId": "ChIJ0cYK2IRYwokRPRmMh0HwfCE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-ursus-books-shop",
@@ -5543,7 +7823,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/ursus-books/",
     "descriptor": "",
-    "venueUrl": "https://ursusbooks.com/"
+    "venueUrl": "https://ursusbooks.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 18,
+    "googlePlaceId": "ChIJldCSSu5YwokRP-sIAhCv7ds",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-vin-sur-vingt-bar",
@@ -5555,7 +7840,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-bars-and-nightlife/vin-sur-vingt-2/",
     "descriptor": "",
-    "venueUrl": "https://vinsurvingt.com/"
+    "venueUrl": "https://vinsurvingt.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 193,
+    "googlePlaceId": "ChIJF-g1rkpZwokRm1tzQ9sq1Xs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-walker-s-restaurant",
@@ -5567,7 +7857,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/walkers/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 927,
+    "googlePlaceId": "ChIJg7lHTvVZwokRh0iWDed8BKw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-weather-up-bar",
@@ -5579,7 +7874,12 @@ export const PLACES = [
     "sourceTitle": "The Lower Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/tribeca-bars-and-nightlife/weather-up-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 285,
+    "googlePlaceId": "ChIJE1A7ph9awokReG2OZSuar5o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-zabar-s-restaurant",
@@ -5591,7 +7891,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-west-side-specialty/zabars/",
     "descriptor": "",
-    "venueUrl": "https://zabars.com/"
+    "venueUrl": "https://zabars.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 6548,
+    "googlePlaceId": "ChIJm-V6LoZYwokRcCjwircmGxY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "new-york-city-zitomer-wellness",
@@ -5603,7 +7908,12 @@ export const PLACES = [
     "sourceTitle": "The Uptown Manhattan Guide",
     "sourceUrl": "https://goop.com/place/new-york/new-york-city/upper-east-side-shops/zitomer/",
     "descriptor": "",
-    "venueUrl": "https://zitomer.com/"
+    "venueUrl": "https://zitomer.com/",
+    "googleRating": 4.1,
+    "googleRatingCount": 108,
+    "googlePlaceId": "ChIJ7TU28pRYwokRZ7ZXsnaa6Sc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-a-paris-chez-antoinette-de-poisson-shop",
@@ -5615,7 +7925,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.antoinettepoisson.com/en-int/collections/boxes"
+    "venueUrl": "https://www.antoinettepoisson.com/en-int/collections/boxes",
+    "googleRating": 4.8,
+    "googleRatingCount": 47,
+    "googlePlaceId": "ChIJyXKHrABy5kcRmkRVnOYH8BA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-au-passage-restaurant",
@@ -5627,7 +7942,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/11th-arrondissement-bars-and-nightlife/au-passage/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1227,
+    "googlePlaceId": "ChIJ2_f-6P1t5kcR2Q_cUoAudcs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-ballet-at-the-palais-garnier-attraction",
@@ -5639,7 +7959,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.operadeparis.fr/en/visits/palais-garnier"
+    "venueUrl": "https://www.operadeparis.fr/en/visits/palais-garnier",
+    "googleRating": 4.7,
+    "googleRatingCount": 58632,
+    "googlePlaceId": "ChIJOYNm1DBu5kcRZwdtKBzyq6k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-bisou-bar",
@@ -5651,7 +7976,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://bisou.com/"
+    "venueUrl": "https://bisou.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 1733,
+    "googlePlaceId": "ChIJRe1huwdu5kcRGGTckG65hgo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-bob-s-bake-shop-bakery",
@@ -5663,7 +7993,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/18th-arrondissement-specialty/bobs-bake-shop/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 685,
+    "googlePlaceId": "ChIJOf1opftv5kcRejSMahu6Vqg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-bob-s-juice-bar-cafe",
@@ -5675,7 +8010,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-specialty/bobs-juice-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 200,
+    "googlePlaceId": "ChIJhVySOQxu5kcRapqxv7-O4u4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-bulgari-h-tel-paris-hotel",
@@ -5687,7 +8027,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 528,
+    "googlePlaceId": "ChIJFYxKgcRv5kcR1sykKIcU01E",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-cafe-breizh-restaurant",
@@ -5699,7 +8044,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.cafebreizh.com/menu"
+    "venueUrl": "https://www.cafebreizh.com/menu",
+    "googleRating": 4.3,
+    "googleRatingCount": 5969,
+    "googlePlaceId": "ChIJly1xVgFu5kcRoruGNAxdAyY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-caf-de-flore-cafe",
@@ -5711,7 +8061,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://cafedeflore.fr/"
+    "venueUrl": "https://cafedeflore.fr/",
+    "googleRating": 3.9,
+    "googleRatingCount": 14100,
+    "googlePlaceId": "ChIJq537gddx5kcR_3PhRd2muxg",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-cafe-kitsun-cafe",
@@ -5723,7 +8078,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://maisonkitsune.com/"
+    "venueUrl": "https://maisonkitsune.com/",
+    "googleRating": 3.8,
+    "googleRatingCount": 1958,
+    "googlePlaceId": "ChIJzXNG3Ehv5kcRrlMHyynIcWY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-candelaria-restaurant",
@@ -5735,7 +8095,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-bars-and-nightlife/candelaria/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 3058,
+    "googlePlaceId": "ChIJ5-Wt8AZu5kcRwI6zQEwdXv4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-centre-commercial-shop",
@@ -5747,7 +8112,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-shops/centre-commercial/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 6857,
+    "googlePlaceId": "ChIJAbQV5AVw5kcR3as-MQ8GJCI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-ch-teau-voltaire-hotel",
@@ -5759,7 +8129,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.chateauvoltaire.com/"
+    "venueUrl": "https://www.chateauvoltaire.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 176,
+    "googlePlaceId": "ChIJhyDmuPRv5kcRQCWsxsz_b70",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-cheval-blanc-paris-hotel",
@@ -5771,7 +8146,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 889,
+    "googlePlaceId": "ChIJE6y1dkBv5kcRhZB0rsUidCQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-chez-janou-restaurant",
@@ -5783,7 +8163,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.chezjanou.com/le-film"
+    "venueUrl": "https://www.chezjanou.com/le-film",
+    "googleRating": 4.3,
+    "googleRatingCount": 8113,
+    "googlePlaceId": "ChIJaXXlBgBu5kcRzeSQ0Um9YSg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-clown-bar-restaurant",
@@ -5795,7 +8180,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.clown-bar-paris.fr/"
+    "venueUrl": "https://www.clown-bar-paris.fr/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1300,
+    "googlePlaceId": "ChIJ_aCXeQBy5kcR4ZxoRALxHhY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-colorful-black-shop",
@@ -5807,7 +8197,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.colorfulblack.com/en"
+    "venueUrl": "https://www.colorfulblack.com/en",
+    "googleRating": 4.6,
+    "googleRatingCount": 838,
+    "googlePlaceId": "ChIJCbKirBdu5kcRXy68lFs2rDE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-comice-restaurant",
@@ -5819,7 +8214,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://comice.paris/carte-menu"
+    "venueUrl": "https://comice.paris/carte-menu",
+    "googleRating": 4.5,
+    "googleRatingCount": 336,
+    "googlePlaceId": "ChIJAc56Jah65kcRPUvIVLIaIjI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-coutume-cafe",
@@ -5831,7 +8231,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/7th-arrondissement-specialty/coutume/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2291,
+    "googlePlaceId": "ChIJqyageCxw5kcRTKbr3dU5HD4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-crazy-horse-restaurant",
@@ -5843,7 +8248,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://reservation.lecrazy.com/en/shop"
+    "venueUrl": "https://reservation.lecrazy.com/en/shop",
+    "googleRating": 4.6,
+    "googleRatingCount": 6648,
+    "googlePlaceId": "ChIJR-gUQN1v5kcRD2CrR0acr4c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-dary-s-shop",
@@ -5855,7 +8265,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.darys-bijouterie-paris.fr/"
+    "venueUrl": "https://www.darys-bijouterie-paris.fr/",
+    "googleRating": 4,
+    "googleRatingCount": 19,
+    "googlePlaceId": "ChIJQ-oABjJu5kcR5DuglYwHLxc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-delfonics-shop",
@@ -5867,7 +8282,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/1st-arrondissement-shops/delfonics/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 106,
+    "googlePlaceId": "ChIJ89WPVyFu5kcRoF6gBaV7ktA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-derriere-restaurant",
@@ -5879,7 +8299,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/derriere/",
     "descriptor": "",
-    "venueUrl": "https://derriererestaurant.com/"
+    "venueUrl": "https://derriererestaurant.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 1984,
+    "googlePlaceId": "ChIJM9X48Rpu5kcRPU4IwcxRjZk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-deyrolle-shop",
@@ -5891,7 +8316,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.deyrolle.com/en/collections/librairie"
+    "venueUrl": "https://www.deyrolle.com/en/collections/librairie",
+    "googleRating": 4.7,
+    "googleRatingCount": 2105,
+    "googlePlaceId": "ChIJRwjA9dVx5kcR0RK-tJ_IKzQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-du-pain-et-des-id-es-attraction",
@@ -5903,7 +8333,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://dupainetdesidees.com/"
+    "venueUrl": "https://dupainetdesidees.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 4272,
+    "googlePlaceId": "ChIJBTgW_Atu5kcRE1YZZIA4EzQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-experimental-cocktail-club-bar",
@@ -5915,7 +8350,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-bars-and-nightlife/experimental-cocktail-club/",
     "descriptor": "",
-    "venueUrl": "https://experimentalcocktailclub.com/"
+    "venueUrl": "https://experimentalcocktailclub.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 1733,
+    "googlePlaceId": "ChIJY5aj1Rlu5kcRjAbdhqjInIg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-ferdi-restaurant",
@@ -5927,7 +8367,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.ferdi-restaurant.com/en/paris/"
+    "venueUrl": "https://www.ferdi-restaurant.com/en/paris/",
+    "googleRating": 3.8,
+    "googleRatingCount": 1021,
+    "googlePlaceId": "ChIJm5Tziy1u5kcRYcQytg5Bw1g",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-fleux-shop",
@@ -5939,7 +8384,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/4th-arrondissement-shops/fleux/",
     "descriptor": "",
-    "venueUrl": "https://fleux.com/"
+    "venueUrl": "https://fleux.com/",
+    "googleRating": 4,
+    "googleRatingCount": 2594,
+    "googlePlaceId": "ChIJD6pku-xv5kcRXwJMg_UTqB8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-four-seasons-hotel-george-v-hotel",
@@ -5951,7 +8401,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.fourseasons.com/paris/"
+    "venueUrl": "https://www.fourseasons.com/paris/",
+    "googleRating": 4.8,
+    "googleRatingCount": 7268,
+    "googlePlaceId": "ChIJAcNYmcJv5kcR7EQ_IeMZp8c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-galeries-lafayette-paris-haussmann-shop",
@@ -5963,7 +8418,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://haussmann.galerieslafayette.com/en/the-paris-haussmann-shop-windows/"
+    "venueUrl": "https://haussmann.galerieslafayette.com/en/the-paris-haussmann-shop-windows/",
+    "googleRating": 4.5,
+    "googleRatingCount": 94616,
+    "googlePlaceId": "ChIJixChAzdu5kcRkxWrzUU4d-Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-girafe-restaurant",
@@ -5975,7 +8435,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://girafe-restaurant.com/paris/"
+    "venueUrl": "https://girafe-restaurant.com/paris/",
+    "googleRating": 4,
+    "googleRatingCount": 5401,
+    "googlePlaceId": "ChIJw7pLvsNv5kcRnYS9wwGfwsI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-glou-restaurant",
@@ -5987,7 +8452,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/glou/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1893,
+    "googlePlaceId": "ChIJeVTu_ANu5kcRp68n0Y8kVKU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-grand-app-tit-restaurant",
@@ -5999,7 +8469,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/4th-arrondissement-restaurants/grand-appetit/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 28,
+    "googlePlaceId": "ChIJxeP5Xv9x5kcRuySE1GlCJto",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-amour-hotel",
@@ -6011,7 +8486,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/9th-arrondissement-hotels/hotel-amour/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 1040,
+    "googlePlaceId": "ChIJPebtwUZu5kcRqE_0C68y-ak",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-belleval-hotel",
@@ -6023,7 +8503,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/8th-arrondissement-hotels/le-belleval/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 470,
+    "googlePlaceId": "ChIJq1Jk6fJv5kcRtQF-7ZOAPkc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-hotel-des-grands-voyageurs-hotel",
@@ -6035,7 +8520,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://hoteldesgrandsvoyageurs.com/"
+    "venueUrl": "https://hoteldesgrandsvoyageurs.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 732,
+    "googlePlaceId": "ChIJY1dZCdJx5kcR5qovLFdTg8I",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-du-rond-point-des-champs-lys-es-hotel",
@@ -6047,7 +8537,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/8th-arrondissement-hotels/hotel-du-rond-point-des-champs-elysees/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 477,
+    "googlePlaceId": "ChIJgblilsVv5kcRZj8PdWSJGaI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-hotel-du-sentier-hotel",
@@ -6059,7 +8554,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://hoteldusentier.com/"
+    "venueUrl": "https://hoteldusentier.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 319,
+    "googlePlaceId": "ChIJrz29KIJv5kcR7EqvZ5EXfGs",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-duc-de-saint-simon-hotel",
@@ -6071,7 +8571,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://hotelducdesaintsimon.com/"
+    "venueUrl": "https://hotelducdesaintsimon.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 199,
+    "googlePlaceId": "ChIJdc0AZtVx5kcR1eP3qDSBv38",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-elysia-hotel",
@@ -6083,7 +8588,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.hotelelysia.fr/"
+    "venueUrl": "https://www.hotelelysia.fr/",
+    "googleRating": 4.6,
+    "googleRatingCount": 697,
+    "googlePlaceId": "ChIJEzb-M8Fv5kcR9yv80he-4sA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-h-tel-particulier-montmartre-hotel",
@@ -6095,7 +8605,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/18th-arrondissement-hotels/hotel-particulier-montmarte/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 2846,
+    "googlePlaceId": "ChIJIUY0clBu5kcR2MbFUXrBQXE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-hotel-raphael-hotel",
@@ -6107,7 +8622,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.raphael-hotel.com/en/book.html"
+    "venueUrl": "https://www.raphael-hotel.com/en/book.html",
+    "googleRating": 4.3,
+    "googleRatingCount": 1055,
+    "googlePlaceId": "ChIJTwD3le5v5kcRyc-NsXDCcRI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-isabel-marant-shop",
@@ -6119,7 +8639,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/isabel-marant-2/",
     "descriptor": "",
-    "venueUrl": "https://isabelmarant.com/"
+    "venueUrl": "https://isabelmarant.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 17,
+    "googlePlaceId": "ChIJN0HDu1Jx5kcRHAvIzdnG3-4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-jerome-dreyfuss-shop",
@@ -6131,7 +8656,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/jerome-dreyfuss-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 101,
+    "googlePlaceId": "ChIJL8I38dhx5kcR72-dmq7uLWk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-kitchen-restaurant",
@@ -6143,7 +8673,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/bobs-kitchen/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 1381,
+    "googlePlaceId": "ChIJLya87hpu5kcRTUlhywh-FI4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-la-mutinerie-bar",
@@ -6155,7 +8690,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.lamutinerie.eu/programme"
+    "venueUrl": "https://www.lamutinerie.eu/programme",
+    "googleRating": 4,
+    "googleRatingCount": 754,
+    "googlePlaceId": "ChIJVeblvxtu5kcRzTDPDPeHKFg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-la-palette-cafe",
@@ -6167,7 +8707,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-restaurants/la-palette/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.8,
+    "googleRatingCount": 1934,
+    "googlePlaceId": "ChIJyfO5k9hx5kcREL2ZZVRFexE",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-lafayettes-restaurant",
@@ -6179,7 +8724,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.lafayettes-restaurant.com/"
+    "venueUrl": "https://www.lafayettes-restaurant.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 94616,
+    "googlePlaceId": "ChIJixChAzdu5kcRkxWrzUU4d-Y",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-404-restaurant",
@@ -6191,7 +8741,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/le-404/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 1874,
+    "googlePlaceId": "ChIJM9X48Rpu5kcRavKS94RuvzE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-baron-rouge-bar",
@@ -6203,7 +8758,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/12th-arrondissement-bars-and-nightlife/le-baron-rouge/",
     "descriptor": "",
-    "venueUrl": "https://lebaronrouge.net/"
+    "venueUrl": "https://lebaronrouge.net/",
+    "googleRating": 4.7,
+    "googleRatingCount": 1609,
+    "googlePlaceId": "ChIJNTd-9QVy5kcRSktNBvRTsao",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-bon-georges-restaurant",
@@ -6215,7 +8775,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.lebongeorges.paris/en/produits-de-maraichers-et-vins-de-proprietes/"
+    "venueUrl": "https://www.lebongeorges.paris/en/produits-de-maraichers-et-vins-de-proprietes/",
+    "googleRating": 4.5,
+    "googleRatingCount": 2629,
+    "googlePlaceId": "ChIJ8R9ZmEdu5kcRJl7X5mDD2us",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-bristol-spa-wellness",
@@ -6227,7 +8792,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "Oetker Collection spa wing inside Le Bristol Paris with pool and fitness studios.",
-    "venueUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/"
+    "venueUrl": "https://www.oetkercollection.com/hotels/le-bristol-paris/spa-wellness/",
+    "googleRating": 4.6,
+    "googleRatingCount": 27,
+    "googlePlaceId": "ChIJJ0XJfv9v5kcRYHoc9xLVVjE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-camion-qui-fume-restaurant",
@@ -6239,7 +8809,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-specialty/le-camion-qui-fume/",
     "descriptor": "",
-    "venueUrl": "https://lecamionquifume.com/"
+    "venueUrl": "https://lecamionquifume.com/",
+    "googleRating": 4.4,
+    "googleRatingCount": 2111,
+    "googlePlaceId": "ChIJs5xKRvtt5kcRPUNqsxCOzNU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-chateaubriand-restaurant",
@@ -6251,7 +8826,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.lechateaubriand.net/index_uk.html"
+    "venueUrl": "https://www.lechateaubriand.net/index_uk.html",
+    "googleRating": 4.3,
+    "googleRatingCount": 853,
+    "googlePlaceId": "ChIJIfiOtuNt5kcRuMiQz0CoNA4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-grand-mazarin-hotel",
@@ -6263,7 +8843,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 228,
+    "googlePlaceId": "ChIJHy_5-Axv5kcReGwZ_7kYB4s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-jardin-d-hiver-at-h-tel-de-crillon-restaurant",
@@ -6275,7 +8860,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.rosewoodhotels.com/fr/hotel-de-crillon/dining/jardin-d-hiver"
+    "venueUrl": "https://www.rosewoodhotels.com/fr/hotel-de-crillon/dining/jardin-d-hiver",
+    "googleRating": 4.7,
+    "googleRatingCount": 3464,
+    "googlePlaceId": "ChIJC_jkvdJv5kcRqjbmf7Zql3s",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-recamier-restaurant",
@@ -6287,7 +8877,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://lerecamier.com/"
+    "venueUrl": "https://lerecamier.com/",
+    "googleRating": 4.5,
+    "googleRatingCount": 4264,
+    "googlePlaceId": "ChIJV7szrtZx5kcR56iYzO-ajmM",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-souffl-restaurant",
@@ -6299,7 +8894,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.lesouffle.fr/bienvenue/home/menu/"
+    "venueUrl": "https://www.lesouffle.fr/bienvenue/home/menu/",
+    "googleRating": 4.7,
+    "googleRatingCount": 4293,
+    "googlePlaceId": "ChIJd0aNiC1u5kcRnJ_9ezcphe8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-le-verre-vol-bar",
@@ -6311,7 +8911,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-bars-and-nightlife/le-verre-vole/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 1102,
+    "googlePlaceId": "ChIJa-ILkAtu5kcRiVfpDYzyG6A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-loulou-restaurant",
@@ -6323,7 +8928,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.loulou-paris.com/"
+    "venueUrl": "https://www.loulou-paris.com/",
+    "googleRating": 4,
+    "googleRatingCount": 4027,
+    "googlePlaceId": "ChIJ_QwlZC9u5kcRM4LKKEFIOTE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-loulou-paris-restaurant",
@@ -6335,7 +8945,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.loulou-paris.com/loulou-paris-english"
+    "venueUrl": "https://www.loulou-paris.com/loulou-paris-english",
+    "googleRating": 4,
+    "googleRatingCount": 4027,
+    "googlePlaceId": "ChIJ_QwlZC9u5kcRM4LKKEFIOTE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-love-stories-paris-shop",
@@ -6347,7 +8962,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/love-stories-paris/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.5,
+    "googleRatingCount": 54,
+    "googlePlaceId": "ChIJ___TpwNu5kcRPhqMc3iOE-g",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-madame-r-ve-hotel",
@@ -6359,7 +8979,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://madamereve.com/"
+    "venueUrl": "https://madamereve.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 661,
+    "googlePlaceId": "ChIJyU8uPrdv5kcRGSZe9V1cMU8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-maisie-caf-cafe",
@@ -6371,7 +8996,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/1st-arrondissement-specialty/maisie-cafe/",
     "descriptor": "",
-    "venueUrl": "https://maisiecafe.com/"
+    "venueUrl": "https://maisiecafe.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 301,
+    "googlePlaceId": "ChIJVVUBiy1u5kcRUt0tFDDBBEc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-maison-dior-shop",
@@ -6383,7 +9013,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.dior.com/en_us/fashion/news-savoir-faire/folder-news-and-events/30-montaigne-restaurant"
+    "venueUrl": "https://www.dior.com/en_us/fashion/news-savoir-faire/folder-news-and-events/30-montaigne-restaurant",
+    "googleRating": 4.8,
+    "googleRatingCount": 6483,
+    "googlePlaceId": "ChIJ3VreK7lv5kcRbrI0nrFeDSQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-maison-labiche-shop",
@@ -6395,7 +9030,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/maison-labiche/",
     "descriptor": "",
-    "venueUrl": "https://maisonlabiche.com/"
+    "venueUrl": "https://maisonlabiche.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 146,
+    "googlePlaceId": "ChIJN1VnIEZu5kcRq-GTSJrdu5A",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-mama-shelter-paris-east-hotel",
@@ -6407,7 +9047,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/20th-arrondissement-hotels/mama-shelter-paris/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 6588,
+    "googlePlaceId": "ChIJkcvdcIZt5kcRZ4FcBh5cHbg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-march-aux-puces-de-vanves-shop",
@@ -6419,7 +9064,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/14th-arrondissement-shops/marche-aux-puces-de-vanves/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 193,
+    "googlePlaceId": "ChIJgSWkYQBx5kcRMuoPRujWdDo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-merci-shop",
@@ -6431,7 +9081,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://merci-merci.com/collections/table"
+    "venueUrl": "https://merci-merci.com/collections/table",
+    "googleRating": 4.1,
+    "googleRatingCount": 5246,
+    "googlePlaceId": "ChIJDSzfrABu5kcRJTf3iV__JCg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-mes-demoiselles-shop",
@@ -6443,7 +9098,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/mes-demoiselles/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.9,
+    "googleRatingCount": 36,
+    "googlePlaceId": "ChIJpajZiAZu5kcRb3r5_3z_q4w",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-mirz-yoga-wellness",
@@ -6455,7 +9115,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/19th-arrondissement-health-and-beauty/mirz-yoga/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.9,
+    "googleRatingCount": 39,
+    "googlePlaceId": "ChIJQ18ceMBt5kcRMY_ShP25vUU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-miznon-restaurant",
@@ -6467,7 +9132,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/4th-arrondissement-restaurants/miznon/",
     "descriptor": "",
-    "venueUrl": "https://miznonrestaurant.com/"
+    "venueUrl": "https://miznonrestaurant.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 3151,
+    "googlePlaceId": "ChIJo4T2XQJu5kcRLl_6yt91wOw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-musee-d-orsay-attraction",
@@ -6479,7 +9149,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.musee-orsay.fr/fr/agenda/expositions"
+    "venueUrl": "https://www.musee-orsay.fr/fr/agenda/expositions",
+    "googleRating": 4.8,
+    "googleRatingCount": 113627,
+    "googlePlaceId": "ChIJG5Qwtitu5kcR2CNEsYy9cdA",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-mus-e-des-arts-d-coratifs-attraction",
@@ -6491,7 +9166,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://madparis.fr/"
+    "venueUrl": "https://madparis.fr/",
+    "googleRating": 4.5,
+    "googleRatingCount": 9862,
+    "googlePlaceId": "ChIJ_QwlZC9u5kcRi6OALXVubvc",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-noglu-restaurant",
@@ -6503,7 +9183,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.noglu.nyc/menus/"
+    "venueUrl": "https://www.noglu.nyc/menus/",
+    "googleRating": 3.9,
+    "googleRatingCount": 1590,
+    "googlePlaceId": "ChIJZ-vVDdVx5kcRpJrrsNGvwSY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-nuovo-shop",
@@ -6515,7 +9200,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://nuovo-paris.com/pages/the-shop"
+    "venueUrl": "https://nuovo-paris.com/pages/the-shop",
+    "googleRating": 4.2,
+    "googleRatingCount": 60,
+    "googlePlaceId": "ChIJT7gmSupv5kcRa-EGez97_XI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-papier-tigre-shop",
@@ -6527,7 +9217,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/papier-tigre/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 293,
+    "googlePlaceId": "ChIJjU8HYRRu5kcRzS9dVftgR5c",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-pascale-monvoisin-shop",
@@ -6539,7 +9234,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://pascalemonvoisin.com/en/store-locator"
+    "venueUrl": "https://pascalemonvoisin.com/en/store-locator",
+    "googleRating": 4.2,
+    "googleRatingCount": 33,
+    "googlePlaceId": "ChIJPeGYMABw5kcRj_w_lCMMLAg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-peninsula-paris-hotel",
@@ -6551,7 +9251,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 3906,
+    "googlePlaceId": "ChIJjYzV7O5v5kcRCKONjpjWenU",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-pierre-herm-bakery",
@@ -6563,7 +9268,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.pierreherme.com/nos-boutiques"
+    "venueUrl": "https://www.pierreherme.com/nos-boutiques",
+    "googleRating": 4.4,
+    "googleRatingCount": 3169,
+    "googlePlaceId": "ChIJLQIP351x5kcRmOEfd42jxN0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-pinault-collection-attraction",
@@ -6575,7 +9285,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.pinaultcollection.com/en/paulo-nazareth"
+    "venueUrl": "https://www.pinaultcollection.com/en/paulo-nazareth",
+    "googleRating": 4.4,
+    "googleRatingCount": 9229,
+    "googlePlaceId": "ChIJHxsFziJu5kcRij7nG-6-ap8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-pink-mamma-restaurant",
@@ -6587,7 +9302,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/9th-arrondissement-restaurants/pink-mamma/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 49122,
+    "googlePlaceId": "ChIJaYIUUk9u5kcRfAhRNL_ZJgw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-ritz-paris-hotel",
@@ -6599,7 +9319,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://ritzparis.com/"
+    "venueUrl": "https://ritzparis.com/",
+    "googleRating": 4.7,
+    "googleRatingCount": 4467,
+    "googlePlaceId": "ChIJVSOS5FBv5kcRmaCCdrMCfk4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-rivi-restaurant",
@@ -6611,7 +9336,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/2nd-arrondissement-bars-and-nightlife/hoxton-hotel-bar/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 1000,
+    "googlePlaceId": "ChIJD9XvFhZu5kcRfbzoau5ndCw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-rosa-bonheur-bar",
@@ -6623,7 +9353,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/19th-arrondissement-bars-and-nightlife/rosa-bonheur/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4,
+    "googleRatingCount": 7458,
+    "googlePlaceId": "ChIJHRS8PtFv5kcRRXTtzhu0QW0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-rouje-shop",
@@ -6635,7 +9370,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://us.rouje.com/"
+    "venueUrl": "https://us.rouje.com/",
+    "googleRating": 3.9,
+    "googleRatingCount": 700,
+    "googlePlaceId": "ChIJHWYCAMhv5kcRYCi1FLXeL5k",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-saint-james-paris-hotel",
@@ -6647,7 +9387,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.7,
+    "googleRatingCount": 1404,
+    "googlePlaceId": "ChIJ6dh8OfZv5kcRRLsOW4C6VYY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-salon-christophe-robin-wellness",
@@ -6659,7 +9404,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.christophe-robin.salon/"
+    "venueUrl": "https://www.christophe-robin.salon/",
+    "googleRating": 4,
+    "googleRatingCount": 77,
+    "googlePlaceId": "ChIJbc_lNS5u5kcRt6briBHPt0o",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-simrane-shop",
@@ -6671,7 +9421,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://simrane.com/en/category/accessories/"
+    "venueUrl": "https://simrane.com/en/category/accessories/",
+    "googleRating": 4.4,
+    "googleRatingCount": 47,
+    "googlePlaceId": "ChIJKdO9F9hx5kcRYJ1Twt0ivoE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-soho-house-paris-hotel",
@@ -6683,7 +9438,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 606,
+    "googlePlaceId": "ChIJScYAWldv5kcRBlw9N9LwfCI",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-ten-belles-attraction",
@@ -6695,7 +9455,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://tenbelles.com/"
+    "venueUrl": "https://tenbelles.com/",
+    "googleRating": 4.3,
+    "googleRatingCount": 645,
+    "googlePlaceId": "ChIJ58s82_ht5kcRBXKvgoYfR_4",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-the-broken-arm-shop",
@@ -6707,7 +9472,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-shops/the-broken-arm/",
     "descriptor": "",
-    "venueUrl": "https://the-broken-arm.com/"
+    "venueUrl": "https://the-broken-arm.com/",
+    "googleRating": 4.2,
+    "googleRatingCount": 334,
+    "googlePlaceId": "ChIJu9RL3AVu5kcRaT3dpJh6NdE",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-the-kooples-shop",
@@ -6719,7 +9489,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/6th-arrondissement-shops/kooples-2/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 53,
+    "googlePlaceId": "ChIJi7N-uy9u5kcRizFn0EYbyn0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-villa-des-pr-s-hotel-hotel",
@@ -6731,7 +9506,12 @@ export const PLACES = [
     "sourceTitle": "Vogue: Paris",
     "sourceUrl": "https://www.vogue.com/article/the-vogue-editors-guide-to-paris",
     "descriptor": "",
-    "venueUrl": "https://www.villadespres.com/"
+    "venueUrl": "https://www.villadespres.com/",
+    "googleRating": 4.6,
+    "googleRatingCount": 106,
+    "googlePlaceId": "ChIJW6ULx5Nx5kcRLlWsz2MkoMQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-vivant-2-bar",
@@ -6743,7 +9523,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/10th-arrondissement-restaurants/vivant/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 437,
+    "googlePlaceId": "ChIJ6Tfl_Lhv5kcRMr5NkAy_pGg",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "paris-wild-and-the-moon-cafe",
@@ -6755,7 +9540,12 @@ export const PLACES = [
     "sourceTitle": "The Paris Hipster Guide",
     "sourceUrl": "https://goop.com/place/france/paris/3rd-arrondissement-restaurants/wild-the-moon/",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 1912,
+    "googlePlaceId": "ChIJn3Fa9O5v5kcRxVkaL3BFGgQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-a-land-in-garosu-gil-shop",
@@ -6767,7 +9557,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.8,
+    "googleRatingCount": 211,
+    "googlePlaceId": "ChIJPx7lv5SjfDUR-Sd4NkD4whQ",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-boon-the-shop-in-cheongdam-shop",
@@ -6779,7 +9574,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 356,
+    "googlePlaceId": "ChIJo1G9R3ikfDURv1_Y3QqxJWw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-doota-in-dongdaemun-shop",
@@ -6791,7 +9591,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1662,
+    "googlePlaceId": "ChIJQTmmTJ6jfDURkr3sBgmbdhk",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-gwangjang-market-in-namdaemun-shop",
@@ -6803,7 +9608,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.2,
+    "googleRatingCount": 43887,
+    "googlePlaceId": "ChIJm3V0fu2ifDURRJ8IMUijVtY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-maison-des-bougies-in-itaewon-shop",
@@ -6815,7 +9625,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": null,
+    "googleRatingCount": null,
+    "googlePlaceId": "ChIJX2mn_5WjfDURiqGgQUyOol0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-pyeong-hwa-fashion-town-in-dongdaemun-shop",
@@ -6827,7 +9642,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 3.9,
+    "googleRatingCount": 432,
+    "googlePlaceId": "ChIJlQU_nzujfDURosSkoBiMA2U",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "seoul-ssg-food-market-around-seoul-shop",
@@ -6839,7 +9659,12 @@ export const PLACES = [
     "sourceTitle": "Inside Seoul’s Top 7 Shopping Haunts With Model Soo Joo Park",
     "sourceUrl": "https://www.vogue.com/article/seoul-shopping-guide-soo-joo-park",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.3,
+    "googleRatingCount": 899,
+    "googlePlaceId": "ChIJo5mwQnekfDURO2-vxpK28I0",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-aman-tokyo-hotel",
@@ -6851,7 +9676,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": "https://www.aman.com/hotels/aman-tokyo/wellness"
+    "venueUrl": "https://www.aman.com/hotels/aman-tokyo/wellness",
+    "googleRating": 4.4,
+    "googleRatingCount": 1931,
+    "googlePlaceId": "ChIJfV9KdPiLGGARn4ma2GUEoJo",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-bulgari-hotel-tokyo-hotel",
@@ -6863,7 +9693,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 456,
+    "googlePlaceId": "ChIJaZec4c2LGGARhO_j0zirIOw",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-hoshinoya-tokyo-hotel",
@@ -6875,7 +9710,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.4,
+    "googleRatingCount": 1098,
+    "googlePlaceId": "ChIJQ3xyRgaMGGARUS7IVQTZRQY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-janu-tokyo-hotel",
@@ -6887,7 +9727,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": "https://janutokyo.com/"
+    "venueUrl": "https://janutokyo.com/",
+    "googleRating": 4.1,
+    "googleRatingCount": 277,
+    "googlePlaceId": "ChIJEWV5V2-LGGARWr133cObY_8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-trunk-hotel-cat-street-hotel",
@@ -6899,7 +9744,12 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.1,
+    "googleRatingCount": 1836,
+    "googlePlaceId": "ChIJk58S9aaMGGARMDVQui_NxEY",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   },
   {
     "id": "tokyo-trunk-hotel-yoyogi-park-hotel",
@@ -6911,6 +9761,11 @@ export const PLACES = [
     "sourceTitle": "The Best Hotels in Tokyo, From Modern Ryokan to Boutique Hideaways",
     "sourceUrl": "https://www.vogue.com/article/best-hotels-in-tokyo",
     "descriptor": "",
-    "venueUrl": null
+    "venueUrl": null,
+    "googleRating": 4.6,
+    "googleRatingCount": 137,
+    "googlePlaceId": "ChIJRVwkXF2NGGARf276xasJiF8",
+    "manualPick": false,
+    "ratingLookupStatus": "success"
   }
 ];
