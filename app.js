@@ -9,6 +9,7 @@ const els = {
   city: /** @type {HTMLSelectElement} */ ($("#city")),
   category: /** @type {HTMLSelectElement} */ ($("#category")),
   source: /** @type {HTMLSelectElement} */ ($("#source")),
+  curator: /** @type {HTMLSelectElement | null} */ ($("#curator")),
   resetBtn: /** @type {HTMLButtonElement} */ ($("#resetBtn")),
   results: $("#results"),
   empty: $("#emptyState"),
@@ -54,9 +55,9 @@ const REVIEW_NUM_FORMAT = new Intl.NumberFormat("en-US");
  * @property {string} city
  * @property {string} country
  * @property {string=} neighborhood
- * @property {Source} source
- * @property {string} sourceTitle
- * @property {string} sourceUrl Article (or post) where this place was recommended
+ * @property {Source|null=} source Publication source. May be null for curator-direct entries.
+ * @property {string|null=} sourceTitle
+ * @property {string|null=} sourceUrl Article (or post) where this place was recommended
  * @property {string|null=} venueUrl The venue's own website, when known
  * @property {string=} descriptor One-line voice descriptor (≤10 words)
  * @property {readonly string[]=} tags
@@ -65,6 +66,7 @@ const REVIEW_NUM_FORMAT = new Intl.NumberFormat("en-US");
  * @property {string|null=} googlePlaceId Google's place id for future lookups
  * @property {boolean=} manualPick Personal override flag (always show)
  * @property {"pending"|"success"|"not_found"|"error"|"skipped"=} ratingLookupStatus
+ * @property {string=} curator Personal curator who vouched for this place (e.g. "Lily Rivkin")
  */
 
 /** @type {readonly Place[]} */
@@ -90,7 +92,8 @@ function placeHaystack(p) {
       p.neighborhood ?? "",
       p.descriptor ?? "",
       CATEGORIES[p.category],
-      SOURCES[p.source],
+      p.source ? SOURCES[p.source] : "",
+      p.curator ?? "",
       ...(p.tags ?? []),
     ].join(SEP),
   );
@@ -99,6 +102,13 @@ function placeHaystack(p) {
 function getCityOptions() {
   const cities = uniqSorted(data.map((p) => `${p.city}${SEP}${p.country}`));
   return ["All cities", ...cities];
+}
+
+function getCuratorOptions() {
+  const curators = uniqSorted(
+    data.map((p) => (p.curator ?? "").trim()).filter((s) => s.length > 0),
+  );
+  return ["All curators", ...curators];
 }
 
 function parseCityValue(v) {
@@ -125,12 +135,31 @@ function buildCitySelect() {
   }
 }
 
+function buildCuratorSelect() {
+  if (!els.curator) return;
+  const opts = getCuratorOptions();
+  els.curator.innerHTML = "";
+
+  const all = document.createElement("option");
+  all.value = "all";
+  all.textContent = "All curators";
+  els.curator.appendChild(all);
+
+  for (const label of opts.slice(1)) {
+    const o = document.createElement("option");
+    o.value = label;
+    o.textContent = label;
+    els.curator.appendChild(o);
+  }
+}
+
 function filtersFromUI() {
   const q = normalize(els.query.value);
   const city = parseCityValue(els.city.value);
   const category = /** @type {"all"|Category} */ (els.category.value);
   const source = /** @type {"all"|Source} */ (els.source.value);
-  return { q, city, category, source };
+  const curator = els.curator ? els.curator.value : "all";
+  return { q, city, category, source, curator };
 }
 
 /** @type {ReturnType<typeof filtersFromUI>} */
@@ -159,13 +188,14 @@ function passesQualityFilter(p) {
 }
 
 function applyFilters() {
-  const { q, city, category, source } = filtersFromUI();
-  lastFilters = { q, city, category, source };
+  const { q, city, category, source, curator } = filtersFromUI();
+  lastFilters = { q, city, category, source, curator };
 
   const baseFiltered = data.filter((p) => {
     if (city && (p.city !== city.city || p.country !== city.country)) return false;
     if (category !== "all" && p.category !== category) return false;
     if (source !== "all" && p.source !== source) return false;
+    if (curator !== "all" && (p.curator ?? "") !== curator) return false;
     if (q) {
       const hay = placeHaystack(p);
       if (!hay.includes(q)) return false;
@@ -212,8 +242,15 @@ function categoryChip(category) {
 
 function sourceChip(source) {
   const label = SOURCES[source];
+  if (!label) return "";
   const cls = "chip chip--teal";
   return `<span class="${cls}">${escapeHtml(label)}</span>`;
+}
+
+function curatorChip(curator) {
+  const name = (curator ?? "").trim();
+  if (!name) return "";
+  return `<span class="chip chip--curator" title="${escapeHtml(name)}'s pick">${escapeHtml(name)}&rsquo;s pick</span>`;
 }
 
 function escapeHtml(s) {
@@ -239,6 +276,7 @@ function trustedHttpUrl(raw) {
 
 /** Strip legacy Vogue deks if cached assets still serve old data. */
 function displayCitationTitle(p) {
+  const sourceLabel = p.source ? SOURCES[p.source] : "";
   let t = (p.sourceTitle ?? "").trim();
   const folded = t
     .normalize("NFD")
@@ -246,15 +284,15 @@ function displayCitationTitle(p) {
     .replace(/[\u2018\u2019\u0060]/g, "'")
     .toLowerCase();
   if (/below\s*[,.]?\s*find\b/.test(folded) && /\bvogue\b/.test(folded)) {
-    return `${SOURCES[p.source]}: ${p.city}`;
+    return sourceLabel ? `${sourceLabel}: ${p.city}` : p.city;
   }
   if (/\bvogue\b/.test(folded) && /\bguide\b/.test(folded) && /\b(below|find)\b/.test(folded)) {
-    return `${SOURCES[p.source]}: ${p.city}`;
+    return sourceLabel ? `${sourceLabel}: ${p.city}` : p.city;
   }
   if (/\]\(https?:\/\//i.test(t)) {
-    return `${SOURCES[p.source]}: ${p.city}`;
+    return sourceLabel ? `${sourceLabel}: ${p.city}` : p.city;
   }
-  if (!t) return `Read on ${SOURCES[p.source]}`;
+  if (!t) return sourceLabel ? `Read on ${sourceLabel}` : "";
   return t;
 }
 
@@ -287,10 +325,14 @@ function card(p, filters) {
   const cityLine = [p.neighborhood, `${p.city}, ${p.country}`].filter(Boolean).join(SEP);
   const tags = (p.tags ?? []).slice(0, 5);
   const showCategoryChip = !(filters.category !== "all" && p.category === filters.category);
-  const showSourceChip = !(filters.source !== "all" && p.source === filters.source);
+  const showSourceChip =
+    Boolean(p.source) && !(filters.source !== "all" && p.source === filters.source);
+  const showCuratorChip =
+    Boolean(p.curator) && !(filters.curator !== "all" && p.curator === filters.curator);
   const chips = [
     ...(showCategoryChip ? [categoryChip(p.category)] : []),
     ...(showSourceChip ? [sourceChip(p.source)] : []),
+    ...(showCuratorChip ? [curatorChip(p.curator)] : []),
     ...tags.map((t) => `<span class="chip">${escapeHtml(t)}</span>`),
   ].join("");
 
@@ -401,6 +443,7 @@ function reset() {
   els.city.value = "all";
   els.category.value = "all";
   els.source.value = "all";
+  if (els.curator) els.curator.value = "all";
   applyFilters();
 }
 
@@ -433,6 +476,7 @@ function toggleAdminView() {
 function init() {
   els.year.textContent = String(new Date().getFullYear());
   buildCitySelect();
+  buildCuratorSelect();
   updateAdminToggleLabel();
   applyFilters();
   setAboutVisibility(window.location.hash === "#about");
@@ -441,6 +485,7 @@ function init() {
   els.city.addEventListener("change", applyFilters);
   els.category.addEventListener("change", applyFilters);
   els.source.addEventListener("change", applyFilters);
+  if (els.curator) els.curator.addEventListener("change", applyFilters);
   els.resetBtn.addEventListener("click", reset);
   if (els.adminToggle) els.adminToggle.addEventListener("click", toggleAdminView);
 

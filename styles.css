@@ -79,6 +79,9 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
   grid-template-columns: 1.6fr 1fr 1fr 1fr;
   gap:14px;
 }
+.controls--6col{
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr;
+}
 .control{display:flex; flex-direction:column; gap:8px}
 .control--row{flex-direction:row; align-items:flex-end; justify-content:space-between; gap:12px}
 .label{font-size:12px; color:var(--muted)}
@@ -172,6 +175,12 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
 .chip--cafe{border-color: rgba(161,98,57,.45); background: rgba(161,98,57,.18)}
 .chip--bakery{border-color: rgba(230,184,118,.40); background: rgba(230,184,118,.16)}
 .chip--bar{border-color: rgba(190,18,60,.42); background: rgba(190,18,60,.16)}
+.chip--curator{
+  border-color: rgba(248,180,210,.42);
+  background: rgba(244,114,182,.10);
+  color: rgba(248,200,222,.95);
+  font-style: italic;
+}
 
 .badges{display:flex; flex-wrap:wrap; gap:6px}
 .badge{
@@ -310,11 +319,13 @@ code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Libera
 
 @media (max-width: 920px){
   .controls{grid-template-columns: 1.4fr 1fr 1fr; }
+  .controls--6col{grid-template-columns: 1.2fr 1fr 1fr; }
   .control--row{grid-column: 1 / -1}
   .results__grid{grid-template-columns: repeat(2, minmax(0, 1fr))}
 }
 @media (max-width: 640px){
   .controls{grid-template-columns: 1fr; }
+  .controls--6col{grid-template-columns: 1fr; }
   .results__grid{grid-template-columns: 1fr}
   .h1{font-size: 24px}
 }
