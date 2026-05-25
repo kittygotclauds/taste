@@ -45,7 +45,7 @@ const MIN_REVIEWS_FILTER = 10;
 const MIN_REVIEWS_BADGE = 50;
 const REVIEW_NUM_FORMAT = new Intl.NumberFormat("en-US");
 
-/** @typedef {"restaurant"|"cafe"|"bakery"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
+/** @typedef {"restaurant"|"cafe"|"bakery"|"dessert"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Place
@@ -229,6 +229,7 @@ const CATEGORY_CHIP_CLASS = /** @type {const} */ ({
   restaurant: "chip chip--accent",
   cafe: "chip chip--cafe",
   bakery: "chip chip--bakery",
+  dessert: "chip chip--dessert",
   bar: "chip chip--bar",
   hotel: "chip chip--hotel",
   shop: "chip chip--teal",

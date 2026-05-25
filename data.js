@@ -7,6 +7,7 @@ export const CATEGORIES = /** @type {const} */ ({
   restaurant: "Restaurant",
   cafe: "Cafe",
   bakery: "Bakery",
+  dessert: "Dessert",
   bar: "Bar",
   hotel: "Hotel",
   shop: "Shop",

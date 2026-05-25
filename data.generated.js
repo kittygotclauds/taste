@@ -11018,6 +11018,27 @@ export const PLACES = [
     "ratingLookupStatus": "success"
   },
   {
+    "id": "the-hamptons-buddhaberry-dessert",
+    "name": "Buddhaberry",
+    "category": "dessert",
+    "city": "The Hamptons",
+    "country": "United States",
+    "neighborhood": "Sag Harbor",
+    "source": null,
+    "sourceTitle": null,
+    "sourceUrl": null,
+    "venueUrl": null,
+    "descriptor": "Frozen yogurt in Sag Harbor",
+    "tags": [
+      "Frozen yogurt"
+    ],
+    "googleRating": 4.2,
+    "googleRatingCount": 300,
+    "googlePlaceId": "ChIJS2NPtiS96IkRQZYvOIhf7vw",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
+  },
+  {
     "id": "the-hamptons-carissa-s-bakery-bakery",
     "name": "Carissa’s Bakery",
     "category": "bakery",
@@ -11134,6 +11155,27 @@ export const PLACES = [
     "googleRatingCount": 52,
     "googlePlaceId": "ChIJLaeeP9Kl6IkR3TTSJzvOM6I",
     "manualPick": false,
+    "ratingLookupStatus": "success"
+  },
+  {
+    "id": "the-hamptons-fairview-farm-at-mecox-shop",
+    "name": "Fairview Farm at Mecox",
+    "category": "shop",
+    "city": "The Hamptons",
+    "country": "United States",
+    "neighborhood": "Bridgehampton",
+    "source": null,
+    "sourceTitle": null,
+    "sourceUrl": null,
+    "venueUrl": null,
+    "descriptor": "Farm stand + pick-your-own in Bridgehampton",
+    "tags": [
+      "Farm"
+    ],
+    "googleRating": 4.5,
+    "googleRatingCount": 46,
+    "googlePlaceId": "ChIJVVGG8jq-6IkRAdsDpMqwT0c",
+    "manualPick": true,
     "ratingLookupStatus": "success"
   },
   {
@@ -11443,6 +11485,27 @@ export const PLACES = [
     "ratingLookupStatus": "success"
   },
   {
+    "id": "the-hamptons-sag-harbor-books-shop",
+    "name": "Sag Harbor Books",
+    "category": "shop",
+    "city": "The Hamptons",
+    "country": "United States",
+    "neighborhood": "Sag Harbor",
+    "source": null,
+    "sourceTitle": null,
+    "sourceUrl": null,
+    "venueUrl": null,
+    "descriptor": "Independent bookstore in Sag Harbor",
+    "tags": [
+      "Bookstore"
+    ],
+    "googleRating": 4.8,
+    "googleRatingCount": 70,
+    "googlePlaceId": "ChIJM6bOgKG96IkR9yFrZ7O6WSA",
+    "manualPick": true,
+    "ratingLookupStatus": "success"
+  },
+  {
     "id": "the-hamptons-sag-harbor-cinema-wellness",
     "name": "Sag Harbor Cinema",
     "category": "wellness",
@@ -11610,6 +11673,27 @@ export const PLACES = [
     "googleRatingCount": 22,
     "googlePlaceId": "ChIJBeuUd_6l6IkRbtE6IbfzrGg",
     "manualPick": false,
+    "ratingLookupStatus": "success"
+  },
+  {
+    "id": "the-hamptons-the-barn-soulcycle-wellness",
+    "name": "The Barn (SoulCycle)",
+    "category": "wellness",
+    "city": "The Hamptons",
+    "country": "United States",
+    "neighborhood": "Bridgehampton",
+    "source": null,
+    "sourceTitle": null,
+    "sourceUrl": null,
+    "venueUrl": null,
+    "descriptor": "SoulCycle studio in Bridgehampton",
+    "tags": [
+      "SoulCycle"
+    ],
+    "googleRating": 4.9,
+    "googleRatingCount": 23,
+    "googlePlaceId": "ChIJ8RYSQ-G96IkR_kf3nVCtkrI",
+    "manualPick": true,
     "ratingLookupStatus": "success"
   },
   {

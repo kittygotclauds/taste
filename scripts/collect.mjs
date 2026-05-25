@@ -17,7 +17,7 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
  * Outputs places with sourceUrl + venueUrl; optional pass resolves venue sites via website-resolve.mjs.
  */
 
-/** @typedef {"restaurant"|"cafe"|"bakery"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
+/** @typedef {"restaurant"|"cafe"|"bakery"|"dessert"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Guide
@@ -331,6 +331,8 @@ function inferCategoryFromHeadingLine(line) {
     /\b(coffee\s*shops?|coffee\s*bars?|coffee\s*roasters?|caf[eé]s?\b|espresso\s*bars?|tea\s*rooms?|coffee\b|espresso\b)\b/;
   const bakeryRx =
     /\b(baker(y|ies)|patisseries?|p[âa]tisseries?|boulangeries?|bake\s*shops?|panader[íi]as?|pasticceri[ae]|viennoiseries?|pastry\s*shops?)\b/;
+  const dessertRx =
+    /\b(desserts?|ice\s*cream|gelato|frozen\s*yogurt|froyo|soft\s*serve|sorbet|sweet\s*treats?|chocolater(y|ies)|chocolate\s*shops?)\b/;
   const barRx =
     /\b(cocktail\s*bars?|wine\s*bars?|natural\s*wine\s*bars?|champagne\s*bars?|where to drink|nightlife|speakeas(y|ies)|\bbars?\b)\b/;
   const restaurantRx =
@@ -342,6 +344,7 @@ function inferCategoryFromHeadingLine(line) {
   if (shopRx.test(raw)) return "shop";
   if (cafeRx.test(raw)) return "cafe";
   if (bakeryRx.test(raw)) return "bakery";
+  if (dessertRx.test(raw)) return "dessert";
   if (barRx.test(raw)) return "bar";
   if (restaurantRx.test(raw)) return "restaurant";
 
@@ -371,6 +374,9 @@ function inferCategoryFromMetaType(typeRaw) {
   if (/\b(shop|store|boutique|market|department|designer|fashion)\b/i.test(t)) return "shop";
   if (/\b(bakery|bake\s*shop|patisserie|p[âa]tisserie|boulangerie|panader[íi]a|pasticceria|viennoiserie|pastry\s*shop)\b/i.test(t)) {
     return "bakery";
+  }
+  if (/\b(dessert|ice\s*cream|gelato|frozen\s*yogurt|froyo|soft\s*serve|sorbet|chocolater(y|ie)|chocolate\s*shop)\b/i.test(t)) {
+    return "dessert";
   }
   if (/\b(caf[eé]|coffee|coffee\s*shop|espresso|tea\s*room)\b/i.test(t)) return "cafe";
   if (/\b(cocktail\s*bar|wine\s*bar|champagne\s*bar|speakeasy|nightclub|\bbar\b)\b/i.test(t)) return "bar";
@@ -415,9 +421,16 @@ function inferCategoryFromName(name) {
     return "attraction";
   }
 
-  // Specific food/drink categories before generic restaurant. Bakery cues are
-  // unambiguous; cafe checks come next; bar requires extra care because Italian-
-  // style restaurants often start their name with "Bar X" (Bar Boulud, Bar Masa).
+  // Specific food/drink categories before generic restaurant. Dessert (ice cream,
+  // gelato, froyo) before bakery; patisseries stay bakery.
+  if (
+    /\b(gelato|ice\s*cream|frozen\s*yogurt|froyo|soft\s*serve|sorbet|buddhaberry|yogurtland|dessert\s*bar)\b/i.test(
+      lower,
+    ) ||
+    /\bchocolater(y|ie)\b/i.test(lower)
+  ) {
+    return "dessert";
+  }
   if (
     /\b(bakery|bake\s*shop|panader[íi]a|pasticceria|patisserie|p[âa]tisserie|boulangerie|bageri|viennoiserie|bagels?)\b/i.test(
       lower,
@@ -475,6 +488,9 @@ function inferCategoryFromPlaceUrl(placeUrl) {
     if (/\/(bakery|bakeries|patisserie|boulangerie|panaderia|pasticceria)\b/.test(p)) {
       return "bakery";
     }
+    if (/\/(desserts?|ice-cream|gelato|frozen-yogurt|froyo|chocolater(y|ie))\b/.test(p)) {
+      return "dessert";
+    }
     if (/\/(cafes?|coffee|coffee-shops?|espresso|tea-rooms?)\b/.test(p)) return "cafe";
     if (/\/(bars?|cocktail-bars?|wine-bars?|nightlife|speakeas(y|ies))\b/.test(p)) return "bar";
     if (/\/(restaurant|restaurants|dining)\b/.test(p)) return "restaurant";
@@ -525,7 +541,7 @@ function resolvePlaceCategory(sectionCategory, metaType, name, guide, placeUrl) 
   // Promote specific food/drink categories over a generic "restaurant" section
   // heading so a Cafés-and-Coffee section labelled "Restaurants" still resolves
   // its individual places correctly (e.g. Lagkagehuset → bakery).
-  const specific = new Set(["cafe", "bakery", "bar"]);
+  const specific = new Set(["cafe", "bakery", "dessert", "bar"]);
   if (specific.has(nameCat) && (sectionCategory === "restaurant" || sectionCategory === null)) {
     return /** @type {Category} */ (nameCat);
   }
