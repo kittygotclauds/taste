@@ -772,6 +772,25 @@ const BLOCKLIST_AGGREGATOR = [
   "The Michelin Guide",
 ].map((s) => s.toLowerCase());
 
+// Call-to-action button text that publications use as link labels next to
+// real venue links (e.g. "BOOK ON EXPEDIA" in Vogue hotel guides). These are
+// not place names; they're affiliate/booking widget labels. Exact matches are
+// case-insensitive. Pattern-based detection lives in isCtaButtonName().
+const BLOCKLIST_CTA = [
+  "Book on Expedia",
+  "Book Now",
+  "Reserve Now",
+  "Check Availability",
+  "Check Rates",
+  "Check Prices",
+  "View Deal",
+  "See Deal",
+  "Get Deal",
+  "Shop Now",
+  "Buy Now",
+  "Order Now",
+].map((s) => s.toLowerCase());
+
 // Generic category headings that occasionally get scraped as place names.
 const BLOCKLIST_GENERIC_CATEGORY = [
   "Where to stay",
@@ -811,6 +830,54 @@ const BLOCKLIST_BOOKING_SET = new Set(BLOCKLIST_BOOKING);
 const BLOCKLIST_PUBLICATION_SET = new Set(BLOCKLIST_PUBLICATION);
 const BLOCKLIST_AGGREGATOR_SET = new Set(BLOCKLIST_AGGREGATOR);
 const BLOCKLIST_GENERIC_CATEGORY_SET = new Set(BLOCKLIST_GENERIC_CATEGORY);
+const BLOCKLIST_CTA_SET = new Set(BLOCKLIST_CTA);
+
+/**
+ * Heuristic CTA-button detector. Returns true when a candidate name looks
+ * like booking-widget / affiliate-button text rather than a place name.
+ *
+ * Patterns recognized (all case-insensitive):
+ *   1. "Book on <X>" / "Reserve on|at|with|through <X>"
+ *      e.g. "Book on Expedia", "Book on Booking.com", "Book on Hotels.com",
+ *           "Reserve at Resy", "Reserve through Tock"
+ *   2. ALL CAPS multi-word names that contain a transactional verb token
+ *      (BOOK, RESERVE, SHOP, BUY, ORDER, CHECK, VIEW, GET, SEE) — these are
+ *      typically rendered as buttons in source markup.
+ *      e.g. "BOOK ON EXPEDIA", "VIEW RATES", "SHOP THE LOOK"
+ *
+ * Note: single-word ALL CAPS names ("DOWNTOWN", "ROMA") are NOT flagged —
+ * legitimate venues occasionally style their names that way.
+ */
+const TRANSACTIONAL_VERB_TOKENS = new Set([
+  "BOOK",
+  "RESERVE",
+  "SHOP",
+  "BUY",
+  "ORDER",
+  "CHECK",
+  "VIEW",
+  "GET",
+  "SEE",
+]);
+
+function isCtaButtonName(rawName) {
+  const n = (rawName ?? "").trim();
+  if (!n) return false;
+
+  // Pattern 1: "Book on …" / "Reserve on|at|with|through …"
+  if (/^(book|reserve)\s+(on|at|with|through)\s+\S+/i.test(n)) return true;
+
+  // Pattern 2: ALL CAPS multi-word names containing a transactional verb.
+  // Allow common punctuation inside the name.
+  const looksAllCaps =
+    /^[A-Z0-9 .,'’&\-/+!?]+$/.test(n) && /[A-Z]/.test(n) && n.split(/\s+/).length >= 2;
+  if (looksAllCaps) {
+    const tokens = n.split(/\s+/);
+    if (tokens.some((t) => TRANSACTIONAL_VERB_TOKENS.has(t))) return true;
+  }
+
+  return false;
+}
 
 const LEGACY_BANNED_LINK = new Set([
   "save this story",
@@ -858,6 +925,8 @@ function analyzePlaceCandidate(name, placeUrl, guide) {
   if (BLOCKLIST_PUBLICATION_SET.has(lower)) return { ok: false, reason: "blocklist_publication" };
   if (BLOCKLIST_AGGREGATOR_SET.has(lower)) return { ok: false, reason: "blocklist_aggregator" };
   if (BLOCKLIST_GENERIC_CATEGORY_SET.has(lower)) return { ok: false, reason: "blocklist_generic_category" };
+  if (BLOCKLIST_CTA_SET.has(lower)) return { ok: false, reason: "blocklist_cta" };
+  if (isCtaButtonName(n)) return { ok: false, reason: "cta_button_pattern" };
 
   if (/expand/i.test(n) || /chevron/i.test(n) || /expand$/i.test(n)) {
     return { ok: false, reason: "expand_chevron_ui" };

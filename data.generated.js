@@ -5795,7 +5795,7 @@ export const PLACES = [
   },
   {
     "id": "miami-the-drexel-restaurant",
-    "name": "The Drexel,",
+    "name": "The Drexel",
     "category": "restaurant",
     "city": "Miami",
     "country": "United States",
@@ -8126,23 +8126,6 @@ export const PLACES = [
     "ratingLookupStatus": "success"
   },
   {
-    "id": "palm-springs-book-on-expedia-hotel",
-    "name": "BOOK ON EXPEDIA",
-    "category": "hotel",
-    "city": "Palm Springs",
-    "country": "United States",
-    "source": "vogue",
-    "sourceTitle": "An Insider’s Guide to Palm Springs",
-    "sourceUrl": "https://www.vogue.com/article/palm-springs-travel-guide",
-    "venueUrl": null,
-    "descriptor": "",
-    "googleRating": 4.8,
-    "googleRatingCount": 21,
-    "googlePlaceId": "ChIJs8-g4LL92oARnR9sXglWeCE",
-    "manualPick": false,
-    "ratingLookupStatus": "success"
-  },
-  {
     "id": "palm-springs-boozehounds-restaurant",
     "name": "Boozehounds",
     "category": "restaurant",
@@ -9878,7 +9861,7 @@ export const PLACES = [
   },
   {
     "id": "paris-ten-belles-attraction",
-    "name": "Ten Belles,",
+    "name": "Ten Belles",
     "category": "attraction",
     "city": "Paris",
     "country": "France",
@@ -10179,23 +10162,6 @@ export const PLACES = [
     "googleRating": 4.6,
     "googleRatingCount": 234,
     "googlePlaceId": "ChIJBb_d_piV6IkRzFwzWqvbZcI",
-    "manualPick": false,
-    "ratingLookupStatus": "success"
-  },
-  {
-    "id": "the-hamptons-book-on-expedia-hotel",
-    "name": "BOOK ON EXPEDIA",
-    "category": "hotel",
-    "city": "The Hamptons",
-    "country": "United States",
-    "source": "vogue",
-    "sourceTitle": "The Best Hotels in the Hamptons",
-    "sourceUrl": "https://www.vogue.com/article/the-best-hotels-in-the-hamptons",
-    "venueUrl": null,
-    "descriptor": "",
-    "googleRating": 4.7,
-    "googleRatingCount": 209,
-    "googlePlaceId": "ChIJ15dum7Tt6IkRIOVFGn0qG5k",
     "manualPick": false,
     "ratingLookupStatus": "success"
   },
