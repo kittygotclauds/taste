@@ -14,10 +14,10 @@ const ROOT = existsSync(path.join(__dirname, "package.json"))
 
 /**
  * Collector for Goop city-guide pages and Vogue editor guides.
- * Outputs places with backlinks; optional pass resolves official websites via website-resolve.mjs.
+ * Outputs places with sourceUrl + venueUrl; optional pass resolves venue sites via website-resolve.mjs.
  */
 
-/** @typedef {"restaurant"|"hotel"|"shop"|"attraction"|"wellness"} Category */
+/** @typedef {"restaurant"|"cafe"|"bakery"|"bar"|"hotel"|"shop"|"attraction"|"wellness"} Category */
 /** @typedef {"goop"|"vogue"} Source */
 
 /** @typedef Guide
@@ -326,13 +326,23 @@ function inferCategoryFromHeadingLine(line) {
   const attractionRx =
     /\b(what to see|things to do|sightseeing|attractions?|museums?|museum guide|galleries|\bgallery\b|culture\b|cultural|landmarks?|\bparks?\b|castle|palaces?|monuments?|historic|exhibitions?|botanical|zoos?\b|aquarium|architecture)\b/;
   const shopRx = /\b(where to shop|shopping|shops?\b|stores?|boutiques?|retail|markets?\b)\b/;
+  // Specific food/drink categories — check before the generic restaurant catch-all.
+  const cafeRx =
+    /\b(coffee\s*shops?|coffee\s*bars?|coffee\s*roasters?|caf[eé]s?\b|espresso\s*bars?|tea\s*rooms?|coffee\b|espresso\b)\b/;
+  const bakeryRx =
+    /\b(baker(y|ies)|patisseries?|p[âa]tisseries?|boulangeries?|bake\s*shops?|panader[íi]as?|pasticceri[ae]|viennoiseries?|pastry\s*shops?)\b/;
+  const barRx =
+    /\b(cocktail\s*bars?|wine\s*bars?|natural\s*wine\s*bars?|champagne\s*bars?|where to drink|nightlife|speakeas(y|ies)|\bbars?\b)\b/;
   const restaurantRx =
-    /\b(where to eat|restaurants?|dining|food\b|\bbars?\b|\bcafes?\b|\bcafés?\b|coffee|baker(y|ies)|breakfast|brunch|where to drink)\b/;
+    /\b(where to eat|restaurants?|dining|food\b|breakfast|brunch)\b/;
 
   if (hotelRx.test(raw)) return "hotel";
   if (wellnessRx.test(raw)) return "wellness";
   if (attractionRx.test(raw)) return "attraction";
   if (shopRx.test(raw)) return "shop";
+  if (cafeRx.test(raw)) return "cafe";
+  if (bakeryRx.test(raw)) return "bakery";
+  if (barRx.test(raw)) return "bar";
   if (restaurantRx.test(raw)) return "restaurant";
 
   return null;
@@ -359,7 +369,12 @@ function inferCategoryFromMetaType(typeRaw) {
     return "attraction";
   }
   if (/\b(shop|store|boutique|market|department|designer|fashion)\b/i.test(t)) return "shop";
-  if (/\b(restaurant|cafe|coffee|bakery|bar|bistro|dining|food)\b/i.test(t)) return "restaurant";
+  if (/\b(bakery|bake\s*shop|patisserie|p[âa]tisserie|boulangerie|panader[íi]a|pasticceria|viennoiserie|pastry\s*shop)\b/i.test(t)) {
+    return "bakery";
+  }
+  if (/\b(caf[eé]|coffee|coffee\s*shop|espresso|tea\s*room)\b/i.test(t)) return "cafe";
+  if (/\b(cocktail\s*bar|wine\s*bar|champagne\s*bar|speakeasy|nightclub|\bbar\b)\b/i.test(t)) return "bar";
+  if (/\b(restaurant|bistro|dining|food)\b/i.test(t)) return "restaurant";
 
   return null;
 }
@@ -400,7 +415,35 @@ function inferCategoryFromName(name) {
     return "attraction";
   }
 
-  if (/\bcafe\b|\bcafé\b|\bcoffee\b|\bbakery\b|\bbar\b/i.test(lower)) return "restaurant";
+  // Specific food/drink categories before generic restaurant. Bakery cues are
+  // unambiguous; cafe checks come next; bar requires extra care because Italian-
+  // style restaurants often start their name with "Bar X" (Bar Boulud, Bar Masa).
+  if (
+    /\b(bakery|bake\s*shop|panader[íi]a|pasticceria|patisserie|p[âa]tisserie|boulangerie|bageri|viennoiserie|bagels?)\b/i.test(
+      lower,
+    )
+  ) {
+    return "bakery";
+  }
+  if (/\b(caf[eé]|coffee|espresso|kaffeine|tea\s*room)\b/i.test(lower)) return "cafe";
+  if (/\bbar\b/i.test(lower)) {
+    // "Coffee bar" → cafe; juice/sushi/oyster/raw/pizza/snack/salad "bar" → restaurant.
+    if (/\bcoffee\s*bar\b/i.test(lower)) return "cafe";
+    if (/\b(sushi|oyster|raw|pizza|pizzabar|juice|snack|salad|appetizing)\s*bar\b/i.test(lower)) {
+      return "restaurant";
+    }
+    // "Bar X" prefix pattern (Bar Boulud, Bar Masa, Bar Quadronno) is typically a restaurant.
+    if (/^\s*bar\s+\S+/i.test(name)) return null;
+    return "bar";
+  }
+
+  if (
+    /\b(restaurant|trattoria|osteria|ristorante|brasserie|bistro|izakaya|taqueria|tavern)\b/i.test(
+      lower,
+    )
+  ) {
+    return "restaurant";
+  }
 
   return null;
 }
@@ -429,7 +472,12 @@ function inferCategoryFromPlaceUrl(placeUrl) {
     }
     if (/\/(hotel|hotels|accommodation)\b/.test(p)) return "hotel";
     if (/\/(shop|shopping|stores|boutiques)\b/.test(p)) return "shop";
-    if (/\/(restaurant|restaurants|dining|cafes|bars)\b/.test(p)) return "restaurant";
+    if (/\/(bakery|bakeries|patisserie|boulangerie|panaderia|pasticceria)\b/.test(p)) {
+      return "bakery";
+    }
+    if (/\/(cafes?|coffee|coffee-shops?|espresso|tea-rooms?)\b/.test(p)) return "cafe";
+    if (/\/(bars?|cocktail-bars?|wine-bars?|nightlife|speakeas(y|ies))\b/.test(p)) return "bar";
+    if (/\/(restaurant|restaurants|dining)\b/.test(p)) return "restaurant";
   } catch {
     // ignore
   }
@@ -473,6 +521,20 @@ function resolvePlaceCategory(sectionCategory, metaType, name, guide, placeUrl) 
     return "wellness";
   }
   if (urlCat === "attraction" && sectionCategory === "shop") return "attraction";
+
+  // Promote specific food/drink categories over a generic "restaurant" section
+  // heading so a Cafés-and-Coffee section labelled "Restaurants" still resolves
+  // its individual places correctly (e.g. Lagkagehuset → bakery).
+  const specific = new Set(["cafe", "bakery", "bar"]);
+  if (specific.has(nameCat) && (sectionCategory === "restaurant" || sectionCategory === null)) {
+    return /** @type {Category} */ (nameCat);
+  }
+  if (specific.has(metaCat) && (sectionCategory === "restaurant" || sectionCategory === null)) {
+    return /** @type {Category} */ (metaCat);
+  }
+  if (specific.has(urlCat) && (sectionCategory === "restaurant" || sectionCategory === null)) {
+    return /** @type {Category} */ (urlCat);
+  }
 
   if (sectionCategory) return sectionCategory;
   if (urlCat) return urlCat;
@@ -584,10 +646,171 @@ const BLOCKLIST_FOOTER = [
   "Forces of Fashion",
 ].map((s) => s.toLowerCase());
 
+// Airlines that scrapers sometimes pick up as "places".
+const BLOCKLIST_AIRLINES = [
+  "Scandinavian Airlines",
+  "SAS",
+  "Lufthansa",
+  "Delta",
+  "Delta Air Lines",
+  "American Airlines",
+  "United",
+  "United Airlines",
+  "British Airways",
+  "Air France",
+  "KLM",
+  "Emirates",
+  "Qatar Airways",
+  "Singapore Airlines",
+  "Cathay Pacific",
+  "JetBlue",
+  "Southwest",
+  "Southwest Airlines",
+  "Ryanair",
+  "EasyJet",
+  "Norwegian",
+  "Norwegian Air",
+  "Finnair",
+  "Iberia",
+  "Alitalia",
+  "ITA Airways",
+  "Turkish Airlines",
+  "ANA",
+  "JAL",
+  "Japan Airlines",
+  "Korean Air",
+  "Qantas",
+  "Virgin Atlantic",
+  "Air Canada",
+  "Alaska Airlines",
+  "Aeromexico",
+].map((s) => s.toLowerCase());
+
+// Travel booking platforms and aggregators.
+const BLOCKLIST_BOOKING = [
+  "Expedia",
+  "Booking.com",
+  "Booking",
+  "Airbnb",
+  "Hotels.com",
+  "Mr & Mrs Smith",
+  "Mr and Mrs Smith",
+  "Vrbo",
+  "Kayak",
+  "Skyscanner",
+  "Hopper",
+  "Trivago",
+  "Agoda",
+  "Priceline",
+  "Orbitz",
+  "Travelocity",
+  "Hotwire",
+  "Tablet Hotels",
+  "Plum Guide",
+].map((s) => s.toLowerCase());
+
+// Publications, magazines, and editorial brands — only blocked when they appear
+// as a place NAME (the source field is separately tracked and not affected).
+const BLOCKLIST_PUBLICATION = [
+  "Vogue",
+  "Vogue Magazine",
+  "Goop",
+  "Condé Nast Traveler",
+  "Conde Nast Traveler",
+  "Condé Nast Traveller",
+  "Conde Nast Traveller",
+  "Condé Nast",
+  "Conde Nast",
+  "Eater",
+  "The Strategist",
+  "Strategist",
+  "New York Magazine",
+  "The New York Times",
+  "NY Times",
+  "T Magazine",
+  "T: The New York Times Style Magazine",
+  "Bon Appétit",
+  "Bon Appetit",
+  "Food & Wine",
+  "Travel + Leisure",
+  "Travel and Leisure",
+  "Afar",
+  "Wallpaper",
+  "Wallpaper*",
+  "Monocle",
+  "Architectural Digest",
+  "Elle",
+  "Elle Decor",
+  "Harper's Bazaar",
+  "Harpers Bazaar",
+  "GQ",
+  "Refinery29",
+  "The Cut",
+  "Grub Street",
+  "Time Out",
+  "Lonely Planet",
+  "Fodor's",
+  "Frommer's",
+  "The Infatuation",
+].map((s) => s.toLowerCase());
+
+// Review and reservation aggregator sites.
+const BLOCKLIST_AGGREGATOR = [
+  "TripAdvisor",
+  "Trip Advisor",
+  "Yelp",
+  "OpenTable",
+  "Open Table",
+  "Resy",
+  "Tock",
+  "Google Maps",
+  "Google Reviews",
+  "Foursquare",
+  "Zomato",
+  "Zagat",
+  "Michelin Guide",
+  "The Michelin Guide",
+].map((s) => s.toLowerCase());
+
+// Generic category headings that occasionally get scraped as place names.
+const BLOCKLIST_GENERIC_CATEGORY = [
+  "Where to stay",
+  "Where to eat",
+  "Where to drink",
+  "Where to shop",
+  "Where to go",
+  "What to do",
+  "Things to do",
+  "Things to see",
+  "Restaurants",
+  "Hotels",
+  "Bars",
+  "Cafes",
+  "Cafés",
+  "Shops",
+  "Shopping",
+  "Museums",
+  "Attractions",
+  "Activities",
+  "Sights",
+  "Neighborhoods",
+  "Itinerary",
+  "The Guide",
+  "Guide",
+  "Overview",
+  "Map",
+  "Maps",
+].map((s) => s.toLowerCase());
+
 const BLOCKLIST_SOCIAL_SET = new Set(BLOCKLIST_SOCIAL);
 const BLOCKLIST_VOGUE_NAV_SET = new Set(BLOCKLIST_VOGUE_NAV);
 const BLOCKLIST_COUNTRY_SET = new Set(BLOCKLIST_COUNTRY);
 const BLOCKLIST_FOOTER_SET = new Set(BLOCKLIST_FOOTER);
+const BLOCKLIST_AIRLINES_SET = new Set(BLOCKLIST_AIRLINES);
+const BLOCKLIST_BOOKING_SET = new Set(BLOCKLIST_BOOKING);
+const BLOCKLIST_PUBLICATION_SET = new Set(BLOCKLIST_PUBLICATION);
+const BLOCKLIST_AGGREGATOR_SET = new Set(BLOCKLIST_AGGREGATOR);
+const BLOCKLIST_GENERIC_CATEGORY_SET = new Set(BLOCKLIST_GENERIC_CATEGORY);
 
 const LEGACY_BANNED_LINK = new Set([
   "save this story",
@@ -628,6 +851,13 @@ function analyzePlaceCandidate(name, placeUrl, guide) {
   if (BLOCKLIST_VOGUE_NAV_SET.has(lower)) return { ok: false, reason: "blocklist_vogue_nav" };
   if (BLOCKLIST_COUNTRY_SET.has(lower)) return { ok: false, reason: "blocklist_country" };
   if (BLOCKLIST_FOOTER_SET.has(lower)) return { ok: false, reason: "blocklist_footer" };
+  // These blocklists intentionally check the `name` field only. The `source`
+  // field (e.g. "vogue", "goop") is a separate attribution and is not affected.
+  if (BLOCKLIST_AIRLINES_SET.has(lower)) return { ok: false, reason: "blocklist_airline" };
+  if (BLOCKLIST_BOOKING_SET.has(lower)) return { ok: false, reason: "blocklist_booking_platform" };
+  if (BLOCKLIST_PUBLICATION_SET.has(lower)) return { ok: false, reason: "blocklist_publication" };
+  if (BLOCKLIST_AGGREGATOR_SET.has(lower)) return { ok: false, reason: "blocklist_aggregator" };
+  if (BLOCKLIST_GENERIC_CATEGORY_SET.has(lower)) return { ok: false, reason: "blocklist_generic_category" };
 
   if (/expand/i.test(n) || /chevron/i.test(n) || /expand$/i.test(n)) {
     return { ok: false, reason: "expand_chevron_ui" };
